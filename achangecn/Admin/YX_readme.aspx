@@ -3,7 +3,7 @@
 <%@ Register TagPrefix="ChangeHope" TagName="Chklogin" Src="~/Admin/YX_CheckLogin.ascx" %>
 <html>
 <head>
-<title>商城说明</title>
+<title>程序说明</title>
 <meta http-equiv='Content-Type' content='text/html; charset=gb2312' />
 <meta name='powerby' content='http://www.changehope.com' />
 <meta name='generator' content='editplus2.11' />
@@ -53,26 +53,26 @@ body {
 <td></td>
 <td><table id="service" align="center" cellpadding="4" cellspacing="1" border="1" class="toptable grid fixed">
 <tr>
-<td width="140" class="category t2" id="version" style="font-weight:bold">易想多用户商城指南</td>
+<td width="140" class="category t2" id="version" style="font-weight:bold">企业易物程序指南</td>
 <td class="category">这里是
-易想多用户商城管理系统， 您可以阅读下面的内容以寻求帮助。</td>
+多用户易物管理系统， 您可以阅读下面的内容以寻求帮助。</td>
 </tr>
 <tr>
 <td>当前使用版本</td>
 <td>
-&nbsp;易想多用户商城<font color=red><b>V2008_2.0</b></font> &nbsp;</td>
+&nbsp;多用户易物管理系统<font color=red><b>V2008_2.0</b></font> &nbsp;</td>
 </tr>
 <tr>
 <td>开发商</td>
-<td>成都易想网络技术有限公司 </td>
+<td>贝斯特实验室 </td>
 </tr>
 <tr>
 <td>官方网址</td>
-<td>若您想了解更多的易想产品请到：<a href='http://www.ChangeHope.com' target='_blank'>http://www.ChangeHope.com</a></td>
+<td>若您想了解更多的易想产品请到：<a href='http://www.bunite.net' target='_blank'>http://www.bunite.net</a></td>
 </tr>
 <tr>
 <td class="t2">技术支持</td>
-<td class="t2">交流探讨最新开源建站系统请到：<a href="http://bbs.ChangeHope.com" target="_blank">http://bbs.ChangeHope.com</a></td>
+<td class="t2">交流探讨建站请到：<a href="http://www.bunite.net" target="_blank">http://www.bunite.net</a></td>
 </tr>
 </table>
 <br />
@@ -93,20 +93,20 @@ body {
 <br />
 <table id="topics" align="center" cellpadding="4" cellspacing="1" border="1" class="toptable grid fixed">
 <tr>
-<td width="140" class="category"><img src="images/folder_open.gif" style="cursor:hand" onClick="collapse(this, 'topics')" />商品管理项</td>
+<td width="140" class="category"><img src="images/folder_open.gif" style="cursor:hand" onClick="collapse(this, 'topics')" />物品管理项</td>
 <td class="category"></td>
 </tr>
 <tr>
-<td>商品品牌</td>
-<td>此功能和商品分类是平行分类关系（可以在商品的任何分类中划分品牌）</td>
+<td>物品品牌</td>
+<td>此功能和物品分类是平行分类关系（可以在物品的任何分类中划分品牌）</td>
 </tr>
 <tr>
-<td>商品分类</td>
-<td>无限级分类，能充分展示你前台商品丰富的种类</td>
+<td>物品分类</td>
+<td>无限级分类，能充分展示你前台物品丰富的种类</td>
 </tr>
 <tr style="display:none">
-<td>商品内容风格</td>
-<td>商品内容风格显示,可以定义很多风格,帮助不同类型的商品建立搭配完美的界面</td>
+<td>物品内容风格</td>
+<td>物品内容风格显示,可以定义很多风格,帮助不同类型的物品建立搭配完美的界面</td>
 </tr>
 </table>
 <br />
@@ -151,25 +151,25 @@ body {
 <br />
 <table id="data" align="center" cellpadding="4" cellspacing="1" border="1" class="toptable grid fixed">
 <tr>
-<td width="140" class="category"><img src="images/folder_open.gif" style="cursor:hand" onClick="collapse(this, 'data')" />商铺管理</td>
+<td width="140" class="category"><img src="images/folder_open.gif" style="cursor:hand" onClick="collapse(this, 'data')" />易物企业管理</td>
 <td class="category"></td>
 </tr>
 
 <tr>
-<td>商铺列表管理</td>
-<td>列表出所有有的商家</td>
+<td>易物企业列表管理</td>
+<td>列表出所有有的易物企业</td>
 </tr>
 <tr>
-<td>商铺域名管理</td>
-<td>商家的二级域名绑定</td>
+<td>易物企业域名管理</td>
+<td>易物企业的二级域名绑定</td>
 </tr>
 <tr >
-  <td>商铺风格管理</td>
+  <td>易物企业风格管理</td>
   <td>建立合适自已的家园</td>
 </tr>
 <tr>
-  <td>商铺自定义分类</td>
-  <td>商家可以自定义分类</td>
+  <td>易物企业自定义分类</td>
+  <td>易物企业可以自定义分类</td>
 </tr>
 
 </table></td>

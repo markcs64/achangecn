@@ -131,14 +131,13 @@ function CheckForm()
                             <td>　</td>
                           </tr>
                           <tr>
-                            <td><span class="STYLE8">服务时间：周一至周六：8:30--12:00，13:30--18:00</span></td>
+                            <td>&nbsp;</td>
                           </tr>
                           <tr>
-                            <td><span class="STYLE8">售前电话：028-66006880 / 13880203878</span></td>
+                            <td>&nbsp;</td>
                           </tr>
                           <tr>
-                            <td><span class="STYLE8">QQ在线：267224740 | 267224741 
-							| 267224742 | 267224743</span></td>
+                            <td>&nbsp;</td>
                           </tr>
                         </table></td>
                       </tr>
@@ -153,7 +152,7 @@ function CheckForm()
                         <td>&nbsp;</td>
                       </tr>
                       <tr>
-                        <td>　<span class="STYLE7">目前易想为商业客户提供每周六天、每天8小时的电话和网络技术支持服务，希望我们的服务能为您节约成本，与您共创价值。服务中的不周之处，敬请海涵！ 
+                        <td>　<span class="STYLE7">目前为商业客户提供每周五天、每天8小时的电话和网络技术支持服务，希望我们的服务能为您节约成本，与您共创价值。服务中的不周之处，敬请海涵！ 
                         </span></td>
                       </tr>
                     </table></td>

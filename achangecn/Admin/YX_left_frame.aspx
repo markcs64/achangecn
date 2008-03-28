@@ -204,8 +204,9 @@ img{border:none;}
 </tr>
 <tr>
 <td id="Td11"><div>
-<p><img src="images/dot.gif" /><a href="http://www.changehope.com" target="_blank">设计制作：易想网络</a></p><br>                                                     
-<p><img src="images/dot.gif" /><a href="http://bbs.changehope.com" target="_blank">技术支持：易想论坛 </a></p><br>
+<p><img src="images/dot.gif" /><a href="http://www.bunite.net" target="_blank">设计制作：贝斯特网络</a></p>
+<br>                                                     
+<p><img src="images/dot.gif" /><a href="http://www.bunite.net" target="_blank">技术支持：贝斯特网络 </a></p><br>
 </div></td>
 </tr>
 <tr>
