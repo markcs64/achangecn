@@ -1,0 +1,4395 @@
+ SET IDENTITY_INSERT [YX_CMSModel] ON
+
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 781 , 18 , 'ProClass_list' , 'ProClass_list' , '我要买' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/layout.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/level1.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/sell.css" type="text/css">
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common(1).js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/atpanel.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+<META content="MSHTML 6.00.2900.3086" name=GENERATOR></HEAD>
+<BODY class="W950 dis0">
+{$Hope_Top$} 
+<!-- Head end -->
+<DIV class=R180 id=Content>
+<DIV id=Main>
+<DIV id=Container>
+<DIV id=Category>
+<DIV id=CategoryList>
+
+{#Hope_ProClassList*2,13,2,0,<IMG src="{$Hope_SitUrl$}{$Hope_Skin$}image/side_bg_04.gif">,bigclassname,classname,2,30#}
+
+<DIV class=HackBox></DIV></LI></UL></DIV></DIV>
+<DIV id=ChannelTarget>
+<UL>
+  <LI id=TaobaoMarket><A 
+  href="{$Hope_SitUrl$}ProClass_list.aspx" 
+  target=_blank class="write">易想集市</A> </LI>
+  <LI id=TaobaoMall><A 
+  href="{$Hope_SitUrl$}shop.aspx" 
+  target=_blank class="write">品牌商城</A> </LI>
+  <LI id=TaobaoSh><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?distype=6" 
+  target=_blank class="write">二手闲置</A> </LI>
+  <LI id=TaobaoSale><A 
+  href="{$Hope_SitUrl$}Hotsell.aspx" 
+  target=_blank class="write">疯狂促销</A> </LI></UL></DIV></DIV></DIV>
+<DIV class=StandardSidePanel id=SideBar>
+<DIV id=ToolPanels>
+<DIV class=StandardSidePanel1 id=OnSale>
+
+</DIV>
+
+
+<DIV class=HackBox></DIV>
+<DIV class=StandardSidePanel1 id=L0ShoppingGuide>
+<DIV class=Title><B>畅销排行</B></DIV>
+<UL style="padding-left:0px;">
+{$Hope_ProPH$}
+</UL>
+</DIV>
+<DIV class=StandardSidePanel1 id=L0SellerRecommended>
+<DIV class=Title><B>精彩热点</B></DIV>
+<UL>
+{#Hope_Article*1,20,10,0,1,0,62#}
+</UL>
+</DIV>
+</DIV>
+</DIV>
+<DIV class=HackBox></DIV></DIV>
+{$Hope_Bottom$} 
+<DIV></DIV></BODY></HTML>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 782 , 18 , 'VipReg' , 'VipReg' , '会员注册' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/layout.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/level1.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/sell.css" type="text/css">
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common(1).js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/atpanel.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+<script language="javascript" src="{$Hope_SitUrl$}Include/area.js"></script>
+<script language="javascript" defer="defer">
+function checkfrm(){
+var regm =/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
+var vipname=document.getElementById("vipname");
+var vippassword=document.getElementById("vippassword");
+var vippasswordb=document.getElementById("vippasswordb");
+var vipemail=document.getElementById("vipemail");
+var prov=document.getElementById("prov");
+  function   isChinese(str){   
+  var   lst   =   /[u00-uFF]/;                 
+  return   !lst.test(str);               
+  }   
+  if(isChinese(vipname.value))   
+  {
+     if(vipname.value.length>=3 && vipname.value.length<=16){
+	 if(vipname.value.replace(/^\s+|\s+$/igm,'''')=="")
+	 {
+		alert("请填写帐号");
+		vipname.focus();
+		return false;
+	  }
+   }else{
+	alert("用户名长度不能小于3位大于16位")
+	vipname.focus();
+	return false;
+   }
+  }  
+  else   
+  {
+   if(vipname.value.length>=3 && vipname.value.length<=16){
+	 if(vipname.value.replace(/^\s+|\s+$/igm,'''')=="")
+	 {
+		alert("请填写帐号");
+		vipname.focus();
+		return false;
+	  }
+   }else{
+	alert("用户名长度不能小于6位大于16位")
+	vipname.focus();
+	return false;
+   }
+  }
+	if(vippassword.value.replace(/^\s+|\s+$/igm,'''')==""){
+	alert("请填写密码");
+	vippassword.focus();
+	return false;
+	}else{
+	if(vippassword.value.length<6||vippassword.value.length>15){
+	alert("密码长度不能少于6位大于15");
+	vippassword.focus();
+	return false;
+	}
+}
+if(vippasswordb.value.replace(/^\s+|\s+$/igm,'''')==""|| vippasswordb.value!=vippassword.value){
+alert("两次密码输入不一致");
+vippasswordb.focus();
+return false;
+}
+if(vipemail.value.replace(/^\s+|\s+$/igm,'''')==""){
+	 alert("请填写Email地址");
+	vipemail.focus();
+	return false;
+ }else{
+	 if (!regm.test(vipemail.value))
+   {
+     alert("Email地址格式错误或含有非法字符!\n请检查！");
+     vipemail.focus(); 
+     return false;
+    }  
+ }
+ if(prov.value=="0"){
+  alert("请选择地区");
+     prov.focus(); 
+     return false;
+ }
+if(document.frmreg.vipqq.value.replace(/\s+/g,"").length>=5 && document.frmreg.vipqq.value.replace(/\s+/g,"").length<=9){
+	  if(document.frmreg.vipqq.value.replace(/\s+/g,"")=="")
+	  {
+	   alert("请输入即时通讯QQ号！");
+	   document.frmreg.vipqq.focus();
+	   return false;
+	  }  
+}else{
+	alert(''请输入正确的即时通讯QQ号'')
+	document.frmreg.vipqq.focus();
+	   return false;
+}
+}
+
+</script>
+<META content="MSHTML 6.00.2900.3086" name=GENERATOR>
+<style type="text/css">
+<!--
+.STYLE1 {color: #FF0000}
+.inputwi{
+	width:160px;
+	height:20px;
+}
+.tab{
+	font-size:14px;
+}
+-->
+</style>
+</HEAD>
+<BODY class=W950>
+{$Hope_Top$} 
+<!-- Head end -->
+
+
+
+<DIV class=main>
+<table width="100%" border="0" align="center" cellpadding="00" cellspacing="0">
+  <tr>
+    
+    <td  valign="top" align="center">
+<form id="frmreg" name="frmreg" method="post" action="?Action=Add" onSubmit="return checkfrm()">
+	  <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                <tr>
+                                  <td height="25" align="center">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td height="25" align="center">
+                                        <div align="left"><span class="9font1" style="color: #ff6200"><strong><span
+                                            style="color: #ff7000"><img src="{$Hope_SitUrl$}{$Hope_Skin$}IMAGE/inputREG.jpg"/></span></strong></span> </div></td>
+                                </tr>
+                                <tr>
+                                    <td align="left">
+                                        <table width="100%" height="214" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor="#FFFFFF" class="tab">
+                                            
+                                            
+                                            <tr>
+                                              <td height="25" colspan="3" align="right" style=" color: #7e7777;">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td width="142" height="25" align="right" style=" color: #7e7777;">
+                                                    用户名&nbsp; &nbsp;</td>
+                                              <td height="25" colspan="2" >
+
+                                                <div style="color: #ff0000;width:361px">
+                                                  <div style="width:160px;float:left;">
+<input name="vipname" type="text" class="input1 inputwi" id="vipname"  maxlength="30"/>
+                                                  </div></td>    
+                                            </tr>
+                             
+                                            <tr>
+                                                <td height="25" align="right" style=" color: #7e7777; ">
+                                                    密码&nbsp; &nbsp;</td>
+                                                <td height="25" colspan="2" >
+                                                  <span style="color: #ff0000">
+                                                       <input name="vippassword" type="password" class="input1 inputwi" id="vippassword" maxlength="21" />
+                                              *</span>&nbsp;<span style="">不少于6个字符，不多于15个字符<span id="RequiredFieldValidator2" style="color:Red;display:none;">请输入密码!</span></span>                                              </td>    
+                                            </tr>
+                            
+                                            <tr>
+                                                <td height="25" align="right" style=" color: #7e7777;">
+                                                    重复密码&nbsp; &nbsp;</td>
+                                                <td width="361" height="25" style=" height: 19px">
+                                                    <span style="color: #ff0000">
+                                                        <input name="vippasswordb" type="password" class="input1 inputwi" id="vippasswordb" maxlength="21" />
+                                                  *</span>
+                                                  <span id="RequiredFieldValidator6" style="color:Red;display:none;">请输入重复密码!</span>
+                                              <span id="CompareValidator1" style="color:Red;display:none;">两次密码的输入不一致！</span></td>    <td width="337" style="">
+                                                </td>
+                                            </tr>
+                
+                                            <tr>
+                                                <td height="25" align="right" style=" color: #7e7777;">
+                                                    E-mail地址&nbsp; &nbsp;</td>
+                                              <td height="25" colspan="2" style=""><input name="vipemail" type="text" class="input1 inputwi" id="vipemail" maxlength="30"  /> 
+                                                      <span class="STYLE1">*</span>
+                                              <div id="showare2" name="showare2" style="color:red;width:200px; padding-top:5px; height:25px; float:right; display:none; background-color:#DEF4FE" >											  </div>                                               
+                                               请填写常用的电子邮件地址。                                              </td>
+                                            </tr>
+                                                    
+                                         
+											  <tr>
+            <td height="25" align="right" style="color: #7e7777; ">
+              所在地区&nbsp;&nbsp;&nbsp;</td>
+            <td align="left" >   
+            <select id="prov" name="prov" sytle="height:18px" onChange="cityName(document.frmreg.prov.options[document.frmreg.prov.selectedIndex].value)">
+<option value="0">请选择</option>
+</select>
+<select name="city" id="city">
+</select>
+<script language=javascript>function window.onload(){province(0);cityName(document.frmreg.prov.value,0);}</script>             </td>
+				<td>				</td>
+        </tr>
+				
+                                            <tr>
+                                                <td align="right" style="color: #7e7777; ">
+                                                    QQ&nbsp; &nbsp;</td>
+                                                <td height="25" >
+                                              <input name="vipqq" type="text" onKeyUp="value=value.replace(/[^\d]/g,'''') "   class="input1 inputwi" id="vipqq" maxlength="15" /></td>    <td style="">
+                                                </td>
+                                            </tr>
+                                          
+                                      </table>                                    </td>
+                                </tr><tr><td height="25"></td></tr>
+                                <tr><td bgcolor="#E7E7E7" height="1"></td></tr>
+                                <tr>
+                                    <td align="center" >
+
+                                        <br />
+                                        <input style=''width:250px;height:30px'' type="submit" name="regcheckbtn" value="同意以下服务条款,提交注册信息" />&nbsp;
+									   <ul id="FromReadContract" class="Form_Advance">
+      <li class="Seperator"><hr /></li>
+      <li class="Title">阅读会员服务协议</li>
+      <li id="ReadContract">
+		<div id="ContractContent">
+<textarea rows=5 cols=100>{$Hope_UserAgreement$}</textarea>
+		</div>
+      </li>
+    </ul>
+
+    <ul id="AlipayContract" class="Form_Advance">
+        <li class="Title">支付宝服务协议</li>
+        <li id="ReadContract">
+            <div id="ContractContent"><textarea rows=5 cols=100>{$Hope_ZFBAgreement$}</textarea></div>
+        </li>
+      </ul></td>
+                                </tr><tr>
+                                    <td align="center" >                                  </td>
+
+                                </tr>
+        </table>
+	  </form>
+    </td>
+  </tr>
+</table>
+</DIV>
+
+<DIV style="MARGIN-BOTTOM: 15px; clear:both;"></DIV>
+{$Hope_Bottom$} 
+</BODY></HTML>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 783 , 18 , 'Shop' , 'Yx_ShopIndex' , '商铺首页' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/sale.css" type="text/css">
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/yui-utilities.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/tbra.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common(1).js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+
+<META content="MSHTML 6.00.2900.3086" name=GENERATOR></HEAD>
+<BODY class="W950 CurMall">
+{$Hope_Top$} 
+<div style=" margin:0 auto; width:100%; margin-bottom:5px; margin-top:2px;"><script src="Include/Ad/taobao_PPSC_top.JS" type="text/jscript"></script></div>
+<DIV id=Content>
+<DIV id=NewbieGuide>
+<UL>
+  <LI id=NGRegister><A title=免费注册 
+  href="vipuser/VipReg.aspx" 
+  target=_blank><SPAN>xxxx</SPAN></A> </LI>
+  <LI id=NGIM><A title=我要开店 href="vipuser/YX_sell.aspx" 
+  target=_blank><SPAN>xxxx</SPAN></A> </LI>
+  <LI id=NGTrust><A title=诚信安全 
+  href="Help.aspx?help=2" 
+  target=_blank><SPAN>xxxx</SPAN></A> </LI>
+  <LI id=NGAlipay><A title=经验交流
+  href="/BBS" 
+  target=_blank><SPAN>xxxx</SPAN></A> </LI>
+  <LI id=NGOpShop><A title=新手上路 
+  href="help/" 
+  target=_blank><SPAN>xxxx</SPAN></A> </LI></UL>
+</DIV>
+<DIV id=HotSale>
+<H2>品牌资讯</H2>
+<UL id=HotSaleList>
+{#Hope_Article*1,6,16,37,0,0,62#} 
+</UL>
+<UL id=QuickEntries>
+  <LI><A 
+  href="Productlist.aspx?ClassId=5" 
+  target=_blank>数码相机</A> </LI>
+  <LI><A 
+  href="Productlist.aspx?ClassId=18" 
+  target=_blank>MP3/MP4</A> </LI>
+  <LI><A 
+  href="Productlist.aspx?classid=14" 
+  target=_blank>新款手机</A> </LI>
+  <LI><A 
+  href="Productlist.aspx?ClassId=2" 
+  target=_blank>化妆品</A> </LI>
+  <LI><A 
+  href="Productlist.aspx?ClassId=394" 
+  target=_blank>正版软件</A> </LI>
+  <LI><A 
+  href="Productlist.aspx?ClassId=16" 
+  target=_blank>酷睿电脑</A> </LI>
+</UL>
+</DIV>
+<DIV id=MainPromotionBanner>
+<script src="Include/Ad/taobao_PPSC.JS" type="text/jscript"></script>
+</DIV>
+<DIV id=TopBrandSale>
+<H2>品牌商城</H2>
+<UL style="padding-top:10px;">
+{#shoppinpai*3,4,60,30#}
+</UL>
+</DIV>
+<DIV id=SaleShopZone>
+<H2>全场品牌商品推荐</H2>
+<UL id=SaleShopZoneScroll>
+  <LI><script src="Include/Ad/taobao_PPSC_left_1.JS" type="text/jscript"></script></LI>
+  <LI><script src="Include/Ad/taobao_PPSC_left_2.JS" type="text/jscript"></script></LI>
+  <LI><script src="Include/Ad/taobao_PPSC_left_3.JS" type="text/jscript"></script></LI>
+  <LI><script src="Include/Ad/taobao_PPSC_left_4.JS" type="text/jscript"></script></LI>
+  <LI><script src="Include/Ad/taobao_PPSC_left_5.JS" type="text/jscript"></script></LI>
+  <LI><script src="Include/Ad/taobao_PPSC_left_6.JS" type="text/jscript"></script></LI>
+</UL>
+</DIV>
+<SCRIPT type=text/javascript>
+			TB.widget.SimpleScroll.decorate(''SaleShopZoneScroll'', {speed:10, lineHeight:64});
+		</SCRIPT>
+
+<DIV id=FancyandSale>
+<UL class=FancyandSaleMenu>
+  <LI class=Selected><A onClick="return false" 
+  href="x">推荐商品</A> 
+  </LI>
+  <LI><A onClick="return false" 
+  href="x">热卖商品</A> 
+  </LI>
+</UL>
+<DIV id=SaleZone>
+<H3>推荐商品</H3>
+<UL>
+{#Hope_Pro*6,2,15,0,1,85,85,2#} 
+</UL>
+<P class=Pic style="margin-top:10px;"><script src="Include/Ad/taobao_rmad.JS"  type="text/jscript"></script></P>
+</DIV>
+<DIV id=FancyZone style="DISPLAY: none">
+<H3>热卖商品</H3>
+<UL>
+{#Hope_Pro*6,2,15,0,2,85,85,2#} 
+</UL>
+
+<P class=Pic></P>
+</DIV>
+</DIV>
+<SCRIPT type=text/javascript>
+			TB.widget.SimpleTab.decorate(''FancyandSale'',{currentClass:''Selected'',eventType:''mouse'',delay:0.2});
+</SCRIPT>
+
+
+
+<DIV id=GroupBuyCategory>
+<H2>店铺查询</H2>
+<UL>
+<form action="shop_search.aspx" method="post" name="shop_search" onSubmit="return CheckValid()">
+<table width="241" border="0" align="left" cellpadding="0" cellspacing="0" style="text-align:left">
+  <tr>
+    <td width="91">关键字:</td>
+    <td width="150"> <input  name="keyword" type="text"size="12" maxlength="15"/></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" name="keywordtype" checked="checked" value="1" />
+      按店铺名称</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td> <input type="radio" name="keywordtype" value="2"/>
+      按店主昵称</td>
+  </tr>
+  <tr>
+    <td>类&nbsp;&nbsp;&nbsp;&nbsp;别:</td>
+    <td>{$Hope_ClassName$}</td>
+  </tr>
+  
+  <tr>
+    <td>城&nbsp;&nbsp;&nbsp;&nbsp;市:</td>
+    <td> {#provinceselect2*#}</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><input type="submit" value=" 搜 索 " /></td>
+  </tr>
+</table>
+</form>
+</UL>
+<P class=More><A 
+href="shop_search.aspx" 
+target=_blank>更多&gt;&gt;</A></P></DIV>
+<DIV id=GroupBuyCategory2>
+<UL>
+<script src="Include/Ad/taobao_shop_left.JS" type="text/jscript"></script> 
+</UL>
+<P class=More><A 
+href="shop_search.aspx" 
+target=_blank>更多&gt;&gt;</A></P></DIV>
+<DIV id=GroupBuyContent>
+<H2>最佳人气团购单品</H2>
+<UL class=HotKeyWords>
+  <LI><A 
+  href="#" 
+  target=_blank>更多</A> 
+  </LI>
+</UL>
+<ul style="margin-top:20px;">
+{#Hope_Pro*5,2,6,0,7,80,80,4#}
+</ul> 
+</DIV>
+<DIV id=LastGroupBuy>
+<H2>团购新动态</H2>
+<UL>
+ {#Hope_Article*1,10,14,38,0,0,62#}
+</UL>
+<P "Pic MatrixSalePic">
+<script src="Include/Ad/taobao_PPSC_right_middle_small_85X80.JS" type="text/jscript"></script>
+</P>
+</DIV>
+<DIV>
+<UL>
+  <LI style="float:left; margin-top:10px;">
+<script src="Include/Ad/taobao_PPSC_middle.JS" type="text/jscript"></script>
+  </LI>
+    <LI style="float:left; margin-top:10px; margin-left:10px;">
+  <script src="Include/Ad/taobao_PPSC_right_middle_1.JS" type="text/jscript"></script>
+ </li>
+ </UL>
+</DIV>
+
+
+<DIV id=WeekHotTaxis>
+<DIV id=ProductTaxis>
+<H2>人气单品排行</H2><UL>
+{#Hope_Pro*7,1,6,0,8,80,80,2#} </UL>
+<P class=Pic><script src="Include/Ad/taobao_PPSC_right_middle_3.JS" type="text/jscript"></script></P></DIV>
+<DIV id=ShopTaxis>
+<H2>一周人气店铺排行</H2>
+<UL>
+ {#SpecialShop*7,1,15,2,2#}
+  </UL>
+<P class=Pic>
+<script src="Include/Ad/taobao_PPSC_right_middle_2.JS" type="text/jscript"></script>
+</P></DIV></DIV></DIV>
+{$Hope_Bottom$} 
+</BODY></HTML>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 784 , 18 , 'shopChildPage' , 'Yx_ShopIndex' , '搜索商铺' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/sale.css" type="text/css">
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/yui-utilities.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/tbra.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common(1).js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+
+<META content="MSHTML 6.00.2900.3086" name=GENERATOR></HEAD>
+<BODY class="W950 CurMall">
+{$Hope_Top$} 
+<DIV class="" id=Content>
+<table cellpadding="0" cellspacing="0" width="100%" align="center" >
+<tr><td width="270" valign="top">
+<table width="267" cellpadding="4" cellspacing="1" bgcolor="#B3D1EA" >
+<tr><td width="255" align="left" height="25" colspan="2" background="{$Hope_SitUrl$}{$Hope_Skin$}images/td_bg_head.gif"><font color="#2F78B4"><b>店铺筛选 </b></font></td>
+</tr>
+			<tr><td bgcolor="#F3FAFC" colspan="2"><form action="shop_search.aspx" method="post" name="shop_search" onSubmit="return CheckValid()">
+
+<table width="100%" border="0">
+  <tr>
+    <td bgcolor="#F3FAFC">关键字:</td>
+    <td align="left" bgcolor="#F3FAFC"> <input  name="keyword" type="text"size="12" maxlength="15"/></td>
+  </tr>
+  <tr>
+    <td bgcolor="#F3FAFC">&nbsp;</td>
+    <td  align="left" bgcolor="#F3FAFC"><input type="radio" name="keywordtype" checked="checked" value="1" />
+      按店铺名称</td>
+  </tr>
+  <tr>
+    <td bgcolor="#F3FAFC">&nbsp;</td>
+    <td align="left" bgcolor="#F3FAFC"> <input type="radio" name="keywordtype" value="2"/>
+      按店主昵称</td>
+  </tr>
+  <tr>
+    <td bgcolor="#F3FAFC">店铺类别:</td>
+    <td align="left" bgcolor="#F3FAFC">{$Hope_ClassName$}</td>
+  </tr>
+ 
+  <tr>
+    <td bgcolor="#F3FAFC">所在城市:</td>
+    <td align="left" bgcolor="#F3FAFC"> {#provinceselect2*#}</td>
+  </tr>
+  <tr>
+    <td  align="center" bgcolor="#F3FAFC">
+    <td align="left" bgcolor="#F3FAFC"><input type="submit" value=" 搜 索 " /></td>
+    </tr>
+</table>
+</form></td>
+			</tr>
+	
+			<tr><td colspan="2" bgcolor="#FFFFFF"  background="{$Hope_SitUrl$}{$Hope_Skin$}images/td_bg_head.gif"><table cellpadding="0" cellspacing="0" width="100%"><tr>
+			  <td width="188" align="left" height="23" ><b><font color="#2F78B4">店铺类目</font></b></td>
+			</tr>
+			<tr><td></td></tr></table></td></tr><tr>
+			  <td colspan="2" bgcolor="#FFFFFF">{$ProductClass$}</td>
+			</tr>
+	  </table>
+		  </td><td width="10">&nbsp;</td>
+		  <td width="708" valign="top">{#getProductClassList*1#}</td>
+</tr></table>
+{$Hope_Bottom$} </BODY></HTML>
+</body>
+</html>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 785 , 18 , 'Productlist_1' , 'Productlist_1' , '商品列表' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/layout.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/level1.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/sell.css" type="text/css">
+<style type="text/css">
+.border{ border-bottom: #999999 dotted 1px; line-height:100%; margin-bottom:12px;}
+.menu2007{ margin:20px 0px; font-weight:bold;}
+.menu2008{float:left;text-align:center;margin-right:5px;width:61px; height:23px; margin-bottom:0px; margin-top:0px; padding-top:5px;background:url({$Hope_SitUrl$}{$Hope_Skin$}IMAGE/bg123.jpg) no-repeat bottom left;}
+.menu2006{float:left;text-align:center;margin-right:5px;width:61px; height:23px; margin-bottom:0px; margin-top:0px; padding-top:5px;background:url({$Hope_SitUrl$}{$Hope_Skin$}IMAGE/bg124.jpg) no-repeat bottom left;}
+#menu2009 ul li a{color:#ffffff; font-weight:bold; vertical-align:bottom; padding-top:0px; display:block;}
+</style>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common(1).js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/atpanel.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+<script language=javascript>
+function doOrderStyle(Order)
+{
+	 form = document.forms[''form2''];
+	 form.target="_top";
+	 form.OrderStyle.value = Order;
+	 form.plfs.value = form.plfs.value;
+	 form.startnum.value =0;
+	 form.yx_areaname.value = form.yx_areaname.value;
+	 form.action="Productlist.aspx";
+     form.submit();
+	 return false;
+}
+function doOrderStyle2(Order)
+{
+	 form = document.forms[''form2''];
+	 form.target="_top";
+	 form.OrderStyle.value = form.OrderStyle.value;
+	 form.yx_areaname.value = form.yx_areaname.value;
+	 form.plfs.value = Order;
+	 form.startnum.value =0;
+	 form.action="Productlist.aspx";
+     form.submit();
+	 return false;
+}
+function yx_area(Order)
+{
+	 form = document.forms[''form2''];
+	 form.target="_top";
+	 form.OrderStyle.value = form.OrderStyle.value;
+	 form.yx_areaname.value = Order;
+	 form.plfs.value = form.plfs.value;
+	 form.startnum.value =0;
+	 form.action="Productlist.aspx";
+     form.submit();
+	 return false;
+}
+
+function doCityFilterSearch()
+{
+	if(form2.BeginPrice.value||form2.EndPrice.value)
+	{
+		var reg=/^\d+(\.\d+)?$/;
+		if(form2.BeginPrice.value && !reg.test(form2.BeginPrice.value)){
+			alert("搜索起始价格必须为数字和小数点");
+			return false;
+		}
+		if(form2.EndPrice.value&&!reg.test(form2.EndPrice.value)){
+			alert("搜索结束价格必须为数字和小数点");
+			return false;
+		}
+		if(form2.EndPrice.value && (parseFloat(form2.EndPrice.value)<parseFloat(form2.BeginPrice.value))){
+			alert("搜索起始价格必须小于结束价格");
+			return false;
+		}
+	}
+}
+</script>
+
+<!--beginTop-->
+{$Hope_Top$}
+<BODY id=bodyid class=W950>
+<DIV style="margin-top:10px; text-align:left; width:%80; padding-left:0px; margin-bottom:10px;">{$Hope_ClassURL$}</DIV>
+
+<DIV >
+{#Hope_ClassSmall*7,3,<IMG src={$Hope_SitUrl$}{$Hope_Skin$}image/login_libg.gif>,classblue#}
+</DIV>
+<div>{#Hope_PinPai*5#} </div>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="81%" valign="top">
+	
+	<table width="100%" border="0"cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td>
+		
+  <form name=form2 onSubmit="return doCityFilterSearch()" method=get style="margin:0px">
+<DIV style=''line-height:20px;height:20px;background:#E1EFFE;font-weight:blod''><img src={$Hope_SitUrl$}{$Hope_Skin$}images/search_filter_icon.gif>&nbsp;搜小搜索范围</DIV>
+<DIV style=''line-height:20px;background:#F2F8FE''>{$Hope_product_sx$}</DIV><DIV style=''background:#E1EFFE''><INPUT type=checkbox  value=1 name=SaleType1>一口价 
+  <INPUT type=checkbox value=2 name=SaleType2>拍　卖  
+  <INPUT type=checkbox value=3 name=SaleType3>团购
+  <input type=checkbox  value=1 name=Degree1>
+  全&nbsp;&nbsp;新
+  <input id=Degree2 type=checkbox value=2 name=Degree2>
+  二　手
+ <input id=Degree3 type=checkbox value=3 name=Degree3>
+  陈列品</DIV>
+<DIV></DIV>
+<DIV style=''background:#E1EFFE''>关键字：
+  <input id=keyword style="WIDTH: 100px" size=16 name=keyword>
+  价　格：<INPUT maxLength=10 size=5 name=BeginPrice>至<INPUT maxLength=10 size=5 
+name=EndPrice>
+  <span class="lineCenter">
+  <input type=submit value="确 定" name=submit4>
+  　　
+  <input type=reset value="重 置" name=reset4>
+  </span></DIV>
+<DIV class=''classprobg''></DIV>
+<DIV class=lineCenter></DIV>
+<DIV id=mainMenu>
+<UL>
+  <LI id=all>
+  <A title=所有宝贝 id=yz20  href="+ weburl + "&distype=1><SPAN>所有商品</SPAN></A></LI>
+  <LI id=yz class=""><A id=yz21 title=由未认证新手卖家发布的商品 href="+ weburl + "&distype=2><SPAN>橱窗推荐</SPAN></A></LI>
+  <LI id=yz2 class=""><A id=yz22  title=人气宝贝 href="+ weburl + "&distype=3><SPAN>人气宝贝</SPAN></A></LI>
+  <LI id=yz3 class=""><A id=yz23 title=易想集市 href="+ weburl + "&distype=4><SPAN>易想集市</SPAN></A></LI>
+  <LI id=yz4 class=""><A id=yz24 title=品牌商城 href="+ weburl + "&distype=5><SPAN>品牌商城</SPAN></A></LI>
+  <LI id=yz5 class=""><A id=yz25 title=二手/闲置 href="+ weburl + "&distype=6><SPAN>二手/闲置</SPAN></A></LI>
+  </UL>
+</DIV>
+
+          <DIV id=mainOrder>
+		 
+		  <input type="hidden" name="shopdj" value="1" />
+		  <input type=hidden name=distype>
+		  <input type=hidden name=PriceSearchType>
+		  <input type=hidden name=startnum value=0>
+			  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="menupl">
+  <tr>
+    <td width="66%" height="24" class="menupl">  商品排序方式： 
+      <select onChange=doOrderStyle(this.value); 
+name=OrderStyle>
+        <option value=0 selected>请选择合适的排序方式</option>
+        <option 
+  value=13>默认排序</option>
+        <optgroup label=价格>
+        <option value=6>　由低到高排列↑</option>
+        <option value=7>　由高到低排列↓</option>
+        </optgroup>
+        <optgroup label=人气值>
+        <option 
+    value=8>　人气高的商品排前</option>
+        </optgroup>
+        <optgroup label=信用>
+        <option 
+    value=9>　信用高的店铺排前</option>
+        </optgroup>
+        <optgroup label=时间>
+        <option 
+    value=4>　即将售完的商品排前</option>
+        <option value=5>　刚刚到货的商品排前</option>
+        </optgroup>
+      </select> 
+      &nbsp;&nbsp;图片排列方式：
+
+
+ <SELECT name=plfs onChange=doOrderStyle2(this.value); > 
+ <OPTION value=1 >竖列</OPTION>
+ <OPTION value=2>横排</OPTION>
+ </SELECT> </td>
+    <td width="10%" align="center" id=disjg>价格</td>
+    <td width="15%" align="center">{#provinceselect*#}</td>
+    <td width="9%" align="center" id=dissj>剩余时间</td>
+  </tr>
+</table>
+{#prolist_cs*#}
+{#yx_hopetaobao*14-1-23-19-21-26-6-13-2#}</DIV>
+          </DIV></form></td>
+      </tr>
+      <tr>
+        <td>{#Hope_PagePro_List*20,20,0,ClassId,200,Protitle,ProListCon#} </td>
+      </tr>
+    </table>  </td>
+    <td width="19%" valign="top"><DIV id=side>
+<DIV class=sideItem>
+<DIV class=sideItemHead>热卖商品</DIV>
+<DIV class=sideItemMain>{#Hope_Pro*2,10,15,0,2,65,65,6#}</DIV>
+</DIV>
+<DIV class=sideItem>
+<DIV class=sideItemHead>推荐商品</DIV>
+<DIV class=sideItemMain>{#Hope_UserPro*1,10,15,0,65,65,2#}</DIV>
+</DIV>
+<DIV class=sideItem>
+<DIV class=sideItemHead>您浏览过的商品</DIV>
+<DIV class=sideItemMain>{#Hope_ShowPro*2,4,12#}</DIV>
+</DIV></DIV>
+      </td>
+  </tr>
+</table>
+
+{$Hope_Bottom$} 
+</BODY></HTML>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 787 , 18 , 'ShowProduct' , 'ShowProduct' , '商品详细显示页面' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD><TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content=fdsfdsf name=description>
+<META 
+content=fdsfdsf name=keywords>
+
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}css/index.css" rel="stylesheet" type="text/css">
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}css/comm2.css" rel="stylesheet" type="text/css">
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}{$Hope_proskin$}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+
+<script language="javascript">
+function inner()
+{
+	var name=document.itemForm.pal.value;
+	var classid=document.itemForm.classid.value;
+	var proid=document.itemForm.proid.value;
+	window.location.href="{$Hope_SitUrl$}Mailsubscribe.aspx?names=''"+name+"''&falg=pals&classid="+classid+"&proid="+proid;
+}
+function showBuyOver(obj){
+	obj.src=obj.src.replace(".gif","Over.gif");
+}
+function showBuyOut(obj){
+	obj.src=obj.src.replace("Over","");
+}
+function showBuyType(auctionType,Flag)
+{
+
+	var buyHtml="";
+	if(auctionType==1)
+	{
+		switch(Flag)
+		{
+			case 1:
+			buyHtml=''<img src="{$Hope_SitUrl$}{$Hope_Skin$}images/fixupBuy.gif" onclick="itemForm.submit()" style="cursor:hand" onmouseover="showBuyOver(this)" onmouseout="showBuyOut(this)" />'';
+			break;
+			case 2:
+			buyHtml=''<img src="{$Hope_SitUrl$}{$Hope_Skin$}images/fixupBuyWill.gif"  />'';
+			break;
+			default:
+			buyHtml="<img src=''{$Hope_SitUrl$}{$Hope_Skin$}images/fixupBuyEnd.gif'' />";
+			break;
+			
+		}
+	
+	}
+	else if(auctionType==2)
+	{
+			switch(Flag)
+		{
+			case 1:
+			buyHtml=''<img src="{$Hope_SitUrl$}{$Hope_Skin$}images/tg.gif" onclick="itemForm.submit()" style="cursor:hand" onmouseover="showBuyOver(this)" onmouseout="showBuyOut(this)" />'';
+			break;
+			case 2:
+			buyHtml=''<img src="{$Hope_SitUrl$}{$Hope_Skin$}images/fixupBuyWill.gif" />'';
+			break;
+			default:
+			buyHtml="<img src=''{$Hope_SitUrl$}{$Hope_Skin$}images/fixupBuyEnd.gif'' />";
+			break;
+			
+		}	
+	}else if(auctionType==3)
+	{
+			switch(Flag)
+		{
+			case 1:
+			buyHtml=''<img src="{$Hope_SitUrl$}{$Hope_Skin$}images/driftBuy.gif"  onclick="return su()" style="cursor:hand" onmouseover="showBuyOver(this)" onmouseout="showBuyOut(this)" />'';
+			break;
+			case 2:
+			buyHtml="<img src=''{$Hope_SitUrl$}{$Hope_Skin$}images/driftBuyWill.gif'' />";
+			break;
+			default:
+			buyHtml="<img src=''{$Hope_SitUrl$}{$Hope_Skin$}images/driftBuyEnd.gif'' />";
+			break;
+			
+		}
+	}
+	document.getElementById("td_buy_button").innerHTML=buyHtml;
+
+}
+function su(){
+	document.itemForm.action=''Basket_cj.aspx'';
+	document.itemForm.submit()
+}
+
+function showList(showName)
+{
+	if(showName==''others''){
+		document.getElementById(''detail'').style.display="none";
+		document.getElementById(''commend'').style.display="none";
+		document.getElementById(''record_head'').style.display="none";
+		document.getElementById(''message'').style.display="none";
+		document.getElementById(''detail_show'').className="";
+		document.getElementById(''record_show'').className="";
+		document.getElementById(''sellRate_show'').className=""
+		document.getElementById(''others_show'').className="li_here";
+		document.getElementById(''others'').style.display="";
+	}else if (showName==''detail''){
+		document.getElementById(''detail'').style.display="";
+		document.getElementById(''commend'').style.display="";
+		document.getElementById(''record_head'').style.display="";
+		document.getElementById(''message'').style.display="";
+		document.getElementById(''detail_show'').className="li_here";
+		document.getElementById(''others_show'').className="";
+		document.getElementById(''record_show'').className="";
+		document.getElementById(''sellRate_show'').className=""
+		document.getElementById(''others'').style.display="";
+	}else if(showName==''record''){
+
+		document.getElementById(''detail'').style.display="none";
+		document.getElementById(''commend'').style.display="none";
+		document.getElementById(''record_head'').style.display="";
+		document.getElementById(''message'').style.display="none";
+		document.getElementById(''others'').style.display="none";
+		document.getElementById(''detail_show'').className="";
+		document.getElementById(''others_show'').className="";
+		document.getElementById(''record_show'').className="li_here";
+		document.getElementById(''sellRate_show'').className="";
+	}else if(showName==''sellRate''){
+		document.getElementById(''others_show'').className="";
+		document.getElementById(''detail'').style.display="";
+		document.getElementById(''commend'').style.display="";
+		document.getElementById(''record_head'').style.display="";
+		document.getElementById(''message'').style.display="";
+		document.getElementById(''detail_show'').className="";
+		document.getElementById(''others_show'').className="";
+		document.getElementById(''record_show'').className="";
+		document.getElementById(''sellRate_show'').className="li_here";
+	}
+}	
+function showBuyType2(auctionType,Flag)
+{
+
+	var buyHtml="";
+	if(auctionType==1)
+	{
+		switch(Flag)
+		{
+			case 1:
+			buyHtml=''<img src="{$Hope_SitUrl$}{$Hope_Skin$}images/miniFixupBuy.gif" onclick="itemForm.submit()"  style="cursor:hand" onmouseover="showBuyOver(this)" onmouseout="showBuyOut(this)" />'';
+			break;
+			case 2:
+			buyHtml=''<img src="{$Hope_SitUrl$}{$Hope_Skin$}images/miniFixupBuyWill.gif" onclick="itemForm.submit()" style="cursor:hand" onmouseover="showBuyOver(this)" />'';
+			break;
+			default:
+			buyHtml="<img src=''{$Hope_SitUrl$}{$Hope_Skin$}images/miniFixupBuyEnd.gif''  style=''cursor:hand'' onmouseover=''showBuyOver(this)''  />";
+			break;
+			
+		}
+		//document.getElementById(''saleTime'').style.display="";	
+	}
+	else if(auctionType==2)
+	{
+			switch(Flag)
+		{
+			case 1:
+			buyHtml=''<img src="{$Hope_SitUrl$}{$Hope_Skin$}images/tgx.gif"  style="cursor:hand" onmouseover="showBuyOver(this)" onmouseout="showBuyOut(this)" onclick="return su()" />'';
+			break;
+			case 2:
+			buyHtml=''<img src="{$Hope_SitUrl$}{$Hope_Skin$}images/miniFixupBuyWill.gif"  />'';
+			break;
+			default:
+			buyHtml="<img src=''{$Hope_SitUrl$}{$Hope_Skin$}images/miniFixupBuyEnd.gif'' />";
+			break;
+			
+		}
+	}
+	else if(auctionType==3){
+		switch(Flag)
+		{
+			case 1:
+			buyHtml=''<img src="{$Hope_SitUrl$}{$Hope_Skin$}images/miniDriftBuy.gif" onclick="itemForm.submit()" style="cursor:hand" onmouseover="showBuyOver(this)" onmouseout="showBuyOut(this)" />'';
+			break;
+			case 2:
+			buyHtml=''<img src="{$Hope_SitUrl$}{$Hope_Skin$}images/miniDriftBuyWill.gif"  onclick="itemForm.submit()" style="cursor:hand"   />'';
+			break;
+			default:
+			buyHtml="<img src=''{$Hope_SitUrl$}{$Hope_Skin$}images/miniDriftBuyEnd.gif''  />";
+			break;
+			
+		}	
+		document.getElementById(''viewCount'').style.display="";
+		
+	}
+	document.getElementById("html_tem_buyButton").innerHTML=buyHtml;
+
+}
+</script>
+<BODY class="W950">
+{$Hope_Top$} 
+<!-- 商品信息-->
+<FORM id=itemForm name=itemForm action="{$Hope_SitUrl$}Basket.aspx">
+<input type=hidden value={$Hope_Show_ProID$} name=yx_id>
+<DIV class=main2 id=FullPath>
+<DIV id=FullPathShow><A href="" target=_blank>所有分类</A> 
+&gt;&gt; {$Hope_Show_ClassName$} &gt;&gt;商品详情<A 
+href="http://search.paipai.com/cgi-bin/ss.cgi?ClassId=93" target=_blank></A> </DIV>
+</DIV>
+<DIV class="main lineCenter">
+<DIV id=name><B class=font14>{$Hope_Show_ProName$}</B>
+<B class="font14 fontOrange">{$YX_Progmfs$}</B></DIV></DIV>
+<DIV class=main2 id=QQSeller style="DISPLAY: none; MARGIN: 10px">
+
+<DIV 
+style="FLOAT: left; WIDTH: 64%; LINE-HEIGHT: 150%">本商品是在跳蚤市场中发布的商品，请您与卖家充分沟通、诚信交易。 
+<BR>提醒：购买跳蚤市场商品须谨慎，请使用<A href="https://www.tenpay.com/zft/qa/qa_1.shtml" 
+target=_blank>腾讯财付通</A>支付中介或同城当面交易保障您的经济利益。 </DIV></DIV>
+<DIV class=clear></DIV>
+<DIV class=main2>
+<DIV id=comm>
+<DIV id=CommPics>
+<DIV id=CommPicsShow>
+<TABLE height=200 cellSpacing=0 cellPadding=0 width=200 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD align=middle><a href="{$Hope_SitUrl$}{$Hope_Show_ProSPic$}" target="_blank"><img src=''{$Hope_SitUrl$}{$Hope_Show_ProSPic$}'' border=0 width="200" height=200></a>
+  </A></TD></TR></TBODY></TABLE></DIV>
+<DIV><SPAN id=lookBigImg><IMG 
+src="{$Hope_SitUrl$}{$Hope_Skin$}image/zoomin.gif" alt=点击查看大图 width=18 height=20 hspace=10 vspace=10 border=0 
+align=absMiddle><A style="COLOR: #000" 
+href="{$Hope_SitUrl$}{$Hope_Show_ProSPic$}" target=_blank><B>点击查看大图</B></A><TABLE cellSpacing=0 cellPadding=0 width=200 align=center border=0 style="margin-left:0px;">
+  <TBODY>
+  <TR>
+    <TD style="PADDING-TOP: 4px" vAlign=top align=right width=50>您可以：</TD>
+    <TD>
+      <DIV style="DISPLAY: none"><IMG height=12 hspace=5 
+      src="315iT网购※全新遥控王超级PC无线键盘 内嵌鼠标功能 8米距离 --拍拍网.files/send.gif" width=13 
+      align=absMiddle vspace=5><A href="javascript:ZengSong()">赠送给好友</A></DIV>
+      <DIV><IMG height=12 hspace=5 
+      src="{$Hope_SitUrl$}{$Hope_Skin$}image/save.gif" width=13 
+      align=absMiddle vspace=5><A 
+      href="{$Hope_SitUrl$}ShowProduct.aspx?Flag=Colls&YX_MID={$Hope_Show_ProID$}&Proname={$Hope_Show_ProName$}" 
+      target=_blank>收藏商品</A><IMG height=12 hspace=5 
+      src="{$Hope_SitUrl$}{$Hope_Skin$}images/icon_jubao.gif" width=13 
+      align=absMiddle vspace=5><A 
+      href="{$Hope_SitUrl$}vipuser/law_list.aspx?falg=jbt&YX_MID={$Hope_Show_ProID$}&Proname={$Hope_Show_ProName$}" 
+      target=_blank>举报商品</A></DIV></TD></TR></TBODY></TABLE><br>
+</SPAN>
+</DIV>
+	  </DIV>
+
+<DIV id=CommShow>
+<DIV id=CommMess>
+<DIV><SPAN class=font_gray id=prizeTxt>售　　价：</SPAN><SPAN id=html_tem_price> 
+{$Hope_Show_ProPic$} </SPAN>&nbsp;元&nbsp;</DIV>
+<DIV id=DiscountDiv1 style="DISPLAY: none"></DIV>
+{$strpinpai$}
+{$YX_Proyfdyf$}
+<!--出价按钮 -->
+
+<DIV id=td_buy_button 
+style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none" 
+align=center></DIV>
+{$YX_strgmfspic$}
+<DIV id=DiscountSpan2 
+style="BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none" 
+align=center></DIV>
+{$Hope_yx_zffs$}
+{$YX_xxqk$}
+
+<DIV id=viewCount><SPAN class=font_gray>浏 览 量：</SPAN> 
+已有&nbsp;<SPAN class="number b fontOrange" 
+id=visitCount_td>{$YX_viewnum$}</SPAN>&nbsp;人关注</DIV>
+<DIV id=CityShow style="BORDER-BOTTOM-STYLE: none"><SPAN class=font_gray>发 货 
+地：</SPAN> <SPAN id=city title={$YX_area$}>{$YX_area$}</SPAN> </DIV>
+<DIV class=position id=OldShow><SPAN class=PositionShow id=tdOldNew><SPAN 
+class=font_gray>新旧程度：</SPAN> {$YX_bx$} </SPAN></DIV><!-- 财付通介绍-->
+<DIV>
+</DIV>
+</DIV>
+</DIV>
+{$YX_struserinfo$}</DIV>
+</DIV>
+<DIV class=clear></DIV>
+<DIV class=bj>
+商品类别标记：
+<input type="hidden"  value="{$Hope_classid$}" id="classid" name="classid"><input type="hidden"  value="{$Hope_Show_ProID$}" id="proid" name="proid"><input type="text" id="pal" name="pal" size="10"><input type="button" id="sub" name="sub" value=标记 onClick="inner();">{$Hope_pals$}<a href="{$Hope_SitUrl$}{$Hope_pal$}">{$Hope_palname$}</a><script language="javascript" src="{$Hope_SitUrl$}YX_Handle.aspx?YX_ID={$Hope_Show_ProID$}&userid={$Hope_Voteid$}&Falg={$Hope_palname$}" charset=''utf-8''></script></DIV>
+<DIV class=clear></DIV>
+<DIV class=main2>
+<DIV id=CommendSecond style="DISPLAY: none"></DIV></DIV>
+<DIV class=main2 style="margin-top:40px;">
+<UL id=auction_list>
+  <LI class=li_here id=detail_show><A 
+  href="javascript:showList(''detail'')">详细信息</A> </LI>
+  <LI id=others_show><A href="javascript:showList(''others'')">其他信息</A> </LI>
+  <LI id=record_show><A href="javascript:showList(''record'')">销售记录</A> </LI>
+  <LI id=sellRate_show style="display:none"><A href="javascript:showList(''sellRate'')">卖家信用</A> 
+</LI></UL></DIV>
+<DIV class=clear></DIV>
+<DIV id=detail_head></DIV>
+<DIV class=main2>
+<DIV id=detail>
+<DIV id=showAttitute>
+<UL id=ClassAttituteListUL>
+{$yx_strsx$}
+  </UL>
+<DIV class=clear></DIV>
+<DIV class="lineRight font_gray" 
+style="PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px">属性信息，仅供用户参考；商品详细情况，请和卖家联系！</DIV></DIV>
+<TABLE id=DescShow cellSpacing=0 cellPadding=0 width=950 align=center 
+  border=0><TBODY>
+  <TR>
+    <TD>
+      <DIV align=left>
+      {$Hope_Show_Procon$}</DIV></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV class=main2>
+<DIV id=commend>
+<DIV class=title>
+<DIV class=TitleInfo><font color="#000000">卖家推荐商品</font></DIV>
+<DIV class=TitleLink><A style="FONT-WEIGHT: normal; TEXT-DECORATION: underline" 
+href="showshop.aspx?uin={$Hope_ShopUser$}" target=_blank>逛逛店铺</A></DIV>
+<DIV class=TitleTop><A 
+href="#top">
+<img src="{$Hope_SitUrl$}{$Hope_Skin$}IMAGE/gotop.gif"/>
+</A></DIV></DIV>
+<DIV id=commend_list>
+{#Hope_Suggest*15#}
+</DIV>
+</DIV></DIV>
+<DIV class=main2>
+<DIV class=title>
+<DIV class=TitleInfo><font color="#000000">其它信息</font></DIV>
+<DIV class=TitleTop><A 
+href="#top">
+<img src="{$Hope_SitUrl$}{$Hope_Skin$}IMAGE/gotop.gif"/>
+</A></DIV></DIV>
+
+<DIV id=others>
+<UL>
+{$yx_strxx$}  
+  </UL>
+  </DIV>
+<DIV class=clear></DIV></DIV></DIV><!-- 倒计时函数-->
+<DIV class=main2>
+<DIV class=title id=sellRate_head style="DISPLAY: none">
+<DIV class=TitleInfo>卖家信用</DIV>
+</DIV>
+<DIV id=sellRate style="DISPLAY: none"><BR><BR><BR><BR>
+<CENTER>正在加载中，请稍候...</CENTER><BR><BR><BR><BR>
+</DIV></DIV><A name=r></A>
+<DIV class=main2  id=record_head>
+<DIV class=title>
+<DIV class=TitleInfo><font color="#000000">销售记录</font></DIV>
+<DIV class=TitleTop><A 
+href="#top">
+<img src="{$Hope_SitUrl$}{$Hope_Skin$}IMAGE/gotop.gif"/>
+</A></DIV></DIV>
+<DIV id=commend_list>
+<DIV id=price>
+<UL>
+  <LI>商品价格: <B class=fontOrange id=html_tem_price2
+  name="html_tem_price2">{$Hope_Show_ProPic$}</B></LI>
+  <LI>剩余时间：<SPAN id=time2>{$yx_sysj$}</SPAN> </LI>
+  <LI id=html_tem_buyButton></LI></UL>
+</DIV>
+{$Hope_gmf$}{$yx_tgsl$}
+<DIV class=fontOrange id=html_tem_leaveMsg 
+style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px">
+<!--销售记录-->
+{$Hope_xxjls$}<script language="javascript" src="{$Hope_SitUrl$}YX_Handle.aspx?YX_ID={$Hope_Show_ProID$}&userid={$Hope_Voteid$}&Falg={$Hope_xxjl$}" charset=''utf-8''></script>
+</DIV>
+</DIV>
+</DIV>
+</form>
+<DIV class=clear>
+</DIV>
+<DIV class=main2 >
+<DIV class=title>
+<DIV class=TitleInfo><font color="#000000">拍友留言</font></DIV>
+<DIV class=TitleTop><A 
+href="#top">
+<img src="{$Hope_SitUrl$}{$Hope_Skin$}IMAGE/gotop.gif"/>
+</A></DIV></DIV>
+<DIV id=message>
+<DIV class=fontOrange id=html_tem_leaveMsg 
+style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px">
+{$Hope_Votes$}
+<script language="javascript" src="{$Hope_SitUrl$}YX_Handle.aspx?YX_ID={$Hope_Show_ProID$}&userid={$Hope_Voteid$}&Falg={$Hope_Vote$}" charset=''utf-8''></script></DIV>
+<DIV id=leaveMsgPage 
+style="PADDING-RIGHT: 0px; DISPLAY: none; PADDING-LEFT: 65px; PADDING-BOTTOM: 10px; MARGIN: 0px 30px; PADDING-TOP: 0px; BORDER-BOTTOM: #d7d7d7 1px solid" 
+align=right><SPAN id=html_tem_msgPage></SPAN></DIV><BR>
+<DIV id=html_tem_leaveMsg_post></DIV></DIV></DIV>
+<DIV class=main2>
+<DIV 
+class=declare>免责声明：{$Hope_Title$}为用户展示的商品供求信息由买卖双方自行提供，其真实性、准确性和合法性由信息发布人负责。{$Hope_Title$}不提供任何保证，并不承担任何法律责任。<BR>{$Hope_Title$}友情提醒：为保障您的利益，请加强与拍友的沟通，网上成交，请使用交易。 
+
+</DIV>
+<!--支付银行活动信息-->
+{$Hope_Bottom$} 
+</BODY></HTML>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 789 , 18 , 'Basket_cj' , 'Basket_cj' , '商品出价页面' , '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>确认购买</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}index.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/layout.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<script language="javascript" src="{$Hope_SitUrl$}include/yz.js"></script>
+
+<style type="text/css" media="screen">
+.payHead{border-top:1px solid #F7941D;font:bold 14px "宋体";padding:7px 0 6px 30px;text-align:left;background:#FFF4CA}
+.tbMain td{padding:5px 0 4px 7px;font-size:14px}
+a.lk14_blue:link,a.lk14_blue:visited{color:#1835D1;font:14px "宋体";text-decoration:none}
+a.lk14_blue:active,a.lk14_blue:hover{color:#F30;font:14px;text-decoration:underline}
+#redpagcontent{line-height:160%;padding:10px 0 10px 30px}
+.messageForNote{display:;line-height:100%;padding:5px 5px 0 25px;color:gray;border:1px solid #fff}
+.orgMsgClass{
+	color:#CCCCCC;
+}
+
+.clickedMsgClass{
+	color:#000000;
+}
+.desc{
+
+text-align:left;}
+.redpagtips{
+	background-color:#FFF4CA;
+	color:#FF6600;
+	padding:5px;
+	width:750px;
+	margin-top: 4px;
+	margin-right: auto;
+	margin-bottom: 4px;
+	margin-left: auto;
+	text-align:left;
+}
+.refreshRedList{
+	font-size:12px;
+	font-weight:normal;
+	color:#0000FF;
+}
+</style>
+<script language="javascript">
+
+function ChangetoProxy(Obj){
+	var pic1="{$Hope_SitUrl$}images/price_reset.gif";
+	var pic2="{$Hope_SitUrl$}images/price_cancel.gif"
+	if(Obj.src==pic1){
+		Obj.src=pic2;
+		dwPriceShow.style.display="";
+		document.all.dl.value="1";
+	}
+	else{
+		Obj.src=pic1;
+		document.all.dl.value="0";
+		dwPriceShow.style.display="none";
+	}
+}
+</script>
+</head>
+<BODY class=W950>
+<!--beginTop-->{$Hope_Top$} <!--#endTop-->
+<!-- 商品信息-->
+<div class="main"><img src="{$Hope_SitUrl$}images/process_01.gif" width="760" height="36" vspace="10"  /></div>
+
+<form name="fixup" id="fixup" method="post" action="Basket_cjNext.aspx">
+<input type=hidden value="save" name=action />
+<div class="main">
+	<div class="payHead">本次交易明细</div>
+</div>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" class="tbMain">
+     <tr>
+    <td width="130" align="right" >卖&nbsp;&nbsp;&nbsp;&nbsp;家：<br /></td>
+    <td colspan="2" align="left" >
+     {$yx_basket_buy$}</a></td>
+  </tr>
+    <tr> 
+    <td align="right" >商品名称：</td>
+    <td colspan="2" align="left">{$yx_basket_proname$}</td>
+  </tr>
+    <tr> 
+    <td align="right" >当前价格：<br /></td>
+    <td colspan="2" align="left" >{$yx_basket_price$}元</td>
+    </tr>
+      <tr> 
+    <td align="right" >加价幅度：<br /></td>
+    <td colspan="2" align="left" >{$yx_basket_jjprice$}元</td>
+    </tr>
+  <tr>
+    <td align="right" ><span class="font14 fontOrange b">*</span>拍卖数量：</td>
+    <td width="166" align="left" >1
+      件 </td>	
+    <td width="464">
+	<div id="dwNum_Msg" align="left" class="message"></div></td>
+  </tr>
+       <tr> 
+    <td align="right" >出价金额：<br /></td>
+    <td align="left" >{$yx_basket_cjprice$}元</td>
+    <td align="left" ><input type=hidden  id=dl name="dl" value="0" />
+	<img src="{$Hope_SitUrl$}images/price_reset.gif" width="110" title="点击此按钮让你更省钱！~" height="18" onclick="ChangetoProxy(this)" style="cursor:hand"/>
+    <div id="dwPriceShow" style="display:none"><input name="dwPrice" type="text" size=10>&nbsp;元</div></td>
+    </tr>
+</table>
+<div class="main">
+	<div class="payHead">请您核对买家与收货人详细信息</div>
+</div>
+
+<table width="760" border="0" cellpadding="0" cellspacing="0" class="tbMain" >  
+<div id=selectdz>
+{$yx_basket_shdz$}
+
+</div>
+			<tr> 
+            	<td width="18%" align="right" valign="top" >*运费方式：</td>
+              <td align="left" class="desc">
+			  {$yx_basket_yhfs$}
+			  <input type=hidden value={$yx_id$} name=yx_id />
+               <div style="color:#808080"></div></td>
+          	</tr>
+  </table>
+
+<div class="redpagtips" id="redpagtipsForVir" style="display:none;"></div>
+<div class="main" id="redpaglistForVir" style="display:none;"></div>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" class="tbMain">    
+<tr valign="bottom">
+<td height="50" align="center" valign="middle"><input name="image" type="image" src="{$Hope_SitUrl$}images/sure_pai.gif" /></td>
+</tr>
+</table>
+</form>
+{$Hope_Bottom$} 
+</body>
+</html>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 790 , 18 , 'Basket' , 'Basket' , '商品订购' , '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}index.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/layout.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<script language="javascript" src="{$Hope_SitUrl$}include/yz.js"></script>
+<style type="text/css" media="screen">
+.payHead{border-top:1px solid #F7941D;font:bold 14px "宋体";padding:7px 0 6px 30px;text-align:left;background:#FFF4CA}
+.tbMain td{padding:5px 0 4px 7px;font-size:14px}
+a.lk14_blue:link,a.lk14_blue:visited{color:#1835D1;font:14px "宋体";text-decoration:none}
+a.lk14_blue:active,a.lk14_blue:hover{color:#F30;font:14px;text-decoration:underline}
+#redpagcontent{line-height:160%;padding:10px 0 10px 30px}
+.messageForNote{display:;line-height:100%;padding:5px 5px 0 25px;color:gray;border:1px solid #fff}
+.orgMsgClass{
+	color:#CCCCCC;
+}
+
+.clickedMsgClass{
+	color:#000000;
+}
+.desc{
+
+text-align:left;}
+.redpagtips{
+	background-color:#FFF4CA;
+	color:#FF6600;
+	padding:5px;
+	width:750px;
+	margin-top: 4px;
+	margin-right: auto;
+	margin-bottom: 4px;
+	margin-left: auto;
+	text-align:left;
+}
+.refreshRedList{
+	font-size:12px;
+	font-weight:normal;
+	color:#0000FF;
+}
+</style>
+
+</head>
+
+{$Hope_Top$}
+<body>
+<BODY class=W950>
+<!-- 商品信息-->
+<div class="main"><img src="{$Hope_SitUrl$}images/process_01.gif" width="760" vspace="10"  /></div>
+
+<form name="fixup" id="fixup" method="post" action="BasketNext.aspx"  onsubmit="return Validator.Validate(document.getElementById(''fixup''),2)">
+<input type=hidden value="save" name=action />
+<div class="main">
+	<div class="payHead">本次交易明细</div>
+</div>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" class="tbMain">
+     <tr>
+    <td width="130" align="right" >卖&nbsp;&nbsp;&nbsp;&nbsp;家：<br /></td>
+    <td colspan="2" align="left" >
+     {$yx_basket_buy$}</a></td>
+  </tr>
+    <tr> 
+    <td align="right" >商品名称：</td>
+    <td colspan="2" align="left">{$yx_basket_proname$}</td>
+  </tr>
+    <tr> 
+    <td align="right" >商品价格：<br /></td>
+    <td align="left" >{$yx_basket_price$}元</td>
+    <td  id="tenpayprice">&nbsp;</td>
+    </tr>
+  
+  <tr>
+    <td align="right" ><span class="font14 fontOrange b">*</span>购买数量：</td>
+    <td width="166" align="left" ><input onKeyUp="value=value.replace(/[^\d]/g,'''') "  require = "true" datatype="Range" min="1" max="{$yx_basket_gmcount$}" msg="{$yx_basket_gmxz$}；"  name="dwNum" type="text" id="dwNum" size="5" />
+      件 </td>	
+    <td width="464">
+	<div id="dwNum_Msg" align="left" class="message">
+	{$yx_basket_gmxz$}
+    </div></td>
+  </tr>
+  
+</table>
+<div class="main">
+	<div class="payHead">请您核对买家与收货人详细信息</div>
+</div>
+
+<table width="760" border="0" cellpadding="0" cellspacing="0" class="tbMain" align="center" >  
+<div id=selectdz>
+{$yx_basket_shdz$}
+
+</div>
+			<tr> 
+            	<td width="18%" align="right" valign="top" >*运费方式：</td>
+              <td align="left" class="desc">
+			  {$yx_basket_yhfs$}
+               <div style="color:#808080"></div></td>
+          	</tr>  <tr> 
+            	<td width="18%" align="right" valign="top" >*填写购买说明：</td>
+              <td align="left" class="desc">通过填写说明，您可以告诉卖家您对商品的购买要求（比如颜色、尺码等）。<br />
+<textarea name="BuyerNoteInfo" cols="80" id="BuyerNoteInfo" require="true" datatype="LimitB" min="3" max="100"  msg="购买说明必须在[3～100]个字符之内,一个中文是两个字符!"></textarea>
+                  <br />
+                 （提醒：输入内容不超过100字）</td>
+          	</tr>
+  </table>
+
+<div class="redpagtips" id="redpagtipsForVir" style="display:none;"></div>
+<div class="main" id="redpaglistForVir" style="display:none;"></div>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" class="tbMain">    
+<tr valign="bottom">
+<td colspan="2" align="left" valign="middle">&nbsp;
+
+&nbsp;
+<input name="Pnothide" type="checkbox" value="1"/>显示本次购买信息。
+<a href="#" target="_blank">隐私保护策略</a></td>
+<td height="50" style="padding-left:30px" valign="middle"><input name="image" type="image" src="{$Hope_SitUrl$}images/sure_buy_060614.gif" width="182" height="44"  /></td>
+</tr>
+</table>
+</form>
+{$Hope_Bottom$} 
+</body>
+</html>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 793 , 18 , 'ArticleList' , 'YX_CmsList' , '' , '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{#Hope_HttpTitle*2,0#}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/forum.css" type="text/css">
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/yui-utilities.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/tbra.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type="text/javascript"></script>
+</head>
+
+<body class="W950 CurHome" >
+<HEAD>
+<TITLE>{$News_title$}--{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_ShowNewsClassList$},{$News_title$} />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<script language="javascript" src="{$Hope_SitUrl$}UpdateViewNews.aspx?YX_ID={$News_ID$}"></script>
+
+<DIV id=Head> 
+{$Hope_User_Newstop$} 
+
+<div id="Top">
+		<script src="{$Hope_SitUrl$}Include/Ad/taobao_messagepage_top.JS" type="text/jscript"></script>
+</div>
+
+<div id="SpcArticle">
+<TABLE style="MARGIN-TOP: 5px" cellSpacing=0 cellPadding=0 width=100% 
+align=center border=0>
+  <TBODY>
+  <TR>
+    <TD width=177 vAlign=top bgcolor="#F7F7F7" id=left>
+      <DIV id=list>
+      <DIV><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}images/class_left_01.gif"></DIV>
+{#Hope_ArticleClassList*1,1,2,0,,biglist,smalllist,62#} 
+      <DIV><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}images/class_left_05.gif"></DIV>
+      </DIV>
+	</TD>
+	
+    <TD width=20>&nbsp;</TD>
+	
+    <TD vAlign=top>
+      <DIV id=class_head>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD height="18" valign="bottom">&nbsp;</TD>
+        </TR>
+        <TR>
+          <TD valign="bottom"><B class=ft14_head STYLE1>详细信息</B></TD>
+        </TR>
+		</TBODY>
+	  </TABLE>
+      </DIV>
+      
+      <DIV  style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; TEXT-ALIGN: left">{#Hope_PageArticle*15,18,0,0,ClassId,62#}
+	  </DIV>
+
+     </TD>
+</TR>
+</TBODY>
+</TABLE>
+</div>
+{$Hope_Bottom$} 
+</BODY>
+</HTML>
+' , 62 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 795 , 18 , 'Hotsell' , 'YX_Hotsell' , '热卖商品首页' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/sale.css" type="text/css">
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/yui-utilities.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/tbra.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common(1).js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+
+<META content="MSHTML 6.00.2900.3086" name=GENERATOR></HEAD>
+<BODY class="W950 CurSale">
+{$Hope_Top$} 
+<div style=" margin:0 auto; width:900px; margin-bottom:5px; margin-top:2px;"><script src="Include/Ad/taobao_hotsell_top.JS" type="text/jscript"></script></div>
+<DIV id=Content>
+<DIV id=NewbieGuide>
+<UL>
+  <LI id=NGRegister><A title=免费注册 
+  href="#" 
+  target=_blank><SPAN>免费注册</SPAN></A> </LI>
+  <LI id=NGIM><A title=视频聊天 
+  href="#" 
+  target=_blank><SPAN>视频聊天</SPAN></A> </LI>
+  <LI id=NGTrust><A title=交易安全 
+  href="#" 
+  target=_blank><SPAN>交易安全</SPAN></A> </LI>
+  <LI id=NGAlipay><A title=支付宝——购物无风险 
+  href="#" 
+  target=_blank><SPAN>支付宝——购物无风险</SPAN></A> </LI>
+  <LI id=NGOpShop><A title=新手上路 
+  href="#" 
+  target=_blank><SPAN>新手上路</SPAN></A> </LI></UL></DIV>
+<DIV id=HotSale>
+<H2>热门促销</H2>
+<UL id=HotSaleList style="margin-top:10px;">
+{#Hope_Article*1,8,18,36,0,0,62#}
+</UL>
+</DIV>
+<DIV id=MainPromotionBanner>
+<script src="Include/Ad/taobao_hotsell_index.JS" type="text/jscript"></script>
+</DIV>
+<DIV id=TopBrandSale>
+<H2>商城公告</H2>
+<UL style="padding-top:10px;">
+{#Hope_Article*1,8,17,34,0,0,62#}
+</UL>
+</DIV>
+<DIV id=SaleShopZone>
+<H2>全场打折店铺推荐</H2>
+<UL style="padding-top:0px;">
+{$ProductClass$}
+</UL>
+</DIV>
+<SCRIPT type=text/javascript>
+			TB.widget.SimpleScroll.decorate(''SaleShopZoneScroll'', {speed:10, lineHeight:64});
+		</SCRIPT>
+<DIV id=FancyandSale>
+<UL class=FancyandSaleMenu>
+  <LI class=Selected><A onClick="return false" 
+  href="x">推荐商品</A> 
+  </LI>
+  <LI><A onClick="return false" 
+  href="x">热卖商品</A> 
+  </LI>
+</UL>
+<DIV id=SaleZone>
+<H3>推荐商品</H3>
+<UL>
+{#Hope_Pro*6,2,15,0,1,85,85,2#} 
+</UL>
+<P class=Pic style="margin-top:10px;"><script src="Include/Ad/taobao_rmad.JS" type="text/jscript"></script></P>
+</DIV>
+<DIV id=FancyZone style="DISPLAY: none">
+<H3>热卖商品</H3>
+<UL>
+{#Hope_Pro*6,2,15,0,2,85,85,2#} 
+</UL>
+
+
+<P class=Pic></P>
+</DIV>
+</DIV>
+
+<SCRIPT type=text/javascript>
+			TB.widget.SimpleTab.decorate(''FancyandSale'',{currentClass:''Selected'',eventType:''mouse'',delay:0.2});
+</SCRIPT>
+<DIV id=GroupBuyCategory>
+<H2>店铺查询</H2>
+<UL>
+<form action="shop_search.aspx" method="post" name="shop_search" onSubmit="return CheckValid()">
+<table width="241" border="0" align="left" cellpadding="0" cellspacing="0" style="text-align:left">
+  <tr>
+    <td width="91">关键字:</td>
+    <td width="150"> <input  name="keyword" type="text"size="12" maxlength="15"/></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" name="keywordtype" checked="checked" value="1" />
+      按店铺名称</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td> <input type="radio" name="keywordtype" value="2"/>
+      按店主昵称</td>
+  </tr>
+  <tr>
+    <td>类&nbsp;&nbsp;&nbsp;&nbsp;别:</td>
+    <td>{$Hope_ClassName$}</td>
+  </tr>
+  
+  <tr>
+    <td>城&nbsp;&nbsp;&nbsp;&nbsp;市:</td>
+    <td> {#provinceselect2*#}</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><input type="submit" value=" 搜 索 " /></td>
+  </tr>
+</table>
+</form>
+</UL>
+<P class=More><A 
+href="shop_search.aspx" 
+target=_blank>更多&gt;&gt;</A></P></DIV>
+<DIV id=GroupBuyContent>
+<H2>最佳人气团购单品</H2>
+<UL class=HotKeyWords>
+  <LI><A 
+  href="#" 
+  target=_blank>更多</A> 
+  </LI>
+</UL>
+<ul style="margin-top:20px;">
+{#Hope_Pro*5,2,6,0,7,80,80,4#}
+</UL>
+</DIV>
+<DIV id=LastGroupBuy>
+<H2>团购新动态</H2>
+<UL>
+ 
+</UL>
+<P "Pic MatrixSalePic">
+<script src="Include/Ad/taobao_PPSC_right_middle_small_85X80.JS" type="text/jscript"></script>
+</P>
+</DIV>
+<DIV>
+<UL>
+  <LI style="float:left; margin-top:10px;">
+<script src="Include/Ad/taobao_PPSC_middle.JS" type="text/jscript"></script>
+  </LI>
+    <LI style="float:left; margin-top:10px; margin-left:10px;">
+  <script src="Include/Ad/taobao_PPSC_right_middle_1.JS" type="text/jscript"></script>
+ </li>
+ </UL>
+</DIV>
+
+
+<DIV id=WeekHotTaxis>
+<DIV id=ProductTaxis>
+<H2>一周人气单品排行</H2>
+<UL>
+{#Hope_Pro*7,1,6,0,8,80,80,2#} 
+  </UL>
+<P class=Pic><script src="Include/Ad/taobao_PPSC_right_middle_3.JS" type="text/jscript"></script></P></DIV>
+<DIV id=ShopTaxis>
+<H2>一周人气店铺排行</H2>
+<UL>
+ {#SpecialShop*7,1,15,2,2#}
+  </UL>
+<P class=Pic>
+<script src="Include/Ad/taobao_PPSC_right_middle_2.JS" type="text/jscript"></script>
+</P></DIV></DIV></DIV>
+<DIV class=HackBox></DIV>
+{$Hope_Bottom$} 
+</BODY></HTML>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 797 , 18 , 'index' , 'YX_CmsIndex' , '' , '{$Hope_User_HelpHeader$} 
+<div id="Top">
+<script src="{$Hope_SitUrl$}Include/Ad/taobao_helpcenter.JS" type="text/jscript"></script>
+</div>
+
+<div class="block">
+<TABLE style="MARGIN-TOP: 5px" cellSpacing=0 cellPadding=0 width=100% 
+align=center border=0>
+  <TBODY>
+  <TR>
+    <TD width=177 vAlign=top bgcolor="#F7F7F7" id=left>
+      <DIV id=list>
+      <DIV><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}images/class_left_02.jpg"></DIV>
+{#Hope_ArticleClassList*1,1,2,0,,biglist,smalllist,65#} 
+      <DIV><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}images/class_left_05.gif"></DIV>
+      </DIV></TD>
+    <TD width=20>&nbsp;</TD>
+    <TD vAlign=top>
+      <DIV id=class_head>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD height="18" valign="bottom">&nbsp;</TD>
+        </TR>
+        <TR>
+          <TD valign="bottom"><B class=ft14_head STYLE1>详细信息</B></TD>
+        </TR></TBODY></TABLE>
+      </DIV>
+      
+      <div id="HelpCenter">{#Hope_PageArticle*15,18,0,0,ClassId,65#}</div>
+
+      </TD>
+</TR></TBODY></TABLE>
+</div>
+{$Hope_Bottom$} 
+</BODY></HTML>
+' , 65 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 800 , 18 , 'Pay_state_info' , 'Pay_state_info' , '商品付款页面' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/layout.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/frontpage_v2.css" type="text/css">
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/yui-utilities.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/tbra.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+<META content="MSHTML 6.00.2900.3086" name=GENERATOR><style type="text/css">
+<!--
+body {
+	margin-top: 0px;
+}
+-->
+</style></HEAD>
+<body class="W950 CurHome">
+
+<style type="text/css" media="screen">
+.payHead{border-top:1px solid #F7941D;font:bold 14px "宋体";padding:7px 0 6px 30px;text-align:left;background:#FFF4CA}
+.tdhead {
+	font-size: 14px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+	text-align:left;
+	padding-left:10px;
+}
+.hed{
+	BORDER-BOTTOM: #d7d7d7 1px solid;
+	height:25px;
+	font-size:14px;
+	padding-top:5px;
+	font-weight: bold;
+	color: #FF6600;
+}
+</style>
+<!--beginTop-->{$Hope_Top$} <!--#endTop-->
+<!-- 商品信息-->
+<DIV class=clear></DIV>
+<DIV class=main style="text-align:center"><span class="main" style="text-align:center"><img src="{$Hope_SitUrl$}images/process_02.gif"  width="100%"/></span></DIV>
+<DIV class=main style="POSITION: relative">
+<DIV class=payHead>交易明细</DIV>
+</DIV>
+<TABLE cellSpacing=0 cellPadding=0 width="75%" align=center border=0>
+  <TBODY>
+ 
+  <TR>
+    <TD width="500px">
+      <DIV  class="hed"><IMG 
+      hspace=10 src="{$Hope_SitUrl$}{$Hope_Skin$}images/pay_btn_side.gif" 
+      align=absMiddle>交易状态：{$Hope_Jyzt$}</DIV>
+      {$YX_OrderInfo$}</TD>
+    <TD align=middle valign="top"><table width="100%" border="0" align="center" cellpadding="4" cellspacing="1" bgcolor="#D3E5FD" style="BORDER-RIGHT: #d3e5fd 1px solid; BORDER-TOP: #d3e5fd 1px solid; MARGIN-TOP: 10px; BORDER-LEFT: #d3e5fd 1px solid; WIDTH: 240px; BORDER-BOTTOM: #d3e5fd 1px solid">
+      <tr>
+        <td height="29" bgcolor="#D3E5FD">操作提示</td>
+      </tr>
+   {$YX_czts$}
+         <tr>
+        <td align="center" bgcolor="#FFFFFF">
+		<a href="../vipuser/default_vip.aspx">
+		<img 
+      src="{$Hope_SitUrl$}{$Hope_Skin$}images/my_back.gif" border="0" /></a></td>
+      </tr>
+    </table></TD>
+  </TR></TBODY></TABLE>
+{$Hope_Bottom$} 
+</body>
+</html>' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 803 , 18 , 'Yx_FindPass2' , 'Yx_FindPass2' , '找密第二步' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/layout.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/level1.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/sell.css" type="text/css">
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common(1).js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/atpanel.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+<META content="MSHTML 6.00.2900.3086" name=GENERATOR></HEAD>
+<BODY class=W950>
+{$Hope_Top$} 
+<!-- Head end -->
+ <table width="768" border="0" align="center" cellpadding="00" cellspacing="0">
+  <tr>
+    
+    <td width="100%" valign="top">
+	  <form id="form1" name="form1" method="post" action="?Action=Ok" onSubmit="return checkfrm()">
+	  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                
+                                <tr>
+                                    <td height="25" align="left"><img src="{$Hope_SitUrl$}{$Hope_Skin$}IMAGES/title_login_4.gif" width="150" height="57"></td>
+                                </tr>
+                   
+                                <tr>
+                                  <td align="left">&nbsp;</td>
+                                </tr><tr><td height="25"><table width="75%" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor="#FFFFFF">
+                                  <tr>
+                                    <td width="27%" height="25" align="right" bgcolor="#F7F7F7">&nbsp;</td>
+                                    <td width="38%" bgcolor="#F7F7F7">&nbsp;</td>
+                                    <td width="35%" bgcolor="#F7F7F7">&nbsp;</td>
+                                  </tr>
+                                  <tr>
+                                    <td height="25" align="right" bgcolor="#F7F7F7"><span class="STYLE2">请输入新密码：</span></td>
+                                    <td bgcolor="#F7F7F7"><input name="pass1" type="text" id="pass1" /></td>
+                                    <td bgcolor="#F7F7F7">&nbsp;</td>
+                                  </tr>
+                                  <tr>
+                                    <td height="25" align="right" bgcolor="#F7F7F7">请再输入密码<span class="STYLE2">：</span> </td>
+                                    <td bgcolor="#F7F7F7"><input name="pass2" type="text" id="pass2" /></td>
+                                    <td bgcolor="#F7F7F7">&nbsp;</td>
+                                  </tr>
+                                  <tr>
+                                    <td height="25" bgcolor="#F7F7F7">&nbsp;</td>
+                                    <td align="left" bgcolor="#F7F7F7"><label>
+                                      <input type="submit" name="Submit" value="提      交" />
+                                    </label></td>
+                                    <td bgcolor="#F7F7F7">&nbsp;</td>
+                                  </tr>
+                                </table></td>
+                                </tr>
+                                <tr><td bgcolor="#E7E7E7" height="1"></td></tr>
+                                <tr>
+                                  <td align="center" >
+                                        <br />&nbsp;</td>
+                                </tr>
+        </table>
+	  </form>
+    </td>
+  </tr>
+</table>
+{$Hope_Bottom$}
+</body>
+</html>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 805 , 18 , 'YX_Shopvotere' , 'YX_ShopVotere' , '店铺留言回复' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD><TITLE>店铺留言回复-{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<script language="javascript" scr="{$Hope_SitUrl$}include/yz.js"></script>
+
+</HEAD>
+{$Hope_UserTop$}  <br>
+
+<!-- 商品信息-->
+<div style="text-align:center">
+
+<DIV 
+style="BORDER-RIGHT: #ffd200 1px solid; BORDER-TOP: #ffd200 1px solid; MARGIN: 0px auto; BORDER-LEFT: #ffd200 1px solid; WIDTH: 665px; BORDER-BOTTOM: #ffd200 1px solid; HEIGHT: 275px">
+<DIV 
+style="PADDING-RIGHT: 0px; PADDING-LEFT: 30px; BACKGROUND: #ffd200; PADDING-BOTTOM: 5px; PADDING-TOP: 5px" 
+align=left><B class=ft14_black>回复留言</B></DIV>
+<DIV 
+style="PADDING-RIGHT: 30px; PADDING-LEFT: 30px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px" 
+align=left>
+{$Hope_ShowWriteVote$}</DIV></DIV>
+
+</div>
+{$Hope_UserBottom$} 
+</body>
+</HTML>' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 806 , 18 , 'VipLogin' , 'VipLogin' , '会员登录' , '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/layout.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/level1.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/sell.css" type="text/css">
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/atpanel.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+<BODY class=W950>
+{$Hope_Top$} 
+<!-- Head end -->
+
+<DIV class=main>
+<div style="float:left; width:80%; text-align:left"><img src="{$Hope_SitUrl$}{$Hope_Skin$}image/title_login_2.gif"/></div>
+<DIV id=loginLeft>
+<DIV id=loginMain>
+
+<DIV style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px"></DIV>
+<DIV id=errormsg style="DISPLAY: none"><SPAN class=fontOrange id=errorInfo>
+</SPAN>
+</DIV>
+ <script language="javascript">
+function loginSubmit(form2){
+var userName = form2.elements[''Yx_vipName''];
+var password = form2.elements[''Yx_vipPassword''];
+if(userName.value == ""){alert("请输入用户名");return false}
+if(password.value == ""){alert("请输入密码");password.focus();return false}
+location.href="?usrname="+userName.value;
+}
+</script>
+<form action="login.aspx?flag=login" method=post name=form2 onSubmit="return loginSubmit(this);">
+<UL>
+  <LI>用&nbsp;户&nbsp;名： 
+    <INPUT  name=Yx_vipName class=inputMain size="30">
+    &nbsp;<A 
+  href="VipUser/VipReg.aspx" target=_blank>申请账号&gt;&gt;</A> 
+  <LI>密<span style="margin-left:25px!important; margin-left:18px;">码</span>：
+    <INPUT name=Yx_vipPassword  type=password class=inputMain size="30" maxLength=16>
+    &nbsp;<A 
+  href="VipUser/Yx_FindPass.aspx" 
+  target=_blank>忘记密码&gt;&gt;</A>
+  <LI style="PADDING-LEFT: 100px"><INPUT id=Submit tabIndex=4 type=image  src="{$Hope_SitUrl$}{$Hope_Skin$}image/login_submit2.gif" value="  登 录  " name=Submit> 
+  </LI>
+  <LI style="PADDING-LEFT: 100px">
+ </LI></UL>
+</FORM></DIV>
+</DIV>
+<DIV style="FLOAT: left; WIDTH: 40px;"><IMG height=194 
+src="{$Hope_SitUrl$}{$Hope_Skin$}image/login_v_line.jpg" width=49></DIV>
+<DIV id=loginSide>
+  <DIV 
+style="PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; WIDTH: 240; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 148px">
+<UL>
+  <LI><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}image/login_btn_02.gif" 
+  align=absMiddle>&nbsp;&nbsp;&nbsp;便宜有好货！超过5000万件商品任您选。
+  <LI><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}image/login_btn_03.gif" align=absMiddle 
+  vspace=5>&nbsp;&nbsp;&nbsp;买卖更安心！支付宝交易超安全。 
+  <LI><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}image/login_btn_04.gif" 
+  align=absMiddle>&nbsp;&nbsp;&nbsp;轻松赚钱交商友。
+  <LI><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}image/login_btn_05.gif" align=absMiddle 
+  vspace=5>&nbsp;&nbsp;&nbsp;超人气社区！精彩活动每一天。 </LI>
+  <LI>&nbsp;&nbsp;&nbsp;<a href={$Hope_SitUrl$}vipuser/VipReg.aspx><img src="{$Hope_SitUrl$}{$Hope_Skin$}image/register_submit002.gif" width="157" height="34"></a></LI>
+</UL></DIV>
+</DIV></DIV>
+<DIV style="MARGIN-BOTTOM: 15px; clear:both;"></DIV>
+{$Hope_Bottom$} 
+</BODY></HTML>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 808 , 18 , 'ArticleContent' , 'YX_CmsContext' , '' , '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$News_HttpTitle$}{#Hope_HttpTitle*2,0#}{$Hope_Title$}</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/forum.css" type="text/css">
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/yui-utilities.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/tbra.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type="text/javascript"></script>
+</head>
+
+<body class="W950 CurHome" >
+<HEAD>
+<TITLE>{$News_title$}--{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_ShowNewsClassList$},{$News_title$} />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<script language="javascript" src="{$Hope_SitUrl$}UpdateViewNews.aspx?YX_ID={$News_ID$}"></script>
+<DIV id=Head> 
+{$Hope_User_Newstop$} 
+<BODY class=W950>
+<div id="Article_Content">
+<table width="950" border="0" align="center" cellpadding="0" cellspacing="0">
+
+  <tr>
+    <th colspan="2" scope="col" height="3"><div style="border-top:#ffbb00 3px solid; padding-top:0px;"></div></th>
+  </tr>
+  <tr>
+    <th colspan="2" scope="col" height="5"></th>
+  </tr>
+  <tr>
+    <th colspan="2" scope="col" height="3"><script src="{$Hope_SitUrl$}Include/Ad/taobao_index_top.JS" type="text/jscript"></script></th>
+  </tr>
+  <tr>
+    <td colspan="2" scope="col" height="20" align="left" class="Daohang">&nbsp;</td>
+  </tr>
+  
+  <tr>
+    <th width="446" align="left" valign="top" scope="col"><table width="700" border="0" cellspacing="0" cellpadding="0"  style="font-weight:normal">
+        <tr>
+          <td width="734"><span class="Daohang">{#GetClassDirname*ClassId,62#}<span style="font-size:13px; color:#FF6600">{$News_newtitle$}</span>>>{$News_title$}</span></td>
+        </tr>
+      <tr>
+        <td>
+          <div id="NewsContentPart">
+            <ul style="margin:0 auto; font-size:22px; font-weight:bold; color:03005c; text-align:center; border-bottom: #becde5 1px solid; padding-top:10px;">{$News_title$}</ul>
+		  <ul style=" text-align:center;font-size:12px; color:000000;">({$News_Addtime$}&nbsp;&nbsp;阅读<script language="javascript" src="{$Hope_SitUrl$}showNewsViewnum.aspx?YX_ID={$News_ID$}"></script>次)</ul>
+		  <ul style="margin-top:20px;">{$News_Content$}</ul>
+		    <ul style="margin-top:20px;">{$Show_PrvTitle$} {$Show_NextTitle$}</ul>
+			
+		  </div></td>
+        </tr>
+    </table></th>
+    <td width="534" valign="top" scope="col">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="vertical-align:top">
+      <tr>
+        <td>
+		<DIV id="NewsRight"><script src="{$Hope_SitUrl$}Include/Ad/taobao_NEWSPAGE.JS" type="text/jscript"></script></DIV>
+		<DIV id="NewsRightTitle">投资收藏</DIV>
+		<DIV id="NewsRight2">{#Hope_Article*1,9,18,3,20,0,62#}</DIV>
+		<DIV id="NewsRightAD"><script src="{$Hope_SitUrl$}Include/Ad/taobao_newspage_right.JS" type="text/jscript"></script></DIV>
+		<DIV id="NewsRightTitle">靓鞋靓包</DIV>
+		<DIV id="NewsRight2">{#Hope_Article*1,14,18,15,0,0,62#}</DIV>
+		</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<div>
+{$Hope_Bottom$} 
+</body>
+</html>' , 62 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 809 , 18 , 'Erro' , 'Erro' , '错误页面' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/layout.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/frontpage_v2.css" type="text/css">
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/yui-utilities.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/tbra.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+<META content="MSHTML 6.00.2900.3086" name=GENERATOR></HEAD>
+<style type="text/css">
+#menuItem LI#menuHome A {
+	BACKGROUND: url({$Hope_SitUrl$}{$Hope_Skin$}images/home_left.gif) #ffa730 no-repeat left top
+}
+#menuItem LI#menuHome A SPAN {
+	BACKGROUND: url({$Hope_SitUrl$}{$Hope_Skin$}images/home_side.gif) no-repeat right top; COLOR: #ffffff
+}
+</style>
+<BODY>
+<!--beginTop-->{$Hope_Top$} <!--#endTop-->
+<table width="760" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <th width="322" height="189" scope="col"><img src={$Hope_SitUrl$}{$Hope_Skin$}images/none.gif></th>
+    <th width="438" scope="col"><table cellspacing="0" cellpadding="0">
+      <TR>
+        <TD height="30">对不起，您浏览的网页暂时不能显示。</TD>
+      </TR>
+      <TR>
+        <TD height="25" align="left"><p>您正在查找的网页可能已被删除、重命名或暂时不可用。请尝试以下方法：</p>
+          <p> 1、检查网址是否正确。
+            如果您是通过在浏览器地址栏中键入网址来访问<A href="{$Hope_SitUrl$}">{$Hope_Title$}</A>的，请确认您输入的网址是正确的。</p>
+          <p> 2、直接访问。
+            如果您是通过浏览器的收藏夹来访问<A href="{$Hope_SitUrl$}">{$Hope_Title$}</A>的，请尝试从<A href="{$Hope_SitUrl$}">首页</A>或<A href="{$Hope_SitUrl$}ProClass_list.aspx">商品展示</A>来寻找您所<BR>
+            关注的商品，并更新您的收藏夹。 </p>
+          <DIV>3、去其他地方逛逛。</DIV>
+          <DIV><A href="{$Hope_SitUrl$}">{$Hope_Title$}</A>为您提供了大量的精彩服务，请在下面选择一个感兴趣的链接，继续您的访问。</DIV>
+          <DIV>·<A href="{$Hope_SitUrl$}vipuser/default_vip.aspx">首 页</A> ·<A href="{$Hope_SitUrl$}">会员中心</A> ·<A href="{$Hope_SitUrl$}HighlevelSearch.aspx">高级搜索</A> ·<A href="{$Hope_SitUrl$}bbs">社 区</A></DIV></TD>
+      </TR>
+    </table></th>
+  </tr>
+</table>
+
+
+{$Hope_Bottom$} 
+</BODY></HTML>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 780 , 18 , 'Default' , 'Default' , '网站首页' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/layout.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/frontpage_v2.css" type="text/css">
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/yui-utilities.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/tbra.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+</HEAD>
+<BODY class="W950 CurHome">
+{$Hope_Top$} 
+<DIV class=L250 id=Content>
+
+<DIV style="POSITION: relative">
+
+<DIV style="BACKGROUND: url({$Hope_SitUrl$}{$Hope_Skin$}IMAGE/qiang.gif) no-repeat 0px 0px; LEFT: 372px; WIDTH: 45px; TEXT-INDENT: -9999px; POSITION: absolute; TOP: -115px; HEIGHT: 34px">新</DIV>
+</DIV>
+
+<DIV style="MARGIN-BOTTOM: 5px">
+<script src="Include/Ad/taobao_index_top.js" type="text/jscript"></script>
+</DIV>
+
+<P class=Invisible><A title=''跳至"宝贝类目"'' 
+href="#">&gt;&gt;跳至"<STRONG>宝贝类目</STRONG>"</A></P>
+<DIV id=NewbieGuide>
+<UL>
+  <LI id=NGRegister><A title=免费注册 
+  href="vipuser/VipReg.aspx" 
+  target=_blank><SPAN>xxxx</SPAN></A> </LI>
+  <LI id=NGIM><A title=xxxx href="vipuser/Vipuseryz.aspx" 
+  target=_blank><SPAN>xxxx</SPAN></A> </LI>
+  <LI id=NGTrust><A title=诚信安全 
+  href="Help.aspx?help=2" 
+  target=_blank><SPAN>xxxx</SPAN></A> </LI>
+  <LI id=NGAlipay><A title=经验交流
+  href="/BBS" 
+  target=_blank><SPAN>xxxx</SPAN></A> </LI>
+  <LI id=NGOpShop><A title=新手上路 
+  href="help/" 
+  target=_blank><SPAN>xxxx</SPAN></A> </LI></UL>
+</DIV>
+<DIV id=HeadLines>
+<UL class=Key>
+{#Hope_Article*1,4,18,36,0,0,62#} 
+</UL>
+<DL>
+  <DT>电脑</DT>
+  <DD>
+  <UL >
+{#Hope_Article*1,6,13,1,0,0,62#}
+	</UL>
+  <DT>影音</DT>
+  <DD>
+  <UL>
+{#Hope_Article*1,6,13,3,0,0,62#}
+</UL>
+  <DT>生活</DT>
+  <DD>
+  <UL>
+{#Hope_Article*1,6,13,4,0,0,62#}
+ </UL>
+  <DT>娱乐</DT>
+  <DD>
+  <UL>
+{#Hope_Article*1,6,13,5,0,0,62#}
+</UL>
+  <DT>情感</DT>
+  <DD>
+  <UL>
+{#Hope_Article*1,6,13,14,0,0,62#}
+</UL>
+  <DT>读书</DT>
+  <DD>
+  <UL>
+{#Hope_Article*1,6,13,8,0,0,62#}
+</UL>
+</DD>
+</DL>
+</DIV>
+<SCRIPT type=text/javascript>
+		HeadLineDL = {
+			i: 0,
+			dl: document.getElementById(''HeadLines'').getElementsByTagName(''dl'')[0],
+			x: function(dt) {
+				var dts = this.dl.getElementsByTagName(''dt'');
+				for (var i = 0; i < dts.length; i++) {
+					dts[i].className = dts[i].className.replace(/\s*hover/, '''');
+					if (dts[i] == dt) this.i = i;
+				}
+				dt.className += '' hover'';
+				
+				var dds = this.dl.getElementsByTagName(''dd'');
+				for (var i = 0; i < dds.length; i++) {
+					dds[i].style.display = ''none'';
+				}
+				var dd = dt.nextSibling;
+				while (dd.nodeType != 1) {
+					dd = dd.nextSibling;
+				}
+				dd.style.display = ''block'';
+			},
+			init: function() {
+				var dts = this.dl.getElementsByTagName(''dt'');
+				var parse = false;
+				this.dl.onmouseover = function() {parse = true};
+				this.dl.onmouseout = function() {parse = false};
+				for (var i = 0; i < dts.length; i++) {
+					dts[i].onmouseover = function(e) {
+						var ev = !e ? window.event : e;
+						var t = ev.srcElement || e.target;
+						HeadLineDL.x(t);
+					}
+				}
+				this.x(dts[0]);
+				setInterval(function() {
+					if (parse) return;
+					HeadLineDL.x(dts[++HeadLineDL.i % 6]);
+				}, 5000);
+			}
+		}
+		HeadLineDL.init();
+		</SCRIPT>
+
+<DIV id=MainPromotionBanner>
+                <ul class="Slides">
+					<li>
+						<!--Adforward Begin:-->
+<script src="Include/Ad/taobao_index.JS"  charset="gb2312" type="text/jscript"></script>
+						<!--Adforward End-->
+					</li>
+				</ul></DIV>
+
+<DIV id=TaobaoBulletin>
+<H2>站内公告</H2>
+<P class=Pic><script src="Include/Ad/taobao_index_left_top_inform.JS" type="text/jscript"></script></P>
+<UL style="padding-top:6px;">
+{#Hope_Article*1,4,12,34,0,0,62#} 
+</UL>
+<P class=More><A 
+href="x" 
+target=_blank>更多&gt;&gt;</A></P>
+</DIV>
+<DIV id=QuickEntries>
+<H2>快速入口</H2>
+<UL>
+  <LI><A 
+  href="Productlist.aspx?prosx=&prosx=&prosx=&prosx=&prosx=&prosx=&prosx=&prosx=&prosx=&prosx=&keyword=&BeginPrice=1&EndPrice=1&submit4=%E7%A1%AE+%E5%AE%9A&distype=0&PriceSearchType=&startnum=0&OrderStyle=0&plfs=1&yx_areaname=0&classid=0" 
+  target=_blank>1元专区</A> </LI>
+  <LI><A 
+  href="Productlist.aspx?prosx=&keyword=&BeginPrice=9&EndPrice=9&submit4=%E7%A1%AE+%E5%AE%9A&distype=0&PriceSearchType=&startnum=0&OrderStyle=0&plfs=1&yx_areaname=0&classid=0" 
+  target=_blank>9元专区</A> </LI>
+  <LI><A 
+  href="Productlist.aspx?prosx=&keyword=&BeginPrice=49&EndPrice=49&submit4=%E7%A1%AE+%E5%AE%9A&distype=0&PriceSearchType=&startnum=0&OrderStyle=0&plfs=1&yx_areaname=0&classid=0" 
+  target=_blank>49元专区</A> </LI>
+  <LI><A 
+  href="Productlist.aspx?prosx=&keyword=&BeginPrice=99&EndPrice=99&submit4=%E7%A1%AE+%E5%AE%9A&distype=0&PriceSearchType=&startnum=0&OrderStyle=0&plfs=1&yx_areaname=0&classid=0" 
+  target=_blank>99元专区</A> </LI>
+</UL></DIV>
+<DIV id=HotEvents>
+<H2>xxxx</H2>
+<ul>
+<li>{#Hope_Article*1,3,15,15,0,0,62#}</li>
+</ul>
+</DIV>
+<DIV class=MarketStyle id=MarketWindow>
+<H2><SPAN></SPAN></H2>
+<P class=Summary><A title='''' href="ProClass_list.aspx" target=_blank>7000多万商品&nbsp;70多万卖家&nbsp;尽情易想</A></P>
+<UL class=MallGuide>
+<UL style="padding-left:8px;"><script src="Include/Ad/taobao_index_JS.JS" type="text/jscript"></script></UL>
+      <dl>				
+           <dt class="Fashion">女人</dt>
+		   
+			    <dd><a href={$Hope_SitUrl$}Productlist.aspx?classid=1><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/feicui.jpg" alt="女人" border="0" /></a>{#Hope_Article*1,2,13,39,0,0,62#}</dd>
+				
+           <dt class="Sports">男人</dt><dd><a href={$Hope_SitUrl$}Productlist.aspx?classid=23><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/feicui2.jpg" alt="男人" border="0" /></a>{#Hope_Article*1,2,13,10,0,0,62#}</dd>
+		   
+           <dt class="Digital">数码</dt>
+		   
+              <dd><a href={$Hope_SitUrl$}Productlist.aspx?classid=14><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/feicui3.jpg" alt="数码" border="0" /></a>{#Hope_Article*1,2,13,40,0,0,62#}</dd>
+<dt class="Life" >家居</dt>
+<dd><a href={$Hope_SitUrl$}Productlist.aspx?classid=21><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/feicui4.gif" alt="家居" border="0" /></a>{#Hope_Article*1,2,13,4,0,0,62#}</dd>
+<dt class="Games">游戏</dt>
+<dd><a href={$Hope_SitUrl$}Productlist.aspx?classid=13><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/feicui5.gif" alt="游戏" border="0" /></a>{#Hope_Article*1,2,13,13,0,0,62#}</dd>
+</dl>	
+</UL>
+</DIV>
+<DIV class=MarketStyle id=MallWindow>
+<H2><SPAN></SPAN></H2>
+<P class=Summary><A title='''' href="shop.aspx" target=_blank>100%认证商家 开心逛放心买</A></P>
+<UL class=MallGuide>
+{#SpecialShop*2,2,15,2,1#}
+</UL>
+</DIV>
+<DIV class=MarketStyle id=SecondhandWindow>
+<H2><SPAN></SPAN></H2>
+<P class=Summary><A title='''' href="Productlist.aspx?distype=6" target=_blank>易想跳蚤市场  便宜笑到底</A></P>
+{#Hope_Pro*3,3,15,0,5,50,50,1#} 
+</UL>
+</DIV>
+<DIV id=GlobalWindow>
+<H2>特价</H2>
+<UL>
+{#Hope_Pro*2,3,15,0,2,50,50,1#}
+</UL>
+<P class=Pic><A href="Hotsell.aspx" 
+target=_blank></A></P>
+<P class=More><A href="Productlist.aspx?1=1&distype=1" 
+target=_blank>更多&gt;&gt;</A></P>
+</DIV>
+<DIV id=Category>
+<UL id=CategoryTitle>
+  <LI class=Selected><A href="{$Hope_SitUrl$}ProClass_list.aspx" 
+  target=_blank>商品分类</A> </LI>
+
+  <LI><A href="{$Hope_SitUrl$}ProClass_list.aspx" 
+  target=_blank>集市</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}shop.aspx" 
+  target=_blank>品牌商城</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}Productlist.aspx?distype=6" target=_blank>二手闲置</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}Hotsell.aspx" target=_blank>热卖商品</A> 
+</LI></UL>
+<P class=Invisible><A title=跳至页面顶端 
+href="#">&gt;&gt;跳至<STRONG>页面顶端</STRONG></A></P>
+<DIV id=RequiredPurchase><A 
+href="vipuser/YX_sell.aspx" 
+target=_parent>发布商品</A></DIV>
+<div id="CategoryList">
+{#Hope_ProClassList*2,13,2,0,<IMG src="{$Hope_SitUrl$}{$Hope_Skin$}image/side_bg_04.gif">,bigclassname,classname,2,30#}
+</DIV>
+</DIV>
+<SCRIPT language="javascript" type="text/javascript">
+function dels()
+{
+document.mails.falg.value="delmail";
+document.mails.action="{$Hope_SitUrl$}Mailsubscribe.aspx";
+document.mails.submit();
+}
+function iner()
+{
+document.mails.falg.value="addmail";
+document.mails.action="{$Hope_SitUrl$}Mailsubscribe.aspx";
+document.mails.submit();
+}
+</script>
+
+<DIV id="mail">
+<H2>邮件订阅</H2>
+<ul>
+<TABLE cellSpacing=0 cellPadding=0 width=''98%'' border=''0'' align=center  class="mailbox">
+<form id="mails" name="mails">
+<TR><td colspan="2" align="center">邮箱：
+  <input type="text" id="mai" name="mai" size="15"></td></TR>
+<tr><td style="padding:5px 0 0 56px;"><input type="button" id="sub" name="sub" value="订阅" onClick="iner();">
+<input type="hidden" id="falg" name="falg" value="addmail" >
+  <input type="button" id="del" name="del" value="退订" onClick="dels();"></td>
+  <td align="center">&nbsp;</td>
+</tr>
+</form>
+</TABLE>
+</ul>
+</DIV>
+<div id="inves" name="inves" style="margin-top:10px;">
+<h2>网站调查</h2>
+<ul>
+<TABLE>
+<form id="invesfrm" name="invesfrm" action="{$Hope_SitUrl$}default.aspx">
+<tr><td>
+{$Hope_Inves$}
+</td></tr>
+<tr><td style="padding:5px 0 0 56px;">
+<input id="smt" name="smt" type="submit" value="我要反馈">
+</td></tr></form>
+</table>
+
+</ul>
+
+</div>
+
+<DIV id=GlobalWindow style="margin-top:10px;">
+<H2>推荐</H2>
+<UL>
+{#Hope_Pro*2,3,15,0,1,50,50,1#}
+</UL>
+<P ><A href="Hotsell.aspx" 
+target=_blank></A></P>
+<P class=More><A href="Productlist.aspx?1=1&distype=2" 
+target=_blank>更多&gt;&gt;</A></P>
+</DIV>
+<DIV id=TradeSafe>
+<H2>交易安全</H2>
+<UL class=PostList>
+  {#Hope_Article*1,9,12,18,0,0,62#}
+</UL>
+<P class=More><A href="News/ArticleList.aspx?Flag=1&ClassId=18" 
+target=_blank>更多&gt;&gt;</A></P>
+</DIV>
+
+<DIV class=BuyPostZone id=BuyGuide>
+<H2>电脑网络</H2>
+<DIV class=HeadLine>
+<UL>
+</UL>
+</DIV>
+<UL class=PostList style="padding-left:12px">
+{#Hope_Article*1,8,16,1,0,0,62#}
+</UL>
+<P class=More><A href="News/ArticleList.aspx?Flag=1&ClassId=10" 
+target=_blank>更多&gt;&gt;</A></P>
+</DIV>
+<DIV class=BuyPostZone id=BbsExcerption>
+<H2>美容化妆</H2>
+<DIV class=HeadLine>
+<UL>
+  </UL></DIV>
+
+<UL class=PostList style="padding-left:12px">
+{#Hope_Article*1,8,16,2,0,0,62#}
+  </UL>
+<P class=More><A href="News/ArticleList.aspx?Flag=1&ClassId=2" 
+target=_blank>更多&gt;&gt;</A></P>
+</DIV>
+<DIV class=BuyPostZone id=TaobaoUniversity>
+<H2>男人世界</H2>
+<DIV class=HeadLine>
+<UL>
+</UL></DIV>
+
+<UL class=PostList style="padding-left:12px">
+{#Hope_Article*1,8,16,10,0,0,62#}
+</UL>
+<P class=More><A href="News/ArticleList.aspx?Flag=1&ClassId=10" 
+target=_blank>更多&gt;&gt;</A></P>
+</DIV>
+<DIV id=Trust>
+<H2>网游天地</H2>
+<DIV class=HeadLine>
+<UL>
+</UL></DIV>
+<UL class=PostList style="padding-left:12px">
+{#Hope_Article*1,8,12,13,0,0,62#}
+</UL>
+<P class=More><A href="News/ArticleList.aspx?Flag=1&ClassId=13" 
+target=_blank>更多&gt;&gt;</A></P>
+</DIV>
+</DIV>
+{$Hope_Bottom$}
+</BODY>
+</HTML>
+
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 786 , 18 , 'HighlevelSearch' , 'HighlevelSearch' , '高级搜索' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet"  type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">    
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/advanced_search.css" type="text/css">   
+
+ <SCRIPT language=javascript>
+<!--
+function doSearchSubmit()
+{
+	form = document.forms[''form1''];
+	if(form.BeginPrice.value||form.EndPrice.value)
+	{
+		var reg=/^\d+(\.\d+)?$/;
+		if(form.BeginPrice.value && !reg.test(form.BeginPrice.value)){
+			alert("搜索起始价格必须为数字和小数点");
+			return false;
+		}
+		if(form.EndPrice.value&&!reg.test(form.EndPrice.value)){
+			alert("搜索结束价格必须为数字和小数点");
+			return false;
+		}
+		if(form.EndPrice.value && (parseFloat(form.EndPrice.value)<parseFloat(form.BeginPrice.value))){
+			alert("搜索起始价格必须小于结束价格");
+			return false;
+		}
+	}
+	if("" == form1.keyword.value)
+	{
+		alert("请输入商品关键字进行搜索！");
+		form1.keyword.focus();
+		return false;
+	}
+	form1.action="Productlist.aspx";
+	form1.submit();
+	return false;
+}
+-->
+</SCRIPT>
+<SCRIPT language=javascript>	
+	function CheckValid()
+	{
+		var uin = shop_search.keyword.value;
+		if(uin=="" && shop_search.shoptype.value == "" && shop_search.mainsale.value==""){
+			alert("温馨提示:\n店铺关键字、类别和主营项目不能同时为空!")
+			shop_search.keyword.focus();
+			return false;
+		}
+	}
+function dissearchshop(){
+	document.getElementById(''searchshop'').style.display="";
+	document.getElementById(''searchpro'').style.display="none";
+	document.getElementById(''search_shop'').className="Selected";
+	document.getElementById(''search_pro'').className="";
+}
+function dissearchpro(){
+	document.getElementById(''searchshop'').style.display="none";
+	document.getElementById(''searchpro'').style.display="";
+		document.getElementById(''search_shop'').className="";
+	document.getElementById(''search_pro'').className="Selected";
+}
+</SCRIPT>
+   
+
+</head>
+
+
+
+<BODY class="W950 CurHome STYLE1">
+{$Hope_Top$} 
+
+<div id="Content">
+  <ul class="TabBarLevel1">
+		<li class="Selected" id=search_pro style="vertical-align:bottom"><a href="#" onclick="return dissearchpro();">搜索宝贝</a>      </li>
+		<li id=search_shop><a href="#"  onclick="return dissearchshop();">搜索店铺</a></li>
+  </ul>
+ <div class="HackBox"></div>
+  <form name=form1 onSubmit="return doSearchSubmit()" method=get>
+	<div id="SearchBox">
+		<div id="IconItem" class="SearchIcon"></div>
+		<ul id="SearchItem" class="Form_Advance">
+			<DIV id=find style="padding-left:120px">
+<div id=searchpro>
+<FORM name=form1 onSubmit="return doSearchSubmit()" method=get>
+<UL id=find_menu>
+  <LI>商品关键字： 
+    <input id=keyword align=absMiddle size=24 name=keyword>
+  请输入商品关键字或选择类别</LI>
+  <LI>类别：{$Hope_ClassName$} </LI></UL>
+<DIV id=find_more>
+<UL id=find_more_menu>
+  <LI>买卖方式：
+    <input type=checkbox  value=1 name=SaleType1>
+一口价
+<input type=checkbox value=2 name=SaleType2>
+拍卖 </LI>
+  <LI>价格范围： 
+    <input maxlength=10 size=10 name=BeginPrice>
+    至
+    <input maxlength=10 size=10 name=EndPrice>
+  </LI>
+  <LI>商品所在地：{#provinceselect2*#} </LI>
+  <LI>新旧程度：
+    <input onClick="" type=radio value=0 name=Degree3>
+全新
+<input type=radio value=1 name=Degree3>
+二手
+<input type=radio value=2 name=Degree3>
+陈列品
+<input type=radio value=-1 checked name=Degree3>
+不限 </LI>
+  <LI>付款方式： 
+    <input id=PayType type=radio value=4 name=PayType>
+支持支付宝
+<input id=PayType type=radio value=1 name=PayType>
+款到发货
+<input id=PayType type=radio value=2 name=PayType>
+货到付款
+<input id=PayType type=radio  checked value=0 name=PayType>
+不限 </LI>
+</UL>
+</DIV>
+<DIV id=find_send>
+  <input style="HEIGHT: 25px" type=submit value="   搜  索   " name="Input">
+</DIV>
+</FORM>
+</div>
+<div id=searchshop style="display:none">
+<FORM name=shop_search onSubmit="return CheckValid()" action=shop_search.aspx method=get>
+<UL id=find_menu>
+  <LI>店铺关键字： 
+    <input name=keyword>
+    <input id=keywordtype type=radio checked value=1 
+  name=keywordtype>
+按店铺名
+<input id=keywordtype type=radio value=3 
+  name=keywordtype>
+按店主昵称 </LI>
+  <LI>店铺类别： {$Hope_ClassName$}  </LI>
+  <LI>主营项目： 
+    <input id=main_sale size=18 name=mainsale>
+</LI>
+  <LI>所在地： {#provinceselect2*#}</LI>
+</UL>
+<DIV id=find_send><INPUT style="HEIGHT: 25px" type=submit value="   搜  索   " name=""></DIV></FORM>
+</div>
+
+</ul></DIV></form>
+<div style="margin-top:160px!important; margin-top:40px;"></div>
+{$Hope_Bottom$} 
+</body>
+</html>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 788 , 18 , 'showshop' , 'showshop' , '会员店铺首页' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD>
+<TITLE>{$YX_ShopName$}-{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<link href="include/shopstyle/{$Hope_ShopCssDirName$}/shop.css" rel="stylesheet" type="text/css">
+<link href="include/shopstyle/{$Hope_ShopCssDirName$}/common.css" rel="stylesheet" type="text/css">
+<link href="include/shopstyle/{$Hope_ShopCssDirName$}/index.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}css/v2.0.css" rel="stylesheet" charset="gb2312" type="text/css">
+<script>
+function goorder(str){window.location.href=''?uin={$Hope_ShopUser$}&order=''+str}
+function refreshImg(){
+ifrm.window.location.reload();
+
+
+}
+function checkleavemsg()
+{
+var leavemsg=document.getElementById("leavemsgarea");
+if(leavemsg.value.length<2)
+{
+alert("请填写留言");
+leavemsg.focus();
+return false;
+
+}
+}
+function CountWord(obj,fontnum){
+var fot=obj.value;
+if(obj.value.length>fontnum){
+
+alert("输入的字数不能大于"+fontnum+"个");
+obj.value=fot.substring(0,fontnum);
+}
+}
+</script>
+<script language="javascript">
+function chesearchpro()
+{
+var keysword=document.getElementById("keysWord");
+if(keysword.value.replace(/^\s+|\s+$/igm,'''')==""){
+alert("请填写搜索关键字");
+keysword.focus();
+return false;
+}
+}
+</script>
+
+</HEAD>
+
+
+
+<!--beginTop-->{$Hope_Top$} <!--#endTop-->
+<BODY class=W950>
+<DIV style=" margin:0 auto; width:100%; text-align:left;"><A href="{$Hope_SitUrl$}">首页</A> &gt;&gt; <A href="{$Hope_SitUrl$}">店铺大堂</A> &gt;&gt; <A href="showshop.aspx?uin={$Hope_ShopUser$}">{$YX_ShopName$} </A></DIV>
+<div style="width:100%; margin:0 auto">
+{$Hope_AD$}
+</div>
+<DIV class=full >
+<UL class=shopMenu id=shopMenuMain>
+  <LI class=shopHere><A 
+  href="{$Hope_SitUrl$}showshop.aspx?uin={$Hope_SiteUser$}"><SPAN>{$YX_ShopName$}</SPAN></A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}infouser.aspx?uin={$Hope_ShopUser$}"><SPAN>个人资料</SPAN></A> 
+  </LI>
+</UL></DIV>
+<DIV class=full>
+<TABLE id=shopInfo cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top align=middle width="20%">
+    <img src={$Hope_SitUrl$}{$Hope_ShopLogo$} width="200px" height="100px">
+      <BR><IMG height=16 hspace=10 src="{$Hope_SitUrl$}include/shopstyle/{$Hope_ShopCssDirName$}/favorite_btn_02.gif" 
+      width=16 align=absMiddle><A 
+      href="{$Hope_SitUrl$}showshop.aspx?Action=CollOk&ShopId={$Hope_ShopId$}&Shopname={$YX_ShopName$}&uin={$Hope_ShopUser$}" 
+      target=_blank>收藏本店铺</A> </TD>
+    <TD vAlign=top>
+      <UL>
+        <LI>卖家昵称：{$Hope_Tname$} &nbsp;</A> 
+        <LI style="PADDING-LEFT: 60px">{$Hope_ShopQQ$}
+        <LI>认证信息： <IMG alt=已通过身份证认证 src="{$Hope_SitUrl$}{$Hope_Skin$}image/idcard.gif" 
+        align=absMiddle>  {$Hope_ShopGua$}
+        <LI>店铺等级：{$Hope_Shopdj$}
+        <LI>商品数量： {$Hope_ShopProNum$} 件
+          <INPUT id=ItemCount type=hidden value=2> 
+        <LI>开店时间：{$Hope_ShopDate$} 
+        <LI>所 在 地： 
+        {$Hope_ShopArea$}<LI style="DISPLAY: none">特殊荣誉： </LI></UL></TD>
+    <TD id=shopNote vAlign=top align=middle width="50%">
+      <MARQUEE onmouseover=this.stop() onmouseout=this.start() scrollAmount=1 
+      direction=up width=360 
+      height=90>{$Hope_Notice$}</MARQUEE></TD></TR></TBODY></TABLE></DIV>
+<DIV class=full id=shopVote>店 主 推 荐</DIV>
+{$Hope_ShopTj$}
+<DIV class=full>
+<DIV id=shopMain style="margin-bottom:0px;">
+<DIV id=shopLeft>
+<DIV class=menuHead><SPAN>店铺类目</SPAN></DIV>
+
+{$Hope_ShopProClass$}
+
+<DIV class=menuHead style="MARGIN-TOP: 10px"><SPAN>友情链接</SPAN></DIV>
+{$Hope_ShopLink$}
+<DIV id=shopOpen>
+<DIV><A href="http://192.168.1.137:800/Yx_VipLogin.aspx" 
+target=_blank><IMG height=35 src="{$Hope_SitUrl$}{$Hope_Skin$}image/shop_open.gif" width=133 
+vspace=10></A></DIV>
+<DIV><A href="" 
+target=_blank>新手必读</A></DIV></DIV></DIV><!--商品列表--><A name=item></A>
+<DIV id=shopSide>
+
+<UL class=shopMenu id=shopMenuSide>
+ <LI  id=Menu1>
+<A 
+  href="showshop.aspx?uin={$Hope_ShopUser$}"><SPAN>全部商品</SPAN></A>
+  </LI>
+  <LI id=Menu2><A 
+  href="showshop.aspx?order=1&uin={$Hope_ShopUser$}"><SPAN>新进商品</SPAN></A> </LI>
+  <LI id=Menu3><A 
+  href="showshop.aspx?tj=OK&uin={$Hope_ShopUser$}"><SPAN>即将结束</SPAN></A> 
+  <DIV class=clear></DIV>
+  </LI>
+  <li style="margin-left:5px; margin-top:6px;">
+<form id="form1" name="form1" method="post" action="">
+                  <label>
+                  <select name="start" onChange="goorder(this.options[this.options.selectedIndex].value);">
+				    <option value="0">查询产品</option>
+                    <option value="1">-刚刚到货的商品排前-</option>
+					 <option value="2">-即将售完的商品排前-</option>
+					 <option value="3">-按价格由高到底-</option>
+					 <option value="4">-按价格由低到高-</option>			
+                  </select>
+                  </label>
+              </form>
+</li>
+<li style="margin-left:5px; margin-top:5px;">
+<FORM action="showshop.aspx?uin={$Hope_ShopUser$}" method="post" name="fromsearch" onSubmit=" return chesearchpro()">
+<INPUT id=uin type=hidden value={$Hope_ShopUser$} name=uin> 
+<INPUT id=btn type=hidden value="btn" name=btn> 
+ <INPUT id=keysWord style="WIDTH: 120px" name=keysWord>
+  <INPUT type="submit" value="店内搜索" > 
+</form>
+</li></UL>
+  
+{#Hope_PagePro*5,4,20,0,ClassId,80,80,1,1,1#} 
+
+</FORM><!--拍友留言--><A name=note></A>
+<UL class=shopMenu id=shopMenuNote>
+  <LI class=shopHere><A 
+  href="#"><SPAN>拍友留言</SPAN></A> 
+</LI></UL>
+<DIV id=html_tem_leaveMsg>
+{$Hope_ShopVoteContent$}
+</DIV>
+
+{$Hope_ShopVote$}
+
+</DIV>
+</DIV>
+{$Hope_ymclass$}
+{$Hope_Bottom$}
+
+</BODY></HTML>
+
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 791 , 18 , 'product_comp' , 'Product_Comp' , '商品对比页面' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<LINK href="{$Hope_SitUrl$}{$Hope_Skin$}index.css" type=text/css rel=stylesheet>
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/layout.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+
+{$Hope_Top$}
+<BODY class=W950>
+{#Hope_ProductComp*pro_id[]#}
+{$Hope_Bottom$} 
+<!----EndFoot------>' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 792 , 18 , 'index' , 'YX_CmsIndex' , '' , '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{#Hope_HttpTitle*2,0#}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/forum.css" type="text/css">
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/yui-utilities.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/tbra.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type="text/javascript"></script>
+</head>
+
+<body class="W950 CurHome" >
+<HEAD>
+<TITLE>{$News_title$}--{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_ShowNewsClassList$},{$News_title$} />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<script language="javascript" src="{$Hope_SitUrl$}UpdateViewNews.aspx?YX_ID={$News_ID$}"></script>
+
+<DIV id=Head> 
+{$Hope_User_Newstop$} 
+
+		<div id="ForumHead">
+			<div id="Top">
+				<script src="{$Hope_SitUrl$}Include/Ad/taobao_messagepage_top.JS" type="text/jscript"></script>
+			</div>
+			<div id="ForumCategory" style="margin-top:10px;">
+				<ul>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=1" target="_blank" title="电脑网络">电脑网络</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=2" target="_blank" title="美容化妆">美容化妆</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=3" target="_blank" title="影音无限">影音无限</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=4" target="_blank" title="居家生活">居家生活</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=5" target="_blank" title="娱乐八卦">娱乐八卦</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=6" target="_blank" title="潮流服饰">潮流服饰</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=7" target="_blank" title="摄影摄像">摄影摄像</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=8" target="_blank" title="黄金书屋">黄金书屋</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=9" target="_blank" title="茶余饭后">茶余饭后</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=10" target="_blank" title="男人世界">男人世界</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=11" target="_blank" title="运动户外">运动户外</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=12" target="_blank" title="爱宠一族">爱宠一族</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=13" target="_blank" title="网游天地">网游天地</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=14" target="_blank" title="情感驿站">情感驿站</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=15" target="_blank" title="靓鞋靓包">靓鞋靓包</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=16" target="_blank" title="动漫世界">动漫世界</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=17" target="_blank" title="手机通讯">手机通讯</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=18" target="_blank" title="诚信安全">诚信安全</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=19" target="_blank" title="爆 料 馆">爆 料 馆</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=20" target="_blank" title="收藏投资">收藏投资</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=21" target="_blank" title="无奇不有">无奇不有</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=22" target="_blank" title=" 经 验 谈 ">经 验 谈</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=34" target="_blank" title="站内公告">站内公告</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=35" target="_blank" title="二手闲置">二手闲置</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=36" target="_blank" title="商城促销">商城促销</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=37" target="_blank" title="品牌资讯 ">品牌资讯</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=38" target="_blank" title="团购动态">团购动态</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=39" target="_blank" title="女人世界">女人世界</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=40" target="_blank" title="数码天地">数码天地</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=41" target="_blank" title="汽车一族">汽车一族</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=42" target="_blank" title="天下美食">天下美食</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=43" target="_blank" title="母婴专区">母婴专区</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=44" target="_blank" title="时尚生活">时尚生活</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=34" target="_blank" title="二手数码">二手数码</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=35" target="_blank" title="宠物宝贝">宠物宝贝</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=36" target="_blank" title="疯狂促销">疯狂促销</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=37" target="_blank" title="大本营">大本营</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=38" target="_blank" title="易想商盟">易想商盟</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=39" target="_blank" title="权益保障">权益保障</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=40" target="_blank" title="音乐地带">音乐地带</a></li>
+				</ul>
+			</div>
+			<div id="NewbieGuide" style="margin-top:10px;">
+				<ul>
+					<li id="NGRegister"><a href="{$Hope_SitUrl$}vipuser/VipReg.aspx"><span>免费注册</span></a></li>
+					<li id="NGLogin"><a href="{$Hope_SitUrl$}Yx_VipLogin.aspx"><span>登录</span></a></li>
+				</ul>
+			</div>
+		</div>
+	<div id="Main">
+		<div id="Container">
+			
+			<div id="PrincipalTheme">
+				<div id="SlidePlayer">
+					<ul class="Slides"> 
+					<script src="{$Hope_SitUrl$}Include/Ad/taobao_buynews_index.JS" type="text/jscript"></script>
+					</ul>
+				</div>
+				<script type="text/javascript">
+					TB.widget.SimpleSlide.decorate(''SlidePlayer'', {eventType:''mouse'', effect:''scroll'', currentClass:''Selected''});
+				</script>
+				<ul class="Text">
+<li>{#Hope_Article*1,2,12,19,0,0,62#}</li>
+<li>{#Hope_Article*1,2,12,21,0,0,62#}</li>
+				</ul>
+			</div>
+			<div id="TopHotSubject">
+				<h2><span>今日热门话题</span></h2>
+				<ul class="Top">
+			<li>
+
+					{#Hope_Article*1,3,13,38,0,0,62#} 
+			</li>
+						<li>
+
+					{#Hope_Article*1,3,13,36,0,0,62#} 
+			</li>
+				</ul>
+				<ul class="Bottom">
+				
+				<li>
+				{#Hope_Article*1,7,13,15,0,0,62#} 
+				</li>
+				
+				 <li>{#Hope_Article*1,7,13,6,0,0,62#}</li>
+				 
+				</ul>
+			</div>
+			
+			<div id="AdBanner">
+				<p class="Pic">
+<script src="{$Hope_SitUrl$}Include/Ad/taobao_messagepage_center.JS" type="text/jscript"></script></p>
+			</div>
+			
+			<div id="HotInformation">
+			
+				<div id="Fashion">
+					<h3>时尚</h3>
+					<p class="Pic">{#Hope_ArticleImg*1,1,44,0,0,12,140,120,12,true,0,3,62#}</p>
+					<ul>
+					  {#Hope_Article*1,8,16,44,0,0,62#}
+				  </ul>
+				</div>
+				
+				<div id="Beauty">
+					<h3>美容</h3>
+					<p class="Pic">{#Hope_ArticleImg*1,1,2,0,0,12,140,120,12,true,0,3,62#}</p>
+					<ul>
+{#Hope_Article*1,8,16,2,0,0,62#}
+					</ul>
+				</div>
+				
+				<div id="Man">
+					<h3>男人</h3>
+					<p class="Pic">{#Hope_ArticleImg*1,1,10,0,0,12,140,120,12,true,0,3,62#}</p>
+					<ul>
+{#Hope_Article*1,8,16,10,0,0,62#}
+					</ul>
+				</div>
+				
+				<div id="Sports">
+					<h3>运动户外</h3>
+					<p class="Pic">{#Hope_ArticleImg*1,1,11,0,0,12,140,120,12,true,0,3,62#}</p>
+					<ul>
+{#Hope_Article*1,8,16,11,0,0,62#}
+					</ul>
+				</div>
+				
+				<div id="Movie">
+					<h3>影音</h3>
+					<p class="Pic">{#Hope_ArticleImg*1,1,3,0,0,12,140,120,12,true,0,3,62#}</p>
+					<ul>
+{#Hope_Article*1,8,16,3,0,0,62#}
+					</ul>
+				</div>
+				
+				<div id="Home">
+					<h3>家居</h3>
+					<p class="Pic">{#Hope_ArticleImg*1,1,4,0,0,12,140,120,12,true,0,3,62#}</p>
+					<ul>
+{#Hope_Article*1,8,16,4,0,0,62#}
+					</ul>
+				</div>
+				
+				<div id="Baby">
+					<h3>母婴</h3>
+					<p class="Pic">{#Hope_ArticleImg*1,1,43,0,0,12,140,120,12,true,0,3,62#}</p>
+					<ul>
+{#Hope_Article*1,8,16,43,0,0,62#}
+					</ul>
+				</div>
+				
+				<div id="Cate">
+					<h3>美食</h3>
+					<p class="Pic">{#Hope_ArticleImg*1,1,42,0,0,12,140,120,12,true,0,3,62#}</p>
+					<ul>
+{#Hope_Article*1,8,16,42,0,0,62#}
+					</ul>
+				</div>
+				
+				<div id="Digital">
+					<h3>数码</h3>
+					<p class="Pic">{#Hope_ArticleImg*1,1,40,0,0,12,140,120,12,true,0,3,62#}</p>
+					<ul>
+{#Hope_Article*1,8,16,40,0,0,62#}
+					</ul>
+				</div>
+				
+				<div id="Game">
+					<h3>游戏动漫</h3>
+					<p class="Pic">{#Hope_ArticleImg*1,1,13,0,0,12,140,120,12,true,0,3,62#}</p>
+					<ul>
+{#Hope_Article*1,8,16,13,0,0,62#}
+					</ul>
+				</div>
+				
+				<div id="Pet">
+					<h3>宠物</h3>
+					<p class="Pic">{#Hope_ArticleImg*1,1,12,0,0,12,140,120,12,true,0,3,62#}</p>
+					<ul>
+{#Hope_Article*1,8,16,12,0,0,62#}
+					</ul>
+				</div>
+				
+				<div id="Cars">
+					<h3>汽车</h3>
+					<p class="Pic">{#Hope_ArticleImg*1,1,41,0,0,12,140,120,12,true,0,3,62#}</p>
+<ul>
+{#Hope_Article*1,8,16,41,0,0,62#}
+				  </ul>
+				</div>
+				
+			</div>
+			
+			<div id="PicNew">
+				<div>
+					<h2><span>图片新闻</span></h2>
+					
+					<ul id="PicNewScroll" style="overflow:hidden; height:280px;">
+{#Hope_ArticleImg*5,2,0,0,0,12,140,100,12,true,0,4,62#}
+
+					</ul>
+					<script type="text/javascript">
+					TB.widget.SimpleScroll.decorate(''PicNewScroll'', {
+						delay: 5,
+						speed: 10,
+						lineHeight: 120,
+						scrollItemCount: 5
+					});
+					</script>
+				</div>
+			</div>
+	  </div>
+	</div>
+<div id="SideBar">
+		<div id="TaobaoBulletin">
+			<h3><a href="ArticleList.aspx?Flag=1&ClassId=34" target="_blank" style="color:#FFFFFF">公告栏</a></h3>
+			<ul>
+			{#Hope_Article*1,12,12,34,0,0,62#} 
+			</ul>
+		</div>
+		<div id="ExperienceZone">
+			<h3><a href="ArticleList.aspx?Flag=1&ClassId=22" target="_blank" style="color:#FFFFFF">经验居</a></h3>
+			<ul>
+{#Hope_Article*1,12,14,22,0,0,62#}
+			</ul>
+		</div>
+		<div id="TrustZone">
+			<h3><a href="ArticleList.aspx?Flag=1&ClassId=18" target="_blank" style="color:#FFFFFF">诚信防骗</a></h3>
+			<ul>
+{#Hope_Article*1,12,14,18,0,0,62#}
+			</ul>
+		</div>
+		<div id="TaobaoNewsAgency">
+			<h3><a href="ArticleList.aspx?Flag=1&ClassId=45" target="_blank" style="color:#FFFFFF">易通社</a></h3>
+			<div>
+				<h4><a href="ArticleList.aspx?Flag=1&ClassId=46" target="_blank" >易友访谈</a></h4>
+				<p class="Pic">
+{#Hope_ArticleImg*1,1,46,0,0,12,60,70,0,true,0,3,62#}				
+</p>
+				<ul>
+{#Hope_Article*1,4,8,46,0,0,62#}
+				</ul>
+			</div>
+			<h4><a href="ArticleList.aspx?Flag=1&ClassId=19" target="_blank" >爆料馆</a></h4>
+			<ul>
+{#Hope_Article*1,2,12,19,0,0,62#}
+			</ul>
+			<h4><a href="ArticleList.aspx?Flag=1&ClassId=47" target="_blank" >听故事</a></h4>
+			<ul>
+{#Hope_Article*1,2,12,47,0,0,62#}
+			</ul>
+			<h4><a href="ArticleList.aspx?Flag=1&ClassId=48" target="_blank" >易想日报</a></h4>
+			<ul>
+{#Hope_Article*1,2,12,48,0,0,62#}
+		</div>
+<div id="Fallow">
+			<h3><a href="ArticleList.aspx?Flag=1&ClassId=19" target="_blank" style="color:#FFFFFF">休闲地带</a></h3>
+			<ul>
+{#Hope_Article*1,12,13,19,0,0,62#}
+			</ul>
+		</div>
+		<div id="TaobaoMarketGroup">
+			<h3><a href="ArticleList.aspx?Flag=1&ClassId=36" target="_blank" style="color:#FFFFFF">热门促销</a></h3>
+			<ul>
+{#Hope_Article*1,12,14,36,0,0,62#}
+</ul>
+</div>
+</div>
+</div>
+</DIV>
+</body>
+{$Hope_Bottom$}  
+</html>' , 62 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 794 , 18 , 'infouser' , 'infouser' , '个人资料页面' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<link href="include/shopstyle/{$Hope_ShopCssDirName$}/shop.css" rel="stylesheet" type="text/css">
+<link href="include/shopstyle/{$Hope_ShopCssDirName$}/common.css" rel="stylesheet" type="text/css">
+<link href="include/shopstyle/{$Hope_ShopCssDirName$}/index.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}css/v2.0.css" rel="stylesheet" charset="gb2312" type="text/css">
+
+<STYLE>A.link_head:link {
+	FONT: bold 14px "宋体"; COLOR: #333; TEXT-DECORATION: none
+}
+A.link_head:visited {
+	FONT: bold 14px "宋体"; COLOR: #333; TEXT-DECORATION: none
+}
+A.link_head:active {
+	COLOR: #333; TEXT-DECORATION: underline
+}
+A.link_head:hover {
+	COLOR: #333; TEXT-DECORATION: underline
+}
+.base_head {
+	BORDER-BOTTOM: #ccc 1px solid; TEXT-ALIGN: center
+}
+.div_head {
+	PADDING-LEFT: 50px; BACKGROUND: url({$Hope_SitUrl$}{$Hope_Skin$}images/qshop_basicinfo_info_bg_01.gif); LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+#content {
+	MARGIN: 10px
+}
+#info {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+#page {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.basic {
+	MARGIN-TOP: 20px
+}
+.basic LI {
+	MARGIN: 7px 0px
+}
+</STYLE>
+</HEAD>
+
+<!--beginTop-->{$Hope_Top$} <!--#endTop-->
+<BODY class=W950>
+<DIV id=content>
+<DIV class=full >
+<UL class=shopMenu id=shopMenuMain>
+  <LI><A 
+  href="{$Hope_SitUrl$}showshop.aspx?uin={$Hope_ShopUser$}"><SPAN>{$YX_ShopName$}</SPAN></A> </LI>
+  <LI class=shopHere><A 
+  href="{$Hope_SitUrl$}infouser.aspx?uin={$Hope_ShopUser$}"><SPAN>个人资料</SPAN></A> 
+  </LI>
+</UL></DIV>
+<DIV class=common>
+<DIV class=naviHead></DIV></DIV>
+<TABLE cellSpacing=0 cellPadding=0 width=760 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD align=middle width=200><IMG src="{$Hope_SitUrl$}{$Hope_userPhoto$}" 
+      vspace=20 width="120" height="140"></TD>
+    <TD vAlign=top width=240>
+      <UL class=basic>
+        <LI class=font_orange 
+        style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px dashed"><B>基本信息</B> 
+        <LI><B>卖家昵称：</B><A 
+        href="infouser.aspx?uin=65702708">{$Hope_Tname$} ({$Hope_ShopUser$})</A> 
+        <LI><B>在线状态：</B><SPAN align="left">
+		{$Hope_ShopQQ$}</SPAN> 
+        <LI><B>卖家店铺：</B><A href="showshop.aspx?uin={$Hope_ShopUser$}" target=_blank>{$Hope_ShopUser$}的店铺</A> 
+        <LI><B>所在地：</B>{$Hope_ShopArea$} 
+        <LI><B>认证方式：</B>身份证
+        <LI><A href="showshop.aspx?uin={$Hope_ShopUser$}" target=_blank><IMG 
+        src="{$Hope_SitUrl$}{$Hope_Skin$}images/info_btn_shop.gif" vspace=10></A>    </LI></UL></TD>
+    <TD width=20>&nbsp;</TD>
+    <TD vAlign=top>
+      <UL class=basic>
+        <LI class=font_orange 
+        style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px dashed"><B>活跃信息</B> 
+
+      
+      
+        <LI><B>开店时间：</B>{$Hope_ShopDate$} 
+		<LI><B>最近登陆：</B>{$Hope_userLoginTime$}
+		<LI><B>登陆次数：</B>{$Hope_userLoginNum$}
+		<LI><B>登陆InPr：</B>{$Hope_userLoginIP$}
+      </UL>
+      <UL class=basic>
+       </UL></TD>
+    <TD vAlign=top width=20>&nbsp;</TD></TR></TBODY></TABLE>
+<DIV class=clear></DIV>
+<DIV class=common >
+<DIV class="div_head font_white" 
+style="MARGIN-TOP: 10px; POSITION: relative;text-align:left;background-color:#7CBEF4"><STRONG>店铺介绍</STRONG>
+<DIV style="RIGHT: 10px; POSITION: absolute"><A style="COLOR: #fff" 
+href="#" 
+target=_blank></A></DIV></DIV>
+<DIV id=info style="text-align:left">
+{$Hope_ShopContent$}
+</DIV></DIV>
+<DIV class=clear></DIV></DIV>
+{$Hope_Bottom$} 
+</BODY></HTML>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 798 , 18 , 'ArticleList' , 'YX_CmsList' , '' , '{$Hope_User_HelpHeader$}
+<div id="Top">
+	 <script src="{$Hope_SitUrl$}Include/Ad/taobao_messagepage_top.JS" type="text/jscript"></script>
+</div>
+<div class="block">
+<TABLE style="MARGIN-TOP: 5px" cellSpacing=0 cellPadding=0 width=100% 
+align=center border=0>
+  <TBODY>
+  <TR>
+    <TD width=177 vAlign=top bgcolor="#F7F7F7" id=left>
+      <DIV id=list>
+      <DIV><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}images/class_left_01.gif"></DIV>
+{#Hope_ArticleClassList*1,1,2,0,,biglist,smalllist,65#} 
+      <DIV><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}images/class_left_05.gif"></DIV>
+      </DIV></TD>
+    <TD width=20>&nbsp;</TD>
+    <TD vAlign=top>
+      <DIV id=class_head>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD height="18" valign="bottom">&nbsp;</TD>
+        </TR>
+        <TR>
+          <TD valign="bottom"><B class=ft14_head STYLE1>详细信息</B></TD>
+        </TR></TBODY></TABLE>
+      </DIV>
+      
+      <DIV id="HelpCenter">{#Hope_PageArticle*15,18,0,0,ClassId,65#}</DIV>
+
+      </TD>
+</TR></TBODY></TABLE>
+</div>
+{$Hope_Bottom$} 
+</BODY></HTML>
+' , 65 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 799 , 18 , 'ArticleContent' , 'YX_CmsContext' , '' , '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$News_HttpTitle$}{#Hope_HttpTitle*1#}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/forum.css" type="text/css">
+<script language="javascript" src="{$Hope_SitUrl$}UpdateViewNews.aspx?YX_ID={$News_ID$}"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/yui-utilities.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/tbra.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type="text/javascript"></script>
+</head>
+
+<body class="W950 CurHome" >
+
+<DIV id=Head> 
+<DIV id=HeadTop>
+<DIV id=Logo><A href="" target=_top><img src="{$Hope_SitUrl$}{$Hope_Skin$}IMAGE/Logo.jpg"/></A></DIV>
+<DIV id=HeadNavBar>
+<UL>
+  <LI class=NoSep><A href="../ProClass_list.aspx" 
+  target=_parent>我要买</A> </LI>
+  <LI><A href="/vipuser/YX_sell.aspx" 
+  target=_parent>我要卖</A> </LI>
+  <LI><A id=MyTaoBao 
+  href="/vipuser/default_vip.aspx" 
+  target=_top>会员管理</A> </LI>
+  <LI><A href="/BBS" target=_top>社区</A> </LI>
+  <LI><A href="/help" target=_top>帮助中心</A>  </LI>
+  <LI id=AdvanceBox>
+
+  
+<script language="javascript">
+	function CheckValid()
+	{
+		var uin = shop_search.KeyWord.value;
+		if(uin=="" && shop_search.shoptype.value == ""){
+			alert("温馨提示:\n店铺关键字和类别不能同时为空!")
+			shop_search.KeyWord.focus();
+			return false;
+		}
+	}
+
+					function startSearch(input) {
+						if(input.value==input.defaultValue){
+							input.value='''';
+							input.className = input.className.replace('' DC'', '''');
+						}
+					}
+					function checkSearch() {
+						var q = document.getElementById(''qq'');
+						if (q.value == q.defaultValue || q.value == '''') {
+							location = '''';
+							return false;
+						} else {
+							return true;
+						}
+					}
+					</SCRIPT>
+  </LI></UL></DIV></DIV>
+<DIV id=QuickLinks>
+<UL>
+  <LI>您好，欢迎来易想！</LI>
+  <LI><A href="{$Hope_SitUrl$}vipuser/VipReg.aspx"  target=_parent>[免费注册]</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}Yx_VipLogin.aspx" target=_parent>[登录]</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}Hotsell.aspx" target=_parent>热卖商品</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}Shop.aspx" target=_parent>品牌商城</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}News/" target=_parent>购物资讯</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}HighlevelSearch.aspx" target=_parent>高级搜索</A> </LI></UL></DIV>
+<DIV class=hidden id=IptvCompanion>数字键--选择栏目 / 确定键--打开 / 左键--返回 / 右键--前进 / 
+首页--数字键0</DIV>
+<div class="SmartSiteTracker">
+</div>
+<div id="Content" class="R180">
+<a name="main"></a>
+<div style="position:relative;">
+<div style="position:absolute;top:-10px;left:182px;text-indent:-9999px;width:45px;height:34px;background:url({$Hope_SitUrl$}{$Hope_Skin$}IMAGE/new_mall_pop2.gif) no-repeat 0 0;">新</div></div>
+
+<div id="TopSearchBox">
+  <ul class="Tab">
+    <li class="Selected"><a href="{$Hope_SitUrl$}Default.aspx" >首页</a></li>
+    <li ><a href="{$Hope_SitUrl$}shop.aspx" >逛逛店铺</a></li>
+  </ul>
+  <ul class="Channal">
+    <li><a href="#" target="_blank">手机数码</a></li>
+    <li><a href="#" target="_blank">男人</a></li>
+    <li><a href="#" target="_blank">女人</a></li>
+    <li><a href="#" target="_blank">运动</a></li>
+    <li><a href="#" target="_blank">家居</a></li>
+    <li><a href="#" target="_blank">母婴</a></li>
+    <li><a href="#" target="_blank">影视书籍</a></li>
+    <li><a href="#" target="_blank">游戏</a></li>
+    <li><a href="#" target="_blank">彩票</a></li>
+	<li><a href="#" target="_blank">明星专区</a></li>
+  </ul>
+  
+
+  <div id="SearchBody">
+  <fieldset>
+
+					<form action="#" method="post" name="mainform1" id="mainform1" target="_blank" onSubmit="return goY(this);"> 
+						
+                        
+                       
+                       <input type="hidden" name="fr" value="taobaobbs"/>
+					<div class="SearchInput">	
+                    <label for="KeyWords">关键字：</label>
+						<input type="text" name="q" id="keyword" size="40" />
+                        
+						<button type="submit" name="Submit">搜索</button></div>
+					</form>
+					<ul>
+
+					</ul>
+				
+
+    </fieldset>
+  </div>
+  
+  
+</div>
+<div id="Top">
+	 <script src="{$Hope_SitUrl$}Include/Ad/taobao_messagepage_top.JS" type="text/jscript"></script>
+</div>
+
+<div class="block">
+<TABLE style="MARGIN-TOP: 5px" cellSpacing=0 cellPadding=0 width=100% 
+align=center border=0>
+  <TBODY>
+  <TR>
+    <TD width=177 vAlign=top bgcolor="#F7F7F7" id=left>
+      <DIV id=list>
+      <DIV><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}images/class_left_01.gif"></DIV>
+{#Hope_ArticleClassList*1,1,2,0,,biglist,smalllist,65#} 
+      <DIV><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}images/class_left_05.gif"></DIV>
+      </DIV></TD>
+    <TD width=20>&nbsp;</TD>
+    <TD vAlign=top>
+      <DIV id=class_head>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD height="18" valign="bottom">&nbsp;</TD>
+        </TR>
+        <TR>
+          <TD valign="bottom"><B class=ft14_head STYLE1>详细信息</B></TD>
+        </TR></TBODY></TABLE>
+      </DIV>
+      
+      <DIV id="HelpCenter">{$News_Content$}</DIV>
+
+      </TD>
+</TR></TBODY></TABLE>
+<div>
+{$Hope_Bottom$} 
+</BODY></HTML>
+' , 65 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 801 , 18 , 'search' , 'YX_CmsSearchArticle' , '文章搜索页' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{#Hope_HttpTitle*2,0#}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/forum_v2.css" type="text/css">
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/yui-utilities.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/tbra.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type="text/javascript"></script>
+</head>
+
+<body class="W950 CurHome" >
+<HEAD>
+<TITLE>{$News_title$}--{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_ShowNewsClassList$},{$News_title$} />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<script language="javascript" src="{$Hope_SitUrl$}UpdateViewNews.aspx?YX_ID={$News_ID$}"></script>
+
+
+
+<DIV id=Head> 
+{$Hope_User_Newstop$} 
+		<div id="ForumHead">
+			<div id="Top">
+				<script src="{$Hope_SitUrl$}Include/Ad/taobao_messagepage_top.JS" type="text/jscript"></script>
+			</div>
+			<div id="ForumCategory" style="margin-top:10px;">
+				<ul>
+					<li><a href="ArticleList.aspx?Flag=1&ClassId=1" target="_blank" title="电脑网络">电脑网络</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=2" target="_blank" title="美容化妆">美容化妆</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=3" target="_blank" title="影音无限">影音无限</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=4" target="_blank" title="居家生活">居家生活</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=5" target="_blank" title="娱乐八卦">娱乐八卦</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=6" target="_blank" title="潮流服饰">潮流服饰</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=7" target="_blank" title="摄影摄像">摄影摄像</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=8" target="_blank" title="黄金书屋">黄金书屋</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=9" target="_blank" title="茶余饭后">茶余饭后</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=10" target="_blank" title="男人世界">男人世界</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=11" target="_blank" title="运动户外">运动户外</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=12" target="_blank" title="爱宠一族">爱宠一族</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=13" target="_blank" title="网游天地">网游天地</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=14" target="_blank" title="情感驿站">情感驿站</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=15" target="_blank" title="靓鞋靓包">靓鞋靓包</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=16" target="_blank" title="动漫世界">动漫世界</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=17" target="_blank" title="手机通讯">手机通讯</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=18" target="_blank" title="诚信安全">诚信安全</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=19" target="_blank" title="爆 料 馆">爆 料 馆</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=20" target="_blank" title="收藏投资">收藏投资</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=21" target="_blank" title="无奇不有">无奇不有</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=22" target="_blank" title=" 经 验 谈 ">经 验 谈</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=34" target="_blank" title="站内公告">站内公告</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=35" target="_blank" title="二手闲置">二手闲置</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=36" target="_blank" title="商城促销">商城促销</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=37" target="_blank" title="品牌资讯 ">品牌资讯</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=38" target="_blank" title="魔豆爱心">团购动态</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=39" target="_blank" title="女人世界">女人世界</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=40" target="_blank" title="数码天地">数码天地</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=41" target="_blank" title="汽车一族">汽车一族</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=42" target="_blank" title="天下美食">天下美食</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=43" target="_blank" title="母婴专区">母婴专区</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=44" target="_blank" title="清风车影">时尚生活</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=34" target="_blank" title="专业二手数码">二手数码</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=35" target="_blank" title="宠物宝贝居">宠物宝贝</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=36" target="_blank" title="疯狂促销">疯狂促销</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=37" target="_blank" title="旺·旺大本营">大本营</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=38" target="_blank" title="淘宝商盟">易想商盟</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=39" target="_blank" title="消费者保障">权益保障</a></li>
+<li><a href="ArticleList.aspx?Flag=1&ClassId=40" target="_blank" title="我为音乐狂">音乐地带</a></li>
+				</ul>
+			</div>
+			<div id="NewbieGuide" style="margin-top:10px;">
+				<ul>
+					<li id="NGRegister"><a href="{$Hope_SitUrl$}vipuser/VipReg.aspx"><span>免费注册</span></a></li>
+					<li id="NGLogin"><a href="{$Hope_SitUrl$}Yx_VipLogin.aspx"><span>登录</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="75%" valign="top">{#Hope_ArticleSearch*20,60,62#}</td>
+    <td width="25%" valign="top">&nbsp;
+      <div id="SideBar">
+		<div id="TaobaoBulletin">
+			<h3><a href="ArticleList.aspx?Flag=1&ClassId=34" target="_blank" style="color:#FFFFFF">公告栏</a></h3>
+			<ul>
+			{#Hope_Article*1,12,12,34,0,0,62#} 
+			</ul>
+		</div>
+		<div id="ExperienceZone">
+			<h3><a href="ArticleList.aspx?Flag=1&ClassId=22" target="_blank" style="color:#FFFFFF">经验居</a></h3>
+			<ul>
+{#Hope_Article*1,12,14,22,0,0,62#}
+			</ul>
+		</div>
+		<div id="TrustZone">
+			<h3><a href="ArticleList.aspx?Flag=1&ClassId=18" target="_blank" style="color:#FFFFFF">诚信防骗</a></h3>
+			<ul>
+{#Hope_Article*1,12,14,18,0,0,62#}
+			</ul>
+		</div>
+		<div id="Fallow">
+			<h3><a href="ArticleList.aspx?Flag=1&ClassId=19" target="_blank" style="color:#FFFFFF">休闲地带</a></h3>
+			<ul>
+{#Hope_Article*1,12,13,19,0,0,62#}
+			</ul>
+		</div>
+		<div id="TaobaoMarketGroup">
+			<h3><a href="ArticleList.aspx?Flag=1&ClassId=36" target="_blank" style="color:#FFFFFF">热门促销</a></h3>
+			<ul>
+{#Hope_Article*1,12,14,36,0,0,62#}
+</ul>
+</div>
+</div></td>
+  </tr>
+</table>
+
+
+</div>
+</DIV>
+</body>
+{$Hope_Bottom$} 
+
+</html>' , 62 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 802 , 18 , 'Yx_FindPass' , 'Yx_FindPass' , '会员找回密码第一步' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/layout.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/level1.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/sell.css" type="text/css">
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common(1).js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/atpanel.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+<META content="MSHTML 6.00.2900.3086" name=GENERATOR></HEAD>
+<BODY class=W950>
+{$Hope_Top$} 
+<!-- Head end -->
+<form id="form1" name="form1" method="post" action="?Action=Select" onsubmit="return checkfrm()">
+	  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    
+                                <tr>
+                                    <td height="25" align="left">
+                                                                         </td>
+                                </tr>
+                   
+                                <tr>
+                                  <td align="left">&nbsp;</td>
+                                </tr><tr><td height="25"><table width="75%" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor="#FFFFFF">
+                                  <tr>
+                                    <td height="25" colspan="3" align="left"><img src="{$Hope_SitUrl$}{$Hope_Skin$}IMAGES/title_login_4.gif" width="150" height="57"></td>
+                                  </tr> <tr>
+                                    <td width="27%" height="25" align="right"><span class="STYLE2">请输入用户名：</span></td>
+                                    <td width="38%"><input name="vipuser" type="text" id="vipuser" /></td>
+                                    <td width="35%">&nbsp;</td>
+                                  </tr>
+                                 
+                                  <tr>
+                                    <td height="25" align="right"><span class="STYLE2">请输入密码的提示问题：</span></td>
+                                    <td><input name="question" type="text" id="question" /></td>
+                                    <td>&nbsp;</td>
+                                  </tr>
+                                  <tr>
+                                    <td height="25" align="right">请输入密码提示答案<span class="STYLE2">：</span> </td>
+                                    <td><input name="Daan" type="text" id="Daan" /></td>
+                                    <td>&nbsp;</td>
+                                  </tr>
+                                  <tr>
+                                    <td height="25">&nbsp;</td>
+                                    <td align="left"><label>
+                                      <input type="submit" name="Submit" value="提      交" />
+                                    </label></td>
+                                    <td>&nbsp;</td>
+                                  </tr>
+                                </table></td>
+                                </tr>
+                                <tr><td bgcolor="#E7E7E7" height="1"></td></tr>
+                                <tr>
+                                  <td align="center" >
+                                        <br />&nbsp;</td>
+                                </tr>
+        </table>
+	  </form>
+<DIV style="MARGIN-BOTTOM: 15px; clear:both;"></DIV>
+{$Hope_Bottom$} 
+</BODY></HTML>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 804 , 18 , 'YX_ProVotere' , 'YX_ProVotere' , '商品留言回复页面' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD><TITLE>商品留言回复-{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<script language="javascript" scr="{$Hope_SitUrl$}include/yz.js"></script>
+
+</HEAD>
+{$Hope_UserTop$} <br>
+
+<!-- 商品信息-->
+<div style="text-align:center">
+
+<DIV 
+style="BORDER-RIGHT: #ffd200 1px solid; BORDER-TOP: #ffd200 1px solid; MARGIN: 0px auto; BORDER-LEFT: #ffd200 1px solid; WIDTH: 665px; BORDER-BOTTOM: #ffd200 1px solid; HEIGHT: 275px">
+<DIV 
+style="PADDING-RIGHT: 0px; PADDING-LEFT: 30px; BACKGROUND: #ffd200; PADDING-BOTTOM: 5px; PADDING-TOP: 5px" 
+align=left><B class=ft14_black>回复留言</B></DIV>
+<DIV 
+style="PADDING-RIGHT: 30px; PADDING-LEFT: 30px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px" 
+align=left>
+{$Hope_ShowWriteVote$}</DIV></DIV>
+
+</div>
+{$Hope_UserBottom$} 
+</body>
+</HTML>' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 807 , 18 , 'VipRegOk ' , 'VipRegOk' , '注册成功' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/layout.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/level1.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/sell.css" type="text/css">
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common(1).js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/atpanel.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+<script language="javascript" src="{$Hope_SitUrl$}Include/area.js"></script>
+<script language="javascript" type="text/javascript" defer="defer">
+var xmlHttp;
+
+function createXMLHttpRequest()
+{
+if(window.ActiveXObject)
+{ 
+xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+}
+else if(window.XMLHttpRequest)
+{
+xmlHttp = new XMLHttpRequest();
+}
+}
+function checkname(){
+document.getElementById("vipname").value=document.getElementById("vipname").value.replace(/\s/igm,'''');
+var name=document.getElementById("vipname").value;
+url = "{$Hope_SitUrl$}Admin/YX_user/CheckUserName.aspx?Uname="+name;
+xmlHttp.open("GET",url,true);
+xmlHttp.onreadystatechange = docheckname;
+xmlHttp.send(null);
+return false;}
+function checkemail(){
+document.getElementById("vipemail").value=document.getElementById("vipemail").value.replace(/\s/igm,'''');
+var vipemail=document.getElementById("vipemail").value;
+url = "{$Hope_SitUrl$}Admin/YX_user/CheckUserEmail.aspx?UEmail="+vipemail;
+xmlHttp.open("GET",url,true);
+xmlHttp.onreadystatechange = docheckemail;
+xmlHttp.send(null);
+return false;}
+function docheckname(){
+if(xmlHttp.readyState==4)
+{
+	if(xmlHttp.responseText=="False"){
+	document.getElementById("showare").style.display="";
+	document.getElementById("showare").innerText="可以注册";
+	}
+	else{
+	document.getElementById("showare").style.display="";
+	document.getElementById("showare").innerText="用户名存在";
+	}
+}
+
+}
+function docheckemail(){
+if(xmlHttp.readyState==4)
+{
+	if(xmlHttp.responseText=="False"){
+	document.getElementById("showare2").style.display="";
+	document.getElementById("showare2").innerText="可以使用这个邮箱地址";
+	}
+	else{
+	document.getElementById("showare2").style.display="";
+	document.getElementById("showare2").innerText="邮箱地址已经在使用";
+	}
+}
+
+}
+
+</script>
+<script language="javascript" defer="defer">
+function checkfrm(){
+ var regm =/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
+var vipname=document.getElementById("vipname");
+var vippassword=document.getElementById("vippassword");
+var vippasswordb=document.getElementById("vippasswordb");
+var vipquestion=document.getElementById("vipquestion");
+var vipemail=document.getElementById("vipemail");
+var prov=document.getElementById("prov");
+var vipmobile=document.getElementById("vipmobile");
+
+if(vipname.value.replace(/^\s+|\s+$/igm,'''')==""){
+alert("请填写帐号");
+vipname.focus();
+return false;
+}
+	if(vippassword.value.replace(/^\s+|\s+$/igm,'''')==""){
+	alert("请填写密码");
+	vippassword.focus();
+	return false;
+	}else{
+	if(vippassword.value.length<6||vippassword.value.length>15){
+	alert("密码长度不能少于6位大于15");
+	vippassword.focus();
+	return false;
+	}
+	}
+if(vippasswordb.value.replace(/^\s+|\s+$/igm,'''')==""|| vippasswordb.value!=vippassword.value){
+alert("两次密码输入不一致");
+vippasswordb.focus();
+return false;
+}
+if(vipquestion.value.replace(/^\s+|\s+$/igm,'''')==""){
+alert("请填写取回密码的问题");
+vipquestion.focus();
+return false;
+}
+ if(vipemail.value.replace(/^\s+|\s+$/igm,'''')==""){
+ alert("请填写Email地址");
+vipemail.focus();
+return false;
+ }else{
+ if (!regm.test(vipemail.value))
+   {
+     alert("Email地址格式错误或含有非法字符!\n请检查！");
+     vipemail.focus(); 
+     return false;
+    }  
+ }
+ if(prov.value=="0"){
+  alert("请选择地区");
+     prov.focus(); 
+     return false;
+ }
+ if(vipaddr.replace(/^\s+|\s+$/igm,'''')==""){
+  alert("请填写联系地址");
+     vipaddr.focus(); 
+     return false;
+ }
+if(vipmobile.value.replace(/^\s+|\s+$/igm,'''')==""){
+
+
+alert("请填写正确的手机号码");
+     vipmobile.focus(); 
+     return false;
+ }
+}
+function window.onload()
+{
+   province(0);
+   cityName(document.frmreg.prov.selectedIndex,0);//设置初始值
+   createXMLHttpRequest()
+}
+</script>
+<META content="MSHTML 6.00.2900.3086" name=GENERATOR>
+<style type="text/css">
+<!--
+.STYLE1 {color: #FF0000}
+-->
+</style>
+</HEAD>
+<BODY class=W950>
+{$Hope_Top$} 
+<!-- Head end -->
+
+
+
+<DIV class=main>
+
+
+<table width="768" border="0" align="center" cellpadding="0" cellspacing="0" class="tab01">
+            <tr>
+              <td><!---------#广告位-------></td>
+            </tr>
+            <tr>
+              <td valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <th align="left" scope="col">&nbsp;</th>
+                </tr>
+                <tr>
+                  <th height="150" valign="top" ><br />
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td valign="top"><br />
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td> 　　　　　　
+                                <!----------------------------------------->
+                                {$Hope_RegSuccess$}　　　　　　
+                                <!------------------------------------------>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td align="center></td>
+      </tr>
+      
+           <tr>
+        <td align="left" style="background-color:#ECECEC"></td>
+                            </tr>
+                          </table>
+                        <!------------------------------------------>                        </td>
+                      </tr>
+                    </table>
+				  </th>
+                </tr>
+
+              </table></td>
+            </tr>
+</table>
+
+
+</DIV>
+
+<DIV style="MARGIN-BOTTOM: 15px; clear:both;"></DIV>
+{$Hope_Bottom$} 
+</BODY></HTML>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 810 , 18 , 'helpcenter' , 'Show_Help' , '帮助中心' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/forum_v2.css" type="text/css">
+<LINK href="{$Hope_SitUrl$}{$Hope_Skin$}index.css" type=text/css rel=stylesheet>
+<LINK href="{$Hope_SitUrl$}{$Hope_Skin$}help.css" type=text/css rel=stylesheet>
+</head>
+
+<DIV align=center>
+<!--beginTop-->{$Hope_Top$} <!--#endTop-->
+<body class="W950 CurHome">
+<table width="100%" height="432" border="0">
+  <tr>
+    <td width="185" valign="top" background="Skin/skin5/image/helpleft.gif"><br>
+      <br>
+
+<br>
+{#Hope_HelpKind*1,15#}</td>
+    <td width="764" valign="top">
+<br>
+
+	<div><img src="Skin/skin5/image/help.jpg"></div>
+	{$Hope_Help$}</td>
+  </tr>
+</table>
+{$Hope_Bottom$}
+</DIV>
+
+</body>
+</html>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 888 , 18 , 'show_buyproduct' , 'show_buyproduct' , '商品求购' , '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</title>
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}css/index.css" rel="stylesheet" type="text/css">
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}css/comm2.css" rel="stylesheet" type="text/css">
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}{$Hope_proskin$}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common(1).js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/atpanel.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+<style type="text/css">
+<!--
+#m1{background:url({$Hope_SitUrl$}{$Hope_Skin$}images/menuactive.gif); width:60px;}
+#m1 a:link{color:#ffffff; font-size:14px; font-weight:600}
+
+-->
+</style>
+<script language="javascript">
+
+function showBuyOver(obj){
+	obj.src=obj.src.replace(".gif","Over.gif");
+}
+function showBuyOut(obj){
+	obj.src=obj.src.replace("Over","");
+}
+function change_val(i){
+  if(i==1) 
+  {
+  document.itemForm.show.value="tuanzhang";
+  }else
+  {
+  document.itemForm.show.value="tuanyuan";
+  }
+ 		
+		//document.itemForm.submit();
+ }
+ 
+ function checkleavemsg()
+{
+var leavemsg=document.getElementById("leavemsgarea");
+if(leavemsg.value.length<2)
+{
+alert("请填写留言");
+leavemsg.focus();
+return false;
+
+}
+}
+function CountWord(obj,fontnum){
+var fot=obj.value;
+if(obj.value.length>fontnum){
+
+alert("输入的字数不能大于"+fontnum+"个");
+obj.value=fot.substring(0,fontnum);
+}
+}  
+function chesearchpro()
+{
+var keysword=document.getElementById("keysWord");
+if(keysword.value.replace(/^\s+|\s+$/igm,'''')==""){
+alert("请填写搜索关键字");
+keysword.focus();
+return false;
+}
+} 
+
+
+function showList(showName)
+{
+	if(showName==''lyb''){
+		document.getElementById(''detail'').style.display="none";
+		document.getElementById(''commend'').style.display="none";
+		document.getElementById(''record_head'').style.display="none";
+		document.getElementById(''message'').style.display="none";
+		document.getElementById(''detail_show'').className="";
+		document.getElementById(''record_show'').className="";
+		document.getElementById(''sellRate_show'').className=""
+		document.getElementById(''others_show'').className="li_here";
+		document.getElementById(''others'').style.display="";
+		document.getElementById(''DescShow'').style.display="none";
+	}else if (showName==''detail''){
+		document.getElementById(''detail'').style.display="";
+		document.getElementById(''commend'').style.display="";
+		document.getElementById(''record_head'').style.display="";
+		document.getElementById(''message'').style.display="";
+		document.getElementById(''detail_show'').className="li_here";
+		document.getElementById(''others_show'').className="";
+		document.getElementById(''record_show'').className="";
+		document.getElementById(''sellRate_show'').className=""
+		document.getElementById(''others'').style.display="";
+		document.getElementById(''DescShow'').style.display="";
+	}else if(showName==''record''){
+
+		document.getElementById(''detail'').style.display="none";
+		document.getElementById(''commend'').style.display="none";
+		document.getElementById(''record_head'').style.display="";
+	
+		document.getElementById(''message'').style.display="none";
+		document.getElementById(''others'').style.display="none";
+		document.getElementById(''detail_show'').className="";
+		document.getElementById(''others_show'').className="none";
+		document.getElementById(''record_show'').className="li_here";
+		document.getElementById(''sellRate_show'').className="";
+		document.getElementById(''DescShow'').style.display="none";
+	}else if(showName==''sellRate''){
+		document.getElementById(''others_show'').className="none";
+		document.getElementById(''detail'').style.display="none";
+		document.getElementById(''commend'').style.display="none";
+		document.getElementById(''record_head'').style.display="none";
+		document.getElementById(''message'').style.display="";
+		document.getElementById(''detail_show'').className="none";
+		document.getElementById(''others_show'').className="none";
+		document.getElementById(''record_show'').className="none";
+		document.getElementById(''sellRate_show'').className="li_here";
+		document.getElementById(''DescShow'').style.display="none";
+	}
+	
+}	
+
+</script>
+</head>
+<BODY class="W950">
+<div id="body_content">
+{$Hope_Top$} 
+  <div id="content">   
+<!--    action="{$Hope_SitUrl$}showbuyproduct.aspx"
+-->
+<!--<FORM id=itemForm name=itemForm method="post">-->
+<input type=hidden value={$Hope_Show_ProID$} name=yx_id>
+<DIV class=main2 id=FullPath>
+<DIV id=FullPathShow><A href="" target=_blank>所有分类</A> 
+&gt;&gt; {$Hope_Show_ClassName$} &gt;&gt;商品详情<A 
+href="http://search.paipai.com/cgi-bin/ss.cgi?ClassId=93" target=_blank></A> </DIV>
+</DIV>
+<DIV class="main lineCenter">
+<DIV id=name><B class=font14>{$Hope_Show_ProName$}</B></DIV></DIV>
+<DIV class=main2 id=QQSeller style="DISPLAY: none; MARGIN: 10px">
+
+<DIV 
+style="FLOAT: left; WIDTH: 64%; LINE-HEIGHT: 150%">本商品是在跳蚤市场中发布的商品，请您与卖家充分沟通、诚信交易。 
+<BR>提醒：购买跳蚤市场商品须谨慎，请使用<A href="https://www.tenpay.com/zft/qa/qa_1.shtml" 
+target=_blank>腾讯财付通</A>支付中介或同城当面交易保障您的经济利益。 </DIV></DIV>
+<DIV class=clear></DIV>
+<DIV class=main2>
+<DIV id=comm>
+<DIV id=CommPics>
+<DIV id=CommPicsShow>
+<TABLE height=200 cellSpacing=0 cellPadding=0 width=200 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD align=middle><a href="{$Hope_SitUrl$}{$Hope_Show_ProSPic$}" target="_blank"><img src=''{$Hope_SitUrl$}{$Hope_Show_ProSPic$}'' border=0 width="200" height=200></a>
+  </A></TD></TR></TBODY></TABLE></DIV>
+<DIV><SPAN id=lookBigImg><IMG 
+src="{$Hope_SitUrl$}{$Hope_Skin$}image/zoomin.gif" alt=点击查看大图 width=18 height=20 hspace=10 vspace=10 border=0 
+align=absMiddle><A style="COLOR: #000" 
+href="{$Hope_SitUrl$}{$Hope_Show_ProSPic$}" target=_blank><B>点击查看大图</B></A><TABLE cellSpacing=0 cellPadding=0 width=200 align=center border=0 style="margin-left:0px;">
+  <TBODY>
+  <TR>
+    <TD style="PADDING-TOP: 4px" vAlign=top align=right width=50>您可以：</TD>
+    <TD>
+      <DIV style="DISPLAY: none"><IMG height=12 hspace=5 
+      src="315iT网购※全新遥控王超级PC无线键盘 内嵌鼠标功能 8米距离 --拍拍网.files/send.gif" width=13 
+      align=absMiddle vspace=5><A href="javascript:ZengSong()">赠送给好友</A></DIV>
+      <DIV><IMG height=12 hspace=5 
+      src="{$Hope_SitUrl$}{$Hope_Skin$}image/save.gif" width=13 
+      align=absMiddle vspace=5><A 
+      href="{$Hope_SitUrl$}ShowBuyProduct.aspx?Flag=Colls&YX_MID={$Hope_Show_ProID$}&Proname={$Hope_Show_ProName$}" 
+      target=_blank>收藏商品</A></DIV></TD></TR></TBODY></TABLE><br>
+</SPAN>
+</DIV>
+	  </DIV>
+
+<DIV id=CommShow>
+<DIV id=CommMess>
+<DIV><SPAN class=font_gray id=prizeTxt>商品价格：</SPAN><SPAN id=html_tem_price> 
+{$Hope_Show_ProPic$} </SPAN>&nbsp;元&nbsp;</DIV>
+<div><span class="font_gray">求购数量：</span><span>{$yx_num$}</span></div>
+<div><span class="font_gray">剩余时间：</span><span>{$yx_sysj$}</span></div>
+<DIV id=DiscountDiv1 style="DISPLAY: none"></DIV>
+{$strpinpai$} 
+<DIV id=viewCount><SPAN class=font_gray>浏 览 量：</SPAN> 
+已有&nbsp;<SPAN class="number b fontOrange" 
+id=visitCount_td>{$YX_viewnum$}</SPAN>&nbsp;人关注</DIV>
+<DIV id=CityShow ><SPAN class=font_gray>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 区：</SPAN> <SPAN id=city title={$YX_area$}>{$YX_area$}</SPAN> </DIV>
+<DIV id=OldShow style="BORDER-BOTTOM-STYLE: none"><SPAN class="font_gray" id=tdOldNew><SPAN 
+class=font_gray>新旧程度：</SPAN> {$YX_bx$} </SPAN></DIV>
+<DIV>
+</DIV>
+</DIV>
+</DIV>
+{$YX_struserinfo$}</DIV>
+</DIV>
+<DIV class=clear></DIV>
+<DIV class=main2>
+<DIV id=CommendSecond style="DISPLAY: none"></DIV></DIV>
+<DIV class=main2 style="margin-top:40px;">
+<UL id=auction_list>
+  <LI class=li_here id=detail_show><A 
+  href="javascript:showList(''detail'')">详细信息</A> </LI>
+  <LI id=others_show><A href="javascript:showList(''lyb'')">留言簿</A> </LI>
+  </UL></DIV>
+<DIV class=clear></DIV>
+<DIV id=detail_head></DIV>
+<DIV class=main2>
+<DIV id=detail>
+<DIV id=showAttitute>
+<UL id=ClassAttituteListUL>
+{$yx_strsx$}
+  </UL>
+<DIV class=clear></DIV>
+<DIV class="lineRight font_gray" 
+style="PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px">属性信息，仅供用户参考；商品详细情况，请和卖家联系！</DIV></DIV>
+<TABLE id=DescShow cellSpacing=0 cellPadding=0 width=950 align=center 
+  border=0><TBODY>
+  <TR>
+    <TD>
+      <DIV align=left><span style="color:Gray; font-size:larger">商品说明：</span><br />
+      <span style="color:Gray">&nbsp;&nbsp;&nbsp;&nbsp;{$Hope_Show_Procon$}</span></DIV></TD></TR></TBODY></TABLE></DIV></DIV> 
+      
+<DIV class=main2>
+<DIV class=title>
+<DIV class=TitleInfo>留言簿</DIV>
+<DIV class=TitleTop><A 
+href="#top">
+<img src="{$Hope_SitUrl$}{$Hope_Skin$}IMAGE/gotop.gif"/>
+</A></DIV></DIV>
+<DIV id="lyb">
+{$Hope_LyContent$}
+<!--{$Hope_Ly$}-->
+</DIV>
+<DIV class=clear></DIV></DIV>
+<!--</form>-->
+ </div>
+{$Hope_Bottom$}
+</div>
+
+</body>
+</html>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 889 , 18 , 'browse_offer' , 'browse_offer' , '求购专区' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/forum_v2.css" type="text/css">
+<LINK href="{$Hope_SitUrl$}{$Hope_Skin$}index.css" type=text/css rel=stylesheet>
+<LINK href="{$Hope_SitUrl$}{$Hope_Skin$}help.css" type=text/css rel=stylesheet>
+<style type="text/css">
+<!--
+#m2{background:url({$Hope_SitUrl$}{$Hope_Skin$}images/menuactive.gif) left; width:60px;padding-left:5px}
+#m2 a{color:#fff; font-size:14px; font-weight:600}
+-->
+</style></head>
+<body class="W950 kk">
+{$Hope_Top$}
+<table width="100%"><tr><td  valign="top">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" style=" margin-top:2px">
+          <tr>
+            <td height="20" align="center"bgcolor="#E6F5FF"><table width="93%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="78%" height="24" align="left" class="link1">搜索求购信息</td>
+                  <td width="22%" class="link1"></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" bgcolor="#f5f5f5" class="pdpadding">
+              {$Hope_FindProBuy$}
+            </td>
+          </tr>
+        </table>	    
+	    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bder1">
+          <tr>
+            <td height="20" align="center" bgcolor="#E6F5FF">
+			<table width="93%" border="0" cellspacing="0" cellpadding="0" class="link1">
+                <tr>
+                  <td width="78%" height="24" align="left">求购信息类目</td>
+                  <td width="22%" class="link1"></td>
+                </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td align="left" width="100%" valign="top" bgcolor="#f5f5f5" class="pdpadding">{#Hope_ShowProClass*#}</td>
+          </tr>
+        </table> 	</td><td valign="top">
+	   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td  height="35" background="{$Hope_SitUrl$}{$Hope_Skin$}images/sort_head_main.gif"><table width="100%" height="35" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="100%" align="left"><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/buy_sort_head_left.gif" height="35" width="100%" /></td>
+                <td align="right"><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/sort_head_side.gif" width="5" height="35" /></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td valign="top" style="border-left:#C4CE1C 2px solid; border-right:#C4CE1C 2px solid; padding:10px">{#Hope_PageBuyPro_List*20,20,ClassId,Protitle,ProListCon#}</td> 
+          </tr>
+<!--          <tr>
+          <td valign="top" style="border-left:#C4CE1C 2px solid; border-right:#C4CE1C 2px solid; padding:10px">{$Hope_BuyProList$}</td>
+          </tr>
+-->          <tr>
+            <td valign="top">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="1%" align="left"><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/sort_head_left.gif" width="10" height="4" /></td>
+                <td  width="98%"><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/sort_head_left.gif" width="100%" height="4" /></td>
+                <td width="1%" align="right"><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/sort_head_left.gif" width="10" height="4" /></td>
+              </tr>
+            </table></td>
+          </tr>
+      </table></td></tr></table>
+{$Hope_Bottom$}
+
+</body>
+</html>
+' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 890 , 18 , 'BuyProduct_Comp' , 'buyproduct_comp' , '商品对比' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<LINK href="{$Hope_SitUrl$}{$Hope_Skin$}index.css" type=text/css rel=stylesheet>
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/layout.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+
+{$Hope_Top$}
+<BODY class=W950>
+{#Hope_BuyProductComp*pro_id[]#}
+{$Hope_Bottom$} 
+<!----EndFoot------>' , 0 );
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 892 , 18 , 'Worth ' , 'Worth' , '帐户充值' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<link href="include/shopstyle/{$Hope_ShopCssDirName$}/shop.css" rel="stylesheet" type="text/css">
+<link href="include/shopstyle/{$Hope_ShopCssDirName$}/common.css" rel="stylesheet" type="text/css">
+<link href="include/shopstyle/{$Hope_ShopCssDirName$}/index.css" rel="stylesheet" type="text/css">
+<LINK href="{$Hope_SitUrl$}{$Hope_Skin$}style/main.css" type="text/css" rel="stylesheet">
+<link href="include/shopstyle/{$Hope_ShopCssDirName$}/index.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}css/v2.0.css" rel="stylesheet" charset="gb2312" type="text/css">
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/yui-utilities.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/tbra.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+<META content="MSHTML 6.00.2900.3086" name=GENERATOR><style type="text/css">
+<!--
+body {
+	margin-top: 0px;
+}
+-->
+</style></HEAD>
+<BODY class="W950 CurHome">
+
+<style type="text/css" media="screen">
+.payHead{border-top:1px solid #F7941D;font:bold 14px "宋体";padding:7px 0 6px 30px;text-align:left;background:#FFF4CA}
+.tdhead {
+	font-size: 14px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+	text-align:left;
+	padding-left:10px;
+}
+.hed{
+	BORDER-BOTTOM: #d7d7d7 1px solid;
+	height:25px;
+	font-size:14px;
+	padding-top:5px;
+	font-weight: bold;
+	color: #FF6600;
+}
+</style>
+<!--beginTop-->{$Hope_Top$} <!--#endTop-->
+<!-- 商品信息-->
+<TABLE cellSpacing=0 cellPadding=0 width="90%" align=center border=0>
+  <TBODY>
+ 
+  <TR>
+    <TD align=middle valign="top"><table width="100%" border="0" align="center" cellpadding="4" cellspacing="1" bgcolor="#D3E5FD" style="BORDER-RIGHT: #d3e5fd 1px solid; BORDER-TOP: #d3e5fd 1px solid; MARGIN-TOP: 10px; BORDER-LEFT: #d3e5fd 1px solid;BORDER-BOTTOM: #d3e5fd 1px solid">
+      <tr>
+        <td width="100%" height="29" bgcolor="#D3E5FD">操作提示</td>
+      </tr>
+         <tr>
+        <td align="center" bgcolor="#FFFFFF"><form method=post action="{$Hope_SitUrl$}payonline/chinabank/Send.aspx">
+<input type=hidden name=v_mid value="{Hope_Partner}">
+<input type=hidden name=v_oid value="{$Hope_Orderid$}">订单编号：{$Hope_Orderid$}
+<input type=hidden name=v_amount value="{$Hope_Money$}">充值金额：{$Hope_Money$}
+<input type=hidden name=v_moneytype value="CNY">币种：RMB
+<input type=hidden name=v_url value="{$Hope_SitUrl$}chinabank/Receive.asp">
+<input type=hidden name=v_md5info value="{Hope_V_md5info}"> 
+<input type=submit value="网银在线支付">
+</form>
+
+		</td>
+      </tr>
+    </table></TD>
+  </TR></TBODY></TABLE>
+{$Hope_Bottom$} 
+</body>
+</html>' , 0 );
+
+ SET IDENTITY_INSERT [YX_CMSModel] OFF
+

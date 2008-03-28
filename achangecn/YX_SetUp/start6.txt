@@ -1,0 +1,707 @@
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 1 , '电脑网络' , 0 , '0' , 0 , 2 , 0 , 3 , 2 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 2 , '美容化妆' , 0 , '0' , 0 , 3 , 0 , 1 , 5 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 3 , '影音无限' , 0 , '0' , 0 , 1 , 0 , 0 , 1 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 4 , '居家生活' , 0 , '0' , 0 , 40 , 0 , 45 , 0 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 5 , '娱乐八卦 ' , 0 , '0' , 0 , 5 , 0 , 2 , 6 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 6 , '潮流服饰' , 0 , '0' , 0 , 6 , 0 , 5 , 7 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 7 , '摄影摄像' , 0 , '0' , 0 , 7 , 0 , 6 , 8 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 8 , '黄金书屋' , 0 , '0' , 0 , 8 , 0 , 7 , 9 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 9 , '茶余饭后' , 0 , '0' , 0 , 9 , 0 , 8 , 10 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 10 , '男人世界' , 0 , '0' , 0 , 10 , 0 , 9 , 11 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_KeysWord] , [YX_ClassTxt] , [YX_ChannelClass] ) VALUES ( 11 , '运动户外' , 0 , '0' , 0 , 11 , 0 , 10 , 12 , 0 , '运动' , '' , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_KeysWord] , [YX_ClassTxt] , [YX_ChannelClass] ) VALUES ( 12 , '爱宠一族' , 0 , '0' , 0 , 12 , 0 , 11 , 13 , 0 , '宠物' , '' , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 13 , '网游天地' , 0 , '0' , 0 , 13 , 0 , 12 , 14 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 14 , '情感驿站' , 0 , '0' , 0 , 14 , 0 , 13 , 15 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 15 , '靓鞋靓包' , 0 , '0' , 0 , 15 , 0 , 14 , 16 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 16 , '动漫世界' , 0 , '0' , 0 , 16 , 0 , 15 , 17 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 17 , '手机通讯' , 0 , '0' , 0 , 17 , 0 , 16 , 19 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 18 , '诚信安全' , 0 , '0' , 0 , 21 , 0 , 21 , 22 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 19 , '爆料馆' , 0 , '0' , 0 , 18 , 0 , 17 , 20 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 20 , '收藏投资' , 0 , '0' , 0 , 19 , 0 , 19 , 21 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 21 , '无奇不有' , 0 , '0' , 0 , 20 , 0 , 20 , 18 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 22 , '经验谈' , 0 , '0' , 0 , 22 , 0 , 18 , 23 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 23 , '商城帮助' , 0 , '0' , 0 , 23 , 6 , 22 , 24 , 0 , 65 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 24 , '知识普及' , 0 , '0' , 0 , 24 , 0 , 23 , 25 , 0 , 65 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 25 , '新手必读' , 0 , '0' , 0 , 25 , 0 , 24 , 26 , 0 , 65 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 26 , '我要提升' , 0 , '0' , 0 , 26 , 0 , 25 , 33 , 0 , 65 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_KeysWord] , [YX_ClassTxt] , [YX_ChannelClass] ) VALUES ( 27 , '注册与认证' , 23 , '0,23' , 1 , 23 , 0 , 0 , 29 , 1 , '注册与认证' , '' , 65 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 28 , '我是买家' , 23 , '0,23' , 1 , 23 , 0 , 29 , 31 , 3 , 65 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 29 , '我是卖家' , 23 , '0,23' , 1 , 23 , 0 , 27 , 28 , 2 , 65 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 30 , '投诉举报' , 23 , '0,23' , 1 , 23 , 0 , 31 , 32 , 5 , 65 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 31 , '信用评价' , 23 , '0,23' , 1 , 23 , 0 , 28 , 30 , 4 , 65 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 32 , '交易规则' , 23 , '0,23' , 1 , 23 , 0 , 30 , 0 , 6 , 65 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 33 , '交易安全' , 0 , '0' , 0 , 27 , 0 , 26 , 34 , 0 , 70 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 34 , '站内公告' , 0 , '0' , 0 , 28 , 0 , 33 , 35 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 35 , '二手闲置' , 0 , '0' , 0 , 29 , 0 , 34 , 36 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 36 , '商城促销' , 0 , '0' , 0 , 30 , 0 , 35 , 37 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 37 , '品牌资讯' , 0 , '0' , 0 , 31 , 0 , 36 , 38 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 38 , '团购动态' , 0 , '0' , 0 , 32 , 0 , 37 , 39 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 39 , '女人世界' , 0 , '0' , 0 , 33 , 0 , 38 , 40 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 40 , '数码天地' , 0 , '0' , 0 , 34 , 0 , 39 , 41 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 41 , '汽车一族' , 0 , '0' , 0 , 35 , 0 , 40 , 42 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_KeysWord] , [YX_ClassTxt] , [YX_ChannelClass] ) VALUES ( 42 , '天下美食' , 0 , '0' , 0 , 36 , 0 , 41 , 43 , 0 , '' , '' , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 43 , '母婴专区' , 0 , '0' , 0 , 37 , 0 , 42 , 44 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 44 , '时尚生活' , 0 , '0' , 0 , 38 , 0 , 43 , 45 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 45 , '易通社' , 0 , '0' , 0 , 39 , 3 , 44 , 4 , 0 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 46 , '易友访谈' , 45 , '0,45' , 1 , 39 , 0 , 0 , 47 , 1 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 47 , '听故事' , 45 , '0,45' , 1 , 39 , 0 , 46 , 48 , 2 , 62 );
+INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 48 , '易想日报' , 45 , '0,45' , 1 , 39 , 0 , 47 , 0 , 3 , 62 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 1 , 65 , 0 , '每页显示的条数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 2 , 65 , 0 , '商品标题显示的字数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 3 , 65 , 0 , '商品状态' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 4 , 65 , 3 , '新品' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 5 , 65 , 3 , '推荐' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 6 , 65 , 3 , '特价' , '2' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 7 , 65 , 3 , '热卖' , '3' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 8 , 65 , 0 , '参数名称' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 9 , 65 , 0 , '内容显示的字数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 10 , 65 , 0 , '标题显示的标式名称,直接填写class名称' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 11 , 65 , 0 , '内容显示的标式名称,直接填写class名称' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 12 , 66 , 0 , '显示的列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 13 , 66 , 0 , '显示的行数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 14 , 66 , 0 , '显示的类别' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 15 , 66 , 0 , '商品的状态' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 16 , 66 , 15 , '新品' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 17 , 66 , 15 , '推荐' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 18 , 66 , 15 , '特价' , '2' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 19 , 66 , 15 , '热卖' , '3' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 20 , 66 , 0 , '商品图片宽度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 21 , 66 , 0 , '商品图片高度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 22 , 66 , 0 , '内容显示的字数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 23 , 67 , 0 , '现在分类的样式' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 24 , 67 , 0 , '传入的传数名称' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 25 , 67 , 0 , '同级前缀内容(可为图片地址)' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 26 , 68 , 0 , '一级分类列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 27 , 68 , 0 , '二级分类列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 28 , 68 , 0 , '只显示一级分类或二级分类或2个都显示(0显示一级,1显示二级,2都显示)' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 29 , 68 , 0 , '传入classid显示级机分类（只显示２级分类有效）' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 30 , 68 , 0 , '一级分类前缀样式' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 31 , 68 , 0 , '一级分类样式' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 32 , 68 , 0 , '二级分类样式' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 33 , 68 , 0 , '二级分类显示的排数（显示２级分类有效）' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 34 , 68 , 0 , '每排显示的字数（显示２级分类有效）' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 35 , 69 , 0 , '显示的列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 36 , 69 , 0 , '是否显示为父级分类名称' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 37 , 69 , 0 , '分类前缀样式' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 38 , 69 , 0 , '父级分类连接样式名称(classname)' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 39 , 69 , 0 , '子级分类连接样式名称(classname)' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 40 , 69 , 36 , '是' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 41 , 69 , 36 , '否' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 42 , 70 , 0 , '显示的列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 43 , 70 , 0 , '显示的行数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 44 , 70 , 0 , '显示商品名称最大字数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 45 , 70 , 0 , '图片宽度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 46 , 70 , 0 , '图片高度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 47 , 71 , 0 , '显示的列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 48 , 71 , 0 , '显示方式' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 49 , 71 , 48 , '显示标题' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 50 , 71 , 48 , '显示标题与内容' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 51 , 72 , 0 , '显示的列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 52 , 72 , 0 , '显示的行数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 53 , 72 , 0 , '标题显示的字数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 54 , 72 , 0 , '商品类别' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 55 , 72 , 0 , '显示商品的状态' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 56 , 72 , 55 , '最新' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 57 , 72 , 55 , '推荐' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 58 , 72 , 55 , '特价' , '2' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 59 , 72 , 55 , '热卖' , '3' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 60 , 72 , 0 , '显示商品图片的宽度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 61 , 72 , 0 , '显示商品图片的高度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 62 , 72 , 0 , '是否显示商品名称' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 63 , 72 , 62 , '显示' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 64 , 72 , 62 , '不显示' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 65 , 72 , 0 , '是否显示商品市场价' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 66 , 72 , 65 , '显示' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 67 , 72 , 65 , '不显示' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 68 , 72 , 0 , '是否显示商品商城价' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 69 , 72 , 68 , '显示' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 70 , 72 , 68 , '不显示' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 71 , 72 , 0 , '是否显示折扣' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 72 , 72 , 0 , '是否显示购卖按钮' , '0' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 73 , 72 , 71 , '显示' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 74 , 72 , 71 , '不显示' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 75 , 72 , 72 , '显示' , 'true' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 76 , 72 , 72 , '不显示' , 'false' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 77 , 72 , 0 , '扩展字段ID序列号1' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 78 , 72 , 0 , '扩展字段ID序列号2' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 79 , 72 , 0 , '扩展字段ID序列号3' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 80 , 72 , 0 , '是否显示扩展字段' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 81 , 72 , 80 , '显示' , 'true' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 82 , 72 , 80 , '不显示' , 'false' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 83 , 72 , 0 , '首页显示状态' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 84 , 72 , 83 , '是' , 'true' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 85 , 72 , 83 , '否' , 'false' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 86 , 73 , 0 , '商品对比标签备注(可不填)' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 87 , 76 , 0 , '列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 88 , 76 , 0 , '行数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 89 , 76 , 0 , '前缀' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 90 , 76 , 0 , '样式' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 91 , 80 , 0 , '显示的列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 92 , 84 , 0 , '订单ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 93 , 88 , 0 , '显示的列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 94 , 88 , 0 , '显示的标题字数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 95 , 89 , 0 , '每页显示的条数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 96 , 89 , 0 , '显示留言的字数范围' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 97 , 90 , 0 , '列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 98 , 90 , 0 , '行数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 99 , 90 , 0 , '标题显示的字数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 100 , 90 , 0 , '显示类型' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 101 , 90 , 100 , '标题' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 102 , 90 , 100 , '标题+内容' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 103 , 90 , 0 , '标题前面加的样式' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 104 , 90 , 0 , '留言回复答案的字数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 105 , 90 , 0 , '是否显示时间(只显示标题时有效)' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 106 , 90 , 105 , '不显示' , 'false' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 107 , 90 , 105 , '显示' , 'true' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 108 , 92 , 0 , '显示的条数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 109 , 93 , 0 , '显示的条数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 110 , 93 , 0 , '排列方式' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 111 , 93 , 110 , '横排' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 112 , 93 , 110 , '竖排' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 113 , 94 , 0 , '排列方式' , '0' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 114 , 94 , 113 , '横排' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 115 , 94 , 113 , '竖排' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 116 , 106 , 0 , '类别ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 117 , 106 , 0 , '频道ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 118 , 106 , 0 , '标题显示的字数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 119 , 107 , 0 , '频道ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 120 , 107 , 0 , '类别ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 121 , 108 , 0 , '频道ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 122 , 108 , 0 , '类别ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 123 , 110 , 0 , '显示列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 124 , 110 , 0 , '显示行数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 125 , 110 , 0 , '频道ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 126 , 110 , 0 , '对应标题样式' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 127 , 112 , 0 , '类别ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 128 , 113 , 0 , '显示的列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 129 , 113 , 0 , '显示的行数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 130 , 113 , 0 , '类别ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 131 , 113 , 0 , '文章状态' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 132 , 113 , 131 , '最新' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 133 , 113 , 131 , '推荐' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 134 , 113 , 0 , '在标题后显示字样' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 135 , 113 , 134 , '不显示' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 136 , 113 , 134 , '推荐' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 137 , 113 , 134 , '最新' , '2' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 138 , 113 , 0 , '标题显示字数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 139 , 113 , 0 , '图片宽度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 140 , 113 , 0 , '图片高度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 141 , 113 , 0 , '内容显示字数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 142 , 113 , 0 , '是否显示类别推荐图片showstyle=显示时才生效' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 143 , 113 , 142 , '不显示' , 'false' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 144 , 113 , 0 , '标题前缀样式' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 145 , 113 , 0 , '是否显示类别推荐图片' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 146 , 113 , 145 , '显示' , '2' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 147 , 113 , 145 , '不显示' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 148 , 113 , 0 , '是否显示时间' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 149 , 113 , 148 , '显示' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 150 , 113 , 148 , '不显示' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 151 , 113 , 0 , '频道ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 152 , 113 , 142 , '显示' , 'true' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 153 , 114 , 0 , '显示列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 154 , 114 , 0 , '显示行数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 155 , 114 , 0 , '标题显示字数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 156 , 114 , 0 , '类别ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 157 , 114 , 0 , '文章状态' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 158 , 114 , 157 , '最新文章' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 159 , 114 , 157 , '热点文章' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 160 , 114 , 157 , '置顶文章' , '2' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 161 , 114 , 157 , '推荐文章' , '3' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 162 , 114 , 0 , '标题后缀图片' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 163 , 114 , 162 , '热点图片' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 164 , 114 , 162 , '置顶图片' , '2' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 165 , 114 , 162 , '推荐图片' , '3' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 166 , 114 , 162 , '最新图片' , '4' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 167 , 114 , 0 , '频道ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 168 , 114 , 162 , '不显示图片' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 169 , 115 , 0 , '每页显示的条数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 170 , 115 , 0 , '文章状态' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 171 , 115 , 170 , '最新' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 172 , 115 , 170 , '热点' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 173 , 115 , 170 , '置顶' , '2' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 174 , 115 , 170 , '推荐' , '3' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 175 , 115 , 0 , '后缀显示' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 176 , 115 , 175 , '不显示' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 177 , 115 , 175 , '热点' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 178 , 115 , 175 , '置顶' , '2' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 179 , 115 , 175 , '推荐' , '3' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 180 , 115 , 175 , '最新' , '4' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 181 , 115 , 0 , '类别参数名' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 182 , 115 , 0 , '频道ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 183 , 116 , 0 , '显示的列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 184 , 116 , 0 , '显示的行数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 185 , 116 , 0 , '类别ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 186 , 116 , 0 , '是否显示标题' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 187 , 116 , 186 , '显示' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 188 , 116 , 186 , '不显示' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 189 , 116 , 0 , '标题的长度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 190 , 116 , 0 , '文章状态' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 191 , 116 , 190 , '最新' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 192 , 116 , 190 , '热卖' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 193 , 116 , 190 , '置顶' , '2' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 194 , 116 , 190 , '推荐' , '3' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 195 , 116 , 0 , '图片宽度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 196 , 116 , 0 , '图片高度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 197 , 116 , 0 , '频道ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 198 , 117 , 0 , '显示的列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 199 , 117 , 0 , '显示的行数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 200 , 117 , 0 , '类别ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 201 , 117 , 0 , '是否显示标题' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 202 , 117 , 201 , '显示' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 203 , 117 , 201 , '不显示' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 204 , 117 , 0 , '标题的长度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 205 , 117 , 0 , '文章状态' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 206 , 117 , 205 , '最新' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 207 , 117 , 205 , '热卖' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 208 , 117 , 205 , '置顶' , '2' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 209 , 117 , 205 , '推荐' , '3' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 210 , 117 , 0 , '图片宽度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 211 , 117 , 0 , '图片高度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 212 , 117 , 0 , '频道ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 213 , 118 , 0 , '一级分类列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 214 , 118 , 0 , '二级分类列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 215 , 118 , 0 , '只显示一级分类或二级分类或2个都显示' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 216 , 118 , 215 , '只显示一级分类' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 217 , 118 , 215 , '只显示二级分类' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 218 , 118 , 215 , '2个都显示' , '2' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 219 , 118 , 0 , '传入classid显示二级分类' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 220 , 118 , 0 , '一级分类前缀样式' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 221 , 118 , 0 , '一级分类样式' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 222 , 118 , 0 , '二级分类样式' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 223 , 118 , 0 , '频道ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 224 , 119 , 0 , '每页显示的条数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 225 , 119 , 0 , '标题字数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 226 , 119 , 0 , '频道ID' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 228 , 127 , 0 , '显示的列数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 229 , 127 , 0 , '显示的行数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 230 , 127 , 0 , '显示的类型' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 231 , 127 , 230 , '文字' , '0' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 232 , 127 , 230 , '图片' , '1' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 233 , 127 , 230 , '全部' , '2' , 0 );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 65 , '商品列表，带分页' , 1 , 'Hope_PagePro_List' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 66 , '商品图文显示' , 1 , 'Hope_ProductList' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 67 , '传入类别ID查询出同级分类' , 1 , 'Hopr_protongj' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 68 , '商品分类列表标签' , 1 , 'Hope_ProClassList' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 69 , '根据参数查询出该分类的下一级所有分类' , 1 , 'Hope_ProClassList_ClassID' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 70 , '浏览过商品的列表标签' , 1 , 'Hope_ShowPro' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 71 , '相关产品列表(只有在商品详细展示页有效)' , 1 , 'Hope_Correlation' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 72 , '商品展示显示商品列表' , 1 , 'Hope_ProIndex' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 73 , '商品对比标签' , 1 , 'Hope_ProductComp' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 74 , '商品销售排行' , 2 , 'Hope_ProPH' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 75 , '显示商品第N级的类名称' , 2 , 'Hope_ShowClassSmall' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 76 , '商品第N级的类名称(有参数)' , 1 , 'Hope_ClassSmall' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 77 , '商品类别页面路径标签' , 2 , 'Hope_ClassURL' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 78 , '-商品详细页面路径标签' , 2 , 'Hope_ProductinformationURL' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 79 , '商品页面标题路径标签' , 2 , 'Hope_TitleURL' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 80 , '品牌标签' , 1 , 'Hope_PinPai' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 81 , '查询订单表信息' , 2 , 'Hope_OrderSearch' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 82 , '我的购物车' , 2 , 'Hope_Show_MyChat' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 84 , '查询购物表' , 1 , 'SearchShop' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 85 , '显示礼品列表' , 2 , 'ShowLiPin' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 86 , '礼品中心标签' , 2 , 'LiPinCenter' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 87 , '帮助具体信息显示' , 2 , 'Hope_Help' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 88 , '帮助分类列表' , 1 , 'Hope_HelpKind' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 89 , '留言版块' , 1 , 'Hope_Vote' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 90 , '留言显示主题（首页用）' , 1 , 'Hope_VoteSome' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 92 , '在线QQ' , 1 , 'Hope_QQ' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 93 , '在线贸易通' , 1 , 'Hope_MYT' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 94 , '在线MSN' , 1 , 'Hope_OnlineMSN' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 95 , '会员等级' , 2 , 'Hope_UserRank' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 96 , '网站URL' , 2 , 'Hope_SitUrl' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 97 , '网站地址' , 2 , 'Hope_Addr' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 98 , '网站标题' , 2 , 'Hope_Title' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 99 , '网站联系电话' , 2 , 'Hope_Tel' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 100 , '网站联系传真' , 2 , 'Hope_Post' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 101 , '网站联系手机' , 2 , 'Hope_Moble' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 102 , '网站联系邮编' , 2 , 'Hope_Code' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 103 , '网站版权' , 2 , 'Hope_Copyright' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 104 , '网站内容说明' , 2 , 'Hope_SiteExc' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 105 , '网站关键字' , 2 , 'Hope_KeysWord' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 106 , '(单页频道)根据传入的ID找到文章的内容' , 1 , 'Hope_GetContent' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 107 , '(单页频道)根据传入的ID找到文章的内容(显示全部信息)' , 1 , 'Hope_GetdyContent' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 108 , '(单页频道)根据传入的ID找到文章的标题' , 1 , 'Hope_GetdyTitle' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 110 , '(单页频道)查出该频道所有的单页类别所对应的文章url' , 1 , 'Hope_GetdyUrl' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 112 , '(单页频道)根据传入的classid获取所对应的信息' , 1 , 'Hope_GetclassUrl' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 113 , '文章图文显示' , 1 , 'Hope_ArticleList' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 114 , '文章列表标签(不显示图片)' , 1 , 'Hope_Article' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 115 , '文章列表标签' , 1 , 'Hope_PageArticle' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 116 , '文章图片列表标签' , 1 , 'Hope_ArticlePicList' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 117 , '带分页文章图片列表标签' , 1 , 'Hope_PageArticlePicList' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 118 , '文章分类列表标签' , 1 , 'Hope_ArticleClassList' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 119 , '搜索信息显示' , 1 , 'Hope_ArticleSearch' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 122 , '显示文章上一条记录(内容页有效)' , 2 , 'Show_PrvTitle' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 123 , '显示文章下一条记录(内容页有效)' , 2 , 'Show_NextTitle' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 124 , '显示文章标题(文章内容页有效)' , 2 , 'News_title' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 125 , '显示文章时间(文章内容页有效)' , 2 , 'News_Addtime' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 126 , '显示文章内容(文章内容页有效)' , 2 , 'News_Content' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 127 , '友情连接' , 1 , 'Hope_Link' );
+ 
+ SET IDENTITY_INSERT [YX_CMS] ON
+
+ INSERT [YX_CMS] ( [YX_ID] , [YX_TemplateType] , [YX_CMS_Name] , [YX_CMS_Code] , [YX_CMS_SM] , [YX_CMS_Type] , [ChannelType] ) VALUES ( 53 , 18 , '{$Hope_User_Newstop$}' , '<DIV id=HeadTop>
+<DIV id=Logo><A href="{$Hope_SitUrl$}" target=_top><img src="{$Hope_SitUrl$}{$Hope_Skin$}IMAGE/Logo.jpg"  /></A></DIV>
+<DIV id=HeadNavBar>
+<UL>
+  <LI class=NoSep><A href="{$Hope_SitUrl$}ProClass_list.aspx" 
+  target=_parent>我要买</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}vipuser/YX_sell.aspx" 
+  target=_parent>我要卖</A> </LI>
+  <LI><A id=MyTaoBao 
+  href="{$Hope_SitUrl$}vipuser/default_vip.aspx" 
+  target=_top>会员管理</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}BBS" target=_top>社区</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}HELP" target=_top>帮助中心</A>  </LI>
+  <LI id=AdvanceBox>
+
+  
+<script language="javascript">
+	function CheckValid()
+	{
+		var uin = shop_search.KeyWord.value;
+		if(uin=="" && shop_search.shoptype.value == ""){
+			alert("温馨提示:\n店铺关键字和类别不能同时为空!")
+			shop_search.KeyWord.focus();
+			return false;
+		}
+	}
+
+					function startSearch(input) {
+						if(input.value==input.defaultValue){
+							input.value='''';
+							input.className = input.className.replace('' DC'', '''');
+						}
+					}
+					function checkSearch() {
+						var q = document.getElementById(''qq'');
+						if (q.value == q.defaultValue || q.value == '''') {
+							location = '''';
+							return false;
+						} else {
+							return true;
+						}
+					}
+					</SCRIPT>
+  </LI></UL></DIV></DIV>
+<DIV id=QuickLinks>
+<UL>
+  <LI><iframe src="{$Hope_SitUrl$}Login_Stat.aspx"  frameborder="0" width="150" height="25" scrolling="no" ></iframe>
+ <!-- <script language="javascript" src="{$Hope_SitUrl$}Login_Stat.aspx" charset="utf-8" ></script>--></LI>
+  <LI><A href="{$Hope_SitUrl$}Hotsell.aspx" target=_parent>热卖商品</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}Shop.aspx" target=_parent>品牌商城</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}News/" target=_parent>购物资讯</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}HighlevelSearch.aspx" target=_parent>高级搜索</A> </LI></UL></DIV>
+<DIV class=hidden id=IptvCompanion>数字键--选择栏目 / 确定键--打开 / 左键--返回 / 右键--前进 / 
+首页--数字键0</DIV>
+<div class="SmartSiteTracker">
+</div>
+<div id="Content" class="R180">
+<a name="main"></a>
+<div style="position:relative;">
+<div style="position:absolute;top:-10px;left:182px;text-indent:-9999px;width:45px;height:34px;background:url({$Hope_SitUrl$}{$Hope_Skin$}IMAGE/new_mall_pop2.gif) no-repeat 0 0;">新</div></div>
+
+<div id="TopSearchBox">
+  <ul class="Tab">
+    <li class="Selected"><a href="{$Hope_SitUrl$}Default.aspx" >首页</a></li>
+    <li ><a href="{$Hope_SitUrl$}shop.aspx" >逛逛店铺</a></li>
+  </ul>
+  <ul class="Channal">
+    <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=17" target="_blank">手机数码</a></li>
+    <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=10" target="_blank">男人</a></li>
+    <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=39" target="_blank">女人</a></li>
+    <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=11" target="_blank">运动</a></li>
+    <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=4" target="_blank">家居</a></li>
+    <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=43" target="_blank">母婴</a></li>
+    <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=8" target="_blank">影视书籍</a></li>
+    <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=13" target="_blank">游戏</a></li>
+    <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=38" target="_blank">易想商盟</a></li>
+	<li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=5" target="_blank">明星专区</a></li>
+  </ul>
+  
+
+  <div id="SearchBody">
+  <fieldset><script language=javascript>
+  	function chksearch(){
+		if(document.mainform1.SearchText.value==""){
+			alert("请输入搜索关键字")
+			document.mainform1.SearchText.focus();
+			return false;
+		}else if(document.mainform1.SearchText.value=="''")
+		{
+		document.mainform1.SearchText.value="’"
+		}
+		
+	}
+  </script>
+
+					<form action="{$Hope_SitUrl$}News/search.aspx" method="post" name="mainform1" id="mainform1" onsubmit="return chksearch()"> 
+					<div class="SearchInput">	
+					
+                    <label for="KeyWords">关键字：</label>
+						<input type="text" name="SearchText" id="SearchText" size="40" />
+						<select name=SearchKind>
+						<option value=0>文章内容+标题</option>
+						<option value=1>文章内容</option>
+						<option value=2>文章标题</option>
+						</select>
+						<button type="submit" name="Submit">搜索</button></div>
+					</form>
+					<ul>
+
+
+					</ul>
+				
+
+    </fieldset>
+  </div>
+  
+  
+</div>' , '新闻资料头部' , '2' , 62 );
+ INSERT [YX_CMS] ( [YX_ID] , [YX_TemplateType] , [YX_CMS_Name] , [YX_CMS_Code] , [YX_CMS_SM] , [YX_CMS_Type] , [ChannelType] ) VALUES ( 55 , 18 , '{$Hope_User_HelpHeader$}' , '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>{#Hope_HttpTitle*1#}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/forum.css" type="text/css">
+<script language="javascript" src="{$Hope_SitUrl$}UpdateViewNews.aspx?YX_ID={$News_ID$}"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/yui-utilities.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/tbra.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type="text/javascript"></script>
+<script src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type="text/javascript"></script>
+</head>
+
+<body class="W950 CurHome" >
+
+<DIV id=Head> 
+<DIV id=HeadTop>
+<DIV id=Logo><A href="" target=_top><img src="{$Hope_SitUrl$}{$Hope_Skin$}IMAGE/Logo.jpg"/></A></DIV>
+<DIV id=HeadNavBar>
+<UL>
+  <LI class=NoSep><A href="../ProClass_list.aspx" 
+  target=_parent>我要买</A> </LI>
+  <LI><A href="/vipuser/YX_sell.aspx" 
+  target=_parent>我要卖</A> </LI>
+  <LI><A id=MyTaoBao 
+  href="/vipuser/default_vip.aspx" 
+  target=_top>会员管理</A> </LI>
+  <LI><A href="/BBS" target=_top>社区</A> </LI>
+  <LI><A href="/help" target=_top>帮助中心</A>  </LI>
+  <LI id=AdvanceBox>
+
+  
+<script language="javascript">
+	function CheckValid()
+	{
+		var uin = shop_search.KeyWord.value;
+		if(uin=="" && shop_search.shoptype.value == ""){
+			alert("温馨提示:\n店铺关键字和类别不能同时为空!")
+			shop_search.KeyWord.focus();
+			return false;
+		}
+	}
+
+					function startSearch(input) {
+						if(input.value==input.defaultValue){
+							input.value='''';
+							input.className = input.className.replace('' DC'', '''');
+						}
+					}
+					function checkSearch() {
+						var q = document.getElementById(''qq'');
+						if (q.value == q.defaultValue || q.value == '''') {
+							location = '''';
+							return false;
+						} else {
+							return true;
+						}
+					}
+					</SCRIPT>
+  </LI></UL></DIV></DIV>
+<DIV id=QuickLinks>
+<UL>
+  <LI>您好，欢迎来易想！</LI>
+  <LI><A href="{$Hope_SitUrl$}vipuser/VipReg.aspx"  target=_parent>[免费注册]</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}Yx_VipLogin.aspx" target=_parent>[登录]</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}Hotsell.aspx" target=_parent>热卖商品</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}Shop.aspx" target=_parent>品牌商城</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}News/" target=_parent>购物资讯</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}HighlevelSearch.aspx" target=_parent>高级搜索</A> </LI></UL></DIV>
+<DIV class=hidden id=IptvCompanion>数字键--选择栏目 / 确定键--打开 / 左键--返回 / 右键--前进 / 
+首页--数字键0</DIV>
+<div class="SmartSiteTracker">
+</div>
+<div id="Content" class="R180">
+<a name="main"></a>
+<div style="position:relative;">
+<div style="position:absolute;top:-10px;left:182px;text-indent:-9999px;width:45px;height:34px;background:url({$Hope_SitUrl$}{$Hope_Skin$}IMAGE/new_mall_pop2.gif) no-repeat 0 0;">新</div></div>
+
+<div id="TopSearchBox">
+  <ul class="Tab">
+    <li class="Selected"><a href="{$Hope_SitUrl$}Default.aspx" >首页</a></li>
+    <li ><a href="{$Hope_SitUrl$}shop.aspx" >逛逛店铺</a></li>
+  </ul>
+  <ul class="Channal">
+    <li><a href="#" target="_blank">手机数码</a></li>
+    <li><a href="#" target="_blank">男人</a></li>
+    <li><a href="#" target="_blank">女人</a></li>
+    <li><a href="#" target="_blank">运动</a></li>
+    <li><a href="#" target="_blank">家居</a></li>
+    <li><a href="#" target="_blank">母婴</a></li>
+    <li><a href="#" target="_blank">影视书籍</a></li>
+    <li><a href="#" target="_blank">游戏</a></li>
+    <li><a href="#" target="_blank">彩票</a></li>
+	<li><a href="#" target="_blank">明星专区</a></li>
+  </ul>
+  
+
+  <div id="SearchBody">
+  <fieldset>
+
+					<form action="#" method="post" name="mainform1" id="mainform1" target="_blank" onSubmit="return goY(this);"> 
+						
+                        
+                       
+                       <input type="hidden" name="fr" value="taobaobbs"/>
+					<div class="SearchInput">	
+                    <label for="KeyWords">关键字：</label>
+						<input type="text" name="q" id="keyword" size="40" />
+                        
+						<button type="submit" name="Submit">搜索</button></div>
+					</form>
+					<ul>
+
+					</ul>
+				
+
+    </fieldset>
+  </div>
+  
+  
+</div>' , '帮助中心通用头部' , '2' , 65 );
+ INSERT [YX_CMS] ( [YX_ID] , [YX_TemplateType] , [YX_CMS_Name] , [YX_CMS_Code] , [YX_CMS_SM] , [YX_CMS_Type] , [ChannelType] ) VALUES ( 62 , 19 , '{$Hope_User_Newstop$}' , '	<div id="header">
+		<table width="950" border="0" cellpadding="0" cellspacing="0" style="margin: 0px auto">
+		  <tr>
+			<td width="308" rowspan="2" align="left"><a href="{$Hope_SitUrl$}default.aspx"><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/Logo.gif" width="280" height="31" /></a></td>
+			<td width="642" height="30" align="right"><table border="0" cellspacing="2" cellpadding="0">
+              <tr>
+                <td height="20" align="left" class="link1"><iframe src="{$Hope_SitUrl$}Login_Stat.aspx"  frameborder="0" width="300" height="20" scrolling="no" style="background-color:#FFFFFF" ></iframe></td>
+                <td width="55" align="center" background="{$Hope_SitUrl$}{$Hope_Skin$}images/top_menu.gif"><a href="{$Hope_SitUrl$}/ProClass_list.aspx" target="_parent">我要买</a></td>
+                <td width="55" align="center" background="{$Hope_SitUrl$}{$Hope_Skin$}images/top_menu.gif"><a href="{$Hope_SitUrl$}/vipuser/YX_sell.aspx" target="_parent">我要卖</a></td>
+                <td width="55" align="center" background="{$Hope_SitUrl$}{$Hope_Skin$}images/top_menu.gif"><a href="{$Hope_SitUrl$}/vipuser/default_vip.aspx" target="_top">会员中心</a></td>
+                <td width="60" align="center"><a href="{$Hope_SitUrl$}/bbs" target="_top">购物社区</a></td>
+                <td width="60" align="center"><a href="{$Hope_SitUrl$}paipai_news/" target="_parent">购物资讯</a></td>
+                <td width="15" align="left"><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/headHelp.gif" width="13" height="13" align="absmiddle" /></td>
+                <td width="55" align="left"> <a href="{$Hope_SitUrl$}/paipai_help" target="_top">帮助中心</a></td>
+              </tr>
+            </table></td>
+		  </tr>
+		  <tr>
+		    <td height="35" valign="bottom">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="11" class="menu_left">&nbsp;</td>
+                <td width="620">
+				<ul id="meun">
+		<li id="m1"><a href="{$Hope_SitUrl$}default.aspx" target="_top">首页</a></li>
+		<li class="menu_line"></li><li id="m2"><a href="{$Hope_SitUrl$}ProClass_list.aspx" target="_top">易想集市</a></li>
+		<li  class="menu_line"></li><li id="m3"><a href="{$Hope_SitUrl$}shop.aspx" target="_top">品牌商城</a></li>
+		<li class="menu_line"></li><li id="m4"><a href="{$Hope_SitUrl$}Productlist.aspx?distype=6" target="_top">二手闲置</a></li>
+		<li  class="menu_line"></li><li id="m5"><a href="Hotsell.aspx" target="_top">热卖商品</a></li>
+		<li class="menu_line"></li><li><A 
+    href="{$Hope_SitUrl$}Productlist.aspx?classid=14" 
+    target=_top>手机数码</A></li>
+		<li><A 
+    href="{$Hope_SitUrl$}Productlist.aspx?classid=1" 
+    target=_top>女人</A></li>
+		<li><A 
+    href="{$Hope_SitUrl$}Productlist.aspx?classid=23" 
+    target=_top>男人</A></li>
+		<li><A 
+    href="{$Hope_SitUrl$}Productlist.aspx?classid=6" 
+    target=_top>影视书籍</A></li>
+		<li><A 
+    href="{$Hope_SitUrl$}Productlist.aspx?classid=2" 
+    target=_top>护肤</A></li>
+		    </ul></td>
+                <td width="20" class="menu_right">&nbsp;</td>
+              </tr>
+            </table>			</td>
+	      </tr>
+	  </table>
+		<table width="950" border="0" cellpadding="0" cellspacing="0" background="{$Hope_SitUrl$}{$Hope_Skin$}images/headFindBg.gif" style="margin: 0px auto">
+		  <tr>
+			<td width="122" height="60" align="center" style="background:url({$Hope_SitUrl$}{$Hope_Skin$}images/lady_001.gif) left no-repeat">&nbsp;</td>
+		    <td width="770" align="left">
+            <DIV id=TopSearchBox>
+            <ul class="Channal">
+                <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=17" target="_blank">手机数码</a></li>
+                <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=10" target="_blank">男人</a></li>
+                <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=39" target="_blank">女人</a></li>
+                <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=11" target="_blank">运动</a></li>
+                <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=4" target="_blank">家居</a></li>
+                <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=43" target="_blank">母婴</a></li>
+                <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=8" target="_blank">影视书籍</a></li>
+                <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=13" target="_blank">游戏</a></li>
+                <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=38" target="_blank">易想商盟</a></li>
+                <li><a href="{$Hope_SitUrl$}News/ArticleList.aspx?Flag=1&ClassId=5" target="_blank">明星专区</a></li>
+            </ul>
+    
+    <ul class="Tab">
+         <form action="{$Hope_SitUrl$}News/search.aspx" method="post" name="mainform1" id="mainform1" onsubmit="return chksearch()">
+               <label for="KeyWords">关键字：</label>
+                      <input type="text" name="SearchText" id="SearchText" size="16" />
+                      
+                      <select name=SearchKind>
+                              <option value=0>文章内容+标题</option>
+                              <option value=1>文章内容</option>
+                              <option value=2>文章标题</option>
+                      </select>
+                      
+                      <input type="submit" name="Submit" value="提交"></input>
+         </form>
+    </ul>
+
+<script language="javascript">
+function changeClass(str){
+	if(str=="product"){
+		document.topsearch.action=''Productlist.aspx'';
+		document.getElementById("proclass").style.display="";
+		document.getElementById("newclass").style.display="none";
+	}else if (str=="shop"){
+		document.topsearch.action=''shop_search.aspx''
+		document.getElementById("proclass").style.display="";
+		document.getElementById("newclass").style.display="none";
+	}else if (str=="nick"){
+		document.topsearch.action=''shop_search.aspx''
+		document.getElementById("proclass").style.display="";
+		document.getElementById("newclass").style.display="none";
+	}else if (str=="info"){
+		document.topsearch.action=''News/search.aspx''
+		document.getElementById("proclass").style.display="none";
+		document.getElementById("newclass").style.display="";
+	}
+}
+function checkkeyword(){
+	if(document.topsearch.keyword.value==""){
+		alert("请输入搜索关键字");
+		document.topsearch.keyword.focus();
+		return false;
+	}
+	document.topsearch.SearchText.value=document.topsearch.keyword.value;
+	
+}
+</SCRIPT>
+</DIV>
+			
+			
+			</td>
+		    <td width="58" align="center" style="background:url({$Hope_SitUrl$}{$Hope_Skin$}images/headFindSide.gif) right no-repeat">&nbsp;</td>
+		  </tr>
+	  </table>
+	</div>' , '新闻资料头部' , '2' , 68 );
+
+ SET IDENTITY_INSERT [YX_CMS] OFF
+

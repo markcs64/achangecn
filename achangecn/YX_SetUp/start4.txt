@@ -1,0 +1,662 @@
+ SET IDENTITY_INSERT [YX_ModCms] ON
+
+ INSERT [YX_ModCms] ( [YX_ID] , [YX_TemplateType] , [YX_ModCMSName] , [YX_ModCMSSM] , [YX_ModCMSCode] , [ChannelType] ) VALUES ( 271 , 18 , '{$Hope_RegSuccess$}' , '注册成功' , '<table width="98%" height="171" border="0" cellpadding="0" cellspacing="0" bgcolor="#F3F3F3">
+  <tr>
+    <td height="25" align="left" style="font-size:16px;font-weight: bold;"><span style="color:#000000"><img src="{$Hope_SitUrl$}{$Hope_Skin$}IMAGE/s.jpg"/></span></td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="0" cellspacing="0" style="border: 1px solid #F3F3F3;">
+      <tr>
+        <td height="103" align="center" valign="top"><span style="color:#ff0000;font-weight: bold;"> <br>
+          恭喜你</span>：{$Hope_SiteUser$}<br>
+          <br>
+        你已经成功注册为{$Hope_Title$}的会员，你可以尽情的享受网上购物的乐趣！<a href="Yx_VipLogin.aspx">我要登陆</a>&nbsp;<br />
+              <br />
+          </td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+' , 0 );
+ INSERT [YX_ModCms] ( [YX_ID] , [YX_TemplateType] , [YX_ModCMSName] , [YX_ModCMSSM] , [YX_ModCMSCode] , [ChannelType] ) VALUES ( 272 , 18 , '{$Hope_Top$} ' , '头部' , '<DIV id=Head> 
+<DIV id=HeadTop>
+<DIV id=Logo><a href="{$Hope_SitUrl$}" target=_top><img src="{$Hope_SitUrl$}{$Hope_Skin$}IMAGE/Logo.jpg"/></a></DIV>
+<DIV id=HeadNavBar>
+<UL>
+  <LI class=NoSep><A href="../ProClass_list.aspx" 
+  target=_parent>我要买</A> </LI>
+  <LI><A href="/vipuser/YX_sell.aspx" 
+  target=_parent>我要卖</A> </LI>
+  <LI><A id=MyTaoBao 
+  href="/vipuser/default_vip.aspx" 
+  target=_top>会员中心</A> </LI>
+  <LI><A href="/bbs" target=_top>购物社区</A> </LI>
+  <LI><A href="/help" target=_top>帮助中心</A>  </LI>
+  <LI id=AdvanceBox>
+
+  </LI></UL></DIV></DIV>
+<DIV id=QuickLinks>
+<UL>
+  <LI><iframe src="{$Hope_SitUrl$}Login_Stat.aspx"  frameborder="0" width="150" height="25" scrolling="no" ></iframe>
+ <!-- <script language="javascript" src="{$Hope_SitUrl$}Login_Stat.aspx" charset="utf-8" ></script>--></LI>
+  <LI><A href="Hotsell.aspx" target=_parent>热卖商品</A> </LI>
+  <LI><A href="Shop.aspx" target=_parent>品牌商城</A> </LI>
+  <LI><A href="News/" target=_parent>购物资讯</A> </LI>
+  <LI><A href="HighlevelSearch.aspx" target=_parent>高级搜索</A> </LI></UL></DIV>
+<DIV class=hidden id=IptvCompanion>数字键--选择栏目 / 确定键--打开 / 左键--返回 / 右键--前进 / 
+首页--数字键0</DIV>
+<DIV id=ChannelMenu>
+<UL id=ChannelMenuItems>
+  <LI id=MenuHome><A href="{$Hope_SitUrl$}default.aspx" 
+  target=_top><SPAN>首页</SPAN></A> </LI>
+  <LI id=MenuMarket><A 
+  href="{$Hope_SitUrl$}ProClass_list.aspx" 
+  target=_top><SPAN>易想集市</SPAN></A> </LI>
+  <LI id=kk2><A 
+  href="{$Hope_SitUrl$}browse_offer.aspx" 
+  target=_top><SPAN>易想求购</SPAN></A> </LI>
+  <LI id=MenuMall><A 
+  href="{$Hope_SitUrl$}shop.aspx" 
+  target=_top><SPAN>品牌商城</SPAN></A> </LI>
+  <LI id=MenuSecondHand><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?distype=6" 
+  target=_top><SPAN>二手闲置</SPAN></A> </LI>
+  <LI id=MenuSale><A 
+  href="Hotsell.aspx" 
+  target=_top><SPAN>热卖商品</SPAN></A> </LI>
+  <LI id=MenuInfo>
+  <UL>
+    <LI id=MenuDigital><A 
+    href="{$Hope_SitUrl$}Productlist.aspx?classid=14" 
+    target=_top><SPAN>手机数码</SPAN></A> </LI>
+    <LI id=MenuLady><A 
+    href="{$Hope_SitUrl$}Productlist.aspx?classid=1" 
+    target=_top><SPAN>女人</SPAN></A> </LI>
+    <LI id=MenuMan><A 
+    href="{$Hope_SitUrl$}Productlist.aspx?classid=23" 
+    target=_top><SPAN>男人</SPAN></A> </LI>
+    <LI id=MenuSport><A 
+    href="{$Hope_SitUrl$}Productlist.aspx?classid=19" 
+    target=_top><SPAN>运动</SPAN></A> </LI>
+    <LI id=MenuLife><A 
+    href="{$Hope_SitUrl$}Productlist.aspx?classid=21" 
+    target=_top><SPAN>家居</SPAN></A> </LI>
+    <LI id=MenuBaby><A 
+    href="{$Hope_SitUrl$}Productlist.aspx?classid=26" 
+    target=_top><SPAN>母婴</SPAN></A> </LI>
+    <LI id=MenuCulture><A 
+    href="{$Hope_SitUrl$}Productlist.aspx?classid=6" 
+    target=_top><SPAN>影视书籍</SPAN></A> </LI>
+    <LI id=MenuGame><A 
+    href="{$Hope_SitUrl$}Productlist.aspx?classid=13" 
+    target=_top><SPAN>游戏</SPAN></A> </LI>
+    <LI id=MenuLottery><A 
+    href="{$Hope_SitUrl$}Productlist.aspx?classid=2" 
+    target=_top><SPAN>护肤</SPAN></A> </LI>
+</UL></LI></UL>
+<DIV id=SearchBox>
+<DIV id=SearchInnerBox>
+<DIV id=SearchHome>
+<DIV id=SearchForm>
+<form name=topsearch action="Productlist.aspx" onSubmit="return checkkeyword()"  method="method" style="margin:0px">
+<SELECT id=keywordtype onchange=changeClass(this.value) name=keywordtype> 
+  <OPTION value=product selected>搜索商品</OPTION> 
+  <OPTION value=shop>搜索店铺</OPTION> 
+  <OPTION value=nick>搜索掌柜</OPTION> 
+  <OPTION value=info>搜索资讯</OPTION> 
+</SELECT> 
+<input type="hidden" value="0" name=SearchKind>
+<input type="hidden" value="" name=SearchText>
+<INPUT class=findInto id=keyword name=keyword> 
+<span id=proclass>
+                      <!--       #begin           -->
+                      {$Hope_ClassName$}
+                      <!--        #end          -->
+</span>
+<span id=newclass style="display:none">
+                      <!--       #begin           -->
+                      {#Hope_ArticleBigClass*62#}
+                      <!--        #end          -->
+</span>
+<button type="submit"  OnClick="Verify" />搜 索</BUTTON> 
+<A href="{$Hope_SitUrl$}HighlevelSearch.aspx" target=_top>[ 高级搜索 ]</A> 
+<A href="/HELP" 
+target=_blank>[ 使用帮助 ]</A> 
+</FORM>
+
+  
+
+<script language="javascript">
+function changeClass(str){
+	if(str=="product"){
+		document.topsearch.action=''Productlist.aspx'';
+		document.getElementById("proclass").style.display="";
+		document.getElementById("newclass").style.display="none";
+	}else if (str=="shop"){
+		document.topsearch.action=''shop_search.aspx''
+		document.getElementById("proclass").style.display="";
+		document.getElementById("newclass").style.display="none";
+	}else if (str=="nick"){
+		document.topsearch.action=''shop_search.aspx''
+		document.getElementById("proclass").style.display="";
+		document.getElementById("newclass").style.display="none";
+	}else if (str=="info"){
+		document.topsearch.action=''News/search.aspx''
+		document.getElementById("proclass").style.display="none";
+		document.getElementById("newclass").style.display="";
+	}
+}
+function checkkeyword(){
+	if(document.topsearch.keyword.value==""){
+		alert("请输入搜索关键字");
+		document.topsearch.keyword.focus();
+		return false;
+	}
+	document.topsearch.SearchText.value=document.topsearch.keyword.value;
+	
+}
+</SCRIPT>
+</DIV>
+<DIV id=HotKeywords>
+<UL>
+  <LI class=B><A href="#" 
+  target=_blank>热门搜索</A>： </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=mp3" 
+  target=_blank>mp3</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=女鞋" 
+  target=_blank>女鞋</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=手机" 
+  target=_blank>手机</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=比基尼" 
+  target=_blank>比基尼</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=魔兽世界" 
+  target=_blank>魔兽世界</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=内存" 
+  target=_blank>内存</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=个人闲置" 
+  target=_blank>个人闲置</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=芭比娃娃" 
+  target=_blank>芭比娃娃</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=特价机票" 
+  target=_blank>特价机票</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=吊带裙" 
+  target=_blank>吊带裙</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=沙滩裤" 
+  target=_blank>沙滩裤</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=防晒霜" 
+  target=_blank>防晒霜</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=数码相机" 
+  target=_blank>数码相机</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=二手房" 
+  target=_blank>二手房</A> 
+</LI></UL></DIV></DIV></DIV></DIV>' , 0 );
+ INSERT [YX_ModCms] ( [YX_ID] , [YX_TemplateType] , [YX_ModCMSName] , [YX_ModCMSSM] , [YX_ModCMSCode] , [ChannelType] ) VALUES ( 273 , 18 , '{$Hope_Bottom$}' , '网站首页底部' , '<div style="width:950px;clear:both;margin:0 auto;">
+{#Hope_Link*1,8#}
+<hr style="border:dashed 1px #000000; width:100%"/>
+{#Hope_Link*0,8#}
+</div>
+<div style="width:100%; height:auto; clear:both; margin:auto">
+<table 
+width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bordercolorlight="#ffffff" bordercolordark="#f8f9f8">
+  <tbody>
+    <tr>
+      <td bgcolor="#f8f9f8"><p align="center"><a href="../Help.aspx?help=6">关于我们 </a> |&nbsp;<a href="../Help.aspx?help=1"> 常见问题</a>  | <a href="../Help.aspx?help=2"> 安全交易</a> |&nbsp;<a href="../Help.aspx?help=3"> 购买流程</a> | <a href="../Help.aspx?help=4"> 如何付款</a> |  <a href="../Help.aspx?help=7"> 配送方式 </a> |&nbsp;<a 
+      href="../Help.aspx?help=8">诚征英才 </a> | 
+         <a href="../Help.aspx?help=5">联系我们</a>  | <a 
+      href="../Help.aspx?help=9">送货范围</a>  | 
+        <a href="../Help.aspx?help=10"> 服务条款</a>  |  <a 
+      href="../Messages.aspx">投诉反馈</a>  | <font style="COLOR: #ff6600" color="#ff7916"> &nbsp; <a 
+      style="COLOR: #ff6600" 
+      href="#">TOP</a></font></p></td>
+    </tr>
+  </tbody>
+</table>
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td colspan="2"><hr width="100%" color="#e3e4e3" size="1" />
+      </td>
+    </tr>
+    <tr>
+      <td width="201"><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/bottom_bg.jpg" alt="" name="Image1" 
+      width="236" height="82" id="Image1" /></td>
+      <td><table cellpadding="0" width="100%" border="0">
+        <tbody>
+          <TR>
+            <TD align="left"><FONT color=#808080>&nbsp;地址：{$Hope_Addr$} </FONT></TD>
+          </TR>
+          <TR>
+            <TD align="left"><FONT color=#808080>&nbsp;客户热线：{$Hope_Tel$}   邮编：{$Hope_Post$}   
+              公司邮箱：{$Hope_Email$} <br>
+              &nbsp;电话：{$Hope_Tel$} 传真：{$Hope_Code$} 移动：{$Hope_ModelTel} <br>
+              &nbsp;销售qq：267224740 / 267224742 / 267224743 / 267224744</FONT></TD>
+          </TR>
+          <TR>
+            <TD align="left"><FONT color=#808080>&nbsp;Copyright 2006-2008 ChangeHope All Rights Reserved&nbsp;  {$Hope_Copyright$}</FONT></TD>
+          </TR>
+          <TR>
+            <TD align="left">
+<FONT color=#808080>&nbsp;当前版本：{$Hope_SiteExc$}</FONT>
+<div style=''display:none''><script src=''http://s72.cnzz.com/stat.php?id=333644&web_id=333644&show=pic1'' language=''JavaScript'' charset=''gb2312''></script></div>
+</TD>
+          </TR>
+        </tbody>
+      </table></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+' , 0 );
+ INSERT [YX_ModCms] ( [YX_ID] , [YX_TemplateType] , [YX_ModCMSName] , [YX_ModCMSSM] , [YX_ModCMSCode] , [ChannelType] ) VALUES ( 274 , 18 , '{$Hope_UserTop$}' , '会员中心头部' , '<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/layout.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/component.css" type="text/css">
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/frontpage_v2.css" type="text/css">
+<DIV id=Head> 
+<DIV id=HeadTop>
+<DIV id=Logo><A href="{$Hope_SitUrl$}Default.aspx" target=_top><img src="{$Hope_SitUrl$}{$Hope_Skin$}IMAGE/Logo.jpg" /></A></DIV>
+<DIV id=HeadNavBar>
+<UL>
+  <LI class=NoSep><A href="{$Hope_SitUrl$}ProClass_list.aspx" 
+  target=_parent>我要买</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}vipuser/YX_sell.aspx" 
+  target=_parent>我要卖</A> </LI>
+  <LI><A id=MyTaoBao 
+  href="{$Hope_SitUrl$}vipuser/default_vip.aspx" 
+  target=_top>会员管理</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}BBS" target=_top>社区</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}help/" target=_top>帮助中心</A>  </LI>
+  <LI id=AdvanceBox>
+
+  </LI></UL></DIV></DIV>
+<DIV id=QuickLinks>
+<UL>
+  <LI><iframe src="{$Hope_SitUrl$}Login_Stat.aspx"  frameborder="0" width="300" height="30" scrolling="no" ></iframe></LI>
+  <LI><A href="{$Hope_SitUrl$}Hotsell.aspx" target=_parent>热卖商品</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}Shop.aspx" target=_parent>品牌商城</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}/News/" target=_parent>购物资讯</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}HighlevelSearch.aspx" target=_parent>高级搜索</A> </LI></UL></DIV>
+<DIV class=hidden id=IptvCompanion>数字键--选择栏目 / 确定键--打开 / 左键--返回 / 右键--前进 / 
+首页--数字键0</DIV>
+</DIV>' , 0 );
+ INSERT [YX_ModCms] ( [YX_ID] , [YX_TemplateType] , [YX_ModCMSName] , [YX_ModCMSSM] , [YX_ModCMSCode] , [ChannelType] ) VALUES ( 275 , 18 , '{$Hope_UserBottom$}' , '网站内页底部' , '<DIV id=foot style="margin-top:10px;">
+<DIV id=foot_link><a href="../Help.aspx?help=6">关于我们 </a> |&nbsp;<a href="../Help.aspx?help=1"> 常见问题</a>  | <a href="../Help.aspx?help=2"> 安全交易</a> |&nbsp;<a href="../Help.aspx?help=3"> 购买流程</a> | <a href="../Help.aspx?help=4"> 如何付款</a> |  <a href="../Help.aspx?help=7"> 配送方式 </a> |&nbsp;<a 
+      href="../Help.aspx?help=8">诚征英才 </a> | 
+         <a href="../Help.aspx?help=5">联系我们</a>  | <a 
+      href="../Help.aspx?help=9">送货范围</a>  | 
+        <a href="../Help.aspx?help=10"> 服务条款</a>  <br>
+        <br>
+</DIV>
+<DIV><table cellpadding="0" width="71%" border="0">
+        <tbody>
+          <TR>
+            <TD align="center">售前咨询:{$Hope_Tel$} 售后服务：{$Hope_Tel$} 传真:{$Hope_Code$} 移动电话:{$Hope_ModelTel}<br>
+              <br>
+Copyright 2006-2008 ChangeHope All Rights Reserved <br>
+<br>
+{$Hope_Copyright$}
+</TD>
+          </TR>
+        </tbody>
+  </table>
+</DIV>
+</DIV>' , 0 );
+ INSERT [YX_ModCms] ( [YX_ID] , [YX_TemplateType] , [YX_ModCMSName] , [YX_ModCMSSM] , [YX_ModCMSCode] , [ChannelType] ) VALUES ( 276 , 18 , '{$Hope_LoginOk$} ' , '登陆成功' , '<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<style type="text/css">
+<!--
+body {
+	margin-top: 3px;
+}
+-->
+</style>
+欢迎您：{$Hope_SiteUser$}
+<a href=''{$Hope_SitUrl$}Default.aspx?Flag=LoginOut'' target=''_parent'' >[退出]</a>' , 0 );
+ INSERT [YX_ModCms] ( [YX_ID] , [YX_TemplateType] , [YX_ModCMSName] , [YX_ModCMSSM] , [YX_ModCMSCode] , [ChannelType] ) VALUES ( 277 , 18 , '{$Hope_Login$}' , '登陆' , '<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<style type="text/css">
+<!--
+body {
+	margin-top: 3px;
+}
+-->
+</style>
+欢迎您：<A id=headInto href=''{$Hope_SitUrl$}Yx_VipLogin.aspx'' target=_top>登录</A>&nbsp;&nbsp;<A id=headInto href=''{$Hope_SitUrl$}vipuser/VipReg.aspx'' target=_top>注册</A>' , 0 );
+ INSERT [YX_ModCms] ( [YX_ID] , [YX_TemplateType] , [YX_ModCMSName] , [YX_ModCMSSM] , [YX_ModCMSCode] , [ChannelType] ) VALUES ( 290 , 19 , '{$Hope_Top$} ' , '头部' , '	<div id="header">
+		<table width="950" border="0" cellpadding="0" cellspacing="0" style="margin: 0px auto">
+		  <tr>
+			<td width="308" rowspan="2" align="left"><a href="{$Hope_SitUrl$}default.aspx"><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/Logo.gif" width="280" height="31" /></a></td>
+			<td width="642" height="30" align="right">
+            
+            <div id="menus">
+              <ul>
+                <li class="menus2"><iframe src="{$Hope_SitUrl$}Login_Stat.aspx"  frameborder="0" width="250" height="20" scrolling="no" style="background-color:#FFFFFF" ></iframe></li>
+                <li><a href="{$Hope_SitUrl$}/ProClass_list.aspx" target="_parent">我要买</a></li>
+                <li><a href="{$Hope_SitUrl$}/vipuser/YX_sell.aspx" target="_parent">我要卖</a></li>
+                <li><a href="{$Hope_SitUrl$}/vipuser/default_vip.aspx" target="_top">会员中心</a></li>
+                <li><a href="{$Hope_SitUrl$}/bbs" target="_top">社区</a></li>
+                <li><a href="{$Hope_SitUrl$}paipai_news/" target="_parent">资讯</a></li>
+                <li> <a href="{$Hope_SitUrl$}/paipai_help" target="_top">帮助</a></li>
+              </ul>
+            </div>
+            
+            </td>
+		  </tr>
+		  <tr>
+		    <td height="35" valign="bottom">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="11" class="menu_left">&nbsp;</td>
+                <td>
+				<ul id="meun">
+		<li id="m1"><a href="{$Hope_SitUrl$}default.aspx" target="_top">首页</a></li>
+		<li class="menu_line"></li>
+        <li id="m2"><a href="{$Hope_SitUrl$}ProClass_list.aspx" target="_top">易想集市</a></li>
+		<li  class="menu_line"></li>
+        <li id="m3"><a href="{$Hope_SitUrl$}shop.aspx" target="_top">品牌商城</a></li>
+        <li  class="menu_line"></li>
+        <li id="m6"><a href="{$Hope_SitUrl$}browse_offer.aspx" target="_top">求购专区</a></li>
+		<li class="menu_line"></li>
+        <li id="m4"><a href="{$Hope_SitUrl$}Productlist.aspx?distype=6" target="_top">二手闲置</a></li>
+		<li  class="menu_line"></li>
+        <li id="m5"><a href="Hotsell.aspx" target="_top">热卖商品</a></li>
+		<li class="menu_line"></li>
+        <li><A href="{$Hope_SitUrl$}Productlist.aspx?classid=14" target=_top>手机数码</A></li>
+        <li class="menu_line"></li>
+		<li><A href="{$Hope_SitUrl$}Productlist.aspx?classid=1" target=_top>女人</A></li>
+        <li class="menu_line"></li>
+		<li><A href="{$Hope_SitUrl$}Productlist.aspx?classid=23" target=_top>男人</A></li>
+        <li class="menu_line"></li>
+		<li><A href="{$Hope_SitUrl$}Productlist.aspx?classid=6" target=_top>影视书籍</A></li>
+		    </ul></td>
+                <td width="20" class="menu_right">&nbsp;</td>
+              </tr>
+            </table>			</td>
+	      </tr>
+	  </table>
+		<table width="950" border="0" cellpadding="0" cellspacing="0" background="{$Hope_SitUrl$}{$Hope_Skin$}images/headFindBg.gif" style="margin: 0px auto">
+		  <tr>
+			<td width="122" height="60" align="center" style="background:url({$Hope_SitUrl$}{$Hope_Skin$}images/lady_001.gif) left no-repeat">&nbsp;</td>
+		    <td width="745" align="left">
+			<DIV id=SearchHome>
+<DIV id=SearchForm>
+<form name=topsearch action="Productlist.aspx" onSubmit="return checkkeyword()"  method="method" style="margin:0px">
+<SELECT id=keywordtype onchange=changeClass(this.value) name=keywordtype> 
+  <OPTION value=product selected>搜索商品</OPTION> 
+  <OPTION value=shop>搜索店铺</OPTION> 
+  <OPTION value=nick>搜索掌柜</OPTION> 
+  <OPTION value=info>搜索资讯</OPTION> 
+</SELECT> 
+<input type="hidden" value="0" name=SearchKind style="border:#7F9DB9 1px solid;height:18px"> 
+<input type="hidden" value="" name=SearchText style="border:#7F9DB9 1px solid;height:18px">
+<INPUT  id=keyword name=keyword style="border:#7F9DB9 1px solid;height:18px"> 
+<span id=proclass>
+                      <!--       #begin           -->
+                      {$Hope_ClassName$}
+                      <!--        #end          -->
+</span>
+<span id=newclass style="display:none">
+                      <!--       #begin           -->
+                      {#Hope_ArticleBigClass*62#}
+                      <!--        #end          -->
+</span>
+<button type="submit"  OnClick="Verify" />搜 索</BUTTON> 
+<A href="{$Hope_SitUrl$}HighlevelSearch.aspx" target=_top>[ 高级搜索 ]</A> 
+<A href="/HELP" 
+target=_blank>[ 使用帮助 ]</A> 
+</FORM>
+
+  
+
+<script language="javascript">
+function changeClass(str){
+	if(str=="product"){
+		document.topsearch.action=''Productlist.aspx'';
+		document.getElementById("proclass").style.display="";
+		document.getElementById("newclass").style.display="none";
+	}else if (str=="shop"){
+		document.topsearch.action=''shop_search.aspx''
+		document.getElementById("proclass").style.display="";
+		document.getElementById("newclass").style.display="none";
+	}else if (str=="nick"){
+		document.topsearch.action=''shop_search.aspx''
+		document.getElementById("proclass").style.display="";
+		document.getElementById("newclass").style.display="none";
+	}else if (str=="info"){
+		document.topsearch.action=''News/search.aspx''
+		document.getElementById("proclass").style.display="none";
+		document.getElementById("newclass").style.display="";
+	}
+}
+function checkkeyword(){
+	if(document.topsearch.keyword.value==""){
+		alert("请输入搜索关键字");
+		document.topsearch.keyword.focus();
+		return false;
+	}
+	document.topsearch.SearchText.value=document.topsearch.keyword.value;
+	
+}
+</SCRIPT>
+</DIV>
+<DIV id=HotKeywords>
+<UL>
+  <LI class=B><A href="#" 
+  target=_blank>热门搜索</A>： </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=mp3" 
+  target=_blank>mp3</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=女鞋" 
+  target=_blank>女鞋</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=手机" 
+  target=_blank>手机</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=比基尼" 
+  target=_blank>比基尼</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=魔兽世界" 
+  target=_blank>魔兽世界</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=内存" 
+  target=_blank>内存</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=个人闲置" 
+  target=_blank>个人闲置</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=芭比娃娃" 
+  target=_blank>芭比娃娃</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=特价机票" 
+  target=_blank>特价机票</A> </LI>
+  <LI><A 
+  href="x{$Hope_SitUrl$}Productlist.aspx?keyword=吊带裙" 
+  target=_blank>吊带裙</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=沙滩裤" 
+  target=_blank>沙滩裤</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=防晒霜" 
+  target=_blank>防晒霜</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=数码相机" 
+  target=_blank>数码相机</A> </LI>
+  <LI><A 
+  href="{$Hope_SitUrl$}Productlist.aspx?keyword=二手房" 
+  target=_blank>二手房</A> 
+</LI></UL></DIV></DIV>
+			
+			
+			</td>
+		    <td width="83" align="center" style="background:url({$Hope_SitUrl$}{$Hope_Skin$}images/headFindSide.gif) right no-repeat">&nbsp;</td>
+		  </tr>
+	  </table>
+	</div>' , 0 );
+ INSERT [YX_ModCms] ( [YX_ID] , [YX_TemplateType] , [YX_ModCMSName] , [YX_ModCMSSM] , [YX_ModCMSCode] , [ChannelType] ) VALUES ( 291 , 19 , '{$Hope_Login$}' , '登陆' , '<style>
+body{font-size:12px; margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+         font-size:12px;
+}
+a:link{text-decoration:none;font-size:12px;}
+a:visited{text-decoration:none;font-size:12px;}
+a:hover{text-decoration:underline;font-size:12px;}
+</style>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FAFDFF">
+              <tr><td class="link1" align="right" valign="top"><A id=headInto href=''{$Hope_SitUrl$}Yx_VipLogin.aspx'' target=_top>[登录]</A>&nbsp;&nbsp;<A id=headInto href=''{$Hope_SitUrl$}vipuser/VipReg.aspx'' target=_top>[注册]</A>&nbsp;</td></tr>
+            </table>' , 0 );
+ INSERT [YX_ModCms] ( [YX_ID] , [YX_TemplateType] , [YX_ModCMSName] , [YX_ModCMSSM] , [YX_ModCMSCode] , [ChannelType] ) VALUES ( 292 , 19 , '{$Hope_LoginOk$} ' , '登陆成功' , '<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<style type="text/css">
+<!--
+body {
+	margin-top: 3px;
+}
+-->
+</style><table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#F8FCFF">
+              <tr><td class="link1" align="right" valign="top">
+<font style="font-size:12px;color:#FF0000">欢迎您：{$Hope_SiteUser$}
+<a href=''{$Hope_SitUrl$}Default.aspx?Flag=LoginOut'' target=''_parent'' >[退出]</font></a></td></tr></table>' , 0 );
+ INSERT [YX_ModCms] ( [YX_ID] , [YX_TemplateType] , [YX_ModCMSName] , [YX_ModCMSSM] , [YX_ModCMSCode] , [ChannelType] ) VALUES ( 293 , 19 , '{$Hope_Bottom$}' , '网站底部' , '<div style="width:950px;clear:both;margin:0 auto;">
+{#Hope_Link*1,8#}
+<hr style="border:dashed 1px #000000; width:100%"/>
+{#Hope_Link*0,8#}
+</div>
+<div id="footer">
+		<table width="950" border="0" cellpadding="0" cellspacing="0" style="margin: 0px auto">
+		  <tr>
+			<td height="34" colspan="2" align="center" background="{$Hope_SitUrl$}{$Hope_Skin$}images/35.gif">
+			    <table width="85%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="center"><ul id="meun_bottom">
+		<li><a href="../Help.aspx?help=6">关于我们</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=1">常见问题</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=2">安全交易</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=3">购买流程</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=4">如何付款</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=7">配送方式</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=8">诚聘英才</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=5">联系我们</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=9">送货范围</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=10">服务条款</a></li>
+		<li class="line"></li><li><a href="../messages.aspx">投诉反馈</a></li>
+		<li class="line"></li><li id="top_biao"><a href="#"><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/top.gif" width="34" height="20" border="0" align="absmiddle"/></a></li>
+		
+			    </ul></td>
+              </tr>
+            </table>		
+			</td>
+	      </tr>
+		  <tr>
+		    <td width="205" height="30" align="center"><span class="logo2"><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/sclogo2.jpg" width="230" height="64" /></span></td>
+	        <td width="745" align="center"> 
+			       <ul class="bottom_massge">
+				       <li>地址：{$Hope_Addr$} </li>
+					   <li>客户服务热线直拨：{$Hope_Tel$} 邮编：{$Hope_Post$} 公司邮箱：{$Hope_Email$}
+</li>
+					   <li>电话：{$Hope_Tel$} 传真：{$Hope_Code$} 移动：{$Hope_ModelTel} </li>
+					   <li>销售qq：267224740 / 267224741 / 267224742 / 267224743</li>
+					   <li>{$Hope_Copyright$}</li>
+					   <li>{$Hope_SiteExc$}</li>
+				   </ul></td>
+		  </tr>
+	  </table>
+	</div>' , 0 );
+ INSERT [YX_ModCms] ( [YX_ID] , [YX_TemplateType] , [YX_ModCMSName] , [YX_ModCMSSM] , [YX_ModCMSCode] , [ChannelType] ) VALUES ( 294 , 19 , '{$Hope_RegSuccess$}' , '注册成功' , '<table width="98%" height="171" border="0" cellpadding="0" cellspacing="0" bgcolor="#F3F3F3">
+  <tr>
+    <td height="25" align="left" style="font-size:16px;font-weight: bold;"><span style="color:#000000"><img src="{$Hope_SitUrl$}{$Hope_Skin$}IMAGE/s.jpg"/></span></td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="0" cellspacing="0" style="border: 1px solid #F3F3F3;">
+      <tr>
+        <td height="103" align="center" valign="top"><span style="color:#ff0000;font-weight: bold;"> <br>
+          恭喜你</span>：{$Hope_SiteUser$}<br>
+          <br>
+        你已经成功注册为{$Hope_Title$}的会员，你可以尽情的享受网上购物的乐趣！<a href="Yx_VipLogin.aspx">我要登陆</a>&nbsp;<br />
+              <br />
+          </td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+' , 0 );
+ INSERT [YX_ModCms] ( [YX_ID] , [YX_TemplateType] , [YX_ModCMSName] , [YX_ModCMSSM] , [YX_ModCMSCode] , [ChannelType] ) VALUES ( 295 , 19 , '{$Hope_UserTop$}' , '会员中心头部' , '	<div id="userheader">
+		<table width="950" border="0" cellpadding="0" cellspacing="0" style="margin: 20px auto" bgcolor="#EFF8FE">
+		  <tr>
+						<td width="308" rowspan="2" align="left"><a href="{$Hope_SitUrl$}default.aspx"><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/Logo.gif" width="280" height="31" /></a></td>
+			<td width="642" height="30" align="right">
+            
+            <div id="menus">
+              <ul>
+                <li class="menus2"><iframe src="{$Hope_SitUrl$}Login_Stat.aspx"  frameborder="0" width="250" height="20" scrolling="no" style="background-color:#FFFFFF" ></iframe></li>
+                <li><a href="{$Hope_SitUrl$}/ProClass_list.aspx" target="_parent">我要买</a></li>
+                <li><a href="{$Hope_SitUrl$}/vipuser/YX_sell.aspx" target="_parent">我要卖</a></li>
+                <li><a href="{$Hope_SitUrl$}/vipuser/default_vip.aspx" target="_top">会员中心</a></li>
+                <li><a href="{$Hope_SitUrl$}/bbs" target="_top">社区</a></li>
+                <li><a href="{$Hope_SitUrl$}paipai_news/" target="_parent">资讯</a></li>
+                <li> <a href="{$Hope_SitUrl$}/paipai_help" target="_top">帮助</a></li>
+              </ul>
+            </div>
+            
+            </td>
+              </tr>
+            </table></td>
+		  </tr>
+	  </table>
+	</div>' , 0 );
+ INSERT [YX_ModCms] ( [YX_ID] , [YX_TemplateType] , [YX_ModCMSName] , [YX_ModCMSSM] , [YX_ModCMSCode] , [ChannelType] ) VALUES ( 296 , 19 , '{$Hope_UserBottom$}' , '网站内页底部' , '<div id="footer">
+		<table width="950" border="0" cellpadding="0" cellspacing="0" style="margin: 0px auto">
+		  <tr>
+			<td height="34" colspan="2" align="center" background="{$Hope_SitUrl$}{$Hope_Skin$}images/35.gif">
+			    <table width="85%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="center"><ul id="meun_bottom">
+		<li><a href="../Help.aspx?help=6">关于我们</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=1">常见问题</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=2">安全交易</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=3">购买流程</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=4">如何付款</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=7">配送方式</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=8">诚聘英才</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=5">联系我们</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=9">送货范围</a></li>
+		<li class="line"></li><li><a href="../Help.aspx?help=10">服务条款</a></li>
+		<li class="line"></li><li><a href="../messages.aspx">投诉反馈</a></li>
+		<li class="line"></li><li id="top_biao"><a href="#"><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/top.gif" width="34" height="20" border="0" align="absmiddle"/></a></li>
+		
+			    </ul></td>
+              </tr>
+            </table>		
+			</td>
+	      </tr>
+		  <tr>
+		    <td width="205" height="30" align="center"><span class="logo2"><img src="{$Hope_SitUrl$}{$Hope_Skin$}images/sclogo2.jpg" width="230" height="64" /></span></td>
+	        <td width="745" align="center"> 
+			       <ul class="bottom_massge">
+				       <li>地址：{$Hope_Addr$} </li>
+					   <li>客户服务热线直拨：{$Hope_Tel$} 邮编：{$Hope_Post$} 公司邮箱：{$Hope_Email$}
+</li>
+					   <li>电话：{$Hope_Tel$} 传真：{$Hope_Code$} 移动：{$Hope_ModelTel} </li>
+					   <li>销售qq：267224740 / 267224741 / 267224742 / 267224743</li>
+					   <li>{$Hope_Copyright$}</li>
+					   <li>{$Hope_SiteExc$}</li>
+				   </ul></td>
+		  </tr>
+	  </table>
+	</div>' , 0 );
+
+ SET IDENTITY_INSERT [YX_ModCms] OFF
