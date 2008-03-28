@@ -7,7 +7,7 @@
 		-----------------------------------------------------------------------------------------------------------------
 		<br>
          
-           Copyright 2007-2010 © <%=Websitname %>  All Rights Reserved. Powered by： <a href="http://www.changehope.net" target="_blank" title="代码网站" style="color:#FFFFFF">易想商城</a>
+           Copyright 2007-2010 © <%=Websitname %>  All Rights Reserved. Powered by： <a href="http://www.bunite.net" target="_blank" title="代码网站" style="color:#FFFFFF">贝斯特</a>
           <!--- <br>执行时间：<asp:Label ID="Lab_time" runat="server" Text="0" />毫秒。 -->
             
             <br />
