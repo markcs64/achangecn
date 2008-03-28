@@ -1,0 +1,20 @@
+.title{height:30px;background:url(skin2/title_main.gif) repeat-x}
+.TitleInfo{left:0;text-align:center;padding-top:7px;height:23px;width:136px;top:0;color:#3C8000;background:url(skin2/title_left.gif) no-repeat}
+.TitleLink{right:82px;top:0}
+.TitleTop{right:0;top:-1px}
+#commend_list,#others,#record,#message{border:1px solid #96D228;border-top:none;}
+#CommPicsShow{background:url(skin2/pics_bg.gif) no-repeat center}
+#FullPath{border-bottom:3px solid #97D228}
+#name{border-bottom:1px solid #97D228}
+#CommInfo{background:#F6FFD4;border:1px solid #97D228;color:#3D7F01}
+#UserInfoHead{border-bottom:1px solid #97D228;background:#C5E97F}
+#UserInfoFoot{border-top:1px dashed #97D228}
+#auction_list{background:url(skin2/list_bg_main.gif);height:28px}
+#auction_list li a{display:block;background:url(skin2/list_bg_will.gif);height:20px;padding-top:8px;width:106px;color:#3C8000;text-decoration:none}
+#auction_list .li_here a,#auction_list li a:hover{background:url(skin2/list_bg_here.gif) no-repeat}
+.font14{
+	font-size: 14px;
+}
+.fontOrange{
+	color: #FF6600;	
+}

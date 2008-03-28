@@ -1,0 +1,94 @@
+.declare{position:relative;height:36px;background:#F2F5F7;border:1px solid #D8E2E8;margin-top:10px;padding:10px;line-height:150%}
+.FTGreen{color:#7DC818}
+.price_list_head{border-bottom:2px solid #7F7F7F}
+.price_list_main{border-bottom:1px solid #D7D7D7}
+.SideItem{position:absolute;right:20px;top:7px}
+.title{font-weight:bold;margin:16px 0 0;position:relative}
+.TitleInfo{position:absolute}
+.TitleLink{text-align:center;position:absolute}
+.TitleTop{text-align:center;position:absolute}
+.main2{width:950px}
+#auction_list li{float:left;text-align:center}
+#comm{margin-top:10px;position:relative;width:100%}
+#commend{margin-top:10px}
+#commend_head{font:bold 14px "ËÎÌו";height:20px;padding:6px 0 0 30px}
+#commend_list td{text-align:center}
+#commend_list{height:180px;padding-top:10px;margin:0 0 10px}
+#CommInfo{position:absolute;right:0;top:0;width:240px}
+#CommInfo div{text-align:left}
+#CommMess{text-align:left;width:300px;height:250px;margin:0 auto;color:#000000}
+#CommMess #CityShow{position:relative}
+#CommMess #city{width:90px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;position:absolute;top:7px;left:76px;left:67px;cursor:help}
+#CommMess #TenpayNone{background:#EAF3F8;border:1px solid #C4DAE7;margin-top:5px;padding:5px 10px}
+#CommMess #TenpayShow{background:url(http://pics.paipai.com/auction/tenpay.gif) #EAF3F8 left no-repeat;margin-top:5px;height:31px;padding:4px 0 0 88px;border:1px solid #C4DAE7;line-height:120%}
+#CommMess div{border-bottom:1px dashed #D4D4D4;padding:7px 0 4px 10px}
+#CommMess div.position{border:none;margin:0;padding:0;position:relative;width:300px}
+#CommMess span.PositionShow{left:170px;position:absolute;top:-20px;width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#CommPics{left:0;position:absolute;text-align:center;top:0;width:225px}
+#CommPicsShow{height:200px;padding:5px 0}
+#CommShow{margin:0 240px 0 220px;text-align:center}
+#FullPath{position:relative;text-align:left}
+#FullPathShow{border-bottom:1px solid #AAAAAA;padding:7px 0}
+#html_tem_leaveMsg td{line-height:150%;word-wrap:break-word;word-break:break-all}
+#html_tem_price{color:#FF4E00;font:18px Arial}
+#html_tem_price2{color:#FF4E00;font:14px Arial}
+#LeaveMsg{border:1px dashed #CCCCCC;height:50px;line-height:50px;margin:10px;text-align:center}
+#MobileSeller{background:#FFFDE8;border:1px solid #FFEBB6;height:30px;margin-top:10px;padding:10px;text-align:left}
+#name{height:28px;padding-top:12px}
+#others{height:100px;border-bottom:1px solid #E1E1E1;background:#FAFAFA;padding-top:10px;text-align:left}
+#others li{float:left;padding-left:20px;width:400px;white-space:nowrap;margin-right:10px;height:24px}
+#others #saleTime{width:800px}
+.payDesc{padding-left:20px}
+#price{padding:10px 0 10px 20px;text-align:left}
+#price li{float:left;height:30px;line-height:30px;margin-right:20px}
+#price_list{margin-top:10px}
+#price_list_foot{background:#F7F7F7}
+#rate{margin-top:10px}
+#rate td{border-bottom:1px dashed #D7D7D7;line-height:150%;word-wrap:break-word;word-break:break-all}
+#TenpayBank{line-height:150%;margin:0 0 10px 60px;text-align:left}
+#UserHelp{margin-top:5px;padding-left:30px}
+#UserHelp li{background:url(http://pics.paipai.com/newsys/auction/auction_btn_help.gif) 0 2px no-repeat;margin-bottom:3px;padding-left:10px}
+.font_gray{color:#808080}
+.btn_gray{border:1px solid #CCCCCC;color:#808080;background:#F7F7F7}
+.input_main{border:1px solid #CCCCCC}
+#DescShow{padding:10px;table-layout:fixed}
+#DescShow td{word-wrap:break-word;word-break:break-all}
+#CommendSecond,#auction_list{margin-top:16px}
+.DescShow{padding:20px}
+.shopSell{height:20px}
+.shopPrize{color:#FF4E00;font-weight:bold;height:17px;padding-top:3px}
+.shopTitle{height:50px;overflow:hidden;padding:0 5px;word-break:break-all;word-wrap:break-word}
+.shopImg{height:85px}
+#DiscountSpan1{color:#FF4E00;font-size:12px;padding-left:5px}
+#DiscountSpan1 a{color:#FF4E00;font-size:12px;padding-left:5px}
+#DiscountSpan2{color:#FF4E00}
+#showAttitute{border-bottom:1px solid #E1E1E1;height:100px;padding-left:90px;background:url(http://pics.paipai.com/auction/commKind.gif) #FAFAFA 20px 20px no-repeat}
+#ClassAttituteListUL{padding:10px 0;float:left}
+#ClassAttituteListUL li{float:left;margin-right:10px;width:200px;text-align:left;height:20px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#ClassAttituteListUL li.newLine{cursor:help}
+#buyMore{margin:10px;border:1px solid #FFD488;height:1px;background:#FFFFE6}
+#buyMore td{padding-top:10px}
+#buyMore div{padding-bottom:10px}
+#moreNow div{border-right:1px dashed #D8D8D8}
+
+#CollectionInfo{background:#F8F8F8;border:1px solid #D8D8D8}
+#CollectionInfoHead{background:#EDEDED;padding:4px 0 4px 18px;border-bottom:1px solid #D8D8D8;font-size:14px}
+#CollectionInfoHead span a{font-size:12px}
+#CollectionInfo ul{height:78px}
+#CollectionInfo li{margin:9px 0;float:left}
+#CollectionInfo li.CollectionList{width:216px;text-align:center}
+.quick{text-align:center;border:3px solid #ACE4FD;margin:30px 0;padding:20px;display:block}
+.quickline{text-align:center;border:1px solid #008000}
+#td_buy_button{margin-top:20px}
+.number{font-family:Arial}
+#UserInfoHead{height:17px;padding:5px 0 0 10px}
+#UserInfo div{height:16px ;height:11px;padding:10px 0 0 10px}
+#UserInfo #sellerShow{position:relative}
+#UserInfo #sellerName{position:absolute;left:70px;top:8px;width:160px;height:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#UserInfo #userInfoShop{height:40px ;height:40px;text-align:center}
+#UserInfoFoot{height:16px;padding:10px 0;margin:0 10px}
+#rateList{border:1px solid #DEDEDE;border-right:none;border-bottom:none}
+#rateList td{border:1px solid #DEDEDE;border-left:none;border-top:none;padding:3px}
+.LineBg0{background-color:#F7F7F7}
+.LineBg1{background-color:#F0F0F0}
+#CommMess #tdOldNew{top:-18px}

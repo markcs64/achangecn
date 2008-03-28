@@ -1,0 +1,260 @@
+/*
+Taobao.com CSS Document
+Created 2005.5.24
+Modified 2006.8.17
+chengzhi@taobao.com
+*/
+#Head{
+	margin-bottom:0;
+}
+#Content{
+
+}
+#SideBar #ToolPanels{
+	/**/
+}
+#ListPathLinks{
+	margin-top:5px;
+	height:24px;
+	line-height:24px;
+	position:relative;
+}
+#ListPathLinks a{
+	background-position:100% 40%;
+}
+#CategoryList{
+	/**/
+}
+#CategoryLogo{
+	margin-bottom:10px;
+	padding-top:10px;
+	border-top:2px solid #FF7E00;
+	border-bottom:1px solid #DDD;
+}
+/*For Channels*/
+body.CurDigital #CategoryLogo{border-top:2px solid #99A2B1;}
+body.CurLady #CategoryLogo{border-top:2px solid #E1569A;}
+body.CurMan #CategoryLogo{border-top:2px solid #3672AE;}
+body.CurLife #CategoryLogo{border-top:2px solid #EC9307;}
+body.CurCulture #CategoryLogo{border-top:2px solid #1E998B;}
+body.CurSports #CategoryLogo{border-top:2px solid #AFC326;}
+body.CurGame #CategoryLogo{border-top:2px solid #C34B26;}
+body.CurCollection #CategoryLogo{border-top:2px solid #88605F;}
+body.CurHongkong #CategoryLogo{border-top:2px solid #965BB9;}
+
+#CategoryListContainer{
+	width:100%;
+}
+#CategoryListLeftPart{
+	float:left;
+	width:48%;
+}
+#CategoryListRightPart{
+	float:right;
+	width:48%;
+}
+#CategoryListLeftPart li,#CategoryListRightPart li{
+	padding-bottom:8px;
+}
+#Main #Container ul ul{
+	clear:both;
+	margin:5px 0;
+}
+#Main #Container ul ul/**/{
+	margin-bottom:0;
+}
+#Main #Container ul ul li{
+	padding-bottom:0;
+	border-left:1px solid #FFF;
+	white-space: nowrap;
+}
+/*---------------------------*/
+/*      Recommended Items    */
+/*---------------------------*/
+#RecommendedItems h2{
+	margin:0;
+}
+#RecommendedItems div.Item{
+	height:90px;
+	padding:2px;
+	border-bottom:1px dashed #CCC;
+}
+#RecommendedItems div.Item div.Pic{
+	float:left;
+	width:85px;
+	height:80px;
+	margin:5px 0;
+}
+#RecommendedItems div.Item div.Pic img{
+	/**/
+}
+#RecommendedItems div.Item div.Info{
+	float:left;
+	width:100%;
+	margin-left:-115px;
+	margin-right:-300px;
+}
+#RecommendedItems div.Item div.Info div{
+	float:none;
+	margin-left:115px;
+	margin-right:230px;
+}
+#RecommendedItems div.Item div.Info div.Name{
+	margin-top:10px;
+	margin-bottom:6px;
+	font-weight:bold
+}
+#RecommendedItems div.Item div.Info div.Seller{
+	color:#777;
+}
+#RecommendedItems div.Item div.Info div.Seller a{
+	color:#666;
+	text-decoration:underline;
+}
+
+#RecommendedItems div.Item div.Legend{
+	width:40px;
+	float:right;
+	margin-top:30px;
+	text-align:center;
+}
+#RecommendedItems div.Item div.Price{
+	width:90px;
+	float:right;
+	margin-top:30px;
+	text-align:center;
+}
+#RecommendedItems div.Item div.Price span{
+	color:#F60;
+	font:bold 13px arial;
+}
+#RecommendedItems div.Item div.Place{
+	width:75px;
+	text-align:center;
+	float:right;
+	margin-top:30px;
+}
+#RecommendedItems div.Item div.TimeLeft{
+	width:50px;
+	text-align:center;
+	float:right;
+	margin-top:30px;
+}
+#RecommendedItems div.Item div.TimeLeft i{
+	display:none;
+}
+/*---------------------------*/
+/*     Special Features      */
+/*---------------------------*/
+#SpecialFeatures ul{
+	margin:10px 0 0;
+	padding:0;
+}
+#SpecialFeatures li{
+	list-style-type:none;
+	display:block;
+	float:left;
+	width:125px;
+	height:113px;
+	overflow:hidden;
+	text-align:center;
+}
+#SpecialFeatures li img{
+	display:block;
+	margin-bottom:5px;
+}
+#SpecialFeatures .More{
+	clear:both;
+	text-align:right;
+}
+/*---------------------------*/
+/*  Recently Viewed Items    */
+/*---------------------------*/
+#RecentlyViewed ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#RecentlyViewed ul li{
+	display:block;
+	float:left;
+	width:80px;
+	text-align:center;
+}
+#RecentlyViewed ul li a{
+	display:block;
+	width:50px;
+	height:50px;
+	margin:0 auto;
+	border:2px solid #FFF;
+	background:#FFF url(http://pics.taobao.com/newshop/nopicture.gif) center center no-repeat;
+	font-size:0;
+	line-height:0;
+	text-align:left;
+	color:#FFF;
+}
+#RecentlyViewed ul li a/**/{
+	text-indent:-9999px;
+	text-decoration:none;
+}
+#RecentlyViewed i{
+	display:block;
+	color:#333;
+	margin:3px 0 10px;
+	font-size:10px;
+	font-family:arial;
+	font-style:normal;
+}
+#RecentlyViewed div.ButtonBox{
+	margin:0 15px;
+	padding-top:5px;
+	text-align:center;
+	border-top:1px solid #DDD;
+}
+#RecentlyViewed div.ButtonBox a{
+	color:#333;
+	text-decoration:underline;
+}
+#RecentlyViewed div.ButtonBox img{
+	vertical-align:middle;
+	margin:0 2px;
+}
+/*---------------------------*/
+/*  Similar Category    */
+/*---------------------------*/
+#SimilarCategory ul{
+	margin:8px 0 0 8px;
+}
+#SimilarCategory li{
+	width:100%;
+	overflow:hidden;
+	text-overflow:ellipsis;/*Only For IE6*/
+}
+/* Others */
+.CategoryAd{
+	margin:10px 0;
+}
+/*---------------------------*/
+/*  Level0 Category    */
+/*---------------------------*/
+#L0OtherWays{
+	margin:0 0 0 20px;
+	padding:0;
+	list-style:none;
+}
+#L0OtherWays li{
+	float:left;
+	margin-right:13px;
+	text-indent:13px;
+	font-size:13px;
+	background:url(http://pics.taobao.com/new/about/graydot.gif) 0 7px no-repeat;
+	line-height:24px;
+}
+
+#L0ShoppingGuide ul,
+#L0SellerRecommended ul{
+	margin:0;
+	padding:0 0 0 24px;
+	list-style-type:circle;
+	line-height:20px;
+}

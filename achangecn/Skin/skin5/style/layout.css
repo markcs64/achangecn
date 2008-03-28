@@ -1,0 +1,146 @@
+/*-------------------------------------------
+Page Level Layout (L140|L150|L180|L250|R180|R250)
+---------------------------------------------
+Usage Expale:
+
+<div id="Content" class="R250">
+  <div id="Main">
+    <div id="Container">Main Content</div>
+  </div>
+  <div id="SideBar">Side Content</div>
+</div>
+
+Default, Sidebar 180, Left */
+#Main{
+	float:right;
+	width:100%;
+	margin:0 0 0 -190px;
+}
+#Container{
+	margin:0 0 0 190px;
+}
+#SideBar{
+	float:left;
+	width:500px;
+}
+/* Sidebar 140, Left */
+div.L140 #Main{
+	float:right;
+	width:100%;
+	margin:0 0 0 -150px;
+}
+div.L140 #Container{
+	margin:0 0 0 150px;
+}
+div.L140 #SideBar{
+	float:left;
+	width:140px;
+}
+/* Sidebar 150, Left */
+div.L150 #Main{
+	float:right;
+	width:100%;
+	margin:0 0 0 -160px;
+}
+div.L150 #Container{
+	margin:0 0 0 160px;
+}
+div.L150 #SideBar{
+	float:left;
+	width:150px;
+}
+/* Sidebar 180, Left */
+div.L180 #Main{
+	float:right;
+	width:100%;
+	margin:0 0 0 -190px;
+}
+div.L180 #Container{
+	margin:0 0 0 190px;
+}
+div.L180 #SideBar{
+	float:left;
+	width:180px;
+}
+/* Sidebar 180, Right */
+div.R180 #Main{
+	float:left;
+	width:100%;
+	margin:0 -190px 0 0;
+}
+div.R180 #Container{
+	margin:0 190px 0 0;
+}
+div.R180 #SideBar{
+	float:right;
+	width:180px;
+}
+/* Sidebar 250, Left */
+div.L250 #Main{
+	float:right;
+	width:100%;
+	margin:0 0 0 -260px;
+}
+div.L250 #Container{
+	margin:0 0 0 260px;
+}
+div.L250 #SideBar{
+	float:left;
+	width:250px;
+}
+/* Sidebar 250, Right */
+div.R250 #Main{
+	float:left;
+	width:100%;
+	margin:0 -260px 0 0;
+}
+div.R250 #Container{
+	margin:0 260px 0 0;
+}
+div.R250 #SideBar{
+	float:right;
+	width:250px;
+}
+/*-------------------------------------------
+Block Level Layout (Col2|Col3)
+---------------------------------------------
+Usage Expale:
+
+<div class="Col2">
+  <div class="Col2Left">Left Content</div>
+  <div class="Col2Right">Right Content</div>
+</div>
+
+<div class="Col3">
+  <div class="Col3Left">Left Content</div>
+  <div class="Col3Mid">Middle Content</div>
+  <div class="Col3Right">Right Content</div>
+</div>
+*/
+div.Col2{
+	width:100%;
+}
+div.Col2 div.Col2Left{
+	width:49.5%;
+	float:left;
+}
+div.Col2 div.Col2Right{
+	width:49.5%;
+	float:right;
+}
+
+div.Col3{
+	width:100%;
+}
+div.Col3 div.Col3Left{
+	width:33%;
+	float:left;
+}
+div.Col3 div.Col3Mid{
+	width:33%;
+	float:left;
+}
+div.Col3 div.Col3Right{
+	width:33%;
+	float:right;
+}

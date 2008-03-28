@@ -1,0 +1,24 @@
+
+function WriteWatch(mytaobaoServer){var cookie1=GetExCookie('cookie1');var nick=GetExCookie('_nk_');var tracenick=GetExCookie('tracknick');var msg=getMsg();var logininfo="";if(cookie1!=""){logininfo+='<li><a href="'+mytaobaoServer+'/favorite/watch_items.jhtml" target="_top">\u6536\u85cf\u5939'+'</a></li>';}else{if(tracenick!=""){logininfo+='<li><a href="'+mytaobaoServer+'/favorite/watch_items.jhtml" target="_top">\u6536\u85cf\u5939'+'</a></li>';}}
+document.write(logininfo);}
+function WriteWWMsg(realHomeServer){var cookie1=GetExCookie('cookie1');var wwmsg=GetExCookie('_wwmsg_');var wwmsgtype="0";var tracenick=GetExCookie('tracknick');if(wwmsg!=""){var wwmsgs=wwmsg.split(",");if(wwmsgs.length==2){wwmsgtype=wwmsgs[0];wwmsg=wwmsgs[1];}}
+if(cookie1!=""&&wwmsg!=""&&wwmsg!="0"){if(wangwangInstalled){document.write('<li class="HasMsgWW"><a href="wangwang:">\u65fa\u65fa\u6d88\u606f</a>('+wwmsg+')</li>');}else{document.write('<li class="HasMsgWW"><a href="'+realHomeServer+'/wangwang/index.php" target="_blank">\u65fa\u65fa\u6d88\u606f</a>('+wwmsg+')</li>');}}else{document.write('<li><a href="'+realHomeServer+'/wangwang/index.php" target="_blank">\u963f\u91cc\u65fa\u65fa</a></li>');}}
+function WriteLoginStatus(homeServer,forumServer,searchModule,memberModule,showChannel,redirectURL,isp,isIndex){var cookie1=GetExCookie('cookie1');var nick=GetExCookie('_nk_');var tracenick=GetExCookie('tracknick');var msg=getMsg();var logininfo="";var loginurl="";var logouturl=memberModule+'/logout.jhtml?f=top';if(redirectURL&&redirectURL!=''){loginurl=memberModule+'/login.jhtml?f=top&redirectURL='+redirectURL;}else{loginurl=memberModule+'/login.jhtml?f=top';}
+if(cookie1!=""){logininfo+="<li>\u60a8\u597d\uff0c";myString=new String(nick);rExp=/\\u/g;logininfo+=unescape(myString.replace(rExp,"%u"));logininfo+='\uff01<a href="'+logouturl+'" target="_top">[\u9000\u51fa]</a></li>';if(msg!="0"&&msg!=""){logininfo+='<li class="HasMsgMail"><a href="'+forumServer+'/message/list_private_msg.htm" target="_top">\u7ad9\u5185\u4fe1';logininfo+='</a>';logininfo+='('+msg+')';}else{logininfo+='<li><a href="'+forumServer+'/message/list_private_msg.htm" target="_top">\u7ad9\u5185\u4fe1';logininfo+='</a>';}
+logininfo+="</li>";}else{if(tracenick==""){logininfo+='<li>\u60a8\u597d\uff0c\u6b22\u8fce\u6765\u6dd8\u5b9d\uff01</li>';logininfo+='<li><a href="'+memberModule+'/register.jhtml?f=top" ';logininfo+=' target="_top">[\u514d\u8d39\u6ce8\u518c]</a></li>';logininfo+='<li><a href="'+loginurl+'" target="_top">[\u767b\u5f55]</a></li>';}else{myString=new String(tracenick);rExp=/\\u/g;tracenick=unescape(myString.replace(rExp,"%u"));logininfo+='<li>\u60a8\u597d\uff0c'+tracenick+'\uff01<a href="'+loginurl+'" target="_top">[\u8bf7\u767b\u5f55]</a></li>';logininfo+='<li><a href="'+memberModule+'/register.jhtml?f=top" ';logininfo+=' target="_top">[\u514d\u8d39\u6ce8\u518c]</a></li>';logininfo+='<li><a href="'+forumServer+'/message/list_private_msg.htm" target="_top">\u7ad9\u5185\u4fe1';logininfo+='</a></li>';}}
+document.write(logininfo);}
+function WriteMsgSound(homeServer){var msg=getMsg();var msgVoice=getMsgVoice();var cookie1=GetExCookie('cookie1');if(cookie1!=""&&msg!=""&&msg!="0"&&msgVoice!="false"){document.write('<embed src="'+homeServer+'/sounds/newpm.swf" loop="false" hidden="true" volume="50" autostart="true" width="0" height="0" name="foobar" mastersound="mastersound" class="hidden" />');}}
+function getMsg(){var msg="";var uc1=GetExCookie('uc1');if(uc1){var cookies=uc1.split('&');for(var i=0;i<cookies.length;i++){var keyValue=cookies[i].split('=');if(keyValue&&keyValue.length>1&&keyValue[0]=="_msg_"){msg=keyValue[1];}}}
+if(msg==""){msg=GetExCookie('_msg_');}
+return msg;}
+function getMsgVoice(){var msgVoice="";var uc1=GetExCookie('uc1');var cookies=uc1.split('&');for(var i=0;i<cookies.length;i++){var keyValue=cookies[i].split('=');if(keyValue[0]=="_msg_v"){msgVoice=keyValue[1];}}
+return msgVoice;}
+function setProp(o){if(!o){return;}
+var option=o.options[o.selectedIndex];if(!option||!option.className){return;}
+var ps=option.className.split('^');if(!ps||ps.length<2){return;}
+document.forms['search'].elements['prop'].value=ps[0];document.forms['search'].elements['ppath'].value=ps[1];}
+function showHotProm(){if(promTitle.length==0){return;}
+if(curLength<=promTitle[curProm].length+1){document.getElementById("HotKeywords").innerHTML="<ul><li><a href=\""+promLink[curProm]+"\" style=\"font-weight:bold;color:#FF0;\">"+promTitle[curProm].substring(0,curLength)+"<"+"/a><"+"/li><"+"/ul>";curLength++;curLength++;}else{stayCycle++;}
+if(stayCycle>=stayCycleLimit){if(curProm==promTitle.length-1){curProm=0;}else{curProm++;}
+curLength=1;stayCycle=0;}
+window.setTimeout("showHotProm()",100);}
