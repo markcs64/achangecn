@@ -1,0 +1,21 @@
+/* ∑€…´ªÿ“‰ */
+a:link,a:visited,#pathLink,#showHeadNote1,#showHeadNote2,#shopVote,#CategoryListDiv li.liMenu{color:#FF00A8}
+#shopInfo,#CategoryListDiv,#FriendLinkListDiv,#Page_Div1,#Page_Div2,#sideList ul,.loadInfo,#leaveMsgPage,#loginAndPost,.tdSplit,#shopOpen,#shopBanner,#shopZone{background-color:#FFF3FA}
+#shopMain,#CategoryListDiv li.liSplit,#FriendLinkListDiv li.liSplit,#CategoryListDiv li.liMenu{background-color:#FFE3EF}
+#CategoryListDiv,#FriendLinkListDiv{border:1px solid #DF3D88;border-top:none;}
+#shopBanner,#shopZone,#shopOpen{border:1px solid #DF3D88}
+#CategoryListDiv li{border-bottom:1px solid #FFE3EF}
+#shopSide .shopPrize{border-top:2px solid #FFE3EF}
+a:active,a:hover{color:#FF4E00;}
+#CategoryListDiv li.liSplit,#CategoryListDiv li.liMenu{border:none}
+#shopVote{background:url(http://pics.paipai.com/shop/women/vote_bg.gif) repeat-x}}
+#shopHeadBG1{background:url(http://pics.paipai.com/shop/women/head_01.jpg) no-repeat}
+#shopHeadBG2{background:url(http://pics.paipai.com/shop/women/head_02.jpg) no-repeat}
+#shopHeadBG3{background:url(http://pics.paipai.com/shop/women/head_03.jpg) no-repeat}
+#shopHeadBG4{background:#F2ADCA url(http://pics.paipai.com/shop/women/head_04.jpg) no-repeat}
+#shopInfo #shopNote{background:url(http://pics.paipai.com/shop/women/note_bg.gif) center 20px no-repeat}
+.shopMenu{background:url(http://pics.paipai.com/shop/women/menu_bg.gif) repeat-x}
+.shopMenu li a:hover,.shopMenu li.shopHere a,.menuHead{background:url(http://pics.paipai.com/shop/women/menu_here_left.gif) left top no-repeat}
+.shopMenu li a:hover span,.shopMenu li.shopHere a span{background:url(http://pics.paipai.com/shop/women/menu_here_side.gif) right top no-repeat;}
+#shopSide .shopMenu li a span{background:url(http://pics.paipai.com/shop/women/menu_will_side_list.gif) right top no-repeat;}
+#shopSide .shopMenu li a:hover span,#shopSide .shopMenu li.shopHere a span,.menuHead span{background:url(http://pics.paipai.com/shop/women/menu_here_side_list.gif) right top no-repeat;}

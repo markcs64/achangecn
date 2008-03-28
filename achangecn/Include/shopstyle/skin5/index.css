@@ -1,0 +1,153 @@
+A:link {
+	COLOR: #333
+}
+A:visited {
+	COLOR: #333
+}
+#pathLink {
+	COLOR: #333
+}
+#showHeadNote1 {
+	COLOR: #333
+}
+#showHeadNote2 {
+	COLOR: #333
+}
+#shopVote {
+	COLOR: #333
+}
+#CategoryListDiv LI.liMenu {
+	COLOR: #333
+}
+#shopInfo {
+	BACKGROUND-COLOR: #f9f9f9
+}
+#CategoryListDiv {
+	BACKGROUND-COLOR: #f9f9f9
+}
+#FriendLinkListDiv {
+	BACKGROUND-COLOR: #f9f9f9
+}
+#Page_Div1 {
+	BACKGROUND-COLOR: #f9f9f9
+}
+#Page_Div2 {
+	BACKGROUND-COLOR: #f9f9f9
+}
+#sideList UL {
+	BACKGROUND-COLOR: #f9f9f9
+}
+.loadInfo {
+	BACKGROUND-COLOR: #f9f9f9
+}
+#leaveMsgPage {
+	BACKGROUND-COLOR: #f9f9f9
+}
+#loginAndPost {
+	BACKGROUND-COLOR: #f9f9f9
+}
+.tdSplit {
+	BACKGROUND-COLOR: #f9f9f9
+}
+#shopOpen {
+	BACKGROUND-COLOR: #f9f9f9
+}
+#shopBanner {
+	BACKGROUND-COLOR: #f9f9f9
+}
+#shopZone {
+	BACKGROUND-COLOR: #f9f9f9
+}
+#shopVote {
+	BACKGROUND-COLOR: #ebebeb
+}
+#shopMain {
+	BACKGROUND-COLOR: #ebebeb
+}
+#CategoryListDiv LI.liSplit {
+	BACKGROUND-COLOR: #ebebeb
+}
+#FriendLinkListDiv LI.liSplit {
+	BACKGROUND-COLOR: #ebebeb
+}
+#CategoryListDiv LI.liMenu {
+	BACKGROUND-COLOR: #ebebeb
+}
+#CategoryListDiv {
+	BORDER-RIGHT: #c5c5c5 1px solid; BORDER-TOP: #c5c5c5 1px; BORDER-LEFT: #c5c5c5 1px solid; BORDER-BOTTOM: #c5c5c5 1px solid
+}
+#FriendLinkListDiv {
+	BORDER-RIGHT: #c5c5c5 1px solid; BORDER-TOP: #c5c5c5 1px; BORDER-LEFT: #c5c5c5 1px solid; BORDER-BOTTOM: #c5c5c5 1px solid
+}
+#shopBanner {
+	BORDER-RIGHT: #c5c5c5 1px solid; BORDER-TOP: #c5c5c5 1px solid; BORDER-LEFT: #c5c5c5 1px solid; BORDER-BOTTOM: #c5c5c5 1px solid
+}
+#shopZone {
+	BORDER-RIGHT: #c5c5c5 1px solid; BORDER-TOP: #c5c5c5 1px solid; BORDER-LEFT: #c5c5c5 1px solid; BORDER-BOTTOM: #c5c5c5 1px solid
+}
+#shopOpen {
+	BORDER-RIGHT: #c5c5c5 1px solid; BORDER-TOP: #c5c5c5 1px solid; BORDER-LEFT: #c5c5c5 1px solid; BORDER-BOTTOM: #c5c5c5 1px solid
+}
+#CategoryListDiv LI {
+	BORDER-BOTTOM: #e0dedf 1px solid
+}
+#shopSide .shopPrize {
+	BORDER-TOP: #e0dedf 2px solid
+}
+A:active {
+	COLOR: #ff4e00
+}
+A:hover {
+	COLOR: #ff4e00
+}
+#CategoryListDiv LI.liSplit {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#CategoryListDiv LI.liMenu {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#shopHeadBG1 {
+	BACKGROUND: url(head_01.jpg) no-repeat
+}
+#shopHeadBG2 {
+	BACKGROUND: url(head_02.jpg) no-repeat
+}
+#shopHeadBG3 {
+	BACKGROUND: url(head_03.jpg) no-repeat
+}
+#shopHeadBG4 {
+	BACKGROUND: url(head_04.jpg) #28133b no-repeat
+}
+#shopInfo #shopNote {
+	BACKGROUND: url(note_bg.gif) no-repeat center 20px
+}
+.shopMenu {
+	BACKGROUND: url(menu_bg.gif) repeat-x
+}
+.shopMenu LI A:hover {
+	BACKGROUND: url(menu_here_left.gif) no-repeat left top; COLOR: #333
+}
+.shopMenu LI.shopHere A {
+	BACKGROUND: url(menu_here_left.gif) no-repeat left top; COLOR: #333
+}
+.menuHead {
+	BACKGROUND: url(menu_here_left.gif) no-repeat left top; COLOR: #333
+}
+.shopMenu LI A:hover SPAN {
+	BACKGROUND: url(menu_here_side.gif) no-repeat right top; COLOR: #333
+}
+.shopMenu LI.shopHere A SPAN {
+	BACKGROUND: url(menu_here_side.gif) no-repeat right top; COLOR: #333
+}
+#shopSide .shopMenu LI A SPAN {
+	BACKGROUND: url(menu_will_side_list.gif) no-repeat right top
+}
+#shopSide .shopMenu LI A:hover SPAN {
+	BACKGROUND: url(menu_here_side_list.gif) no-repeat right top; COLOR: #333
+}
+#shopSide .shopMenu LI.shopHere A SPAN {
+	BACKGROUND: url(menu_here_side_list.gif) no-repeat right top; COLOR: #333
+}
+.menuHead SPAN {
+	BACKGROUND: url(menu_here_side_list.gif) no-repeat right top; COLOR: #333
+}

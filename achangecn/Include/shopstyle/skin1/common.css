@@ -1,0 +1,144 @@
+#pathLink {
+	FONT-SIZE: 14px; MARGIN: 10px
+}
+#shopBanner {
+	MARGIN-BOTTOM: 10px; OVERFLOW: hidden; POSITION: relative; HEIGHT: 120px
+}
+#showHeadNote1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; LEFT: 270px; OVERFLOW: hidden; WIDTH: 360px; POSITION: absolute; TOP: 30px; HEIGHT: 28px
+}
+#showHeadNote2 {
+	LEFT: 90px; OVERFLOW: hidden; WIDTH: 540px; POSITION: absolute; TOP: 95px; HEIGHT: 16px
+}
+.shopMenu {
+	HEIGHT: 32px
+}
+.shopMenu LI {
+	FLOAT: left; MARGIN-RIGHT: 3px; HEIGHT: 32px
+}
+.shopMenu LI A {
+	DISPLAY: block; BACKGROUND: url(menu_will_left.gif) no-repeat left top; FLOAT: left; HEIGHT: 29px
+}
+#shopMenuMain A {
+	TEXT-DECORATION: none
+}
+#shopMenuSide A {
+	TEXT-DECORATION: none
+}
+#shopMenuNote A {
+	TEXT-DECORATION: none
+}
+.shopMenu LI A SPAN {
+	PADDING-RIGHT: 20px; DISPLAY: block; PADDING-LEFT: 20px; BACKGROUND: url(menu_will_side.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 0px; CURSOR: hand; COLOR: #000000; PADDING-TOP: 10px; HEIGHT: 19px; TEXT-ALIGN: center
+}
+.shopMenu LI A:hover SPAN {
+	COLOR: #ffffff
+}
+.shopMenu LI.shopHere A SPAN {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #009EE0
+}
+.menuHead SPAN {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #009EE0
+}
+.menuHead {
+	HEIGHT: 29px
+}
+.menuHead SPAN {
+	PADDING-RIGHT: 20px; DISPLAY: block; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px; HEIGHT: 19px; TEXT-ALIGN: center
+}
+#shopInfo {
+	HEIGHT: 200px
+}
+#shopInfo LI {
+	PADDING-BOTTOM: 5px
+}
+#shopInfo TD {
+	PADDING-TOP: 20px
+}
+#shopInfo #shopNote {
+	PADDING-TOP: 60px
+}
+#shopVote {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-TOP: 7px; HEIGHT: 23px; TEXT-ALIGN: center
+}
+#shopVoteItem {
+	OVERFLOW: hidden; HEIGHT: 190px
+}
+#shopVoteItem TD {
+	PADDING-TOP: 10px
+}
+#shopVoteItem TD UL LI {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; WORD-BREAK: break-all; PADDING-TOP: 0px; TEXT-ALIGN: center; WORD-WRAP: break-word
+}
+.shopSell {
+	HEIGHT: 20px
+}
+.shopPrize {
+	FONT-WEIGHT: bold; COLOR: #ff4e00; PADDING-TOP: 3px; HEIGHT: 17px
+}
+.shopTitle {
+	OVERFLOW: hidden; WORD-BREAK: break-all; HEIGHT: 50px; WORD-WRAP: break-word
+}
+.shopImg {
+	HEIGHT: 85px
+}
+#shopMain {
+	FLOAT: left; PADDING-TOP: 10px; HEIGHT: 100%
+}
+#shopLeft {
+	FLOAT: left; WIDTH: 20%
+}
+#shopSide {
+	FLOAT: right; WIDTH: 78%; POSITION: relative
+}
+#CategoryListDiv LI {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 15px; BACKGROUND: url(arrow.gif) no-repeat 5px 10px; PADDING-BOTTOM: 3px; MARGIN: 0px 2px; WORD-BREAK: break-all; PADDING-TOP: 6px; WORD-WRAP: break-word
+}
+#CategoryListDiv LI.liSplit {
+	MARGIN: 0px
+}
+#CategoryListDiv LI.liMenu {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 0px
+}
+#FriendLinkListDiv LI {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; WORD-BREAK: break-all; PADDING-TOP: 6px; TEXT-ALIGN: center; WORD-WRAP: break-word
+}
+#CategoryListDiv LI.liMenu {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; WORD-BREAK: break-all; PADDING-TOP: 6px; TEXT-ALIGN: center; WORD-WRAP: break-word
+}
+#shopFind {
+	RIGHT: 10px; POSITION: absolute; TOP: 3px
+}
+#sideList UL {
+	FLOAT: left; MARGIN: 10px 0px 5px; OVERFLOW: hidden; WIDTH: 24.5%; PADDING-TOP: 10px; HEIGHT: 200px; TEXT-ALIGN: center
+}
+#sideList UL LI {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.loadInfo {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 30px; PADDING-BOTTOM: 30px; MARGIN: 10px 0px; PADDING-TOP: 30px; TEXT-ALIGN: center
+}
+#shopMenuNote {
+	MARGIN-TOP: 10px
+}
+#leaveMsgPage {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 10px 0px; PADDING-TOP: 5px; TEXT-ALIGN: center
+}
+#loginAndPost DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+#shopSide {
+	PADDING-RIGHT: 10px
+}
+#noteList TD {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 7px; WORD-BREAK: break-all; LINE-HEIGHT: 140%; PADDING-TOP: 7px; WORD-WRAP: break-word
+}
+.loadInfo {
+	HEIGHT: 100%
+}
+#html_tem_leaveMsg .loadInfo {
+	MARGIN-TOP: 0px
+}
+#shopOpen {
+	MARGIN-TOP: 10px; PADDING-BOTTOM: 10px; TEXT-ALIGN: center
+}

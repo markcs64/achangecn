@@ -1,0 +1,153 @@
+A:link {
+	COLOR: #2b8000
+}
+A:visited {
+	COLOR: #2b8000
+}
+#pathLink {
+	COLOR: #66ad00
+}
+#showHeadNote1 {
+	COLOR: #66ad00
+}
+#showHeadNote2 {
+	COLOR: #66ad00
+}
+#shopVote {
+	COLOR: #66ad00
+}
+#CategoryListDiv LI.liMenu {
+	COLOR: #66ad00
+}
+#shopInfo {
+	BACKGROUND-COLOR: #f4ffe3
+}
+#CategoryListDiv {
+	BACKGROUND-COLOR: #f4ffe3
+}
+#FriendLinkListDiv {
+	BACKGROUND-COLOR: #f4ffe3
+}
+#Page_Div1 {
+	BACKGROUND-COLOR: #f4ffe3
+}
+#Page_Div2 {
+	BACKGROUND-COLOR: #f4ffe3
+}
+#sideList UL {
+	BACKGROUND-COLOR: #f4ffe3
+}
+.loadInfo {
+	BACKGROUND-COLOR: #f4ffe3
+}
+#leaveMsgPage {
+	BACKGROUND-COLOR: #f4ffe3
+}
+#loginAndPost {
+	BACKGROUND-COLOR: #f4ffe3
+}
+.tdSplit {
+	BACKGROUND-COLOR: #f4ffe3
+}
+#shopOpen {
+	BACKGROUND-COLOR: #f4ffe3
+}
+#shopBanner {
+	BACKGROUND-COLOR: #f4ffe3
+}
+#shopZone {
+	BACKGROUND-COLOR: #f4ffe3
+}
+#shopVote {
+	BACKGROUND-COLOR: #daf3b3
+}
+#shopMain {
+	BACKGROUND-COLOR: #daf3b3
+}
+#CategoryListDiv LI.liSplit {
+	BACKGROUND-COLOR: #daf3b3
+}
+#FriendLinkListDiv LI.liSplit {
+	BACKGROUND-COLOR: #daf3b3
+}
+#CategoryListDiv LI.liMenu {
+	BACKGROUND-COLOR: #daf3b3
+}
+#CategoryListDiv {
+	BORDER-RIGHT: #89c438 1px solid; BORDER-TOP: #89c438 1px; BORDER-LEFT: #89c438 1px solid; BORDER-BOTTOM: #89c438 1px solid
+}
+#FriendLinkListDiv {
+	BORDER-RIGHT: #89c438 1px solid; BORDER-TOP: #89c438 1px; BORDER-LEFT: #89c438 1px solid; BORDER-BOTTOM: #89c438 1px solid
+}
+#shopBanner {
+	BORDER-RIGHT: #89c438 1px solid; BORDER-TOP: #89c438 1px solid; BORDER-LEFT: #89c438 1px solid; BORDER-BOTTOM: #89c438 1px solid
+}
+#shopZone {
+	BORDER-RIGHT: #89c438 1px solid; BORDER-TOP: #89c438 1px solid; BORDER-LEFT: #89c438 1px solid; BORDER-BOTTOM: #89c438 1px solid
+}
+#shopOpen {
+	BORDER-RIGHT: #89c438 1px solid; BORDER-TOP: #89c438 1px solid; BORDER-LEFT: #89c438 1px solid; BORDER-BOTTOM: #89c438 1px solid
+}
+#CategoryListDiv LI {
+	BORDER-BOTTOM: #daf3b3 1px solid
+}
+#shopSide .shopPrize {
+	BORDER-TOP: #daf3b3 2px solid
+}
+A:active {
+	COLOR: #ff4e00
+}
+A:hover {
+	COLOR: #ff4e00
+}
+#CategoryListDiv LI.liSplit {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#CategoryListDiv LI.liMenu {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#shopHeadBG1 {
+	BACKGROUND: url(http://pics.paipai.com/shop/green/head_01.jpg) no-repeat
+}
+#shopHeadBG2 {
+	BACKGROUND: url(http://pics.paipai.com/shop/green/head_02.jpg) no-repeat
+}
+#shopHeadBG3 {
+	BACKGROUND: url(http://pics.paipai.com/shop/green/head_03.jpg) no-repeat
+}
+#shopHeadBG4 {
+	BACKGROUND: url(http://pics.paipai.com/shop/green/head_04.jpg) #66ad00 no-repeat
+}
+#shopInfo #shopNote {
+	BACKGROUND: url(http://pics.paipai.com/shop/green/note_bg.gif) no-repeat center 20px
+}
+.shopMenu {
+	BACKGROUND: url(http://pics.paipai.com/shop/green/menu_bg.gif) repeat-x
+}
+.shopMenu LI A:hover {
+	BACKGROUND: url(http://pics.paipai.com/shop/green/menu_here_left.gif) no-repeat left top
+}
+.shopMenu LI.shopHere A {
+	BACKGROUND: url(http://pics.paipai.com/shop/green/menu_here_left.gif) no-repeat left top
+}
+.menuHead {
+	BACKGROUND: url(http://pics.paipai.com/shop/green/menu_here_left.gif) no-repeat left top
+}
+.shopMenu LI A:hover SPAN {
+	BACKGROUND: url(http://pics.paipai.com/shop/green/menu_here_side.gif) no-repeat right top
+}
+.shopMenu LI.shopHere A SPAN {
+	BACKGROUND: url(http://pics.paipai.com/shop/green/menu_here_side.gif) no-repeat right top
+}
+#shopSide .shopMenu LI A SPAN {
+	BACKGROUND: url(http://pics.paipai.com/shop/green/menu_will_side_list.gif) no-repeat right top
+}
+#shopSide .shopMenu LI A:hover SPAN {
+	BACKGROUND: url(http://pics.paipai.com/shop/green/menu_here_side_list.gif) no-repeat right top
+}
+#shopSide .shopMenu LI.shopHere A SPAN {
+	BACKGROUND: url(http://pics.paipai.com/shop/green/menu_here_side_list.gif) no-repeat right top
+}
+.menuHead SPAN {
+	BACKGROUND: url(http://pics.paipai.com/shop/green/menu_here_side_list.gif) no-repeat right top
+}

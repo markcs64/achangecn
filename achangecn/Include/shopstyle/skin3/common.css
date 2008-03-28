@@ -1,0 +1,45 @@
+#pathLink{font-size:14px;margin:10px}
+#shopBanner{height:120px;overflow:hidden;position:relative;margin-bottom:10px}
+#showHeadNote1{position:absolute;top:30px;left:270px;font-size:24px;font-weight:bold;width:360px;height:28px;overflow:hidden}
+#showHeadNote2{position:absolute;top:95px;left:90px;width:540px;height:16px;overflow:hidden}
+.shopMenu{height:32px}
+.shopMenu li{float:left;margin-right:3px;height:32px;}
+.shopMenu li a{background:url(menu_will_left.gif) left top no-repeat;display:block;height:29px;float:left}
+#shopMenuMain a,#shopMenuSide a,#shopMenuNote a{text-decoration:none}
+.shopMenu li a span{background:url(menu_will_side.gif) right top no-repeat;color:#000000;cursor:hand;display:block;float:left;height:19px;padding:10px 20px 0;text-align:center}
+.shopMenu li a:hover span{color:#FFFFFF}
+.shopMenu li.shopHere a span,.menuHead span{color:#FFFFFF;font-weight:bold;font-size:14px}
+.menuHead{height:29px;}
+.menuHead span{display:block;height:19px;padding:10px 20px 0;text-align:center}
+#shopInfo{height:200px}
+#shopInfo li{padding-bottom:5px}
+#shopInfo td{padding-top:20px}
+#shopInfo #shopNote{padding-top:60px}
+#shopVote{height:23px;padding-top:7px;text-align:center;font-size:14px;font-weight:bold}
+#shopVoteItem{height:190px;overflow:hidden}
+#shopVoteItem td{padding-top:10px}
+#shopVoteItem td ul li{padding:0 3px;text-align:center;word-break:break-all;word-wrap:break-word}
+.shopSell{height:20px}
+.shopPrize{color:#ff4e00;font-weight:bold;height:17px;padding-top:3px}
+.shopTitle{height:50px;overflow:hidden;word-break:break-all;word-wrap:break-word}
+.shopImg{height:85px}
+#shopMain{height:100%;padding-top:10px}
+#shopLeft{width:210px;float:left}
+#shopSide{margin-left:220px;position:relative}
+#CategoryListDiv li{background:url(arrow.gif) 5px 10px no-repeat;padding:6px 5px 3px 15px;margin:0 2px;word-break:break-all;word-wrap:break-word}
+#CategoryListDiv li.liSplit{margin:0}
+#CategoryListDiv li.liMenu{background:transparent;margin:0;font-weight:bold;font-size:14px}
+#FriendLinkListDiv li,#CategoryListDiv li.liMenu{padding:6px 3px 3px;text-align:center;word-break:break-all;word-wrap:break-word}
+#shopFind{position:absolute;top:3px;right:10px}
+#sideList ul{float:left;width:24.5%;margin:10px 0 5px;text-align:center;height:200px;overflow:hidden;padding-top:10px;position:relative}
+#sideList ul li{padding:0 3px;display:block}
+.loadInfo{padding:30px;text-align:center;margin:10px 0}
+#shopMenuNote{margin-top:10px}
+#leaveMsgPage{padding:5px 0;margin:10px 0;text-align:center}
+#loginAndPost div{padding:5px 0}
+#shopSide{padding-right:10px}
+#noteList td{padding:7px;line-height:140%;word-break:break-all;word-wrap:break-word}
+.loadInfo{height:100%}
+#html_tem_leaveMsg .loadInfo{margin-top:0}
+#shopOpen{text-align:center;padding-bottom:10px;margin-top:10px}
+#Page_Div1 table,#Page_Div2 table{width:98%}
