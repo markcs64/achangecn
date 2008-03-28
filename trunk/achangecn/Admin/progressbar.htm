@@ -1,0 +1,69 @@
+﻿<script language="javascript">
+function setPgb(pgbID, pgbValue,pagenum,seconds) 
+{  
+     if ( pgbValue <= 100 )
+     {
+         if (lblObj = document.getElementById(pgbID + "_label"))
+
+         {
+              lblObj.innerHTML = pgbValue + "%"; // change the label value
+              cnt.innerHTML="共需要生成"+pagenum+"个Html页面 用时："+seconds/1000+"秒";
+         } 
+         if ( pgbObj = document.getElementById(pgbID) )
+
+         {
+             var divChild = pgbObj.children[0];
+              pgbObj.children[0].style.width = pgbValue + "%";
+         }
+     }                                         
+}
+</script>
+
+<html>
+<head>
+<style type="text/css">
+    .bi-loading-status {
+    width:   100%
+    padding: 1px;
+    overflow: hidden;
+    }
+    .bi-loading-status .text {
+    white-space:  nowrap;
+    overflow:     hidden;
+    width:             10%;
+    text-overflow:     ellipsis;
+    padding:      1px; 
+    float: right;
+    } 
+
+    .bi-loading-status .progress-bar {
+    border:       1px solid ThreeDShadow;
+    background:   window;
+    height:       16px;
+    width:        88%;
+    padding: 1px;
+    overflow: hidden; 
+    float: left;
+    }
+
+    .bi-loading-status .progress-bar div {
+    background:   Highlight;
+    overflow: hidden;
+    height:       100%;
+    filter:       Alpha(Opacity=0, FinishOpacity=100, Style=1, StartX=0, StartY=0, FinishX=100, FinishY=0);
+    }
+</style>
+
+</head>
+<body topmargin="0" leftmargin="0" bottommargin="0" rightmargin="0">
+    <table border="0" align="center" width="70%"><tr><td>    
+       <DIV class="bi-loading-status" id="proBar" style="width: 100%;">
+            <DIV class="text" id="pgbMain_label" align="left"></DIV>
+            <DIV class="progress-bar" id="pgbMain" align="left">
+                 <DIV STYLE="WIDTH:10%"></DIV>
+            </DIV>
+       </DIV>
+       <div id="cnt"></div>
+    </td></tr></table>
+</body>
+</html>
