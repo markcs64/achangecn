@@ -1,0 +1,11 @@
+a:link,a:visited{color:#1835D1;font:12px "ËÎÌו";text-decoration:none;}
+a:active,a:hover{color:#FF3300;text-decoration:underline;}
+form,body{margin:0;padding:0;}
+img{border:0;}
+p,td,input,select,textarea,body,div,span{color:#333333;font:12px "ËÎÌו";}
+table{text-align:left;}
+.editor_line_left{text-align:left;padding:5px;}
+.editor_line_center{text-align:center;padding:5px;}
+.editor_input_main{border:1px solid #0275BF;}
+.editor_span_select{overflow: hidden;height:18px;border: 1px solid #0275BF; }
+.editor_select_span{margin: -2px 0 0 -3px;}
