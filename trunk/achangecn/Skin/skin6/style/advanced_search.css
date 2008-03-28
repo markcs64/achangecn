@@ -1,0 +1,54 @@
+#Foot{
+	margin-top:30px;
+}
+#Content #SearchBox{
+margin-top:3px;
+
+	width:870px;
+	background:#ffffff;
+}
+#Content #SearchBox .SearchIcon{
+	position:absolute;
+	left:5px;
+	top:20px;
+	width:80px;
+	height:70px;
+	background:transparent url(../IMAGE/icon_item.gif) left top no-repeat;
+}
+#Content #SearchBox #IconShop{
+	background:transparent url(http://pics.taobao.com/2k5/sys/adv_search/icon_shop.gif) left top no-repeat;
+}
+#Content #SearchBox #IconRequest{
+	background:transparent url(http://pics.taobao.com/2k5/sys/adv_search/icon_request.gif) left top no-repeat;
+}
+#Content #SearchBox #IconThread{
+	background:transparent url(http://pics.taobao.com/2k5/sys/adv_search/icon_thread.gif) left top no-repeat;
+}
+#Content #SearchBox #SearchItem li div.Hint{
+	padding-right:10px;
+	width:140px !important;
+	width:130px;
+}
+#Content #SearchBox{
+	padding-top:10px;
+}
+#Content #SearchBox #SearchItem{
+	margin:0 40px 0;
+}
+ul.Form_Advance li div.Hint{
+	padding-top:10px !important;
+	padding-top:15px;
+}
+
+#ItemAttributes{
+	margin:12px 0 0 143px;
+	padding:0;
+	background-color:#F3F3F3;
+	border-top:1px dashed #DDD;
+}
+.Attribute{
+	clear:both;
+	margin:0 5px;
+	padding:6px 0;
+	border-bottom:1px dashed #DDD;
+}

@@ -1,0 +1,483 @@
+/* Pages in Login Flow */
+#Head{
+	height:40px !important;
+	height:60px;
+}
+#Content{
+	margin:20px auto 20px;
+}
+#Content a:link,#Content a:visited{
+	color:#2E67C7;
+	text-decoration:underline;
+}
+#Content a:hover,#Content a:active{
+	color:#F50;
+	text-decoration:underline;
+}
+#LoginForm{
+	position:relative;
+	float:left;
+	width:425px;
+	margin-top:5px;
+	padding-top:66px;
+	text-align:center;
+	background:transparent url(../IMAGE/title_login_2.gif) 0 0 no-repeat;
+}
+#Forgot{
+	position:relative;
+	float:left;
+	width:760px;
+	margin-top:5px;
+	padding-top:66px;
+	text-align:center;
+}
+.ForgotUsername{
+	background:transparent url(../IMAGE/title_login_3.gif) 0 0 no-repeat;
+}
+.ForgotPassword{
+	background:transparent url(../IMAGE/title_login_4.gif) 0 0 no-repeat;
+}
+#LoginFormTop{
+	margin:0 auto;
+	width:340px;
+	height:15px;
+	background:#F6F6F6 url(../IMAGE/login_form_top2.gif) 0 0 no-repeat;
+}
+#LoginFormBottom{
+	margin:0 auto;
+	width:340px;
+	height:18px !important;
+	height /**/:31px;
+	padding-top:13px;
+	text-align:left;
+}
+.StandardMode #LoginFormBottom{
+	width:200px !important;
+	width /**/:340px;
+	padding-left:140px;
+	background:#F6F6F6 url(../IMAGE/lgoin_form_bottom.gif) 0 0 no-repeat;
+}
+.SecuredMode #LoginFormTop{
+	background:#F6F6F6 url(../IMAGE/lgoin_form_top_2.gif) 0 0 no-repeat;
+}
+.SecuredMode #LoginFormBottom{
+	width:310px !important;
+	width /**/:340px;
+	padding-left:30px;
+	background:#F6F6F6 url(../IMAGE/lgoin_form_bottom_2.gif) 0 0 no-repeat;
+}
+#ForgotTop{
+	margin:0 auto;
+	width:400px;
+	height:15px;
+	background:#F6F6F6 url(../IMAGE/login_form_top3.gif) 0 0 no-repeat;
+}
+#ForgotBottom{
+	margin:0 auto;
+	width:400px;
+	height:15px;
+	background:#F6F6F6 url(../IMAGE/login_form_bottom3.gif) left bottom no-repeat;
+}
+#LoginForm form{
+	background-color:#F6F6F6;
+	width:340px;
+	margin:0 auto;
+	padding:5px 0 0;
+	text-align:center;
+	background:#F6F6F6 url(../IMAGE/login_form_body2.gif) 0 0 repeat-y;
+}
+#LoginForm.SecuredMode form{
+	background:#F6F6F6 url(../IMAGE/lgoin_form_body_2.gif) 0 0 repeat-y;
+}
+#Forgot form{
+	background-color:#F6F6F6;
+	width:400px;
+	margin:0 auto;
+	padding:5px 0 0;
+	text-align:center;
+	background:#F6F6F6 url(../IMAGE/login_form_body3.gif) 0 0 repeat-y;
+}
+#LoginForm .ErrorMsg,#LoginForm .WarningMsg,#Forgot.ErrorMsg,#Forgot .WarningMsg,#Forgot,.OkMsg{
+	margin:0 15px 5px;
+	text-align:left;
+}
+#LoginForm label,#Forgot label{
+	display:block;
+	width:290px;
+	text-align:left;
+	margin:0 auto 15px;
+	cursor:default;
+}
+#LoginForm label input{
+	width:150px;	
+}
+#Forgot label input{
+	width:200px;	
+}
+#LoginForm label a{
+	margin-left:5px;
+}
+#LoginForm label input.CheckCode,#Forgot label input.CheckCode{
+	width:80px;
+	margin:0 10px 0 0;
+}
+#LoginForm label img ,#Forgot label img{
+	vertical-align:bottom;
+}
+div.Submit{
+	text-align:left;
+	margin:15px 0 0 78px;
+}
+#Forgot div.Submit{
+	text-align:left;
+	margin:15px 0 0 120px;
+}
+div.Submit input{
+	width:130px;
+	height:35px;
+	border:none;
+	color:#FFF;
+	font-weight:bold;
+	letter-spacing:1em;
+	background:#F6F6F6 url(../IMAGE/login_submit.gif) 0 0 no-repeat;
+	cursor:pointer;
+	cursor:hand;
+	vertical-align:middle;
+}
+.SecuredMode div.Submit input{
+	background:#F6F6F6 url(../IMAGE/lgoin_form_submit_2.gif) 0 0 no-repeat;
+}
+ul#MoreOptions{
+	margin:50px 0 0 40px;
+	list-style-type:circle;
+	text-align:left;
+}
+ul#MoreOptions li{
+	margin-bottom:10px;
+}
+
+#RegisterForm{
+	width:320px;
+	float:right;
+	padding:30px 0 0 10px;
+	background:transparent url(../IMAGE/title_register2.gif) 0 0 no-repeat;
+	border-left:1px solid #DDD;
+}
+
+#RegisterForm h2{
+	background:none;
+	border:none;
+	padding:0;
+}
+#RegisterForm p{
+	line-height:1.8em;
+	margin:0 0 0 20px;
+}
+#RegisterForm p.Submit{
+	text-align:center;
+	margin:0 0 5px 0;
+}
+#RegisterForm p.Submit input{
+	width:100px;
+	height:24px;
+}
+#RegisterForm p.HongKongRegister,#RegisterForm p.AlipayRegister{
+	color:#666;
+	text-align:right;
+}
+#RegisterForm .Features{
+	clear:both;
+	color:#333;
+	line-height:32px;
+}
+#RegisterForm .Features img{
+	float:left;
+	margin-right:13px;
+}
+#RegisterForm .Features em{
+	font-style:normal;
+	font-size:13px;
+	font-weight:bold;
+	color:#09F;
+	line-height:1em;
+	margin:12px 0 0;
+}
+
+
+#SpecialFeatures{
+	clear:both;
+	margin-top:10px;
+	width:760px;
+	height:140px;
+	background:transparent url(../IMAGE/recommended_bk.gif) 0 0 no-repeat;
+}
+#FeaturesList{
+	display:block;
+	float:left;
+	width:360px;
+	margin:45px 0 0 25px;
+	padding:0;
+}
+#FeaturesList li{
+	display:block;
+	list-style-type:none;
+	float:left;
+	width:120px;
+	height:40px;
+}
+#FeaturesList li img{
+	vertical-align:middle;
+	margin-right:8px;
+}
+#Activities{
+	display:block;
+	float:right;
+	width:270px !important;
+	width /**/:288px;
+	margin:30px 0 0;
+	padding:0 0 0 18px;
+}
+#Activities li{
+	display:block;
+	list-style-type:circle;
+	margin-bottom:12px;
+}
+
+/*Test Plan C*/
+#SpecialFeatures2{
+	clear:both;
+	margin-top:10px;
+	width:760px;
+	height:140px;
+	background:transparent url(../IMAGE/recommended_bk2.gif) 0 0 no-repeat;
+}
+#SpecialFeatures2 #TaobaoForum,#SpecialFeatures2 #TaobaoEdu{
+	float:left;
+	width:190px;
+	margin:20px 0 0 15px;
+}
+#SpecialFeatures2 h2{
+	margin:0;
+	padding:0;
+	border:none;
+	background:none;
+}
+#SpecialFeatures2 ul{
+	margin:0;
+	padding:0 0 0 18px;
+}
+#SpecialFeatures2 li{
+	display:block;
+	list-style-type:circle;
+	margin-bottom:7px;
+}
+
+#SpecialFeatures2 #TaobaoMember{
+	width:290px;
+	margin:45px 10px 0 0;
+	float:right;
+}
+#SpecialFeatures2 #TaobaoMember img{
+	border:2px solid #FFF;
+	float:left;
+	margin-right:15px;
+}
+#SpecialFeatures2 #TaobaoMember p{
+	margin:0 0 10px 0;
+}
+#SpecialFeatures2 #TaobaoMember p.ReadMore{
+	text-align:right;
+}
+
+.BlubMsg{
+	text-align:left;
+	margin:10px;
+	padding:5px 5px 5px 25px;
+	background: url(../IMAGE/bulb.gif) 5px 3px no-repeat;	
+	color:#000;
+}
+#PromotionBanner{
+	width:260px;
+	float:right;
+	padding:30px 0 0 10px;
+	border-left:1px solid #DDD;
+}
+#Forgot em{
+	font-style:normal;
+	font-size:12px;
+	font-weight:bold;
+	color:#F60;
+	line-height:2em;
+	margin:12px 0 0;
+}
+#GuestForm,#RegisterForm2{
+	width:320px;
+	float:right;
+	padding:0px;
+	color:#333;
+	border-left:1px solid #DDD;
+}
+#GuestForm h2,#RegisterForm2 h2{
+	background:none;
+	border:none;
+	width:250px;
+	height:40px;
+}
+#GuestForm h2 span,#RegisterForm2 h2 span{
+	display:none;
+}
+#GuestForm div{
+	margin:0 0 0 15px;
+	background:#EDF9FF;
+	border:1px #6CF solid;
+}
+#RegisterForm2 div{
+	margin:0 0 0 15px;
+	padding:5px 0;
+	background:#EDF9FF;
+	border:1px #6CF solid;
+}
+#GuestForm h2{
+	margin:18px 0 0 0;
+	background:url(../IMAGE/guestform_title.gif) left top no-repeat;
+}
+#GuestForm p{
+	margin:0;
+	padding:0 0 0 20px;
+	font-size:14px;
+	color:#333;
+	height:26px;
+	line-height:26px;
+	border-bottom:1px #6CF solid;
+}
+#RegisterForm2 p{
+	margin:0;
+	padding:5px 0 0 35px;
+	color:#333;
+	line-height:150%;
+}
+#RegisterForm2 p.HongKongRegister,#RegisterForm2 p.AlipayRegister{
+	color:#666;
+	text-align:right;
+}
+#GuestForm ul{
+	margin:5px 0 0 35px;
+	padding:0;
+}
+#GuestForm ul li{
+	list-style-type:none;
+	line-height:200%;
+}
+#RegisterForm2 h2{
+	margin:18px 0 0 0;
+	background: url(../IMAGE/registerform_title.gif) left 0px no-repeat;
+}
+#GuestForm img{
+	margin:5px 0 10px 35px;
+}
+#RegisterForm2 img{
+	margin:5px 0 5px 35px;
+}
+/* RegisterForm */
+
+#RegisterForm p.AlipayRegister,#RegisterForm p.HongKongRegister/**/{
+	width:200px;
+}
+#RegisterForm p.AlipayRegister,#RegisterForm p.HongKongRegister{
+	text-align:left;
+	height:20px;
+	width:175px !important;
+	width /**/:200px;
+	border:1px #F5DCBC solid;
+	margin-top:5px;
+	margin-left:30px;
+	padding-left:24px;
+}
+#RegisterForm p.HongKongRegister{
+	background:#FFF url(../IMAGE/login_fanti01.gif) 5px 6px no-repeat;
+	margin-top:6px;
+}
+#RegisterForm p.AlipayRegister{
+	background:#FFF url(../IMAGE/login_ailpay01.gif) 5px 6px no-repeat;
+}
+#RegisterTaobao{
+	margin:15px 25px 10px 0;
+
+}
+#Login{
+	width:260px;
+	margin-top:15px; 
+	margin-left:20px; 
+	background:url(../IMAGE/login_middle.gif)
+}
+#Login .Top{
+	width:260px;
+	height:7px;
+	background:url(../IMAGE/login_top.gif) no-repeat;
+	font-size:0px;
+	line-height:0px;
+}
+#Login .Bottom{
+	width:260px;
+	height:7px;
+	background:url(../IMAGE/login_bottom.gif) no-repeat;
+	clear:both;
+	margin-top:5px;
+	font-size:0px;
+	line-height:0px;
+}
+#LoginKoubei{
+	width:260px;
+	margin-top:10px; 
+	margin-left:20px; 
+	background:url(../IMAGE/top_070605_03.gif)
+}
+#LoginKoubei p{
+	margin:2px 0;
+	padding:0;
+	color:#666666;
+	text-align:center;
+}
+#LoginKoubei .Top{
+	width:260px;
+	height:7px;
+	background:url(../IMAGE/top_070605_01.gif) no-repeat;
+	font-size:0px;
+	line-height:0px;
+}
+#LoginKoubei .Bottom{
+	width:260px;
+	height:7px;
+	background:url(../IMAGE/top_070605_02.gif) no-repeat;
+	clear:both;
+	font-size:0px;
+	line-height:0px;
+}
+
+/* RegisterForm2    */
+#RegisterForm2 p.AlipayRegister,#RegisterForm2 p.HongKongRegister/**/{
+	width:200px;
+}
+#RegisterForm2 p.AlipayRegister,#RegisterForm2 p.HongKongRegister{
+	text-align:left;
+	height:16px;
+	line-height:16px;
+	width:175px !important;
+	width /**/:200px;
+	border:1px #F5DCBC solid;
+	margin-left:30px;
+	padding-left:24px;
+}
+#RegisterForm2 p.HongKongRegister{
+	background:#FFF url(../IMAGE/login_fanti01.gif) 5px 3px no-repeat;
+	margin-top:6px;
+	margin-bottom:10px;
+}
+#RegisterForm2 p.AlipayRegister{
+	background:#FFF url(../IMAGE/login_ailpay01.gif) 5px 3px no-repeat;
+}
+
+
+/*Special Function Zoom*/
+
+.spccode{ margin-left:10px;}

@@ -1,0 +1,25 @@
+#FullPath{border-bottom:3px solid #DAEAF3}
+#FullPathShow{border-bottom:2px solid #778A99;}
+#name{border-bottom:1px solid #C2C2C2}
+#CommInfo{border:1px solid #cad0d4;background:url(skin1/userInfo0.gif) repeat-x;}
+#UserInfoHead{border-bottom:1px solid #cad0d4;margin:0 10px;padding-left:0}
+#UserInfoFoot{border-top:1px dashed #cad0d4}
+.title{height:30px;background:url(skin1/titleBg0.gif) repeat-x;padding-top:10px;text-align:left}
+.TitleInfo{
+	width:110px;
+	height:24px;
+	padding-top:0px;
+	padding-left:10px;
+	font-weight: bold;
+}
+.TitleLink{right:100px;top:9px}
+.TitleTop{right:0;top:0;height:30px;width:100px}
+#auction_list{background:url(skin1/main0.gif);height:30px}
+#auction_list li a{display:block;background:url(skin1/will0.gif);height:20px;padding-top:10px;width:87px;color:#50525C;text-decoration:none}
+#auction_list .li_here a,#auction_list a:hover{background:url(skin1/here0.gif);width:89px;font-weight:bold;color:#fff}
+.font14{
+	font-size: 14px;
+}
+.fontOrange{
+	color: #FF6600;	
+}

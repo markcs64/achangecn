@@ -1,0 +1,2 @@
+
+function loadat(obj1,obj2,obj3,obj4){obj1=obj1||'';obj2=obj2||'';obj3=obj3||'';obj4=obj4||'';var aturl="http://ju.atpanel.com/?url=http://www.atpanel.com?";var tmpImg=document.createElement('img');tmpImg.src=aturl+"ad_id="+obj1+"&am_id="+obj2+"&cm_id="+obj3+"&pm_id="+obj4;tmpImg=null;return true;}

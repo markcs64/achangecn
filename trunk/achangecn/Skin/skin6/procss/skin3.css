@@ -1,0 +1,19 @@
+.title{background:url(skin3/pet_bg_info.jpg) repeat-x;height:26px}
+.TitleInfo{left:30px;top:6px}
+.TitleLink{right:60px;top:6px;width:120px}
+.TitleTop{right:0;top:5px;height:24px;width:60px}
+#FullPath{border-bottom:3px solid #27D4D8}
+#name{border-bottom:1px solid #27D4D8}
+#CommInfo{background:#EBFDFF;border:1px solid #7BD7E4}
+#UserInfoHead{border-bottom:1px solid #7BD7E4;background:#BFECF1}
+#UserInfoFoot{border-top:1px dashed #7BD7E4}
+#auction_list{background:url(skin3/main0.gif);height:30px}
+#auction_list li a{display:block;background:url(skin3/will0.gif);height:20px;padding-top:10px;width:87px;color:#50525C;text-decoration:none}
+#auction_list .li_here a,#auction_list a:hover{background:url(skin3/here0.gif);width:89px;font-weight:bold;color:#fff}
+
+.font14{
+	font-size: 14px;
+}
+.fontOrange{
+	color: #FF6600;	
+}

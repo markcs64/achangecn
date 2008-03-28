@@ -1,0 +1,580 @@
+div#Content a:link,div#Content a:visited{color:#5a5a5a;text-decoration:none;}
+div#Content a:hover,div#Content a:active{color:#FF5500;text-decoration:underline;}
+#Content h2,#Content h3{
+	margin:0;
+	padding:0;
+	background:none;
+	border:none;
+	height:auto;
+	clear:none;
+	color:#FFF;
+	font-size:14px;
+}
+ul{margin:0;padding:0;}
+ul li{list-style:none;}
+p.More{
+	position:absolute;
+	margin:0;
+	padding:0;
+	top:0;
+	left:0;
+	text-align:right;
+}
+p.More a{
+	display:block;
+	height:25px;
+	padding-right:10px;
+	line-height:25px;
+	color:#FFF;
+	background:url(../IMAGE/alpha0.gif) 0 0 no-repeat;
+}
+p.More a:link,p.More a:visited{color:#FFF;text-decoration:none;}
+p.More a:hover,p.More a:active{color:#F50;text-decoration:underline;}
+p.Pic{margin:0;padding:0;}
+#Main{
+	float:left;
+	width:760px;
+}
+#Container{
+	width:760px;
+	overflow:hidden;
+}
+#SideBar{
+	float:right;
+	width:180px;
+	background:url(../IMAGE/sidebar_bg.gif) 0 0 repeat-y;
+	border-bottom:1px solid #ddd;
+}
+#ForumHead{
+	height:140px;
+}
+#ForumCategory{
+	float:left;
+	width:872px;
+	height:80px;
+	overflow:hidden;
+}
+#ForumCategory ul{
+	margin:8px 0;
+}
+#ForumCategory ul li{
+	float:left;
+	margin-left:-1px;
+	padding-left:7px;
+	width:81px;
+	height:18px;
+	line-height:18px;
+	white-space:nowrap;
+	overflow:hidden;
+	background:url(../IMAGE/forumcategory_bg.gif) 0 0 repeat-y;
+}
+#NewbieGuide{
+	float:right;
+	margin-top:4px;
+	width:77px;
+	height:85px;
+	overflow:hidden;
+}
+#NewbieGuide ul li{
+	display:block !important;
+}
+#NewbieGuide ul li a{
+	display:block;
+	width:76px;
+	height:35px;
+}
+#NewbieGuide ul li a span{
+	display:none;
+}
+#NGRegister{ background:url(../IMAGE/07531_login_01.gif) 0 0 no-repeat;}
+#NGLogin{background:url(../IMAGE/07531_login_02.gif) 0 0 no-repeat;}
+#ForumSerch{
+	height:38px;
+	overflow:hidden;
+	background:#ffeabd;
+	border:1px solid #fecb88;
+}
+#ForumSerch div{
+	padding:0 14px;
+	height:36px;
+	line-height:36px;
+	border:1px solid #fff2d6;
+}
+#ForumSerch div *{	
+	float:left;
+	line-height:36px;
+	margin:7px 4px 0 0;
+}
+#ForumSerch form,#ForumSerch div ul,#ForumSerch div label,#ForumSerch div ul li a{	
+	margin:0;
+}
+#ForumSerch div ul li{	
+	float:left;
+	margin:0 0 0 4px;
+}
+#ForumSerch input{
+	width:376px;
+}
+#ForumSerch button{
+	margin-top:6px;
+	width:98px;
+	height:23px;
+	line-height:18px;
+}
+#PrincipalTheme{
+	float:left;
+	margin-top:10px;
+	width:360px;
+	height:241px;
+	overflow:hidden;
+}
+#PrincipalTheme ul.Text {
+	margin-top:10px;
+}
+#PrincipalTheme ul.Text li{
+	float:left;
+	width:170px;
+	height:18px;
+	padding-left:5px;
+
+}
+#PrincipalTheme div#SlidePlayer ul.Slides{
+	width:360px;
+	height:190px;
+	overflow:hidden;
+}
+#PrincipalTheme div#SlidePlayer ul.Slides li{
+	padding:0;
+	width:360px;
+	height:190px;
+	overflow:hidden;
+	display:inline;
+}
+#PrincipalTheme div#SlidePlayer ul.Slides li img{
+	display:block;
+	width:360px;
+	height:190px;
+}
+#TopHotSubject{
+	float:right;
+	margin-top:10px;
+	width:389px;
+	height:241px;
+	overflow:hidden;
+	background:url(../IMAGE/tophotsubject_bg.gif) 0 27px no-repeat;
+}
+#TopHotSubject h2,#PicNew h2,#AdScareBuy h2{
+	width:130px;
+	height:23px;
+	background-color:#FF6600;
+	
+}
+#TopHotSubject h2 span,#PicNew h2 span,#AdScareBuy h2 span{
+	display:block;
+	width:114px;
+	padding:0 8px;
+	height:23px;
+	line-height:23px;
+	text-align:center;
+
+}
+#TopHotSubject ul{
+	width:381px;
+	margin:0 4px;
+}
+#TopHotSubject ul.Top{
+	margin-top:13px;
+	height:70px;
+}
+#TopHotSubject ul li{
+	float:left;
+	margin-left:2px;
+	padding-left:8px;
+	width:179px;
+	line-height:18px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+#TopHotSubject ul li.Hot{
+	width:389px;
+	clear:both;
+	padding-left:0;
+	background:none;
+	font-family:黑体,Arial;
+	font-size:20px;
+	line-height:26px;
+	height:28px;
+	text-align:center;
+}
+#AdBanner p.Pic{width:760px; height:100px; clear:both;padding-top:10px;}
+#AdBanner p.Pic img{ width:760px; height:100px;}
+#HotInformation{
+	clear:both;
+	width:770px;
+}
+#Content #HotInformation h3{
+	height:26px;
+	line-height:36px;
+	overflow:hidden;
+	padding-left:65px;
+	color:#5a5a5a;
+}
+#HotInformation #Fashion h3{ background:url(../IMAGE/h3_fashion.gif) 12px 1px no-repeat;}
+#HotInformation #Beauty h3{ background:url(../IMAGE/h3_beauty.gif) 12px 1px no-repeat;padding-left:60px;}
+#HotInformation #Man h3{ background:url(../IMAGE/h3_man.gif) 12px 1px no-repeat;padding-left:40px;}
+#HotInformation #Sports h3{ background:url(../IMAGE/h3_sports.gif) 12px 1px no-repeat;padding-left:55px;}
+#HotInformation #Movie h3{ background:url(../IMAGE/h3_movie.gif) 12px 1px no-repeat;padding-left:50px;}
+#HotInformation #Home h3{ background:url(../IMAGE/life3title070620.gif) 12px 1px no-repeat;padding-left:50px;}
+#HotInformation #Baby h3{ background:url(../IMAGE/h3_baby.gif) 12px 1px no-repeat;padding-left:45px;}
+#HotInformation #Cate h3{ background:url(../IMAGE/h3_cate1.gif) 12px 1px no-repeat;padding-left:45px;}
+#HotInformation #Digital h3{ background:url(../IMAGE/h3_digital.gif) 12px 1px no-repeat;padding-left:55px;}
+#HotInformation #Game h3{ background:url(../IMAGE/h3_game.gif) 12px 1px no-repeat;padding-left:55px;}
+#HotInformation #Pet h3{ background:url(../IMAGE/h3_pet.gif) 12px 1px no-repeat;padding-left:35px;}
+#HotInformation #Cars h3{ background:url(../IMAGE/h3_cars.gif) 12px 1px no-repeat;padding-left:45px;}
+#HotInformation div{
+	position:relative;
+	float:left;
+	width:375px;
+	height:183px;
+	margin:10px 10px 0 0;
+	overflow:hidden;
+	background:url(../IMAGE/hotinformation_bg.gif) 0 0 no-repeat;
+	overflow:hidden;
+}
+#HotInformation p.Pic{
+	float:left;
+	margin:7px 0 7px 7px;
+	padding:7px;
+	background:url(../IMAGE/forumli_hit.gif) 0 132px no-repeat;
+}
+#HotInformation p.Pic img{
+	display:block;
+	margin:-7px 0 8px -7px;
+	width:140px;
+	height:120px;
+	border:1px solid #dddddd
+}
+#HotInformation p.More{
+	right:0;
+	position:absolute;
+}
+#HotInformation div ul{
+    margin-top:8px;
+	float:right;
+
+
+}
+#HotInformation div ul  a span{
+	margin-right:2px;
+}
+#HotInformation div ul a:link span,#HotInformation div ul  a:visited span{color:#0092b3;text-decoration:none;}
+#HotInformation div ul a:hover span,#HotInformation div ul  a:active span{color:#FF5500;text-decoration:underline;}
+#PicNew,#AdScareBuy{
+	clear:both;
+	padding-top:10px;
+	background:url(../IMAGE/picnew_bg01.gif) 0 36px no-repeat;
+}
+#PicNew div,#AdScareBuy div{
+	background:url(../IMAGE/picnew_bg02.gif) 0 bottom no-repeat;
+}
+#PicNew div ul{
+	height:132px;
+	margin-left:5px;
+}
+#PicNew div ul li{
+	float:left;
+	width:142px;
+	padding-left:8px;
+	background:url(../IMAGE/forumli_hit.gif) 0 120px no-repeat;
+}
+#PicNew div img{
+	display:block;
+	margin:10px auto 4px -8px;
+	width:140px;
+	height:100px;
+}
+#AdScareBuy{
+	position:relative;
+}
+#AdScareBuy div ul{
+	margin-top:10px;
+	height:239px;
+}
+#AdScareBuy div ul li{
+	float:left;
+	width:95px;
+	height:119px;
+	overflow:hidden;
+	text-align:center;
+}
+#AdScareBuy p.More{
+	right:0;
+	top:10px;
+}
+#AdScareBuy div img{
+	display:block;
+	margin:0 auto 4px;
+	width:75px;
+	height:75px;
+}
+
+#SideBar h3{
+	padding-left:6px;
+	height:27px;
+	line-height:26px;
+	background:url(../IMAGE/sidebar_h2_bg02.gif) 0 0 no-repeat;
+}
+#TaobaoBulletin h3{
+	background:url(../IMAGE/sidebar_h2_bg01.gif) 0 0 no-repeat;
+}
+#SideBar h4{
+	clear:both;
+	margin:5px 0 0 0;
+	padding:0 0 0 14px;
+	height:19px;
+	font-size:12px;
+	color:#f08800;
+	background:url(../IMAGE/h4_bg.gif) 1px 0 no-repeat;
+}
+#SideBar ul{
+	margin:4px 0;
+}
+#SideBar ul li{
+	padding-left:12px;
+	line-height:18px;
+	background:url(../IMAGE/forumli_hit.gif) 6px 6px no-repeat;
+}
+#TaobaoNewsAgency div p.Pic{
+	float:left;
+	width:70px;
+}
+#TaobaoNewsAgency div p.Pic img{
+	display:block;
+	margin:4px auto;
+	width:60px;
+	height:70px;
+}
+#TaobaoNewsAgency div ul{
+	float:left;
+	width:108px;
+	overflow:hidden;
+}
+#TaobaoNewsAgency div ul li{
+	line-height:18px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+#TaobaoSpace{
+	position:relative;
+}
+#TaobaoSpace p.Pic{
+	width:180px;
+}
+#TaobaoSpace p.Pic img{
+	display:block;
+	margin:4px auto;
+}
+#TaobaoSpace ul{
+	height:56px;
+	overflow:hidden;
+}
+#TaobaoSpace ul li{
+	float:left;
+	margin:0 4px;
+	background:none;
+	padding:0;
+	white-space:nowrap;
+}
+#TaobaoSpace p.More{
+	right:0;
+}
+#TaobaoSpace p.More a{
+	color:#FFF;
+}
+#Content #SideBarADBanner ul.Slides li{
+	display:block;
+	margin:0;
+	padding:0;
+	width:180px;
+	height:105px;
+	overflow:hidden;
+	background:none;
+}
+#Content #SideBarADBanner img{
+	display:block;
+	margin:0 auto 5px auto;
+	width:160px;
+	height:100px;
+}
+#SlidePlayer,#SideBarPlay{
+	position:relative;
+	margin: 0 auto;
+}
+#SideBarPlay{
+	height:110px;
+}
+.SlideTriggers{
+	margin:0;
+	padding:0;
+	list-style: none; 
+	position: absolute; 
+	top: 165px; 
+	right: 0px;
+	z-index: 10;
+	height: 25px;	
+}
+#SideBarADBanner .SlideTriggers{
+	top:73px;
+	right:9px;
+}
+#SideBarADBanner .SlideTriggers li{
+	padding:0;
+	background:none;
+	background:url(../IMAGE/slide_trigger.gif) no-repeat center center;
+}
+#SideBarADBanner .SlideTriggers li.Selected{
+	background: url(../IMAGE/slide_trigger_c.gif) no-repeat center center;
+}
+.SlideTriggers li{
+	float: left;
+	display: inline;
+	color: #74a8ed;
+	text-align: center;
+	line-height:16px;
+	width: 16px;
+	height: 16px;
+	font-family: Arial;
+	font-size: .9em;
+	cursor: pointer;
+	overflow: hidden; 
+	margin:3px;
+	background:url(../IMAGE/slide_trigger.gif) no-repeat center center;
+}
+.SlideTriggers li.Selected{ 
+	color:#fff; 
+	background: url(../IMAGE/slide_trigger_c.gif) no-repeat center center;
+	border:0; 
+	font-weight:bold;
+	font-size: 1.4em;
+	line-height: 21px;
+	height: 21px;
+	width: 21px;
+	margin:0 3px; 
+}
+#BlogCommend ul li{
+	line-height:19px;
+	height:19px;
+}
+
+
+
+#TopSearchBox{
+	width:950px;
+	margin-bottom:5px;
+	float:left;
+}
+#TopSearchBox ul.Tab{
+
+	
+	margin:0 0 0 25px;
+	_margin:0 0 0 15px;
+	
+	float:left;
+}
+#TopSearchBox ul.Tab li{
+	list-style:none;
+	float:left;
+	width:82px;
+	height:28px;
+	background:url(../IMAGE/searchtab_bg1070614.gif) left top no-repeat;
+	text-align:center;
+	margin:0 0 0 1px;
+	font-size:14px;
+}
+#TopSearchBox ul.Tab li a{ 
+	display:block;
+	margin:11px 0 0 0;
+	font-weight:bold;
+	color:#666666;
+}
+#TopSearchBox ul.Tab li.Selected{
+	background:url(../IMAGE/searchtab_s_bg1070614.gif) left top no-repeat;
+}
+#TopSearchBox ul.Tab li.Selected a:link,
+#TopSearchBox ul.Tab li.Selected a:visited{
+	margin:10px 0 0 0;
+	color:#FF0000;
+}
+
+
+#TopSearchBox ul.Channal{
+margin:8px 0 0 0;;
+	float:right;
+	overflow:hidden;
+}
+#TopSearchBox ul.Channal li{
+	list-style:none;
+	float:left;
+	margin:0 5px 0 -1px;
+	padding:0 8px;
+	height:14px;
+	line-height:16px;
+	border-left:1px #227cd2 solid;
+	text-align:center;
+}
+#TopSearchBox ul.Channal li a{
+color:#227cd2;
+
+}
+
+
+#SearchBody{
+	float:left;
+	width:950px;
+	height:46px;
+	background:url(../IMAGE/searchtab_body_bg1070614.gif) left top no-repeat;
+	text-align:center;
+}
+#SearchBody fieldset{
+	margin:0 auto;
+	border:none;
+	width:720px;
+}
+#SearchBody div{
+	float:left;
+	padding:0 5px;
+	margin:12px  5px 0;
+}
+#SearchBody div.SearchInput input{
+	border:1px #aaa8ad solid;
+	width:300px;
+	height:18px;
+	line-height:18px;
+	margin:0 15px;
+}
+#SearchBody div.SearchInput button{
+	padding:0 5px;
+	height:20px;
+	font-size:12px;
+}
+#SearchBody ul{
+	float:left;
+	margin:20px  5px 0;
+	height:25px;
+}
+#SearchBody ul li{
+	float:left;
+	margin:0 5px;
+}
+
+/*Special Funtion Area 2007.11.10*/
+
+#SpcArticle{ width:100%; margin:auto; height:auto; clear:both}/*新闻列表页*/
+
+#Artilce_Cols_List{ padding:5px 10px 10px 10px; text-align:left;}
+
+#Article_Content{ width:950px; margin:auto ; height:auto; clear:both; }/*新闻详细页面*/
+
+.block{ width:950px; margin:auto ; height:auto; clear:both;}
+
+#HelpCenter{ padding:5px 10px 10px 10px; text-align:left;}/*帮助中心*/

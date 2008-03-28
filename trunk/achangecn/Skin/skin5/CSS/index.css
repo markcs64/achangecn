@@ -1,0 +1,366 @@
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+INPUT {
+	FONT: 12px "宋体"; COLOR: #333
+}
+.notetop{padding:0px 10px 5px 0px;margin:10px 0 0;background:url(../IMAGES/point_btn_03.gif) #FFF9D9 5px 5px no-repeat;border:1px solid #FFCC33;line-height:150%}
+
+SELECT {
+	FONT: 12px "宋体"; COLOR: #333
+}
+TEXTAREA {
+	FONT: 12px "宋体"; COLOR: #333
+}
+
+SPAN {
+	FONT: 12px "宋体"; COLOR: #333
+}
+
+.clear {
+	CLEAR: both; VISIBILITY: hidden
+}
+.debug {
+	BORDER-RIGHT: #f0f 1px dashed; BORDER-TOP: #f0f 1px dashed; BORDER-LEFT: #f0f 1px dashed; BORDER-BOTTOM: #f0f 1px dashed
+}
+
+A.link_blue:link {
+	FONT: 12px "宋体"; COLOR: #1835D1; TEXT-DECORATION: none
+}
+A.link_blue:visited {
+	FONT: 12px "宋体"; COLOR: #1835D1; TEXT-DECORATION: none
+}
+A.link_blue:active {
+	FONT: 12px "宋体"; COLOR: #1835D1; TEXT-DECORATION: none
+}
+A.link_blue:hover {
+	FONT: 12px "宋体"; COLOR: #1835D1; TEXT-DECORATION: none
+}
+
+.font_orange {
+	COLOR: #ff4e00
+}
+.left_list {
+	BORDER-RIGHT: #e6e6e6 1px solid; PADDING-LEFT: 12px; BACKGROUND: #f4f4f4; BORDER-LEFT: #e6e6e6 1px solid
+}
+.left_list_ad {
+	BORDER-RIGHT: #e6e6e6 1px solid; BACKGROUND: #f4f4f4; BORDER-LEFT: #e6e6e6 1px solid; TEXT-ALIGN: center
+}
+.LeftHead {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; FONT-WEIGHT: bold; BACKGROUND: url(../IMAGES/left_bg_notice.gif); PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 5px; HEIGHT: 18px
+}
+.line_main {
+	LINE-HEIGHT: 150%
+}
+
+#foot_search {
+	MARGIN-TOP: 10px; BACKGROUND: url(../IMAGES/foot_bg_03.gif); PADDING-TOP: 10px; HEIGHT: 31px; TEXT-ALIGN: center
+}
+#FootLink {
+	MARGIN: 0px auto; WIDTH: 760px
+}
+#FootLink DIV.ChannelLink {
+	FLOAT: left; WIDTH: 25%
+}
+#FootLink DIV.ChannelLinkShow A {
+	PADDING-LEFT: 15px; BACKGROUND: url(../IMAGES/foot_btn_list.gif) no-repeat 5px 3px; LINE-HEIGHT: 150%
+}
+#FootLink UL {
+	BORDER-RIGHT: #dedede 1px dashed; MARGIN-TOP: 15px; FLOAT: left; WIDTH: 94px; TEXT-ALIGN: center
+}
+#head_roll {
+	OVERFLOW: hidden; HEIGHT: 20px
+}
+#head_roll LI {
+	HEIGHT: 20px
+}
+#index_left {
+	FLOAT: left; WIDTH: 233px
+}
+#index_side {
+	MARGIN-LEFT: 240px; WIDTH: 516px
+}
+#LeftFree {
+	BORDER-RIGHT: #e6e6e6 1px solid; BACKGROUND: #f4f4f4; BORDER-LEFT: #e6e6e6 1px solid
+}
+#sort_list A.lk14_blue_b:link {
+	FONT: bold 14px "宋体"; COLOR: #1835d1; TEXT-DECORATION: none
+}
+#sort_list A.lk14_blue_b:visited {
+	FONT: bold 14px "宋体"; COLOR: #1835d1; TEXT-DECORATION: none
+}
+#sort_list A.lk14_blue_b:active {
+	FONT: bold 14px "宋体"; COLOR: #1835d1; TEXT-DECORATION: none
+}
+#sort_list A.lk14_blue_b:hover {
+	FONT: bold 14px "宋体"; COLOR: #1835d1; TEXT-DECORATION: none
+}
+#sort_list A:hover {
+	LEFT: 1px; POSITION: relative; TOP: 1px
+}
+#sort_list DIV.ListHead {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 16px; BACKGROUND: url(../IMAGES/side_bg_04.gif) no-repeat 0px 7px; PADDING-BOTTOM: 2px; PADDING-TOP: 6px
+}
+#sort_list DIV.ListMain {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 16px; PADDING-BOTTOM: 6px; MARGIN: 0px; FONT: 12px/150% "宋体"; PADDING-TOP: 0px
+}
+#sort_list TD {
+	PADDING-LEFT: 7px
+}
+#sort_list SPAN {
+	PADDING-RIGHT: 2px; COLOR: #dddddd; LINE-HEIGHT: 150%
+}
+#foot {
+	MARGIN: 10px 0px 12px; LINE-HEIGHT: 150%; TEXT-ALIGN: center
+}
+#foot_link {
+	PADDING-BOTTOM: 4px; MARGIN: 7px auto; WIDTH: 760px; BORDER-BOTTOM: #d7d7d7 1px solid
+}
+#headLink A:link {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+#headLink A:visited {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+#headInfo A:link {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+#headInfo A:visited {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+#foot A:link {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+#foot A:visited {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+#headLink A:active {
+	COLOR: #ff3300; TEXT-DECORATION: underline
+}
+#headLink A:hover {
+	COLOR: #ff3300; TEXT-DECORATION: underline
+}
+#headInfo A:active {
+	COLOR: #ff3300; TEXT-DECORATION: underline
+}
+#headInfo A:hover {
+	COLOR: #ff3300; TEXT-DECORATION: underline
+}
+#foot A:active {
+	COLOR: #ff3300; TEXT-DECORATION: underline
+}
+#foot A:hover {
+	COLOR: #ff3300; TEXT-DECORATION: underline
+}
+#foot {
+	MARGIN: 10px 0px 12px; LINE-HEIGHT: 150%; TEXT-ALIGN: center
+}
+#foot_link {
+	PADDING-BOTTOM: 4px; MARGIN: 7px auto; WIDTH: 760px; BORDER-BOTTOM: #d7d7d7 1px solid
+}
+#headV2 {
+	MARGIN-TOP: 7px
+}
+#headMain {
+	MARGIN: 0px auto; WIDTH: 760px; POSITION: relative; HEIGHT: 66px; TEXT-ALIGN: right
+}
+#headLogo {
+	LEFT: 0px; POSITION: absolute; TOP: -7px
+}
+#headLink {
+	BACKGROUND: url(../IMAGES/line.gif) no-repeat right bottom; FONT-FAMILY: Verdana; HEIGHT: 18px
+}
+#headInfo {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #545454; PADDING-TOP: 4px; FONT-FAMILY: Verdana; HEIGHT: 20px
+}
+#headMenu {
+	PADDING-LEFT: 5px
+}
+#headFind {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 760px; HEIGHT: 34px
+}
+#headFind2 {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 98%; HEIGHT: 34px
+}
+#headForm {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; COLOR: #fff; PADDING-TOP: 8px; HEIGHT: 26px; TEXT-ALIGN: left
+}
+.findInto {
+	BORDER-RIGHT: #808080 1px solid; BORDER-TOP: #808080 1px solid; BORDER-LEFT: #808080 1px solid; WIDTH: 240px; COLOR: gray; BORDER-BOTTOM: #808080 1px solid; HEIGHT: 16px
+}
+.findGoto {
+	BACKGROUND: url(../IMAGES/find_bg.gif) no-repeat; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 20px; BORDER-BOTTOM-STYLE: none
+}
+#menuFind A {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+#menuFind A:hover {
+	COLOR: #ff4e00
+}
+#menuItem {
+	FONT-FAMILY: "宋体"; HEIGHT: 24px
+}
+#menuItem A {
+	DISPLAY: block; BACKGROUND: url(../IMAGES/main_left.gif) #ebebeb no-repeat left top; FLOAT: left; HEIGHT: 24px; TEXT-DECORATION: none
+}
+#menuItem A SPAN {
+	PADDING-RIGHT: 13px; DISPLAY: block; PADDING-LEFT: 13px; BACKGROUND: url(../IMAGES/main_side.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 0px; CURSOR: hand; COLOR: #000000; PADDING-TOP: 7px; HEIGHT: 17px; TEXT-ALIGN: center
+}
+#menuItem LI {
+	FLOAT: left; MARGIN-RIGHT: 3px; HEIGHT: 24px
+}
+#menuItem LI#menuBook A:hover {
+	BACKGROUND: url(../IMAGES/book_left.gif) #1d7d8b no-repeat left top
+}
+#menuItem LI#menuBook A:hover SPAN {
+	BACKGROUND: url(../IMAGES/book_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuDigital A:hover {
+	BACKGROUND: url(../IMAGES/digital_left.gif) #8b94a2 no-repeat left top
+}
+#menuItem LI#menuDigital A:hover SPAN {
+	BACKGROUND: url(../IMAGES/digital_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuGame A:hover {
+	BACKGROUND: url(../IMAGES/game_left.gif) #784544 no-repeat left top
+}
+#menuItem LI#menuGame A:hover SPAN {
+	BACKGROUND: url(../IMAGES/game_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuHome A:hover {
+	BACKGROUND: url(../IMAGES/home_left.gif) #ffa730 no-repeat left top
+}
+#menuItem LI#menuHome A:hover SPAN {
+	BACKGROUND: url(../IMAGES/home_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuLady A:hover {
+	BACKGROUND: url(../IMAGES/lady_left.gif) #f0447d no-repeat left top
+}
+#menuItem LI#menuLady A:hover SPAN {
+	BACKGROUND: url(../IMAGES/lady_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuQ A:hover {
+	BACKGROUND: url(../IMAGES/q_left.gif) #32c1ec no-repeat left top
+}
+#menuItem LI#menuQ A:hover SPAN {
+	BACKGROUND: url(../IMAGES/q_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuSale A:hover {
+	BACKGROUND: url(../IMAGES/sale_left.gif) #97c03d no-repeat left top
+}
+
+#menuItem LI#menuSale A:hover SPAN {
+	BACKGROUND: url(../IMAGES/sale_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuSport A:hover {
+	BACKGROUND: url(../IMAGES/sport_left.gif) #60b900 no-repeat left top
+}
+#menuItem LI#menuSport A:hover SPAN {
+	BACKGROUND: url(../IMAGES/sport_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuStudent A:hover {
+	BACKGROUND: url(../IMAGES/student_left.gif) #ff6100 no-repeat left top
+}
+#menuItem LI#menuStudent A:hover SPAN {
+	BACKGROUND: url(../IMAGES/student_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#headFind {
+	BACKGROUND: url(../IMAGES/home_find_left.gif) #ffa730 no-repeat left top
+}
+#headFind2 {
+	BACKGROUND: url(../IMAGES/home_find_left.gif) #ffa730 no-repeat left top
+}
+#headForm {
+	BACKGROUND: url(../IMAGES/home_find_side.gif) no-repeat right top
+}
+
+#hotLink {
+	BACKGROUND: url(../IMAGES/hotLinkEnd.gif) no-repeat 50% bottom
+}
+#hotLinkMain {
+	BORDER-RIGHT: #fda531 1px solid; OVERFLOW: hidden; BORDER-LEFT: #fda531 1px solid; HEIGHT: 168px
+}
+#hotLinkMore {
+	TEXT-ALIGN: center
+}
+#hotLinkMore DIV {
+	BORDER-RIGHT: #ffe79b 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ffe79b 1px solid; MARGIN-TOP: 3px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: #ffe79b 1px solid; WIDTH: 135px; PADDING-TOP: 1px; BORDER-BOTTOM: #ffe79b 1px solid; HEIGHT: 20px
+}
+#hotLinkMore DIV SPAN.linkImg {
+	DISPLAY: block; PADDING-LEFT: 1px; BACKGROUND: url(../IMAGES/hotLinkBg.gif) repeat-x; HEIGHT: 20px; TEXT-ALIGN: left
+}
+
+#result {
+	BORDER-RIGHT: #808080 1px solid; BORDER-TOP: #808080 1px solid; BACKGROUND: #fff; LEFT: 170px; OVERFLOW: hidden; BORDER-LEFT: #808080 1px solid; WIDTH: 240px; COLOR: gray; BORDER-BOTTOM: #808080 1px solid; POSITION: absolute; TOP: -5px
+}
+#result A {
+	DISPLAY: block; CURSOR: hand; BORDER-BOTTOM: #baddfd 1px dotted; POSITION: relative; HEIGHT: 20px; TEXT-DECORATION: none
+}
+#result A:hover {
+	BACKGROUND: #e5f5ff; TEXT-DECORATION: none
+}
+#result A.activeLink {
+	BACKGROUND: #e5f5ff; TEXT-DECORATION: none
+}
+#result .resultName {
+	LEFT: 10px; OVERFLOW: hidden; WIDTH: 120px; WHITE-SPACE: nowrap; POSITION: absolute; TOP: 5px; TEXT-OVERFLOW: ellipsis; TEXT-ALIGN: left
+}
+#result .resultCount {
+	RIGHT: 10px; OVERFLOW: hidden; WIDTH: 100px; WHITE-SPACE: nowrap; POSITION: absolute; TOP: 5px; TEXT-OVERFLOW: ellipsis; TEXT-ALIGN: right
+}
+.news {
+font-size:12px
+}
+	table#navddd {
+		
+		
+	}
+	table#navddd td{
+		text-align:center;
+		font:14px verdana;
+		line-height:22px;
+		
+	}
+	table#navddd td a{
+		margin:0;
+		padding:0;
+	}
+	#navddd td a:link,#navddd td a:visited{
+	margin:0;
+	height:22px;
+	width:50px;
+	color: #000000;
+	background-image: url(../IMAGES/head1.gif);
+	font-size:12px;	
+	padding-top:5px;
+	}
+	#navddd td a:hover{
+	margin:0;
+	width:50px;
+	height:22px;
+	color: #ffffff;
+	text-decoration: none;
+	background-image: url(../IMAGES/head2.gif);
+	padding-top:5px;
+	font-size:12px;	
+	}
+	
+#headV2 #headMenuSimple LI A {
+	COLOR: #333; FONT-FAMILY: "宋体"
+}
+
+#headMenuSimple {
+	BACKGROUND: url(../IMAGES/menu_left.gif) #f0f0f0 no-repeat left 50%; MARGIN-LEFT: 130px; HEIGHT: 21px
+}
+#headMenuSimple UL {
+	PADDING-LEFT: 7px; BACKGROUND: url(../IMAGES/menu_side.gif) no-repeat right 50%; HEIGHT: 21px
+}
+#headMenuSimple LI {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 3px; BACKGROUND: url(../IMAGES/menu_main.gif) no-repeat right 50%; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; HEIGHT: 16px
+}
+
+.divfont14{
+	font-size:14px;
+	color:#FF9900;
+	font-weight:bold;
+}
