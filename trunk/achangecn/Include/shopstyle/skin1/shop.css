@@ -1,0 +1,172 @@
+A:link {
+	COLOR: #0099cc
+}
+A:visited {
+	COLOR: #0099cc
+}
+#pathLink {
+	COLOR: #0099cc
+}
+#showHeadNote1 {
+	COLOR: #0099cc
+}
+#showHeadNote2 {
+	COLOR: #0099cc
+}
+#showHeadNote3 {
+	COLOR: #0099cc
+}
+#shopVote {
+	COLOR: #0099cc
+}
+#CategoryListDiv LI.liMenu {
+	COLOR: #0099cc
+}
+#shopInfo {
+	BACKGROUND-COLOR: #ebf8fc
+}
+#CategoryListDiv {
+	BACKGROUND-COLOR: #ebf8fc
+}
+#FriendLinkListDiv {
+	BACKGROUND-COLOR: #ebf8fc
+}
+#Page_Div1 {
+	BACKGROUND-COLOR: #ebf8fc
+}
+#Page_Div2 {
+	BACKGROUND-COLOR: #ebf8fc
+}
+#sideList UL {
+	BACKGROUND-COLOR: #ebf8fc
+}
+.loadInfo {
+	BACKGROUND-COLOR: #ebf8fc
+}
+#leaveMsgPage {
+	BACKGROUND-COLOR: #ebf8fc
+}
+#loginAndPost {
+	BACKGROUND-COLOR: #ebf8fc
+}
+.tdSplit {
+	BACKGROUND-COLOR: #ebf8fc
+}
+#shopOpen {
+	BACKGROUND-COLOR: #ebf8fc
+}
+#shopBanner {
+	BACKGROUND-COLOR: #ebf8fc
+}
+#shopZone {
+	BACKGROUND-COLOR: #ebf8fc
+}
+#shopMain {
+	BACKGROUND-COLOR: #caedf7
+}
+#CategoryListDiv LI.liSplit {
+	BACKGROUND-COLOR: #caedf7
+}
+#FriendLinkListDiv LI.liSplit {
+	BACKGROUND-COLOR: #caedf7
+}
+#CategoryListDiv LI.liMenu {
+	BACKGROUND-COLOR: #caedf7
+}
+#shopVote {
+	BACKGROUND-COLOR: #caedf7
+}
+#CategoryListDiv {
+	BORDER-RIGHT: #88d1e8 1px solid; BORDER-TOP: #88d1e8 1px; BORDER-LEFT: #88d1e8 1px solid; BORDER-BOTTOM: #88d1e8 1px solid
+}
+#FriendLinkListDiv {
+	BORDER-RIGHT: #88d1e8 1px solid; BORDER-TOP: #88d1e8 1px; BORDER-LEFT: #88d1e8 1px solid; BORDER-BOTTOM: #88d1e8 1px solid
+}
+#shopBanner {
+	BORDER-RIGHT: #88d1e8 1px solid; BORDER-TOP: #88d1e8 1px solid; BORDER-LEFT: #88d1e8 1px solid; BORDER-BOTTOM: #88d1e8 1px solid
+}
+#shopZone {
+	BORDER-RIGHT: #88d1e8 1px solid; BORDER-TOP: #88d1e8 1px solid; BORDER-LEFT: #88d1e8 1px solid; BORDER-BOTTOM: #88d1e8 1px solid
+}
+#shopOpen {
+	BORDER-RIGHT: #88d1e8 1px solid; BORDER-TOP: #88d1e8 1px solid; BORDER-LEFT: #88d1e8 1px solid; BORDER-BOTTOM: #88d1e8 1px solid
+}
+#CategoryListDiv LI {
+	BORDER-BOTTOM: #caedf7 1px solid
+}
+#shopSide .shopPrize {
+	BORDER-TOP: #caedf7 2px solid
+}
+A:active {
+	COLOR: #ff4e00
+}
+A:hover {
+	COLOR: #ff4e00
+}
+#CategoryListDiv LI.liSplit {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#CategoryListDiv LI.liMenu {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#shopHeadBG1 {
+	BACKGROUND: url(head_01.jpg) no-repeat
+}
+#shopHeadBG2 {
+	BACKGROUND: url(head_02.jpg) no-repeat
+}
+#shopHeadBG3 {
+	BACKGROUND: url(head_03.jpg) no-repeat
+}
+#shopHeadBG4 {
+	BACKGROUND: url(head_04.jpg) #c7fff1 no-repeat
+}
+#shopInfo #shopNote {
+	BACKGROUND: url(note_bg.gif) no-repeat center 20px
+}
+.shopMenu {
+	BACKGROUND: url(menu_bg.gif) repeat-x
+}
+.shopMenu LI A:hover {
+	BACKGROUND: url(menu_here_left.gif) no-repeat left top; COLOR: #009ee0
+}
+.shopMenu LI.shopHere A {
+	BACKGROUND: url(menu_here_left.gif) no-repeat left top; COLOR: #009ee0
+}
+.menuHead {
+	BACKGROUND: url(menu_here_left.gif) no-repeat left top; COLOR: #009ee0
+}
+.shopMenu LI A:hover SPAN {
+	BACKGROUND: url(menu_here_side.gif) no-repeat right top; COLOR: #009ee0
+}
+.shopMenu LI.shopHere A SPAN {
+	BACKGROUND: url(menu_here_side.gif) no-repeat right top; COLOR: #009ee0
+}
+#shopSide .shopMenu LI A SPAN {
+	BACKGROUND: url(menu_will_side_list.gif) no-repeat right top
+}
+#shopSide .shopMenu LI A:hover SPAN {
+	BACKGROUND: url(menu_here_side_list.gif) no-repeat right top; COLOR: #009ee0
+}
+#shopSide .shopMenu LI.shopHere A SPAN {
+	BACKGROUND: url(menu_here_side_list.gif) no-repeat right top; COLOR: #009ee0
+}
+.menuHead SPAN {
+	BACKGROUND: url(menu_here_side_list.gif) no-repeat right top; COLOR: #009ee0
+}
+.shopvotebgcolor {
+	background-color: #EBF8FC;
+	height: 190px;
+}
+.shopvote1{
+	background-color: #EBF8FC;
+	
+}
+.shopvote2{
+	background-color: #CAEDF7;
+	
+}
+.fontvotedate{
+
+color: #959595;	
+}

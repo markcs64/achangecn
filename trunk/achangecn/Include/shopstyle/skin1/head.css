@@ -1,0 +1,336 @@
+BODY {
+	FONT: 12px "Verdana"; COLOR: #333333
+}
+P {
+	FONT: 12px "Verdana"; COLOR: #333333
+}
+TD {
+	FONT: 12px "Verdana"; COLOR: #333333
+}
+INPUT {
+	FONT: 12px "Verdana"; COLOR: #333333
+}
+OPTION {
+	FONT: 12px "Verdana"; COLOR: #333333
+}
+TEXTAREA {
+	FONT: 12px "Verdana"; COLOR: #333333
+}
+SELECT {
+	FONT: 12px "Verdana"; COLOR: #333333
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	BACKGROUND: #ffffff; TEXT-ALIGN: center
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+TABLE {
+	TEXT-ALIGN: left
+}
+.full {
+	MARGIN: 0px 10px; TEXT-ALIGN: left
+}
+.main {
+	MARGIN: 0px auto; WIDTH: 760px; TEXT-ALIGN: left
+}
+.m760 {
+	MARGIN: 0px auto; WIDTH: 760px; TEXT-ALIGN: left
+}
+.m950 {
+	MARGIN: 0px auto; WIDTH: 760px; TEXT-ALIGN: left
+}
+.m950 {
+	WIDTH: 950px
+}
+.clear {
+	CLEAR: both; BORDER-TOP: transparent 0px solid
+}
+.debug {
+	BORDER-RIGHT: #ff00ff 1px dashed; BORDER-TOP: #ff00ff 1px dashed; BORDER-LEFT: #ff00ff 1px dashed; BORDER-BOTTOM: #ff00ff 1px dashed
+}
+.font14 {
+	FONT-SIZE: 14px
+}
+.number {
+	FONT-FAMILY: Arial
+}
+.fontOrange {
+	COLOR: #ff4e00
+}
+.fontGray {
+	COLOR: #808080
+}
+.relative {
+	POSITION: relative
+}
+.absolute {
+	LEFT: 0px; POSITION: absolute
+}
+.b {
+	FONT-WEIGHT: bold
+}
+.desc {
+	WORD-BREAK: break-all; LINE-HEIGHT: 150%; WORD-WRAP: break-word
+}
+.lineCenter {
+	TEXT-ALIGN: center
+}
+.lineLeft {
+	TEXT-ALIGN: left
+}
+.lineRight {
+	TEXT-ALIGN: right
+}
+A:link {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #ff4e00; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #ff4e00; TEXT-DECORATION: underline
+}
+A.linkLine {
+	TEXT-DECORATION: underline
+}
+A.linkFloat:hover {
+	LEFT: 1px; POSITION: relative; TOP: 1px
+}
+.overflow {
+	OVERFLOW: hidden; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+.help {
+	CURSOR: help
+}
+#head {
+	FONT-FAMILY: "ËÎÌו"
+}
+#head A:link {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+#head A:visited {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+#foot A:link {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+#foot A:visited {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+#head A:active {
+	COLOR: #ff4e00; TEXT-DECORATION: underline
+}
+#head A:hover {
+	COLOR: #ff4e00; TEXT-DECORATION: underline
+}
+#foot A:active {
+	COLOR: #ff4e00; TEXT-DECORATION: underline
+}
+#foot A:hover {
+	COLOR: #ff4e00; TEXT-DECORATION: underline
+}
+#head {
+	MARGIN: 0px auto; WIDTH: 760px; POSITION: relative; HEIGHT: 80px
+}
+#head_find {
+	BORDER-TOP: #d0d0d0 1px solid; MARGIN-TOP: 1px; FLOAT: right; WIDTH: 516px; PADDING-TOP: 4px; TEXT-ALIGN: right
+}
+#head_find LI {
+	FLOAT: right; MARGIN-LEFT: 3px
+}
+#head_link {
+	FLOAT: right; MARGIN: 6px 0px 2px; WIDTH: 500px
+}
+#head_link LI {
+	FLOAT: right; MARGIN-LEFT: 10px
+}
+#head_logo {
+	LEFT: 0px; POSITION: absolute; TOP: 0px
+}
+#head_navi {
+	FLOAT: right; WIDTH: 500px
+}
+#head_navi LI {
+	FLOAT: right; MARGIN-LEFT: 10px
+}
+#head_url {
+	PADDING-RIGHT: 21px; BORDER-TOP: #d0d0d0 1px solid; MARGIN-TOP: 1px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; WIDTH: 516px; COLOR: #808080; PADDING-TOP: 2px; FONT-FAMILY: Verdana; TEXT-ALIGN: right
+}
+#headV2 A:link {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+#headV2 A:visited {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+#foot A:link {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+#foot A:visited {
+	COLOR: #1835d1; TEXT-DECORATION: none
+}
+#headV2 A:active {
+	COLOR: #ff3300; TEXT-DECORATION: underline
+}
+#headV2 A:hover {
+	COLOR: #ff3300; TEXT-DECORATION: underline
+}
+#foot A:active {
+	COLOR: #ff3300; TEXT-DECORATION: underline
+}
+#foot A:hover {
+	COLOR: #ff3300; TEXT-DECORATION: underline
+}
+#headV2 #headMenuSimple LI A {
+	COLOR: #333; FONT-FAMILY: "ËÎÌו"
+}
+#headV2 #menuFind A {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+#headV2 #menuFind A:hover {
+	COLOR: #ff4e00
+}
+#foot {
+	MARGIN: 10px 0px 12px; LINE-HEIGHT: 150%; TEXT-ALIGN: center
+}
+#foot_link {
+	PADDING-BOTTOM: 4px; MARGIN: 7px auto; WIDTH: 760px; BORDER-BOTTOM: #d7d7d7 1px solid
+}
+#headV2 {
+	MARGIN: 7px
+}
+#headMain {
+	MARGIN: 0px auto; WIDTH: 760px; POSITION: relative; HEIGHT: 66px; TEXT-ALIGN: right
+}
+#headLogo {
+	LEFT: 0px; POSITION: absolute; TOP: -7px
+}
+#headLink {
+	BACKGROUND: url(line.gif) no-repeat right bottom; FONT-FAMILY: Verdana; HEIGHT: 18px
+}
+#headInfo {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #545454; PADDING-TOP: 4px; FONT-FAMILY: Verdana; HEIGHT: 20px; TEXT-ALIGN: right
+}
+#headMenu {
+	PADDING-LEFT: 240px
+}
+#headMenuSimple {
+	BACKGROUND: url(menu_left.gif) #f0f0f0 no-repeat left 50%; MARGIN-LEFT: 400px; HEIGHT: 21px
+}
+#headMenuSimple UL {
+	PADDING-LEFT: 7px; BACKGROUND: url(menu_side.gif) no-repeat right 50%; HEIGHT: 21px
+}
+#headMenuSimple LI {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 3px; BACKGROUND: url(menu_main.gif) no-repeat right 50%; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; HEIGHT: 16px
+}
+#headFind {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 760px; HEIGHT: 34px
+}
+#headFindSimple {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+#headForm {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; COLOR: #fff; PADDING-TOP: 8px; HEIGHT: 26px; TEXT-ALIGN: left
+}
+.findInto {
+	BORDER-RIGHT: #808080 1px solid; BORDER-TOP: #808080 1px solid; BORDER-LEFT: #808080 1px solid; WIDTH: 240px; COLOR: gray; BORDER-BOTTOM: #808080 1px solid; HEIGHT: 16px
+}
+.findGoto {
+	BACKGROUND: url(find_bg.gif) no-repeat; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 20px; BORDER-BOTTOM-STYLE: none
+}
+#headV2 #menuItem {
+	FONT-FAMILY: "ËÎÌו"; HEIGHT: 24px
+}
+#headV2 #menuItem A {
+	DISPLAY: block; BACKGROUND: url(main_left.gif) #ebebeb no-repeat left top; FLOAT: left; HEIGHT: 24px; TEXT-DECORATION: none
+}
+#menuItem A SPAN {
+	PADDING-RIGHT: 13px; DISPLAY: block; PADDING-LEFT: 13px; BACKGROUND: url(main_side.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 0px; CURSOR: hand; COLOR: #000000; PADDING-TOP: 7px; HEIGHT: 17px; TEXT-ALIGN: center
+}
+#menuItem LI {
+	FLOAT: left; MARGIN-RIGHT: 3px; HEIGHT: 24px
+}
+#menuItem LI#menuBook A:hover {
+	BACKGROUND: url(book_left.gif) #1d7d8b no-repeat left top
+}
+#menuItem LI#menuBook A:hover SPAN {
+	BACKGROUND: url(book_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuDigital A:hover {
+	BACKGROUND: url(digital_left.gif) #8b94a2 no-repeat left top
+}
+#menuItem LI#menuDigital A:hover SPAN {
+	BACKGROUND: url(digital_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuGame A:hover {
+	BACKGROUND: url(game_left.gif) #784544 no-repeat left top
+}
+#menuItem LI#menuGame A:hover SPAN {
+	BACKGROUND: url(game_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuHome A:hover {
+	BACKGROUND: url(home_left.gif) #ffa730 no-repeat left top
+}
+#menuItem LI#menuHome A:hover SPAN {
+	BACKGROUND: url(home_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuLady A:hover {
+	BACKGROUND: url(lady_left.gif) #f0447d no-repeat left top
+}
+#menuItem LI#menuLady A:hover SPAN {
+	BACKGROUND: url(lady_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuQ A:hover {
+	BACKGROUND: url(q_left.gif) #32c1ec no-repeat left top
+}
+#menuItem LI#menuQ A:hover SPAN {
+	BACKGROUND: url(q_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuSale A:hover {
+	BACKGROUND: url(sale_left.gif) #97c03d no-repeat left top
+}
+#menuItem LI#menuSale A:hover SPAN {
+	BACKGROUND: url(sale_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuSport A:hover {
+	BACKGROUND: url(sport_left.gif) #60b900 no-repeat left top
+}
+#menuItem LI#menuSport A:hover SPAN {
+	BACKGROUND: url(sport_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#menuItem LI#menuStudent A:hover {
+	BACKGROUND: url(student_left.gif) #ff6100 no-repeat left top
+}
+#menuItem LI#menuStudent A:hover SPAN {
+	BACKGROUND: url(student_side.gif) no-repeat right top; COLOR: #ffffff
+}
+#headFind {
+	BACKGROUND: url(home_find_left.gif) #ffa730 no-repeat left top
+}
+#headForm {
+	BACKGROUND: url(home_find_side.gif) no-repeat right top
+}

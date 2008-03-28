@@ -1,0 +1,20 @@
+/* Ä¬ÈÏ·ç¸ñ */
+a:link,a:visited,#pathLink,#showHeadNote1,#showHeadNote2,#shopVote,#CategoryListDiv li.liMenu{color:#003399}
+#shopInfo,#shopVoteItem,#CategoryListDiv,#FriendLinkListDiv,#Page_Div1,#Page_Div2,#sideList ul,.loadInfo,#leaveMsgPage,#loginAndPost,.tdSplit,#shopOpen,#shopBanner,#shopZone{background-color:#F4F9FF}
+#shopVote,#shopMain,#CategoryListDiv li.liSplit,#FriendLinkListDiv li.liSplit,#CategoryListDiv li.liMenu{background-color:#D6E8FF}
+#CategoryListDiv,#FriendLinkListDiv{border:1px solid #3D9AE0;border-top:none;}
+#shopBanner,#shopZone,#shopOpen{border:1px solid #3D9AE0}
+#CategoryListDiv li{border-bottom:1px solid #D6E8FF}
+#shopSide .shopPrize{border-top:2px solid #D6E8FF}
+a:active,a:hover{color:#FF4E00;}
+#CategoryListDiv li.liSplit,#CategoryListDiv li.liMenu{border:none}
+#shopHeadBG1{background:url(head_01.jpg) no-repeat}
+#shopHeadBG2{background:url(head_02.jpg) no-repeat}
+#shopHeadBG3{background:url(head_03.jpg) no-repeat}
+#shopHeadBG4{background:#FCFDFF url(head_04.jpg) no-repeat}
+#shopInfo #shopNote{background:url(note_bg.gif) center 20px no-repeat}
+.shopMenu{background:url(menu_bg.gif) repeat-x}
+.shopMenu li a:hover,.shopMenu li.shopHere a,.menuHead{background:url(menu_here_left.gif) left top no-repeat}
+.shopMenu li a:hover span,.shopMenu li.shopHere a span{background:url(menu_here_side.gif) right top no-repeat;}
+#shopSide .shopMenu li a span{background:url(menu_will_side_list.gif) right top no-repeat;}
+#shopSide .shopMenu li a:hover span,#shopSide .shopMenu li.shopHere a span,.menuHead span{background:url(http://pics.paipai.com/shop/blue/menu_here_side_list.gif) right top no-repeat;}
