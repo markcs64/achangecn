@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD><TITLE>{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}index.css" rel="stylesheet" type="text/css">
+<LINK href="{$Hope_SitUrl$}{$Hope_Skin$}help.css" type=text/css rel=stylesheet>
+</HEAD>
+<!--beginTop-->{$Hope_Top$} <!--#endTop-->
+{$Hope_index_search$}
+<TABLE style="MARGIN-TOP: 5px" cellSpacing=0 cellPadding=0 width=760 
+align=center border=0>
+  <TBODY>
+  <TR>
+    <TD id=left vAlign=top width=177>
+      <DIV id=list>
+      <DIV><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}images/class_left_01.gif"></DIV>
+{#Hope_ArticleClassList*1,1,2,0,,list_show,list_show,65#}      
+      <DIV><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}images/class_left_05.gif"></DIV></DIV></TD>
+    <TD width=20>&nbsp;</TD>
+    <TD vAlign=top>
+      <DIV id=class_head>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD><B class=ft14_head>œÍœ∏–≈œ¢</B></TD>
+          <TD align=right>&nbsp;</TD>
+        </TR></TBODY></TABLE></DIV>
+      
+      <DIV 
+      style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; TEXT-ALIGN: left">{#Hope_PageArticle*15,18,0,0,ClassId,65#}</DIV>
+      <DIV style="BACKGROUND: #ebeeee; HEIGHT: 20px"></DIV>
+      </TD>
+  </TR></TBODY></TABLE>
+	  {$Hope_Bottom$} 
+</BODY></HTML>
