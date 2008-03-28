@@ -1,0 +1,281 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="YX_sell_type.aspx.cs" Inherits="VipUser_YX_sell_type" %>
+
+<%@ Register Src="YX_proskin.ascx" TagName="YX_proskin" TagPrefix="uc2" %>
+
+<%@ Register Src="shopclass.ascx" TagName="shopclass" TagPrefix="uc1" %>
+<%@ Register Src="Top_vip.ascx" TagName="Top_vip" TagPrefix="uc" %>
+<%@ Register Src="Foot_vip.ascx" TagName="Foot_vip" TagPrefix="uc" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head runat="server">
+    <title>商品发布管理</title>
+</head>
+<body>
+<uc:Top_vip ID="top_vip1" runat=server />
+    <form id="form1" action="YX_sell_type.aspx" runat="server" onsubmit="return Validator.Validate(document.getElementById('form1'),3)">
+    <div>       
+       <asp:Panel ID="selectype" Visible=false runat=server HorizontalAlign="Center">
+       <DIV class=main>
+<DIV id=menu>
+<UL id=menu_head>
+  <LI><IMG hspace=10 src="../images/upload_btn_will_01.gif" 
+  align=absMiddle>选择出售方式 </LI>
+  <LI class=li_now><IMG hspace=10 src="../images/upload_btn_here_02.gif" 
+  align=absMiddle>选择商品分类 </LI>
+  <LI><IMG hspace=10 src="../images/upload_btn_will_03.gif" 
+  align=absMiddle>填写商品详情 </LI></UL>
+</DIV></DIV>
+<DIV class=main>
+<DIV id=warn>发布您的商品请先阅读。</DIV></DIV>
+<DIV class=main>
+<UL style="text-align:center;PADDING-LEFT: 20px; MARGIN-BOTTOM: 5px">
+  <LI>选择分类<BR /><%=ss() %></UL>
+</DIV>
+<DIV class=main>
+<DIV id=warn style="display:none"><asp:Label ID="Error" runat="server"></asp:Label></DIV></DIV>
+    <asp:HiddenField ID="HiddenField1" runat="server" />
+    <asp:Button id="nextID"  runat="server" Text=" 继 续 >>" OnClick="nextID_Click" />
+</DIV>
+
+
+       </asp:Panel>
+       
+       <asp:Panel ID="insertpro" Visible="false" runat="server">
+       <asp:Panel ID="fs" runat="server" HorizontalAlign=center>
+          <DIV class=main>
+            <DIV id=menu>
+            <UL id=menu_head>
+              <LI><IMG hspace=10 src="../images/upload_btn_will_01.gif" 
+              align=absMiddle>选择出售方式 </LI>
+              <LI class=li_now><IMG hspace=10 src="../images/upload_btn_here_02.gif" 
+              align=absMiddle>选择商品分类 </LI>
+              <LI><IMG hspace=10 src="../images/upload_btn_here_03.gif" 
+              align=absMiddle>填写商品详情 </LI></UL>
+            </DIV>
+        </DIV>
+
+<table class=main border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="20%">
+        <asp:Image ID="Image1" runat="server"  /></td>
+    <td><DIV id=warn>发布您的商品请先阅读禁止交易和限制交易的物品规则，重复发布商品处理规则。</DIV></td>
+  </tr>
+</table>
+</asp:Panel>
+<br>
+<script language=javascript src="../include/yz.js"></script>
+<table class=main border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="140" class="td_01">商品信息编辑</td>
+    <td colspan="2" class="td_01">　</td>
+  </tr>
+  <tr>
+    <td class="td_02"><span class="fontOrange font14">*</span> 商品类目：</td>
+    <td class="td_03" colspan="2" >
+        <asp:Label ID="classroot" runat="server"></asp:Label>
+        <asp:HiddenField ID="yx_classid" runat="server" />
+        <asp:HiddenField ID="action" runat="server" Value="savepro" />
+        <asp:HiddenField ID="yx_gmfs" runat="server" />
+        <asp:HyperLink ID="HyperLink1" runat="server">更改类目</asp:HyperLink>
+	</td>
+  </tr>
+  <asp:Panel ID="sx" Visible="false" runat="server">
+  <tr id = "tr_classattr">
+     <td valign="top" class="td_02" style="padding-top:20px"><span class="fontOrange font14">*</span> 商品属性：
+	 </td>
+     <td colspan="2" class="td_03 goodDesc" style="line-height:25px">
+         <%=product_sx() %>
+     </td>
+  </tr>
+   </asp:Panel>
+  <asp:Panel ID="pp" Visible="false" runat="server">
+    <tr id = "tr1">
+     <td valign="top" class="td_02" style="padding-top:20px"><span class="fontOrange font14">*</span> 商品品牌：
+	 </td>
+     <td colspan="2" class="td_03 goodDesc" style="line-height:25px">
+         <%=product_pp()%>
+     </td>
+  </tr> 
+  </asp:Panel>
+  <tr>
+    <td class="td_02" ><span class="fontOrange font14">*</span> 商品名称：</td>
+    <td class="td_03" style="height: 65px"><input name="sTitle" id="sTitle" dataType="Require" min="3" max="10"  msg="请填写商品名称" type="text" maxlength="60" size="60"></td>
+   	<td rowspan="2" align="center" class="td_03" ><div id="previewImage"></div></td>
+  </tr>  
+  <tr>
+    <td class="td_02">图片上传：</td>
+    <td class="td_03" style="height: 65px">
+      <asp:FileUpload ID="photo" name="photo" runat="server" require="true" datatype="Filter" msg="请选择要上传的商品图片，现暂时只支持jpg\gif图片文件" accept="jpg, gif" onchange="document.getElementById('previewImage').innerHTML = '预览<br> <img src=\''+this.value+'\' width=100 align=absmiddle>';" />
+   
+     <a href="#" target="_blank"></a>   
+	</td>
+ </tr>	
+    <tr>
+    <td class="td_02">商品说明：</td>
+    <td class="td_03" colspan=2>
+<script type="text/javascript" src="Edit/editor.js"></script>
+<textarea name="contentddd" id="contentddd" style="width:100%;height:250px;" require="true" datatype="LimitB" min="3" max="50000"  msg="商品详细描述必须在[3～50000]个字符之内,一个中文是两个字符!"></textarea>
+<script type="text/javascript">
+	var oEditor = new PPEditor('contentddd') ;
+	oEditor.Create() ;
+	alert("D");
+</script>
+	</td>
+ </tr>	
+</table>
+<table class=main border="0" align="center" cellpadding="0" cellspacing="0">
+ <tr id = "chosestyle">
+    <td width="143" class="td_02">皮肤风格选择：</td>
+    <td class="td_03">
+                <uc2:YX_proskin id="YX_proskin1" runat="server"></uc2:YX_proskin>
+	</td>
+ </tr>
+</table>
+<table class=main border="0" align="center" cellpadding="0" cellspacing="0">
+   <tr>
+      <td width="140" class="td_01">商品基本信息</td>
+      <td colspan="3" class="td_01">　</td>
+   </tr>
+   <tr>
+      <td class="td_02"><span class="fontOrange font14">*</span> 商品数量：</td>
+      <td width="225" class="td_03">
+         <asp:TextBox ID="dwNum" Text=1 runat="server" require = "true"  datatype="Number" msg="商品数量必须是数字" ></asp:TextBox>件</td>
+        <td  class="td_02">有效期：</td>
+        <td class="td_03">
+	        <select name="dwValidDuration" class="select_span">
+			   <option value="7" checked>7</option>
+			  <option value="14">14</option>
+		    </select>天
+		</td>
+   </tr>
+       <script src="../Include/area.js" language=javascript></script>
+    <script language="javascript">
+function window.onload()
+{
+   province(0);
+   cityName(document.form1.prov.selectedIndex,0);//设置初始值
+}
+</script>
+   <tr>
+        <td class="td_02"><span class="fontOrange font14">*</span> 所 在 地：</td>
+        <td class="td_03"><select  id="prov" name="prov" datatype="Range"  msg="请选择商品所在地" min="1" max="30000000"  require="true" onChange="cityName(document.form1.prov.options[document.form1.prov.selectedIndex].value)">
+<option value="0">请选择</option>
+</select>
+<select name="city" id="city">
+</select></td>
+	    <td class="td_02">发  票：</td>
+        <td class="td_03">
+          <input name="cInvoiceType" type="radio" value="1" > 有
+          <input name="cInvoiceType" type="radio" value="2" checked > 无
+        </td>
+    </tr>
+    <tr>
+        <td class="td_02"><span class="fontOrange font14">*</span> 新旧程度：</td>
+        <td class="td_03">
+		  <input name="cNewType" type="radio" value="1"  checked >全新
+          <input name="cNewType" type="radio" value="2" >  二手
+          <input name="cNewType" type="radio" value="3">  陈列品
+		</td>
+        <td class="td_02">保  修：
+		</td>
+        <td class="td_03">
+	      <input name="cRepairType" type="radio" value="1"  />有
+          <input name="cRepairType" type="radio" value="2"   checked  />无
+        </td>
+  </tr>
+  <tr>
+        <td class="td_02"><span class="fontOrange font14">*</span> 自定义分类：</td>
+        <td colspan="3" class="td_03">
+         <uc1:shopclass ID="Shopclass1" runat="server" />
+		</td>
+  </tr>
+    <tr>
+        <td class="td_02"><span class="fontOrange font14">*</span> 上架时间：</td>
+        <td colspan="3" class="td_03">
+		   <input type=radio name=pro_sjsj value=0 checked />立即上架  <input type=radio name=pro_sjsj value=1 />放入仓库
+		</td>
+  </tr>
+</table>
+<table class=main border="0" align="center" cellpadding="0" cellspacing="0" >
+     <tr>
+	    <td width="140" class="td_01">交易条件</td>
+        <td class="td_01">　</td>
+     </tr>
+     <tr>
+        <td class="td_02"><span class="fontOrange font14">*</span> 交易方式：</td>
+        <td class="td_03">
+            <%=Transactions()%>
+			</td>
+	 </tr>
+     <tr>
+        <td class="td_02"><span class="fontOrange font14">*</span> 运费承担：</td>
+        <td class="td_03">
+        	<input name="cTransportType" type="radio"  value="1" onclick="document.getElementById('cdcf').style.display='none'"> 卖家承担运费 
+	 		<input name="cTransportType" type="radio" value="2" checked onclick="document.getElementById('cdcf').style.display=''"> 买家承担运费<br>
+			<div id=cdcf>平邮：<input name="dwNormalMailPrice" type="text" require = "true" datatype="Range" min="0.01" max="1000000" msg="[平邮费] 金额必须是0.01～1000000之间的数字;"   size="10" value="0.00"> 元 
+			快递：<input name="dwExpressMailPrice" type="text" require = "true" datatype="Range" min="0.01" max="1000000" msg="[快递费] 金额必须是0.01～1000000之间的数字;"   size="10" value="0.00"> 元 
+			</div>
+		</td>
+      </tr>
+      <asp:Panel ID="aprice" runat="server" Visible="false">
+      <tr>
+        <td class="td_02"><span class="fontOrange font14">*</span> 一 口 价：</td>
+        <td class="td_03">
+		 现价(必填)：<input name="dwPrice_bin" id="dwPrice_bin" type="text" size="10"  require = "true" datatype="Range" min="0.01" max="1000000" msg="[一 口 价] 金额必须是0.01～1000000之间的数字；" >  元　
+		</td>
+      </tr>
+      </asp:Panel>
+      <tr>
+        <td class="td_02">购买权限设置：</td>
+        <td class="td_03">购买件数限制：
+			<input id="dwOpNum" name="dwOpNum" type="text"   value="0" size="8" require = "true" datatype="Number" msg="商品数量必须是数字" > 件<span id="buyerLimitErr" style="color:red"></span>&nbsp;&nbsp;&nbsp;&nbsp;同一买家购买该商品的数量上限（0件表示不限制）
+		</td>
+      </tr>
+      <asp:Panel ID="Auction" runat="server" Visible="false">
+      <tr id="Auction">
+        <td class="td_02"><span class="fontOrange font14">*</span> 起 拍 价：</td>
+        <td class="td_03"><input name="dwPrice_auc" id = "dwPrice_auc" type="text"  require = "true" datatype="Range" min="0.01" max="1000000" msg="[起 拍 价] 金额必须是0.01～1000000之间的数字；"  size="10" > 元&nbsp;&nbsp;&nbsp;&nbsp; 起拍价就是您可以接受的最低价格，请谨慎设置。</td>
+      </tr>
+      <tr id="Rate">
+        <td class="td_02"><span class="fontOrange font14">*</span> 最低加价幅度：</td>
+        <td class="td_03"><input name="dwPriceToAdd" type="text" require = "true" datatype="Range" min="0.01" max="1000000" msg="[最低加价幅度] 金额必须是0.01～1000000之间的数字；"    value="" size="10"  > 元<br>
+        </td>
+      </tr>
+      </asp:Panel>
+</table>
+	<div class=main style="text-align:center">
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="确认无误，提交" />
+	</div>
+
+   
+       </asp:Panel>
+<asp:panel runat="server" height="50px" ID="panel3" Visible="false" width="100%" HorizontalAlign="Center"> 
+<table width="60%" border="0" >
+  <tr>
+    <td align="center"><img src="../images/success.gif" width="41" align=center height="39" />恭喜您，商品发布成功！</td>
+  </tr>
+  <tr>
+    <td align="center">查看商品详情>>　　　　　推荐该商品到您的QQ空间>></td>
+  </tr>
+  <tr>
+    <td><table width="100%" height="62" border="0" align="center">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+</asp:panel>
+    </div>
+    </form>
+    
+</body>
+</html>
+
