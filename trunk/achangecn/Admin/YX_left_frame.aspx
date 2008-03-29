@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
-    <title>无标题页</title>
+    <title>易物后台管理-菜单</title>
 
 <script language="javascript">
 function over(obj)
@@ -134,12 +134,12 @@ img{border:none;}
 <tr>
 <td id="g_15"><div>
 <p><img src="images/dot.gif" /><a href="YX_shop/YX_Consume.aspx" target="mainFrame">消费者保障计划管理</a></p><br>
-<p><img src="images/dot.gif" /><a href="YX_shop/YX_AdminShop.aspx" target="mainFrame">商铺列表管理</a></p><br>
-<p><img src="images/dot.gif" /><a href="YX_user/YX_AdminUser.aspx?Stat=reging" target="mainFrame">待审核的商铺</a></p><br>
-<p><img src="images/dot.gif" /><a href="YX_SitModel/YX_RankStore.aspx"target="mainFrame">商铺等级管理</a></p><br>
-<p><img src="images/dot.gif" /><a href="YX_SitModel/YX_SecondArea.aspx"target="mainFrame">商铺域名管理</a></p><br>
-<p><img src="images/dot.gif" /><a href="YX_shop/YX_AdminTemp.aspx" target="mainFrame">商铺风格管理</a></p><br>
-<p><img src="images/dot.gif" /><a href="YX_shop/YX_AdminClass.aspx?Flag=Add" target="mainFrame">商铺自定义分类管理</a></p><br>
+<p><img src="images/dot.gif" /><a href="YX_shop/YX_AdminShop.aspx" target="mainFrame">企业列表管理</a></p><br>
+<p><img src="images/dot.gif" /><a href="YX_user/YX_AdminUser.aspx?Stat=reging" target="mainFrame">待审核的企业</a></p><br>
+<p><img src="images/dot.gif" /><a href="YX_SitModel/YX_RankStore.aspx"target="mainFrame">企业等级管理</a></p><br>
+<p><img src="images/dot.gif" /><a href="YX_SitModel/YX_SecondArea.aspx"target="mainFrame">企业域名管理</a></p><br>
+<p><img src="images/dot.gif" /><a href="YX_shop/YX_AdminTemp.aspx" target="mainFrame">企业风格管理</a></p><br>
+<p><img src="images/dot.gif" /><a href="YX_shop/YX_AdminClass.aspx?Flag=Add" target="mainFrame">企业自定义分类管理</a></p><br>
 </div>
 </td>
 </tr>
