@@ -105,11 +105,11 @@ img{border:none;}
 </tr>
 <tr>
 <td id="g_4"><div>
-<p><img src="images/dot.gif" /><a href="YX_Product/add.aspx?YX_SF=Manage" target="mainFrame">商品分类管理</a> |<a href="YX_Product/add.aspx?action=add" target="mainFrame">添加</a></p><br>
-<p><img src="images/dot.gif" /><a href="YX_Product/AddProduct.aspx?YX_FS=Admin" target="mainFrame">已审商品管理</a> |<a href="YX_Product/AddProduct.aspx?YX_FS=Admin&YX_fla=1" target="mainFrame">未审</a></p><br>
+<p><img src="images/dot.gif" /><a href="YX_Product/add.aspx?YX_SF=Manage" target="mainFrame">物品分类管理</a> |<a href="YX_Product/add.aspx?action=add" target="mainFrame">添加</a></p><br>
+<p><img src="images/dot.gif" /><a href="YX_Product/AddProduct.aspx?YX_FS=Admin" target="mainFrame">已审物品管理</a> |<a href="YX_Product/AddProduct.aspx?YX_FS=Admin&YX_fla=1" target="mainFrame">未审</a></p><br>
 <p><img src="images/dot.gif" /><a href="YX_Product/AdminPPai.aspx?Flag=admin" target="mainFrame">品牌管理</a> |<a href="YX_Product/AdminPPai.aspx?YX_FS=Add" target="mainFrame">添加</a></p><br>
-<p><img src="images/dot.gif" /><a href="YX_Product/YX_AdminTemp.aspx?Flag=admin" target="mainFrame">商品内容页风格管理</a></p><br>
-<p><img src="images/dot.gif" /><a href="YX_SitModel/YX_ShopHtml.aspx"target="mainFrame">生成商品详细页</a></p><br>
+<p><img src="images/dot.gif" /><a href="YX_Product/YX_AdminTemp.aspx?Flag=admin" target="mainFrame">物品内容页风格管理</a></p><br>
+<p><img src="images/dot.gif" /><a href="YX_SitModel/YX_ShopHtml.aspx"target="mainFrame">生成物品详细页</a></p><br>
 </div>
 </td>
 </tr>
@@ -150,8 +150,8 @@ img{border:none;}
 </tr>
 <tr>
 <td id="g_7"><div>
-<p><img src="images/dot.gif" /><a href="Statistics/YX_ProOrder.aspx?Flag=2" target="mainFrame">商品订单量排名</a></p><br>
-<p><img src="images/dot.gif" /><a href="Statistics/YX_Proview.aspx" target="mainFrame">商品访问数排名</a></p><br>
+<p><img src="images/dot.gif" /><a href="Statistics/YX_ProOrder.aspx?Flag=2" target="mainFrame">物品订单量排名</a></p><br>
+<p><img src="images/dot.gif" /><a href="Statistics/YX_Proview.aspx" target="mainFrame">物品访问数排名</a></p><br>
 </div></td>
 </tr>
 <tr>
