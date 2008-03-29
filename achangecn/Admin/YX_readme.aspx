@@ -68,7 +68,7 @@ body {
 </tr>
 <tr>
 <td>官方网址</td>
-<td>若您想了解更多的易想产品请到：<a href='http://www.bunite.net' target='_blank'>http://www.bunite.net</a></td>
+<td>若您想了解更多的产品请到：<a href='http://www.bunite.net' target='_blank'>http://www.bunite.net</a></td>
 </tr>
 <tr>
 <td class="t2">技术支持</td>
@@ -82,8 +82,8 @@ body {
 <td class="category"></td>
 </tr>
 <tr>
-<td>商城基本设置 </td>
-<td>系统的主要设置，包括商城的常量配置和网站开关设置等。</td>
+<td>易物企业基本设置 </td>
+<td>系统的主要设置，包括易物的常量配置和网站开关设置等。</td>
 
 <tr>
 <td>管理员登陆日志</td>
