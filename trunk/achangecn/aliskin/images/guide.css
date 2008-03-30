@@ -1,0 +1,63 @@
+.crumb {
+	CLEAR: both; MARGIN-BOTTOM: 10px
+}
+.global.crumb {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 6px; FONT: 0.8em verdana; PADDING-TOP: 6px
+}
+.stepGuide.crumb SPAN.current {
+	FONT-WEIGHT: bold; BACKGROUND: url(/images/eng/style/css_images/join_current.gif) no-repeat right 18px; PADDING-BOTTOM: 10px; COLOR: #f60; BORDER-BOTTOM-STYLE: none
+}
+.stepGuide.crumb SPAN {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; MARGIN: 0px 2px; COLOR: #777; PADDING-TOP: 3px; BORDER-BOTTOM: #ccc 4px solid
+}
+.stepGuide.crumb {
+	TEXT-ALIGN: right
+}
+.history {
+	MARGIN-BOTTOM: 15px; BACKGROUND-COLOR: #ccc
+}
+.channelTitle STRONG {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 17px; MARGIN: 6px 19px 0px; COLOR: #fff; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.channelTitle STRONG A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.channelTitle STRONG A:link {
+	COLOR: #fff
+}
+.channelTitle STRONG A:visited {
+	COLOR: #fff
+}
+.channelTitle STRONG A:hover {
+	COLOR: #fff
+}
+.channelTitle .titlename {
+	DISPLAY: inline; FLOAT: left; WIDTH: 180px; HEIGHT: 31px; TEXT-ALIGN: center
+}
+.channelTitle .shadow {
+	FLOAT: left; WIDTH: 148px; HEIGHT: 31px
+}
+.channelTitleRight {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.titleSkinA.channelTitle {
+	BACKGROUND: url(/images/eng/style/css_images/title/title_background.gif) #e6ecf6 repeat-x; MARGIN-BOTTOM: 10px; VERTICAL-ALIGN: bottom; HEIGHT: 32px
+}
+.titleSkinA.channelTitle .titlename {
+	BACKGROUND: url(/images/eng/style/css_images/title/title_current.gif) #437caf repeat-x
+}
+.titleSkinA.channelTitle .shadow {
+	BACKGROUND: url(/images/eng/style/css_images/title/title_shadow.gif) no-repeat left top
+}
+.titleSkinB.channelTitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(/images/eng/style/css_images/title/titleB_background.gif) #fae9c4 repeat-x; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.titleSkinB.channelTitle .titlename {
+	BACKGROUND: url(/images/eng/style/css_images/title/titleB_current.gif) #f36722 repeat-x
+}
+.titleSkinB.channelTitle .shadow {
+	BACKGROUND: url(/images/eng/style/css_images/title/titleB_shadow.gif) no-repeat left top
+}
+.titleSkinB.channelTitle .channelTitleRight {
+	BACKGROUND: url(/images/eng/style/css_images/title/titleB_shadow_R.gif) no-repeat right top
+}

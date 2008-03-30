@@ -147,6 +147,142 @@ a.classname:hover{
 /*Rules for DIV.Head*/
 #Head {}
 
+#Head #HeadNavBar{
+	float: right; margin-top:20px;
+}
+
+#Head #HeadNavBar li {
+	float:left;
+	height:21px;
+	display:inline;
+	margin: 0 3px;
+	background: url(../IMAGE/top_menu_r.png) no-repeat right top;
+}
+
+#Head #HeadNavBar li a{
+	display:block;
+	padding: 0 6px 0 7px;
+	float:left;
+	height:21px;
+	line-height:21px;
+	color: #111;
+	font-size: 12px;
+	background: url(../IMAGE/top_menu_l.png) no-repeat left top;
+}
+
+
+
+#login_stat{font: 1em/180% arial; margin-top:0px;}
+
+#Logo {
+	FLOAT: left; FONT: bold 10px verdana; MARGIN-RIGHT: 15px; height:80px;
+}
+.header960 {
+	MARGIN: auto; WIDTH: 960px
+}
+.utility {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; FONT: 0.85em verdana; PADDING-TOP: 3px; HEIGHT: 25px; TEXT-ALIGN: right
+}
+.utility A:link {
+	COLOR: #3d5376; TEXT-DECORATION: none
+}
+.utility A:visited {
+	COLOR: #3d5376; TEXT-DECORATION: none
+}
+.utility A:hover {
+	COLOR: #3d5376; TEXT-DECORATION: none
+}
+#page960 {
+	MIN-WIDTH: 760px; MAX-WIDTH: 960px; MARGIN: auto; WIDTH: 960px; TEXT-ALIGN: left
+}
+.frameA#page960 {
+	POSITION: relative
+}
+.frameA#page960 .colL {
+	Z-INDEX: 8; LEFT: 0px; WIDTH: 180px; POSITION: absolute; TOP: 130px
+}
+.frameA#page960 .colR {
+	MARGIN-LEFT: -193px; WIDTH: 100%
+}
+.frameA#page960 .colR .colRmargin {
+	MARGIN-BOTTOM: 20px; MARGIN-LEFT: 193px
+}
+.frameA#page960 .colRL {
+	WIDTH: 100%; MARGIN-RIGHT: -303px
+}
+.frameA#page960 .colRL .colRLmargin {
+	MARGIN-RIGHT: 302px
+}
+.frameA#page960 .colRR {
+	WIDTH: 289px
+}
+
+
+
+
+.aliSearch {
+	CLEAR: both; BACKGROUND: url(../IMAGES/Search_tabsBg.gif) #f5f8fb repeat-x 50% top; _height: 1%
+}
+.aliSearch UL {
+	LIST-STYLE-IMAGE: none; MARGIN: 0px 0px 0px 200px; LIST-STYLE-TYPE: none; HEIGHT: 30px;
+}
+.aliSearch LI {
+	BACKGROUND: url(../IMAGES/Search_tabsLeft.gif) #d6e5ee no-repeat left top; FLOAT: left; MARGIN-RIGHT: 2px
+}
+.aliSearch LI A {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; BACKGROUND: url(../IMAGES/Search_tabsRight.gif) #d6e5ee no-repeat right top; PADDING-BOTTOM: 7px; FONT: bold 13px/100% arial; MARGIN-LEFT: 2px; WIDTH: auto; COLOR: #455b80; PADDING-TOP: 7px
+}
+.aliSearch .searchBox {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; BACKGROUND: url(../IMAGES/Search_searchBg.gif) #3f80b1 no-repeat left top; PADDING-BOTTOM: 6px; COLOR: #fff; PADDING-TOP: 6px; TEXT-ALIGN: center
+}
+.aliSearch .searchBox A {
+	COLOR: #fff
+}
+.aliSearch LI.current {
+	BACKGROUND: url(../IMAGES/Search_current_tabsLeft.gif) #93c2de no-repeat left top; HEIGHT: 30px
+}
+.aliSearch LI.current A {
+	FONT-WEIGHT: bold; BACKGROUND: url(../IMAGES/Search_current_tabsRight.gif) #93c2de no-repeat right top; COLOR: #172e54! important; TEXT-DECORATION: none
+}
+.aliSearch UL LI A {
+	outline: none
+}
+.aliSearch LI.other {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 20px
+}
+.aliSearch LI.other A {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-FAMILY: verdana
+}
+
+
+.homePopSearch {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; BACKGROUND: url(../IMAGES/Search_popBg.gif) no-repeat 50% top; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px
+}
+.homePopSearch A {
+	MARGIN-LEFT: 5px; MARGIN-RIGHT: 2px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #Head a:link, #head a:visited{
 	color:#0044dd;
 }
@@ -218,6 +354,28 @@ body.FullWidth #Head #SystemAnnouce{
 	font-size: 12px;
 	background: url(../IMAGE/top_menu_l.png) no-repeat left top;
 }
+
+#Head #login_stat{font: 1em/180% arial; margin-top:0px;}
+#Head  #login_stat .login{background:#f4f3f2;}
+#Head #Logo {
+	FLOAT: left; FONT: bold 10px verdana; MARGIN-RIGHT: 15px; height:70px;
+}
+#Head .header960 {
+	MARGIN: auto; WIDTH: 960px
+}
+#Head .utility {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; FONT: 0.85em verdana; PADDING-TOP: 3px; HEIGHT: 25px; TEXT-ALIGN: right
+}
+#Head .utility A:link {
+	COLOR: #3d5376; TEXT-DECORATION: none
+}
+#Head .utility A:visited {
+	COLOR: #3d5376; TEXT-DECORATION: none
+}
+#Head .utility A:hover {
+	COLOR: #3d5376; TEXT-DECORATION: none
+}
+
 #Head #HeadNavBar a#MyTaoBao {
 	padding-left: 18px!important;
 	background: url(../IMAGE/top_menu_mytb_l.png) no-repeat left top;
@@ -346,6 +504,7 @@ body.FullWidth #Head #SystemAnnouce{
 	overflow: hidden;
 }
 
+
 #Head #ChannelMenuItems li#MenuInfo li a, ul#ChannelMenuItems li#MenuInfo li span {
 	background: none;
 }
@@ -447,7 +606,7 @@ body.FullWidth #Head #SystemAnnouce{
 }
 
 body.W950 #Head #HeadTop, body.W950 #Head #QuickLinks, body.W950 #Head #ChannelMenu, body.W950 #Head #SystemAnnouce {
-	width: 950px !important;
+	width: 960px !important;
 }
 
 body.W950 #Head #ChannelMenuItems, body.FullWidth #Head #ChannelMenuItems {
