@@ -1,0 +1,144 @@
+BODY#popUp #header {
+	BACKGROUND-IMAGE: none; MARGIN: 0px; WIDTH: auto; HEIGHT: auto; BACKGROUND-COLOR: #efefef
+}
+BODY#popUp #page {
+	MARGIN: 6px
+}
+#header {
+	BACKGROUND: url(/images/eng/style/css_images/navigation/headCap.gif) #fff repeat-x; HEIGHT: 80px
+}
+.header960 {
+	MARGIN: auto; WIDTH: 960px
+}
+.header760 {
+	MARGIN: auto; WIDTH: 760px
+}
+#aliLogo {
+	FLOAT: left; FONT: bold 10px verdana; MARGIN-RIGHT: 15px
+}
+.utility {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; FONT: 0.85em verdana; PADDING-TOP: 3px; HEIGHT: 25px; TEXT-ALIGN: right
+}
+.utility A:link {
+	COLOR: #3d5376; TEXT-DECORATION: none
+}
+.utility A:visited {
+	COLOR: #3d5376; TEXT-DECORATION: none
+}
+.utility A:hover {
+	COLOR: #3d5376; TEXT-DECORATION: none
+}
+.importantNotice {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; BACKGROUND: url(/images/eng/style/css_images/security_bg.gif) repeat-x 50% bottom; PADDING-BOTTOM: 6px; COLOR: #2666a6; PADDING-TOP: 6px; TEXT-ALIGN: center
+}
+.importantNotice A:link {
+	COLOR: #2666a6; TEXT-DECORATION: underline
+}
+.importantNotice A:visited {
+	COLOR: #2666a6; TEXT-DECORATION: underline
+}
+.importantNotice A:hover {
+	COLOR: #f60
+}
+.width760 {
+	MARGIN: 0px auto; WIDTH: 760px; TEXT-ALIGN: left
+}
+.width960 {
+	MARGIN: 0px auto; WIDTH: 960px; TEXT-ALIGN: left
+}
+#footer {
+	CLEAR: both; PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px solid; MARGIN-TOP: 30px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; FONT: 0.85em/14px verdana; PADDING-TOP: 20px; TEXT-ALIGN: center
+}
+#page960 {
+	MARGIN: auto; TEXT-ALIGN: left
+}
+#page760 {
+	MARGIN: auto; TEXT-ALIGN: left
+}
+#page960 {
+	MIN-WIDTH: 760px; MAX-WIDTH: 960px; WIDTH: 960px
+}
+#page760 {
+	WIDTH: 760px
+}
+.colL {
+	FLOAT: left; OVERFLOW: hidden
+}
+.colRL {
+	FLOAT: left; OVERFLOW: hidden
+}
+.colLL {
+	FLOAT: left; OVERFLOW: hidden
+}
+.colR {
+	FLOAT: right; OVERFLOW: hidden
+}
+.colRR {
+	FLOAT: right; OVERFLOW: hidden
+}
+.colLR {
+	FLOAT: right; OVERFLOW: hidden
+}
+.frameA#page760 .colL {
+	WIDTH: 440px
+}
+.frameA#page760 .colR {
+	WIDTH: 300px
+}
+.frameA#page960 .colL {
+	WIDTH: 180px
+}
+.frameA#page960 .colR {
+	MARGIN-LEFT: -200px; WIDTH: 100%
+}
+.frameA#page960 .colR .colRmargin {
+	MARGIN-BOTTOM: 20px; MARGIN-LEFT: 200px
+}
+.frameA#page960 .colRL {
+	WIDTH: 100%; MARGIN-RIGHT: -200px
+}
+.frameA#page960 .colRL .colRLmargin {
+	MARGIN-RIGHT: 180px
+}
+.frameA#page960 .colRR {
+	WIDTH: 160px
+}
+.frameB#page960 .colR {
+	WIDTH: 160px
+}
+.frameB#page960 .colL {
+	WIDTH: 100%; MARGIN-RIGHT: -200px
+}
+.frameB#page960 .colL .colLmargin {
+	MARGIN-RIGHT: 200px
+}
+.frameB#page960 .colLR {
+	MARGIN-LEFT: -200px; WIDTH: 100%
+}
+.frameB#page960 .colLR .colLRmargin {
+	MARGIN-LEFT: 200px
+}
+.frameB#page960 .colLL {
+	WIDTH: 180px
+}
+.backOffice#page960 {
+	BACKGROUND: url(/images/eng/style/css_images/menu_leftBg.gif) repeat-y left 50%; BORDER-BOTTOM: transparent 1px solid
+}
+.frameB.listPage#page960 .colR {
+	WIDTH: 160px
+}
+.frameB#page960 .colL {
+	WIDTH: 100%; MARGIN-RIGHT: -175px
+}
+.frameB#page960 .colL .colLmargin {
+	MARGIN-RIGHT: 175px
+}
+.signIn.frameA#page760 .column {
+	WIDTH: 760px; POSITION: relative
+}
+.signIn.frameA#page760 .signInArea {
+	LEFT: 495px; WIDTH: 239px; POSITION: absolute; TOP: -10px
+}
+.signIn.frameA#page760 HR {
+	MARGIN: 10px 0px
+}

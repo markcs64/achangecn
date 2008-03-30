@@ -1,0 +1,2996 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>Index</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content="#" name=keywords>
+<META content="#" name=description>
+<STYLE type=text/css media=all>@import url(images/home.css);</STYLE>
+<META content="MSHTML 6.00.6000.16608" name=GENERATOR></HEAD>
+<BODY>
+<NOSCRIPT>
+<IMG style="DISPLAY: none" height=1 alt="" 
+src="images/bCAN9LA3E.jpg" width=1> </NOSCRIPT>
+<SCRIPT language=javascript type=text/javascript>	
+function extractUrl(url)
+{
+	url = url+"";
+    var index1 = url.indexOf("&trurl=");
+    var index2 = url.indexOf("&",index1+3);
+      if(index1!=-1 && index2 !=-1)
+           url = url.substring(index1+7, index2);
+    if(index1!=-1 && index2 ==-1)
+           url = url.substring(index1+7);
+    url = unescape(url);
+	return url;
+}
+ /**
+  * sign函数
+  * url参数需要encode
+  */	      
+</SCRIPT>
+
+<DIV id=header>
+<DIV class=header960>
+<DIV class=utility>
+<SCRIPT type=text/javascript>	 
+						document.write("<div style=\"float:left;\"><a href=\"javascript:void(0)\" onClick=\"style.behavior='url(#default#homepage)';setHomePage('http://www.alibaba.com/');\">设为首页</a>&nbsp;|&nbsp;</div>");
+						document.write("<div style=\"float:left;\">&nbsp;<a  href=\"javascript:void(0)\" onclick=\"window.external.AddFavorite('http://www.alibaba.com','Alibaba.com')\" >加入收藏</a></div>");
+</SCRIPT>
+登录&nbsp;|&nbsp;退出
+<SPAN id=welcome_info></SPAN>&nbsp;| <IMG alt="" 
+src="images/alitalk_16.gif" align=absMiddle border=0> <A 
+href="http://trademanager.alibaba.com/">交易管理</A></DIV>
+
+<SCRIPT>
+function YahooDirect(lang)
+{
+       var url = document.URL;
+      var index1 = url.indexOf("&trurl=");
+       var index2 = url.indexOf("&",index1+3);
+       if(index1!=-1 && index2 !=-1)
+               url = url.substring(index1+7, index2);
+      if(index1!=-1 && index2 ==-1)
+               url = url.substring(index1+7);
+      url = unescape(url);
+      var string = 'http://fanyi.cn.yahoo.com/translate_url?fr=alicom&lp='+lang+'&trurl='+escape(url);
+      showInfo();
+      window.open(string);
+}
+function logInfo(tl)
+{
+	if(tl.indexOf("12631") != 0)
+		return;
+	if(document.images)
+	{
+		new Image().src="http://tracelog.www.alibaba.com/null.gif?tracelog="+escape(tl);
+	}
+}
+</SCRIPT>
+
+<DIV id=aliLogo><A href="http://www.achange.cn/" >logo</A></DIV>
+
+<DIV id=mainNav>
+<UL>
+  <LI><A href="#">我要易入</A></LI>
+  <LI><A href="#">我要易出</A></LI>
+  <LI><A href="#">热点物品</A> </LI>
+  <LI class=myAlibaba><A id=overShowMyAlibaba href="#">易物企业</A> 
+  <UL id=overShowMyAlibabaContent style="DISPLAY: none">
+    <LI class=line><A href="#">易物资讯</A></LI>
+    <LI><A href="#">高级搜索</A> </LI>
+    <LI><A href="#">易物社区</A> </LI></UL></LI>
+  	<LI><A href="#">易物社区</A> </LI>
+  	<LI><A href="#">帮助中心</A></LI>
+  </UL></DIV></DIV></DIV>
+<SCRIPT>
+(function (){
+    var overkShowConfig = {
+    targetId:"overShowMyAlibaba",
+    contentId:"overShowMyAlibabaContent",
+    needMask:true,
+    showDelayTime:200,
+    hiddenDelayTime:200,
+    excursion:[0,18]
+    };
+    var overkShowInstance = new AE.widget.overShow();
+    overkShowInstance.init(overkShowConfig); 
+})();
+
+function showInfo()
+{
+	logInfo("first header");
+}
+</SCRIPT>
+
+<DIV class=frameA id=page960>
+
+<SCRIPT language=javascript>
+	var keywordsLogger=new CookieBuilder("keywords",8,noExpires);
+	
+	function logKeyWordsToCookie(keywords){
+	   if (keywords==null||keywords.length<1) return ;
+	   keywordsLogger.addItemToCookie(keywords);
+	}	
+	
+     	 var withinActionUrl = '';
+	 
+	 	 var withinResult = false;
+	 
+	 	 function beforeSubmit(SearchForm){
+	 
+	 var oFormIndexArea = document.getElementById("IndexAreaOptionIdx");	
+		var sv = oFormIndexArea.options[oFormIndexArea.selectedIndex].value;
+	 		  	if(trim(SearchForm.SearchText.value) == '' && sv != 'ts_en'){
+	    	alert('Please input a search term.');
+	    	return false;
+	  	}
+	  	if(SearchForm.SearchText.value.length>50)
+	  	{
+	  		alert('please input a search term less than 50 characters.');
+	  		return false;
+	  	}
+			
+			if(sv=='ts_en' && get('srchLocationIdx').value.isEmpty() && get('srchIndustryIdx').value.isEmpty() && SearchForm.SearchText.value.trim().isEmpty()){
+				alert('Please select at least one condition.');
+				return false;
+			}
+
+      		 	if(SearchForm.IndexArea.tagName.toUpperCase() == 'SELECT'){
+			
+	    		    	var selectedText = SearchForm.IndexArea.options[SearchForm.IndexArea.selectedIndex].text;
+			var selectedValue = SearchForm.IndexArea.options[SearchForm.IndexArea.selectedIndex].value;
+			var actionUrl = "";
+
+						SearchForm.Type.value = "";			
+			
+        		    	if(selectedText == 'Buying Leads'){
+	      		SearchForm.Type.value = "BUY";
+				actionUrl = "http://importer.alibaba.com/buyeroffers";
+	    	} 
+			else if(selectedText == 'Selling Leads'){ 
+    	      	SearchForm.Type.value = "SALE,AGENT,MISC";
+				actionUrl = "http://www.alibaba.com/trade/search";
+    	    } 
+			else if(selectedValue == 'ts_en'){
+				actionUrl = "http://tradeshow.alibaba.com/search";
+				tradeShowSearch();
+			}
+			else {
+				actionUrl = "http://www.alibaba.com/trade/search";
+    	    }
+			SearchForm.action = actionUrl
+	  	}
+		
+	  		  	if(withinResult && withinActionUrl != ''){ SearchForm.action = withinActionUrl; }
+		if(check(SearchForm.SearchText.value))
+		{
+			alert('Sorry, the information you filled in is not in English. Please input the information in English instead.');
+			return false;
+		}
+		//SearchForm.submit();
+	  	return true;
+	 }
+	 
+	 function   check(str)   
+      {   
+          for(i=0;i<str.length;i++){   
+          if(str.charCodeAt(i)>256)
+		  return true;   
+		}
+		return false;
+
+      }   
+	 
+				function cateChange(selectObject){
+		  if (selectObject==null) return ;
+		   if (selectObject.selectedIndex<0) return ;
+			var selectOption=selectObject.options[selectObject.selectedIndex];
+			if (selectOption.value==""){
+			   for(var i=0;i<selectObject.options.length;i++){
+			       if (selectObject.options[i].value=='0'){
+				      selectObject.selectedIndex=i;
+					  break;
+				   }
+			   }
+			}
+		}
+		
+				function tradeShowSearch(){
+		
+				var form = document.forms["SearchBarForm"];
+				var oIndustrySelect = form.elements["srchIndustryIdx"];
+				var oLocationSelect = form.elements["srchLocationIdx"];
+				var oSearchText = form.elements["SearchTextIdx"];
+				
+				var industry = oIndustrySelect.options[oIndustrySelect.selectedIndex].value;
+
+				form.elements["keywordIdx"].value = oSearchText.value;
+				form.elements["locationIdx"].value = oLocationSelect.options[oLocationSelect.selectedIndex].value;				
+				form.elements["industry"].value = industry;
+		}
+		
+				function loadSearchItemsIdx(){
+		var typeSel = get('IndexAreaOptionIdx');
+			for(i=0;i<typeSel.length;i++){
+			typeSel[i].selected=false;
+		}
+		typeSel[0].selected=true;
+				searchTypeChange();
+		}
+		
+		//setTimeout(loadSearchItemsIdx,1000);
+		//YUE.on(window,'load',loadSearchItemsIdx);
+		
+				function searchTypeChange(){
+
+			var oSelect1 = document.getElementById("srchIndustryIdx");
+			var oSelect2 = document.getElementById("srchLocationIdx");
+			var oSearchText = document.getElementById("SearchTextIdx");
+			var oCountrySel = get('refineSearchCountry_id');
+			var oFormIndexArea = document.getElementById("IndexAreaOptionIdx");
+    			
+    		if(!oFormIndexArea){ return; }
+    			
+    		var sv = oFormIndexArea.options[oFormIndexArea.selectedIndex].value;
+			
+			var isHome = "true";
+			
+
+				if(sv == 'ts_en'){
+    				oSelect1.style.display = '';
+    				oSelect2.style.display = '';
+    				oCountrySel.style.display = 'none';
+    				oSearchText.size = 30;
+    			}else{
+    				oSelect1.style.display = 'none';
+    				oSelect2.style.display = 'none';
+    				oCountrySel.style.display = '';
+    				oSearchText.size = 55;
+    			}
+
+			
+		}
+		
+		function SelectCountry(obj){
+	
+	   //如果选中的是More,就跳转到AdvanceSearch页面
+	  if(obj.value == "0"){
+	    document.location = "http://www.alibaba.com/trade/advancesearch";
+	    return;
+	  }
+	  
+	  }
+			
+		function printYearMonthListIdx(){
+			var monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+			var oSelect = document.getElementById("srchYearMonthIdx");
+			var now = new Date();
+			var year = now.getFullYear();
+			var month = now.getMonth();
+			var idx = 1;
+			for(i = month; i<12; i++, idx++){
+				oOption = oSelect.options[idx];
+				if(i == month){
+					oOption.innerHTML = monthNames[i] + " >> " + year;
+					oOption.value = year + "|" + (i + 1) ;
+				}else{
+					oOption.innerHTML = monthNames[i];
+					oOption.value = year + "|" + (i + 1) ;	
+				}
+			}
+			year += 1;
+			for(i = 0; i<month; i++, idx++){
+				oOption = oSelect.options[idx];
+				if(i == 0){
+					oOption.innerHTML = monthNames[i] + " >> " + year;
+					oOption.value = year + "|" + (i + 1) ;
+				}else{
+					oOption.innerHTML = monthNames[i];
+					oOption.value = year + "|" + (i + 1) ;
+				}
+			}
+
+			return oSelect;
+		}
+		function changeSearchType(sType,obj){
+			var typeSel = get('IndexAreaOptionIdx');
+			for(i=0;i<4;i++){
+			typeSel[i].selected=false;
+		}
+		var oLi=obj.parentNode.parentNode.getElementsByTagName('li');
+		YUD.removeClass(oLi,"current")
+		obj.parentNode.className="current";
+			var dHomeSearchTips = get('homeSearchTips');
+			switch(sType){
+				case("sell"):{
+					typeSel[0].selected=true;
+					dHomeSearchTips.innerHTML="<strong>易出介绍语</strong>";
+					break;
+					}
+				case("buy"):{
+					typeSel[1].selected=true;
+					dHomeSearchTips.innerHTML="<strong>购买介绍语 </strong>";
+					break;
+					}
+				case("product"):{
+					typeSel[2].selected=true;
+					dHomeSearchTips.innerHTML="<strong>产品介绍语!</strong>";
+					break;
+					}
+				case("company"):{
+					typeSel[3].selected=true;
+					dHomeSearchTips.innerHTML="<strong>企业介绍语!</strong>";
+					break;
+					}
+				case("ts"):{
+					typeSel[4].selected=true;
+					dHomeSearchTips.innerHTML="<strong>Search more than 18,000 Trade Shows across 41 industries worldwide.</strong>";
+					break;
+					}
+				}
+				searchTypeChange();
+			}
+	  </SCRIPT>
+<SCRIPT language=javascript type=text/javascript>
+			var treasureShowConfig={
+			targetId:"treasureHref",
+			contentId:"treasureTips",
+			showDelayTime:200,
+			hiddenDelayTime:200,
+			excursion:[-10,'bottom']
+			};
+			var treasureShow = new AE.widget.overShow();
+			treasureShow.init(treasureShowConfig);
+	</SCRIPT>
+
+<DIV class=aliSearch>
+<UL>
+  <LI class=current><A onClick="changeSearchType('sell',this);" 
+  href="javascript:void(0);">易物集市</A> </LI>
+  <LI><A onClick="changeSearchType('product',this);" 
+  href="javascript:void(0);">我要易入</A> </LI>
+  <LI><A onClick="changeSearchType('company',this);" 
+  href="javascript:void(0);">易物企业</A> </LI>
+  <LI><A onClick="changeSearchType('buy',this);" 
+  href="javascript:void(0);">闲置物资</A> </LI>
+  <LI><A href="javascript:location.href='http://tradeshow.alibaba.com/';">热点物品</A> </LI>
+</UL>
+
+<DIV class=searchBox>
+<FORM name=SearchForm onSubmit="return beforeSubmit(this);" 
+action=http://importer.alibaba.com/buyeroffers method=get>
+<DIV>
+<DIV class=intelligent><INPUT id=SearchTextIdx onkeydown=lnoKeyDown(event) 
+onkeyup=requestEndFlag=true;inputTimeOut(event); 
+style="BORDER-RIGHT: #418fb4 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #418fb4 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #418fb4 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #418fb4 1px solid" 
+size=55 value=" " name=SearchText autocomplete="off"> 
+<IFRAME 
+class=intelligentIframeMask id=intelligentIframeMask style="DISPLAY: none" 
+src="about:blank" frameBorder=0></IFRAME>
+<DIV class=intelligentList id=intelligentList style="VISIBILITY: hidden" 
+;>
+</DIV>
+</DIV>
+<SCRIPT language=javascript>
+                         writeHiddenIFrame(0,0);
+                         initIntelligentSearchBar();
+</SCRIPT>
+<SELECT class=ts id=refineSearchCountry_id style="FONT-SIZE: 12px; WIDTH: 160px" onchange=SelectCountry(this) name=Country> 
+	<OPTION value="" selected>Select Country/Region</OPTION> 
+	<OPTION value="">Show all</OPTION> 
+	<OPTION  value=CN>China (mainland)</OPTION>
+	<OPTION value=IN>India</OPTION> 
+	<OPTION value=US>United States</OPTION> 
+	<OPTION value=UK>United Kingdom</OPTION> 
+	<OPTION value=KR>South Korea</OPTION> 
+	<OPTION value=PK>Pakistan</OPTION> 
+	<OPTION value=HK>Hong Kong</OPTION> 
+	<OPTION value=TR>Turkey</OPTION> 
+	<OPTION value=ID>Indonesia</OPTION> 
+	<OPTION value=TW>Taiwan</OPTION> 
+	<OPTION  value=DE>Germany</OPTION> 
+	<OPTION value=IT>Italy</OPTION> 
+	<OPTION value=MY>Malaysia</OPTION> 
+	<OPTION value=SG>Singapore</OPTION> 
+	<OPTION value=TH>Thailand</OPTION> 
+	<OPTION value=AE>United Arab Emirates</OPTION> 
+	<OPTION value=0>More ...</OPTION>
+</SELECT> 
+  
+<SELECT class=ts id=srchIndustryIdx style="DISPLAY: none" name=srchIndustry></SELECT> 
+<SELECT id=srchLocationIdx style="DISPLAY: none; WIDTH: 10.6em" name=srchLocation> 
+<OPTION value="" 
+  selected>All Locations</OPTION> <OPTION value=AF>Afghanistan</OPTION> <OPTION 
+  value=AL>Albania</OPTION> <OPTION value=DZ>Algeria</OPTION> <OPTION 
+  value=AS>American Samoa</OPTION> <OPTION value=AD>Andorra</OPTION> <OPTION 
+  value=AO>Angola</OPTION> <OPTION value=AI>Anguilla</OPTION> <OPTION 
+  value=AQ>Antarctica</OPTION> <OPTION value=AG>Antigua and Barbuda</OPTION> 
+  <OPTION value=AR>Argentina</OPTION> <OPTION value=AM>Armenia</OPTION> <OPTION 
+  value=AW>Aruba</OPTION> <OPTION value=AU>Australia</OPTION> <OPTION 
+  value=AT>Austria</OPTION> <OPTION value=AZ>Azerbaijan</OPTION> <OPTION 
+  value=BS>Bahamas</OPTION> <OPTION value=BH>Bahrain</OPTION> <OPTION 
+  value=BD>Bangladesh</OPTION> <OPTION value=BB>Barbados</OPTION> <OPTION 
+  value=BY>Belarus</OPTION> <OPTION value=BE>Belgium</OPTION> <OPTION 
+  value=BZ>Belize</OPTION> <OPTION value=BJ>Benin</OPTION> <OPTION 
+  value=BM>Bermuda</OPTION> <OPTION value=BT>Bhutan</OPTION> <OPTION 
+  value=BO>Bolivia</OPTION> <OPTION value=BA>Bosnia and Herzegowina</OPTION> 
+  <OPTION value=BW>Botswana</OPTION> <OPTION value=BV>Bouvet Island</OPTION> 
+  <OPTION value=BR>Brazil</OPTION> <OPTION value=IO>British Indian Ocean 
+  Territory</OPTION> <OPTION value=BN>Brunei Darussalam</OPTION> <OPTION 
+  value=BG>Bulgaria</OPTION> <OPTION value=BF>Burkina Faso</OPTION> <OPTION 
+  value=BI>Burundi</OPTION> <OPTION value=KH>Cambodia</OPTION> <OPTION 
+  value=CM>Cameroon</OPTION> <OPTION value=CA>Canada</OPTION> <OPTION 
+  value=CV>Cape Verde</OPTION> <OPTION value=KY>Cayman Islands</OPTION> <OPTION 
+  value=CF>Central African Republic</OPTION> <OPTION value=TD>Chad</OPTION> 
+  <OPTION value=CD>Channel Island</OPTION> <OPTION value=CL>Chile</OPTION> 
+  <OPTION value=CN>China (mainland)</OPTION> <OPTION value=CX>Christmas 
+  Island</OPTION> <OPTION value=CC>Cocos (Keeling) Islands</OPTION> <OPTION 
+  value=CO>Colombia</OPTION> <OPTION value=KM>Comoros</OPTION> <OPTION 
+  value=CG>Congo</OPTION> <OPTION value=ZR>Congo, The Democratic Republic Of 
+  The</OPTION> <OPTION value=CK>Cook Islands</OPTION> <OPTION value=CR>Costa 
+  Rica</OPTION> <OPTION value=CI>Cote D'Ivoire</OPTION> <OPTION value=HR>Croatia 
+  (local name: Hrvatska)</OPTION> <OPTION value=CU>Cuba</OPTION> <OPTION 
+  value=CY>Cyprus</OPTION> <OPTION value=CZ>Czech Republic</OPTION> <OPTION 
+  value=DK>Denmark</OPTION> <OPTION value=DJ>Djibouti</OPTION> <OPTION 
+  value=DM>Dominica</OPTION> <OPTION value=DO>Dominican Republic</OPTION> 
+  <OPTION value=TP>East Timor</OPTION> <OPTION value=EC>Ecuador</OPTION> <OPTION 
+  value=EG>Egypt</OPTION> <OPTION value=SV>El Salvador</OPTION> <OPTION 
+  value=GQ>Equatorial Guinea</OPTION> <OPTION value=ER>Eritrea</OPTION> <OPTION 
+  value=EE>Estonia</OPTION> <OPTION value=ET>Ethiopia</OPTION> <OPTION 
+  value=FK>Falkland Islands (Malvinas)</OPTION> <OPTION value=FO>Faroe 
+  Islands</OPTION> <OPTION value=FJ>Fiji</OPTION> <OPTION 
+  value=FI>Finland</OPTION> <OPTION value=FR>France</OPTION> <OPTION 
+  value=FX>France Metropolitan</OPTION> <OPTION value=GF>French Guiana</OPTION> 
+  <OPTION value=PF>French Polynesia</OPTION> <OPTION value=TF>French Southern 
+  Territories</OPTION> <OPTION value=GA>Gabon</OPTION> <OPTION 
+  value=GM>Gambia</OPTION> <OPTION value=GE>Georgia</OPTION> <OPTION 
+  value=DE>Germany</OPTION> <OPTION value=GH>Ghana</OPTION> <OPTION 
+  value=GI>Gibraltar</OPTION> <OPTION value=GR>Greece</OPTION> <OPTION 
+  value=GL>Greenland</OPTION> <OPTION value=GD>Grenada</OPTION> <OPTION 
+  value=GP>Guadeloupe</OPTION> <OPTION value=GU>Guam</OPTION> <OPTION 
+  value=GT>Guatemala</OPTION> <OPTION value=GN>Guinea</OPTION> <OPTION 
+  value=GW>Guinea-Bissau</OPTION> <OPTION value=GY>Guyana</OPTION> <OPTION 
+  value=HT>Haiti</OPTION> <OPTION value=HM>Heard and Mc Donald Islands</OPTION> 
+  <OPTION value=HN>Honduras</OPTION> <OPTION value=HK>Hong Kong</OPTION> <OPTION 
+  value=HU>Hungary</OPTION> <OPTION value=IS>Iceland</OPTION> <OPTION 
+  value=IN>India</OPTION> <OPTION value=ID>Indonesia</OPTION> <OPTION 
+  value=IR>Iran (Islamic Republic of)</OPTION> <OPTION value=IQ>Iraq</OPTION> 
+  <OPTION value=IE>Ireland</OPTION> <OPTION value=IL>Israel</OPTION> <OPTION 
+  value=IT>Italy</OPTION> <OPTION value=JM>Jamaica</OPTION> <OPTION 
+  value=JP>Japan</OPTION> <OPTION value=JO>Jordan</OPTION> <OPTION 
+  value=KZ>Kazakhstan</OPTION> <OPTION value=KE>Kenya</OPTION> <OPTION 
+  value=KI>Kiribati</OPTION> <OPTION value=KW>Kuwait</OPTION> <OPTION 
+  value=KG>Kyrgyzstan</OPTION> <OPTION value=LA>Lao People's Democratic 
+  Republic</OPTION> <OPTION value=LV>Latvia</OPTION> <OPTION 
+  value=LB>Lebanon</OPTION> <OPTION value=LS>Lesotho</OPTION> <OPTION 
+  value=LR>Liberia</OPTION> <OPTION value=LY>Libyan Arab Jamahiriya</OPTION> 
+  <OPTION value=LI>Liechtenstein</OPTION> <OPTION value=LT>Lithuania</OPTION> 
+  <OPTION value=LU>Luxembourg</OPTION> <OPTION value=MO>Macau</OPTION> <OPTION 
+  value=MK>Macedonia</OPTION> <OPTION value=MG>Madagascar</OPTION> <OPTION 
+  value=MW>Malawi</OPTION> <OPTION value=MY>Malaysia</OPTION> <OPTION 
+  value=MV>Maldives</OPTION> <OPTION value=ML>Mali</OPTION> <OPTION 
+  value=MT>Malta</OPTION> <OPTION value=MH>Marshall Islands</OPTION> <OPTION 
+  value=MQ>Martinique</OPTION> <OPTION value=MR>Mauritania</OPTION> <OPTION 
+  value=MU>Mauritius</OPTION> <OPTION value=YT>Mayotte</OPTION> <OPTION 
+  value=MX>Mexico</OPTION> <OPTION value=FM>Micronesia</OPTION> <OPTION 
+  value=MD>Moldova</OPTION> <OPTION value=MC>Monaco</OPTION> <OPTION 
+  value=MN>Mongolia</OPTION> <OPTION value=MS>Montserrat</OPTION> <OPTION 
+  value=MA>Morocco</OPTION> <OPTION value=MZ>Mozambique</OPTION> <OPTION 
+  value=MM>Myanmar</OPTION> <OPTION value=NA>Namibia</OPTION> <OPTION 
+  value=NR>Nauru</OPTION> <OPTION value=NP>Nepal</OPTION> <OPTION 
+  value=NL>Netherlands</OPTION> <OPTION value=AN>Netherlands Antilles</OPTION> 
+  <OPTION value=NC>New Caledonia</OPTION> <OPTION value=NZ>New Zealand</OPTION> 
+  <OPTION value=NI>Nicaragua</OPTION> <OPTION value=NE>Niger</OPTION> <OPTION 
+  value=NG>Nigeria</OPTION> <OPTION value=NU>Niue</OPTION> <OPTION 
+  value=NF>Norfolk Island</OPTION> <OPTION value=KP>North Korea</OPTION> <OPTION 
+  value=MP>Northern Mariana Islands</OPTION> <OPTION value=NO>Norway</OPTION> 
+  <OPTION value=OM>Oman</OPTION> <OPTION value=Other>Other Country</OPTION> 
+  <OPTION value=PK>Pakistan</OPTION> <OPTION value=PW>Palau</OPTION> <OPTION 
+  value=PS>Palestine</OPTION> <OPTION value=PA>Panama</OPTION> <OPTION 
+  value=PG>Papua New Guinea</OPTION> <OPTION value=PY>Paraguay</OPTION> <OPTION 
+  value=PE>Peru</OPTION> <OPTION value=PH>Philippines</OPTION> <OPTION 
+  value=PN>Pitcairn</OPTION> <OPTION value=PL>Poland</OPTION> <OPTION 
+  value=PT>Portugal</OPTION> <OPTION value=PR>Puerto Rico</OPTION> <OPTION 
+  value=QA>Qatar</OPTION> <OPTION value=RE>Reunion</OPTION> <OPTION 
+  value=RO>Romania</OPTION> <OPTION value=RU>Russian Federation</OPTION> <OPTION 
+  value=RW>Rwanda</OPTION> <OPTION value=KN>Saint Kitts and Nevis</OPTION> 
+  <OPTION value=LC>Saint Lucia</OPTION> <OPTION value=VC>Saint Vincent and the 
+  Grenadines</OPTION> <OPTION value=WS>Samoa</OPTION> <OPTION value=SM>San 
+  Marino</OPTION> <OPTION value=ST>Sao Tome and Principe</OPTION> <OPTION 
+  value=SA>Saudi Arabia</OPTION> <OPTION value=SN>Senegal</OPTION> <OPTION 
+  value=SC>Seychelles</OPTION> <OPTION value=SL>Sierra Leone</OPTION> <OPTION 
+  value=SG>Singapore</OPTION> <OPTION value=SK>Slovakia (Slovak 
+  Republic)</OPTION> <OPTION value=SI>Slovenia</OPTION> <OPTION value=SB>Solomon 
+  Islands</OPTION> <OPTION value=SO>Somalia</OPTION> <OPTION value=ZA>South 
+  Africa</OPTION> <OPTION value=KR>South Korea</OPTION> <OPTION 
+  value=ES>Spain</OPTION> <OPTION value=LK>Sri Lanka</OPTION> <OPTION 
+  value=SH>St. Helena</OPTION> <OPTION value=PM>St. Pierre and Miquelon</OPTION> 
+  <OPTION value=SD>Sudan</OPTION> <OPTION value=SR>Suriname</OPTION> <OPTION 
+  value=SJ>Svalbard and Jan Mayen Islands</OPTION> <OPTION 
+  value=SZ>Swaziland</OPTION> <OPTION value=SE>Sweden</OPTION> <OPTION 
+  value=CH>Switzerland</OPTION> <OPTION value=SY>Syrian Arab Republic</OPTION> 
+  <OPTION value=TW>Taiwan</OPTION> <OPTION value=TJ>Tajikistan</OPTION> <OPTION 
+  value=TZ>Tanzania</OPTION> <OPTION value=TH>Thailand</OPTION> <OPTION 
+  value=TG>Togo</OPTION> <OPTION value=TK>Tokelau</OPTION> <OPTION 
+  value=TO>Tonga</OPTION> <OPTION value=TT>Trinidad and Tobago</OPTION> <OPTION 
+  value=TN>Tunisia</OPTION> <OPTION value=TR>Turkey</OPTION> <OPTION 
+  value=TM>Turkmenistan</OPTION> <OPTION value=TC>Turks and Caicos 
+  Islands</OPTION> <OPTION value=TV>Tuvalu</OPTION> <OPTION 
+  value=UG>Uganda</OPTION> <OPTION value=UA>Ukraine</OPTION> <OPTION 
+  value=AE>United Arab Emirates</OPTION> <OPTION value=UK>United 
+  Kingdom</OPTION> <OPTION value=US>United States</OPTION> <OPTION 
+  value=UM>United States Minor Outlying Islands</OPTION> <OPTION 
+  value=UY>Uruguay</OPTION> <OPTION value=UZ>Uzbekistan</OPTION> <OPTION 
+  value=VU>Vanuatu</OPTION> <OPTION value=VA>Vatican City State (Holy 
+  See)</OPTION> <OPTION value=VE>Venezuela</OPTION> <OPTION 
+  value=VN>Vietnam</OPTION> <OPTION value=VG>Virgin Islands (British)</OPTION> 
+  <OPTION value=VI>Virgin Islands (U.S.)</OPTION> <OPTION value=WF>Wallis And 
+  Futuna Islands</OPTION> <OPTION value=EH>Western Sahara</OPTION> <OPTION 
+  value=YE>Yemen</OPTION> <OPTION value=YU>Yugoslavia</OPTION> <OPTION 
+  value=ZM>Zambia</OPTION> <OPTION value=ZW>Zimbabwe</OPTION></SELECT> <SELECT 
+id=srchYearMonthIdx style="DISPLAY: none" name=srchYearMonth> <OPTION value="" 
+  selected>All Months</OPTION> <OPTION value=0>0</OPTION> <OPTION 
+  value=1>1</OPTION> <OPTION value=2>2</OPTION> <OPTION value=3>3</OPTION> 
+  <OPTION value=4>4</OPTION> <OPTION value=5>5</OPTION> <OPTION 
+  value=6>6</OPTION> <OPTION value=7>7</OPTION> <OPTION value=8>8</OPTION> 
+  <OPTION value=9>9</OPTION> <OPTION value=10>10</OPTION> <OPTION 
+  value=11>11</OPTION>
+  </SELECT>
+<SCRIPT language=javascript> document.getElementById('SearchTextIdx').focus();</SCRIPT>
+
+<SCRIPT language=javascript> 
+		     	if(document.isBigerScreen){
+		     		try{
+		     			document.getElementById('SearchTextIdx').style.width="350px";
+		     			}catch(e){}
+		     		}
+		     	</SCRIPT>
+ 
+<DIV style="DISPLAY: none">
+<SELECT id=IndexAreaOptionIdx 
+onchange=searchTypeChange(); name=IndexArea> <OPTION value=offer_en 
+  selected>Selling Leads</OPTION> <OPTION value=offer_en>Buying Leads</OPTION> 
+  <OPTION value=product_en>Products</OPTION> <OPTION 
+  value=company_en>Companies</OPTION> <OPTION value=ts_en>Trade 
+Shows</OPTION>
+</SELECT> 
+</DIV>
+<SCRIPT language=javascript> initSelectWithValue(document.SearchForm.IndexArea,"");</SCRIPT>
+
+<DIV style="DISPLAY: none">
+<SELECT id=ctsListIdx onchange=cateChange(this) 
+name=CatId> <OPTION value=0 selected>In All Categories</OPTION> <OPTION 
+  value="">------------------------</OPTION> <OPTION 
+  value=1>Agriculture</OPTION> <OPTION value=3>Apparel</OPTION> <OPTION 
+  value=34>Automobile</OPTION> <OPTION value=28>Business Services</OPTION> 
+  <OPTION value=8>Chemicals</OPTION> <OPTION value=7>Computer Hardware &amp; 
+  Software</OPTION> <OPTION value=13>Construction &amp; Real Estate</OPTION> 
+  <OPTION value=5>Electrical Equipment &amp; Supplies</OPTION> <OPTION 
+  value=502>Electronic Components &amp; Supplies</OPTION> <OPTION 
+  value=10>Energy</OPTION> <OPTION value=11>Environment</OPTION> <OPTION 
+  value=32>Excess Inventory</OPTION> <OPTION value=339>Fashion 
+  Accessories</OPTION> <OPTION value=2>Food &amp; Beverage</OPTION> <OPTION 
+  value=1503>Furniture &amp; Furnishings</OPTION> <OPTION value=14>General 
+  Industrial Equipment</OPTION> <OPTION value=41>General Mechanical 
+  Components</OPTION> <OPTION value=17>Gifts &amp; Crafts</OPTION> <OPTION 
+  value=42>Hardware</OPTION> <OPTION value=16>Health &amp; Beauty</OPTION> 
+  <OPTION value=15>Home &amp; Garden</OPTION> <OPTION value=6>Home 
+  Appliances</OPTION> <OPTION value=39>Lights &amp; Lighting</OPTION> <OPTION 
+  value=1524>Luggage, Bags &amp; Cases</OPTION> <OPTION value=43>Manufacturing 
+  &amp; Processing Machinery</OPTION> <OPTION value=1537>Measurement &amp; 
+  Analysis Instruments</OPTION> <OPTION value=9>Minerals, Metals &amp; 
+  Materials</OPTION> <OPTION value=21>Office Supplies</OPTION> <OPTION 
+  value=23>Packaging &amp; Paper</OPTION> <OPTION value=35>Printing &amp; 
+  Publishing</OPTION> <OPTION value=80>Rubber &amp; Plastics</OPTION> <OPTION 
+  value=30>Security &amp; Protection</OPTION> <OPTION value=2829>Service 
+  Equipment</OPTION> <OPTION value=322>Shoes &amp; Accessories</OPTION> <OPTION 
+  value=18>Sports &amp; Entertainment</OPTION> <OPTION 
+  value=509>Telecommunications</OPTION> <OPTION value=4>Textiles &amp; Leather 
+  Products</OPTION> <OPTION value=36>Timepieces, Jewelry, Eyewear</OPTION> 
+  <OPTION value=1420>Tools</OPTION> <OPTION value=26>Toys</OPTION> <OPTION 
+  value=12>Transportation</OPTION></SELECT> 
+  </DIV>
+  <INPUT class=buttonSkinA style="PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; MARGIN: 0px -5px; FONT: bold 12px arial; PADDING-TOP: 1px" type=submit value=Search border=0 />
+  
+<SCRIPT language=JavaScript>
+  document.SearchForm.SearchText.value = XMLDecode(document.SearchForm.SearchText.value);;
+</SCRIPT>
+
+<SCRIPT language=JavaScript>
+  logKeyWordsToCookie(document.SearchForm.SearchText.value);;
+</SCRIPT>
+ &nbsp;&nbsp;<A href="http://www.alibaba.com/trade/advancesearch"><U>高级搜索</U></A> 
+ </DIV>
+ </FORM>
+ <SPAN id=homeSearchTips><STRONG>让我们大家一起易物!</STRONG></SPAN> </DIV>
+ 
+ </DIV>
+ 
+ 
+ <!-- aliSearch -->
+<SCRIPT language=javascript>
+	
+	try{
+	loadSearchItemsIdx();
+	}catch(E){
+	setTimeout(loadSearchItemsIdx,500);
+		}
+	</SCRIPT>
+
+<DIV class=homePopSearch><STRONG>热门搜索:</STRONG><A href="#">MP5</A> ,</DIV>
+
+
+
+
+
+
+<DIV class=colL>
+<DIV class=openCategory id=openCategory 
+style="DISPLAY: none; Z-INDEX: 99999; POSITION: absolute">
+<DIV class="win winHomeA"><A class=closeCategoryIcon id=closeCategoryIcon 
+href="javascript:void(0);"></A>
+<H3>浏览分类</H3>
+<DIV class=box>
+<UL>
+  <LI>Industrial Product Categories 
+  <UL>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/34/Automobile.html">Automobile</A> 
+    </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/13/Construction_Real_Estate.html">Construction</A> 
+    </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/5/Electrical_Equipment_Supplies.html">Electrical</A> 
+    </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/502/Electronic_Components_Supplies.html">Electronic 
+    Components</A> </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/14/General_Industrial_Equipment.html">General 
+    Industrial Equipment</A> </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/41/General_Mechanical_Components.html">General 
+    Mechanical Components</A> </LI>
+    <LI><A href="http://www.alibaba.com/catalogs/42/Hardware.html">Hardware</A> 
+    </LI>
+    <LI><A class=current 
+    href="http://www.alibaba.com/catalogs/39/Lights_Lighting.html">Lighting</A> 
+    </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/43/Manufacturing_Processing_Machinery.html">Manufacturing 
+    &amp; Processing Machinery</A> </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/1537/Measurement_Analysis_Instruments.html">Measurement 
+    &amp; Analysis Instruments</A> </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/23/Packaging_Paper.html">Packaging 
+    &amp; Paper</A> </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/35/Printing_Publishing.html">Printing 
+    &amp; Publishing</A> </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/30/Security_Protection.html">Security</A> 
+    </LI>
+    <LI><A href="http://www.alibaba.com/catalogs/1420/Tools.html">Tools</A> 
+</LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/12/Transportation.html">Transportation</A> 
+    </LI></UL>
+  <DIV style="CLEAR: both"></DIV></LI>
+  <LI class=openCategoryBg>Consumer Product Categories 
+  <UL>
+    <LI><A href="http://www.alibaba.com/catalogs/3/Apparel.html">Apparel</A> 
+    </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/7/Computer_Hardware_Software.html">Computer 
+    Hardware &amp; Software </A></LI>
+    <LI><A href="http://www.alibaba.com/catalogs/2/Food_Beverage.html">Food 
+    &amp; Beverage</A> </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/339/Fashion_Accessories.html">Fashion 
+    Accessories</A> </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/1503/Furniture_Furnishings.html">Furniture 
+    &amp; Furnishings</A> </LI>
+    <LI><A href="http://www.alibaba.com/catalogs/17/Gifts_Crafts.html">Gifts 
+    &amp; Crafts</A> </LI>
+    <LI><A href="http://www.alibaba.com/catalogs/16/Health_Beauty.html">Health 
+    &amp; Beauty</A> </LI>
+    <LI><A href="http://www.alibaba.com/catalogs/6/Home_Appliances.html">Home 
+    Appliances</A> </LI>
+    <LI><A href="http://www.alibaba.com/catalogs/15/Home_Garden.html">Home &amp; 
+    Garden</A> </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/1524/Luggage_Bags_Cases.html">Luggage, 
+    Bags &amp; Cases</A> </LI>
+    <LI><A href="http://www.alibaba.com/catalogs/21/Office_Supplies.html">Office 
+    Supplies</A> </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/18/Sports_Entertainment.html">Sports 
+    &amp; Entertainment</A> </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/322/Shoes_Accessories.html">Shoes 
+    &amp; Accessories</A> </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/509/Telecommunications.html">Telecommunications</A> 
+    </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/36/Timepieces_Jewelry_Eyewear.html">Timepieces, 
+    Jewelry &amp; Eyewear</A> </LI>
+    <LI><A href="http://www.alibaba.com/catalogs/26/Toys.html">Toys</A> </LI></UL>
+  <DIV style="CLEAR: both"></DIV>
+  <LI>Product &amp; Material Categories 
+  <UL>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/1/Agriculture.html">Agriculture</A> 
+    </LI>
+    <LI><A href="http://www.alibaba.com/catalogs/8/Chemicals.html">Chemicals</A> 
+    </LI>
+    <LI><A href="http://www.alibaba.com/catalogs/10/Energy.html">Energy</A> 
+</LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/11/Environment.html">Environment</A> 
+    </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/9/Minerals_Metals_Materials.html">Minerals, 
+    Metals &amp; Materials</A> </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/4/Textiles_Leather_Products.html">Textiles 
+    &amp; Leather Products</A> </LI>
+    <LI><A href="http://www.alibaba.com/catalogs/80/Rubber_Plastics.html">Rubber 
+    &amp; Plastics</A> </LI></UL>
+  <DIV style="CLEAR: both"></DIV></LI>
+  <LI class="openCategoryBg openCategoryEnd">Service Categories 
+  <UL>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/28/Business_Services.html">Business 
+    Services</A> </LI>
+    <LI><A 
+    href="http://www.alibaba.com/catalogs/2829/Service_Equipment_Supplies.html">Service 
+    Equipment</A> </LI></UL>
+  <DIV style="CLEAR: both"></DIV></LI></UL></DIV></DIV></DIV>
+<DIV class="win winHomeA"><A class=openCategoryIcon id=openCategoryIcon 
+href="javascript:void(0);"></A>
+<H3>全部分类</H3>
+<DIV class="box mainCategory" id=divExchangeContianer>
+<UL>
+  <LI id=level_1><A 
+  href="http://www.alibaba.com/catalogs/1/Agriculture.html"><STRONG>A</STRONG>griculture</A> 
+  </LI>
+  <LI id=level_2><A 
+  href="http://www.alibaba.com/catalogs/3/Apparel.html"><STRONG>A</STRONG>pparel</A> 
+  </LI>
+  <LI id=level_3><A 
+  href="http://www.alibaba.com/catalogs/34/Automobile.html"><STRONG>A</STRONG>utomobile</A> 
+  </LI>
+  <LI id=level_4><A 
+  href="http://www.alibaba.com/catalogs/28/Business_Services.html"><STRONG>B</STRONG>usiness 
+  Services</A> </LI>
+  <LI id=level_5><A 
+  href="http://www.alibaba.com/catalogs/8/Chemicals.html"><STRONG>C</STRONG>hemicals</A> 
+  </LI>
+  <LI id=level_6><A 
+  href="http://www.alibaba.com/catalogs/7/Computer_Hardware_Software.html"><STRONG>C</STRONG>omputer 
+  Hardware<BR>&amp; Software</A> </LI>
+  <LI id=level_7><A 
+  href="http://www.alibaba.com/catalogs/13/Construction_Real_Estate.html"><STRONG>C</STRONG>onstruction 
+  &amp; Real<BR>Estate</A> </LI>
+  <LI id=level_8><A 
+  href="http://www.alibaba.com/catalogs/5/Electrical_Equipment_Supplies.html"><STRONG>E</STRONG>lectrical 
+  Equipment &amp;<BR>Supplies</A> </LI>
+  <LI id=level_9><A 
+  href="http://www.alibaba.com/catalogs/502/Electronic_Components_Supplies.html"><STRONG>E</STRONG>lectronic 
+  Components <BR>&amp; Supplies</A> </LI>
+  <LI id=level_10><A 
+  href="http://www.alibaba.com/catalogs/10/Energy.html"><STRONG>E</STRONG>nergy</A> 
+  </LI>
+  <LI id=level_11><A 
+  href="http://www.alibaba.com/catalogs/11/Environment.html"><STRONG>E</STRONG>nvironment</A> 
+  </LI>
+  <LI id=level_12><A 
+  href="http://www.alibaba.com/catalogs/32/Excess_Inventory.html"><STRONG>E</STRONG>xcess 
+  Inventory</A> </LI>
+  <LI id=level_34><A 
+  href="http://www.alibaba.com/catalogs/339/Fashion_Accessories.html"><STRONG>F</STRONG>ashion 
+  Accessories</A> </LI>
+  <LI id=level_13><A 
+  href="http://www.alibaba.com/catalogs/2/Food_Beverage.html"><STRONG>F</STRONG>ood 
+  &amp; Beverage</A> </LI>
+  <LI id=level_14><A 
+  href="http://www.alibaba.com/catalogs/1503/Furniture_Furnishings.html"><STRONG>F</STRONG>urniture 
+  &amp; Furnishings</A> </LI>
+  <LI id=level_35><A 
+  href="http://www.alibaba.com/catalogs/14/General_Industrial_Equipment.html"><STRONG>G</STRONG>eneral 
+  Industrial Equipment</A> </LI>
+  <LI id=level_36><A 
+  href="http://www.alibaba.com/catalogs/41/General_Mechanical_Components.html"><STRONG>G</STRONG>eneral 
+  Mechanical Components</A> </LI>
+  <LI id=level_15><A 
+  href="http://www.alibaba.com/catalogs/17/Gifts_Crafts.html"><STRONG>G</STRONG>ifts 
+  &amp; Crafts</A> </LI>
+  <LI id=level_19><A 
+  href="http://www.alibaba.com/catalogs/42/Hardware.html"><STRONG>H</STRONG>ardware</A> 
+  </LI>
+  <LI id=level_16><A 
+  href="http://www.alibaba.com/catalogs/16/Health_Beauty.html"><STRONG>H</STRONG>ealth 
+  &amp; Beauty</A> </LI>
+  <LI id=level_17><A 
+  href="http://www.alibaba.com/catalogs/6/Home_Appliances.html"><STRONG>H</STRONG>ome 
+  Appliances</A> </LI>
+  <LI id=level_18><A 
+  href="http://www.alibaba.com/catalogs/15/Home_Garden.html"><STRONG>H</STRONG>ome 
+  &amp; Garden</A> </LI>
+  <LI id=level_20><A 
+  href="http://www.alibaba.com/catalogs/39/Lights_Lighting.html"><STRONG>L</STRONG>ights 
+  &amp; Lighting</A> </LI>
+  <LI id=level_21><A 
+  href="http://www.alibaba.com/catalogs/1524/Luggage_Bags_Cases.html"><STRONG>L</STRONG>uggage, 
+  Bags &amp; Cases</A> </LI>
+  <LI id=level_37><A 
+  href="http://www.alibaba.com/catalogs/43/Manufacturing_Processing_Machinery.html"><STRONG>M</STRONG>anufacturing 
+  &amp; Proce-<BR>ssing Machinery</A> </LI>
+  <LI id=level_39><A 
+  href="http://www.alibaba.com/catalogs/1537/Measurement_Analysis_Instruments.html"><STRONG>M</STRONG>easurement 
+  &amp; Analysis Instruments</A> </LI>
+  <LI id=level_22><A 
+  href="http://www.alibaba.com/catalogs/9/Minerals_Metals_Materials.html"><STRONG>M</STRONG>inerals, 
+  Metals<BR>&amp; Materials</A> </LI>
+  <LI id=level_23><A 
+  href="http://www.alibaba.com/catalogs/21/Office_Supplies.html"><STRONG>O</STRONG>ffice 
+  Supplies</A> </LI>
+  <LI id=level_24><A 
+  href="http://www.alibaba.com/catalogs/23/Packaging_Paper.html"><STRONG>P</STRONG>ackaging 
+  &amp; Paper</A> </LI>
+  <LI id=level_25><A 
+  href="http://www.alibaba.com/catalogs/35/Printing_Publishing.html"><STRONG>P</STRONG>rinting 
+  &amp; Publishing</A> </LI>
+  <LI id=level_41><A 
+  href="http://www.alibaba.com/catalogs/80/Rubber_Plastics.html"><STRONG>R</STRONG>ubber 
+  &amp; Plastics</A> </LI>
+  <LI id=level_26><A 
+  href="http://www.alibaba.com/catalogs/30/Security_Protection.html"><STRONG>S</STRONG>ecurity 
+  &amp; Protection</A> </LI>
+  <LI id=level_40><A 
+  href="http://www.alibaba.com/catalogs/2829/Service_Equipment.html"><STRONG>S</STRONG>ervice 
+  Equipment</A> </LI>
+  <LI id=level_33><A 
+  href="http://www.alibaba.com/catalogs/322/Shoes_Accessories.html"><STRONG>S</STRONG>hoes 
+  &amp; Accessories</A> </LI>
+  <LI id=level_27><A 
+  href="http://www.alibaba.com/catalogs/18/Sports_Entertainment.html"><STRONG>S</STRONG>ports 
+  &amp; Entertainment</A> </LI>
+  <LI id=level_28><A 
+  href="http://www.alibaba.com/catalogs/509/Telecommunications.html"><STRONG>T</STRONG>elecommunications</A> 
+  </LI>
+  <LI id=level_29><A 
+  href="http://www.alibaba.com/catalogs/4/Textiles_Leather_Products.html"><STRONG>T</STRONG>extiles 
+  &amp; Leather<BR>Products</A> </LI>
+  <LI id=level_30><A 
+  href="http://www.alibaba.com/catalogs/36/Timepieces_Jewelry_Eyewear.html"><STRONG>T</STRONG>imepieces, 
+  Jewelry<BR>&amp; Eyewear</A> </LI>
+  <LI id=level_38><A 
+  href="http://www.alibaba.com/catalogs/1420/Tools.html"><STRONG>T</STRONG>ools</A> 
+  </LI>
+  <LI id=level_31><A 
+  href="http://www.alibaba.com/catalogs/26/Toys.html"><STRONG>T</STRONG>oys</A> 
+  </LI>
+  <LI id=level_32><A 
+  href="http://www.alibaba.com/catalogs/12/Transportation.html"><STRONG>T</STRONG>ransportation</A> 
+  </LI></UL>
+<DIV class=displayProductNav><STRONG>有更多需求?</STRONG> <A 
+class=btnDisplayProducts 
+href="http://us.my.alibaba.com/product/post_product_interface.htm">Display Your 
+Products</A> </DIV>
+</DIV></DIV>
+<DIV class=ctgPlusItem id=level_1_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="#">石材</A> 
+  <LI><A href="#">石材</A> 
+  <LI><A href="#">石材</A> 
+  <LI><A href="#">石材</A>
+  <LI><A href="#">石材</A>
+  <LI><A href="#">石材</A>
+  <LI><A href="#">石材</A>
+  <LI><A href="#">石材</A>
+  <LI><A href="#">石材</A>
+  <LI><A href="#">石材</A>
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_2_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/31201/Bras.html">Bras</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/31106/Children_s_Sweaters.html">Children's 
+  Sweaters</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/313/Coats.html">Coats</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/3280501/Cords.html">Cords</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/317/Jackets.html">Jackets</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/30703/Kaftans.html">Kaftans</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/30705/Kurtis.html">Kurtis</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/318/Pants_Trousers_Jeans.html">Pants, 
+  Trousers &amp; Jeans</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/321/Sweaters.html">Sweaters</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/32005/Wedding_Dresses.html">Wedding 
+  Dresses</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_3_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/3411/ATV.html">ATV</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1212/Auto_Accessories.html">Auto 
+  Accessories</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/120202/Brakes.html">Brakes</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/340402/Car_Video.html">Car 
+  Video</A> 
+  <LI><A 
+  href="http://www.alibaba.com/trade/search/3i1ptyf0chms/Dirt_Bikes.html">Dirt 
+  Bikes</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/120204/Engine_Parts_Mounts.html">Engine</A> 
+
+  <LI><A href="http://www.alibaba.com/catalogs/50910/GPS.html">GPS</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1203/Motorcycles.html">Motorcycles</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/120208/Wheel_Tire_Parts.html">Tyres</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1217/Second_Hand.html">Used 
+  cars</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_4_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/manufacturers/280701/Air_Freight.html">Air 
+  Freight</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/2403/Business_Travel_Packages.html">Business 
+  Travel Packages</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/2828/General_Trade_Agents.html">General 
+  Trade Agents</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/280610/Internet_Advertising.html">Internet 
+  Advertising</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/2808/Packaging_Printing_Service.html">Packaging 
+  &amp; Printing Service</A> 
+  <LI><A href="http://www.alibaba.com/manufacturers/283410/Sea_Freight.html">Sea 
+  Freight </A>
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/281909/Trade_Show_Advertising.html">Trade 
+  Show Advertising </A>
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/283125/Website_Design.html">Website 
+  Design</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_5_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/81103/Car_Paint.html">Car 
+  Paint</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/83211/Carbon_Black.html">Carbon 
+  Black</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/81801/Feed_Grade_Amino_Acids.html">Feed 
+  Grade Amino Acids</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/82102/Flavors_Fragrances.html">Flavors 
+  &amp; Fragrances</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/160415/Pharmaceutical_Intermediates.html">Pharmaceutical 
+  Intermediates</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/814/Pigment.html">Pigment</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/81108/Powder_Coating.html">Powder 
+  Coating</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/8320102/Silica_Gel.html">Silica 
+  Gel</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/82103/Soap.html">Soap</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/8020416/Titanium_Dioxide.html">Titanium 
+  Dioxide</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_6_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/70806/Computer_Cables_Connectors.html">Computer 
+  Cables &amp; Connectors</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/710/Consumables.html">Consumables</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1909/Digital_Photography.html">Digital 
+  Photography</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/70807/Drives_Storage_Devices.html">Drives 
+  &amp; Storage Devices</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/63705/Earphone_Headphone.html">Earphone 
+  &amp; Headphone</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/707/Hardware_Components.html">Hardware 
+  Components </A>
+  <LI><A href="http://www.alibaba.com/catalogs/70805/Mouse.html">Mouse</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/705/Network_Device.html">Network 
+  Device </A>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/702/Notebooks_Laptops.html">Notebooks/Laptops</A> 
+
+  <LI><A href="http://www.alibaba.com/catalogs/70811/PC_Camera.html">PC Camera 
+  </A>
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_7_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/1308/Cement_Sand.html">Cement</A> 
+
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/132604/Concrete_Mixers.html">Concrete 
+  Mixers</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1305/Doors.html">Doors</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/130103/Faucet_Mixer_Tap.html">Faucets</A> 
+
+  <LI><A href="http://www.alibaba.com/catalogs/1306/Flooring.html">Flooring</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/131202/Granite.html">Granite</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/131203/Marble.html">Marble</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/131008/Steel_Pipes.html">Steel 
+  Pipes</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1346/Tiles.html">Tiles</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1303/Wallpaper.html">Wallpaper</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_8_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/141914/Circuit_Breakers.html">Circuit 
+  Breakers</A> 
+  <LI><A 
+  href="http://www.alibaba.com/trade/search/3i1p5tyf0chms/coaxial_cable.html">Coaxial 
+  Cable</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/14190406/Connectors_and_Terminals.html">Connectors 
+  &amp; Terminals</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/410402/Diesel_Generators.html">Diesel 
+  Generators</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/410204/Mobile_Phone_Chargers.html">Mobile 
+  Phone Chargers</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/14190408/Power_Cables.html">Power 
+  Cables</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/410605/Push_Button_Switches.html">Push 
+  Button Switches</A> 
+  <LI><A 
+  href="http://www.alibaba.com/trade/search/3i1ptyf0chms/Satellite_Receivers.html">Satellite 
+  Receivers</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/52806/Solar_Cells_Solar_Panel.html">Solar 
+  Panels</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/141907/Transformers.html">Transformers</A> 
+
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_9_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/5001/Acoustic_Components.html">Acoustic 
+  Components</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/141908/Capacitors.html">Capacitors</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/400101/Diodes.html">Diodes</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/400103/Integrated_Circuits.html">Integrated 
+  Circuits</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/400401/LCD_Modules.html">LCD 
+  Modules</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/541/LED_Displays.html">LED 
+  Displays</A> 
+  <LI><A 
+  href="http://www.alibaba.com/trade/search/3i1ptyf0chms/LED_sign.html">LED 
+  Signs</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/521/PCB_PCBA.html">PCB</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/400503/Resistors.html">Resistors</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/523/Sensors.html">Sensors</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_10_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/100105/Bitumen.html">Bitumen</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/122/Charcoal.html">Charcoal</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/100110/Crude_Oil.html">Crude 
+  Oil</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/100101/Fuel_Oil.html">Fuel 
+  Oil</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/100102/Lubricant.html">Lubricants</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/100702/Solar_Chargers.html">Solar 
+  Chargers</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/100704/Solar_Collectors.html">Solar 
+  Collectors</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/100703/Solar_Controllers.html">Solar 
+  Controllers</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1007/Solar_and_Recycling_Energy.html">Solar 
+  Energy Products</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/100701/Solar_Water_Heaters.html">Solar 
+  Water Heaters</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_11_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/110503/Chemical_Waste.html">Chemical 
+  Waste</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1103/Gas_Disposal.html">Gas 
+  Disposal</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/110502/Metal_Waste.html">Metal 
+  Waste</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/110501/Textile_Waste.html">Textile 
+  Waste</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1104/Waste_Management.html">Waste 
+  Management</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/110504/Waste_Paper.html">Waste 
+  Paper</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1101/Water_Treatment.html">Water 
+  Treatment</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_13_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/204/Alcohol.html">Alcohol</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/109/Aquatic_Products.html">Aquatic 
+  Products </A>
+  <LI><A href="http://www.alibaba.com/catalogs/202/Beverages.html">Beverages</A> 
+
+  <LI><A href="http://www.alibaba.com/catalogs/218/Bread_Biscuit.html">Bread 
+  &amp; Biscuit</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/214/Canned_Food.html">Canned Food 
+  </A>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/236/Confectionery_Candy.html">Confectionery 
+  &amp; Candy</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/209/Dairy_Products.html">Dairy 
+  Products</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/210/Honey_Products.html">Honey 
+  Products</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/212/Spices_Seasonings.html">Spices &amp; 
+  Seasonings</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/205/Sugar_Sweeteners.html">Sugar</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_34_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/3280101/Beaded_Belts.html">Beaded 
+  Belts</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/3391301/Belt_Buckles.html">Belt 
+  Buckles</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/32705/Children_Hats_Caps.html">Children 
+  Hats &amp; Caps</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/3390401/Ear_Muffs.html">Ear 
+  Muffs</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/3390104/Hair_Claws.html">Hair 
+  Claws</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/32504/Knitted_Shawls.html">Knitted 
+  Shawls</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/33906/Scarf_Hat_Glove_Sets.html">Scarf, 
+  Hat &amp; Glove Sets</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/3390112/Tiaras.html">Tiaras</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/3390113/Wigs.html">Wigs</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/32710/Winter_Hats.html">Winter 
+  Hats</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_14_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/37032001/Air_Beds_Mattresses.html">Air 
+  Beds &amp; Mattresses</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/371102/Furniture_Bolts.html">Furniture 
+  Bolts</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/37042001/Garden_Patio_Sets.html">Garden 
+  &amp; Patio Sets</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/150390/Hotel_Furniture.html">Hotel 
+  Furniture</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/370220/Laboratory_Furniture.html">Laboratory 
+  Furniture</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/172804/Metal_Vases.html">Metal 
+  Vases</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/37032006/Nightstands.html">Nightstands</A> 
+
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/37013007/Office_Partitions.html">Office 
+  Partitions</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/37042005/Outdoor_Umbrellas_Bases.html">Outdoor 
+  Umbrellas &amp; Bases</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/37034009/Sofas_Sofa_Beds.html">Sofas 
+  &amp; Sofa Beds</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_15_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/1710/Bamboo_Crafts.html">Bamboo 
+  Crafts</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1708/Basketry.html">Basketry</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/150404/Candles.html">Candles</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1714/Crystal_Crafts.html">Crystal 
+  Crafts</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1713/Glass_Crafts.html">Glass 
+  Crafts</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1702/Holiday_Gifts_Decoration.html">Holiday 
+  Gifts &amp; Decoration</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1732/Key_Chains.html">Key 
+  Chains</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1716/Metal_Crafts.html">Metal 
+  Crafts</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1704/Painting_Calligraphy.html">Painting 
+  &amp; Calligraphy</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/281916/Promotional_Gifts.html">Promotional 
+  Gifts</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_12_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/333/Apparel_Stocks.html">Apparel 
+  Stocks</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/515/Electronics_Stocks.html">Electronics 
+  Stocks</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/1730/Gifts_Crafts_Stocks.html">Gifts 
+  &amp; Crafts Stocks</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/1532/Home_Supplies_Stocks.html">Home 
+  Supplies Stocks</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/417/Textile_Stocks.html">Textile 
+  Stocks</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_35_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1423/Air_Separators.html">Air-Separators</A> 
+
+  <LI><A href="http://www.alibaba.com/catalogs/1421/Boilers.html">Boilers</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/142901/Cranes.html">Cranes</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/143306/Filter_Papers.html">Filter 
+  Papers</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1405/Filters.html">Filters</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/142906/Forklifts.html">Forklifts</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/142907/Hoists.html">Hoists</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/520/Laser_Equipment.html">Laser 
+  Equipment</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1404/Motors.html">Motors</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1425/Vacuum_Equipment.html">Vacuum 
+  Equipment</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_36_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/146901/Couplings.html">Couplings</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/146907/Cylinders.html">Cylinders</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1458/Moulds.html">Moulds</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/146903/Pulleys.html">Pulleys</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/4104/Pumps.html">Pumps</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/4106/Shafts.html">Shafts</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/145607/Sliding_Bearing.html">Sliding 
+  Bearing</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/14560204/Taper_Roller_Bearing.html">Taper 
+  Roller Bearing</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/14560104/Thrust_Ball_Bearing.html">Thrust 
+  Ball Bearing</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1460/Valves.html">Valves</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_16_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/3313/Beauty_Equipment.html">Beauty 
+  Equipment</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/82101/Cosmetics.html">Cosmetics</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/3305/Dental_Hygiene.html">Dental 
+  Hygiene</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/3307/Hair.html">Hair</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1608/Health_Care_Products.html">Health 
+  Care Products</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1603/Herbs_Natural_Remedies.html">Herbs 
+  &amp; Natural Remedies</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1622/Massager.html">Massagers</A> 
+
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1612/Medical_Equipment.html">Medical 
+  Equipment</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1613/Medical_Supplies.html">Medical 
+  Supplies</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/3309/Razors_Shaving_Products.html">Razors 
+  &amp; Shaving Products</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_17_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/604/DVD_VCD_Player.html">DVD, VCD 
+  Player</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/63705/Earphone_Headphone.html">Earphones 
+  &amp; Headphones</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/641/Gas_Cooker_Range_Stove.html">Gas 
+  Cookers, Ranges &amp; Stoves</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/626/Heaters.html">Heaters</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/63710/MP3_Players.html">MP3 
+  Players</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/63712/MP4_Players.html">MP4 
+  Players</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/602/Refrigerator_Freezer.html">Refrigerators 
+  &amp; Freezers</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/518/Speakers_Speaker_Parts.html">Speakers 
+  &amp; Speaker Parts</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/634/Television.html">Televisions</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/607/Water_Heater.html">Water 
+  Heaters</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_18_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/152601/Ashtrays.html">Ashtrays</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/152302/BBQ_Grilling_Outdoor_Cooking.html">BBQ, 
+  Grilling &amp; Outdoor Cooking</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/152202/Can_Bottle_Openers.html">Can 
+  &amp; Bottle Openers</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/152203/Dinnerware.html">Dinnerware</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/152206/Flatware_Cutleries.html">Flatware 
+  &amp; Cutlery</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/151601/Hangers_Racks.html">Hangers &amp; 
+  Racks</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1539/Household_Plastic_Products.html">Household 
+  Plastic Products</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1534/Mirrors.html">Mirrors</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/152208/Tea_Coffee_Sets.html">Tea 
+  &amp; Coffee Sets</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_19_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/4204/Abrasive_Tools.html">Abrasive 
+  Tools</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/145901/Anchors.html">Anchors</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/145902/Bolts.html">Bolts</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/4201/Brackets.html">Brackets</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/4202/Clamps.html">Clamps</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/4203/Hooks.html">Hooks</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/145903/Nails.html">Nails</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/145904/Nuts.html">Nuts</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/145905/Rivets.html">Rivets</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/145907/Washers.html">Washers</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_20_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/39050502/Ceiling_Lights.html">Ceiling 
+  Lights</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/39050504/Chandeliers_Pendant_Lights.html">Chandeliers</A> 
+
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/150408/Energy_Saving_Fluorescent.html">Energy 
+  Saving Lighting</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/39050202/Floodlights.html">Floodlights</A> 
+
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/39050203/Garden_Lights.html">Garden 
+  Lights</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/150403/Holiday_Lighting.html">Holiday 
+  Lighting</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/39050101/LED_Flashlights.html">LED 
+  Flashlights</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/39050103/LED_Lamps.html">LED 
+  Lamps</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/39050207/Solar_Lamps.html">Solar 
+  Lamps</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/39050509/Table_Lamps_Reading_Lamps.html">Table 
+  Lamps</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_21_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/152401/Backpacks.html">Backpacks</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/152408/CD_Bags_Cases.html">CD 
+  Bags &amp; Cases</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/380310/Coin_Purses_Key_Wallets.html">Coin 
+  Purses &amp; Key Wallets </A>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/36127040/Eyeglasses_Cases_Bags.html">Eyeglasses 
+  Cases &amp; Bags</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/152403/Ladies_Handbags.html">Ladies' 
+  Handbags</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/380420/Luggage_Trolley_Bags_Cases.html">Luggage, 
+  Trolley Bags &amp; Cases</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/380240/MP3_Bags_Cases.html">MP3 
+  Bags &amp; Cases</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/380530/Shopping_Bags.html">Shopping 
+  Bags</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/380430/Travel_Bags.html">Travel 
+  Bags</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/152405/Wallets_Purses_Card_Cases.html">Wallets, 
+  Purses &amp; Card Cases</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_22_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/902/Cast_Forged.html">Cast &amp; 
+  Forged</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/90902/Ceramics.html">Ceramics</A> 
+
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1406/Fiberglass.html">Fiberglass</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/90903/Glass.html">Glass</A> 
+  <LI><A 
+  href="http://www.alibaba.com/trade/search/3i1p5tyf0chms/iron_ore.html">Iron 
+  Ore</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/911/Magnetic_Materials.html">Magnetic 
+  Materials</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/905/Non_ferrous_Metal.html">Non-Ferrous 
+  Metal</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/903/Wire_Mesh.html">Wire Mesh</A> 
+
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_37_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/33003/Embroidery_Machines.html">Embroidery 
+  Machines</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/41602/Knitting_Machinery.html">Knitting 
+  Machinery</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/142098/Lathes.html">Machine 
+  Tools</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/2307/Packaging_Machinery.html">Packaging 
+  Machinery</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/431405/Pipe_Making_Machinery.html">Pipe 
+  Making Machinery</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/147104/Plastic_Extruders.html">Plastic 
+  Extruders</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/2309/Printing_Machinery.html">Printing 
+  Machinery</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/143101/Saw_Machinery.html">Saw 
+  Machinery</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/329/Sewing_Machines.html">Sewing 
+  Machines</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/41608/Weaving_Machinery.html">Weaving 
+  Machinery</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_23_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/211108/Adhesive_Tape_Glue.html">Adhesive 
+  Tape &amp; Glue</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/21110701/Ballpoint_Pens.html">Ballpoint 
+  Pens</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/501/Calculator.html">Calculators</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/211101/Clip_Stapler.html">Clips 
+  &amp; Staplers </A>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/2113/Consumable.html">Consumables</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/211111/Drawing_Art_Set.html">Drawing 
+  &amp; Art Sets</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/211110/File_Folder.html">File 
+  Folders</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/211104/Label_Sticker_Self_adhesive_Note.html">Labels, 
+  Stickers &amp; Self-adhesive Notes</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/211105/Notebook_Diary.html">Notebooks 
+  &amp; Diaries</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/211106/Organizer_Multi_purpose_Set.html">Organizers 
+  &amp; Multi-purpose Sets</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_24_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/231903/Cosmetics_Packaging.html">Cosmetics 
+  Packaging</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/230607/Films.html">Films</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/231902/Food_Packaging.html">Food 
+  Packaging</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/231909/Gift_Packaging.html">Gift 
+  Packaging</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/2305/Label_Tag.html">Label &amp; 
+  Tag</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/230609/Lids_Bottle_Caps_Closures.html">Lids,Caps 
+  &amp; Closures</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/2302/Packaging_Bags.html">Packaging 
+  Bags</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/2303/Packaging_Boxes.html">Packaging 
+  Boxes</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/230106/Paper_Box_Bag.html">Paper 
+  Box &amp; Bag</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/230614/Plastic_Packaging_Materials.html">Plastic 
+  Packaging Materials</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_25_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/2202/Books.html">Books</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/2201/CDs_Records_Tapes.html">CDs 
+  &amp; Tapes</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/2206/Internet_Service.html">Internet 
+  Services</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/2205/Magazines.html">Magazines</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/2203/Movie.html">Movies</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/813/Printing_Inks.html">Printing 
+  Inks</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/2309/Printing_Machinery.html">Printing 
+  Machinery</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/2310/Printing_Plate.html">Printing 
+  Plate</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/503/Radio_TV_Equipment.html">Radio &amp; 
+  TV Equipment</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/3502/Transfer_Printing.html">Transfer 
+  Printing</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_26_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/3008/Alarm.html">Alarms</A> 
+  <LI><A 
+  href="http://www.alibaba.com/trade/search/3i1p5tyf0chms/CCTV_Cameras.html">CCTV 
+  Cameras</A> 
+  <LI><A 
+  href="http://www.alibaba.com/trade/search/3i1p5tyf0chms/Door_Locks.html">Door 
+  Locks</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/3009/Fire_fighting.html">Fire-fighting</A> 
+
+  <LI><A href="http://www.alibaba.com/catalogs/3010/Locks.html">Locks</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/3005/Police_Military_Supplies.html">Police 
+  Military Supplies</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/3015/Roadway_Safety.html">Roadway 
+  Safety</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/3007/Safety_Products.html">Safety 
+  Products</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/3011/Surveillance_Equipment.html">Surveillance 
+  Equipment</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/3029/Video_Door_Phone.html">Video 
+  Door Phones</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_27_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/2408/Camping.html">Camping</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1810/Fishing.html">Fishing</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/2009/Fitness_Body_Building.html">Fitness 
+  &amp; Body Building</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1807/Gambling.html">Gambling</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/202102/Gas_Scooters.html">Gas 
+  Scooters</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/2005/Golf.html">Golf</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/180604/Handheld_Game_Players.html">Handheld 
+  Game Players</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/1805/Musical_Instrument.html">Musical 
+  Instruments</A> 
+  <LI><A href="http://www.alibaba.com/manufacturers/1812/Pet_Products.html">Pet 
+  &amp; Products</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/180606/Video_Game_Players.html">Video 
+  Game Players</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_33_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/3220703/Boxing_Shoes.html">Boxing 
+  Shoes</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/3221207/Children_s_Clogs.html">Children's 
+  Clogs</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/3221501/EVA_Flip_Flops.html">EVA 
+  Flip Flops</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/3220402/Fur_Boots.html">Fur 
+  Boots</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/3220709/Hiking_Shoes_Boots.html">Hiking 
+  Shoes &amp; Boots</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/20060101/Ice_Skates.html">Ice 
+  Skates</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/3220505/Leather_Sandals.html">Leather 
+  Sandals</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/20060104/Roller_Skates.html">Roller 
+  Skates</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/20060106/Ski_Boots.html">Ski 
+  Boots</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/322101605/TPR_Soles.html">TPR 
+  Soles</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_38_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/14200511/Air_Wrenches.html">Air 
+  Wrenches</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/14200302/Brushes.html">Brushes</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1250301/Brush_Cutters.html">Brush 
+  Cutters</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/141705/Electric_Drills.html">Electric 
+  Drills</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/141707/Electric_Hammers.html">Electric 
+  Hammers</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/141711/Electric_Screwdrivers.html">Electric 
+  Screwdrivers</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1250308/Lawn_Mowers.html">Lawn 
+  Mowers</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/14200307/Pliers.html">Pliers</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/14200309/Scissors.html">Scissors</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1250317/Sprayers.html">Sprayers</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_39_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/15370401/Flow_Meters.html">Flow 
+  Meters</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/190402/Laser_Levels.html">Laser 
+  Levels</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/190405/Magnifiers.html">Magnifiers</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1912/Microscopes.html">Microscopes</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/15370105/Moisture_Meters.html">Moisture 
+  Meters</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/15370306/Multimeters.html">Multimeters</A> 
+
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/15370802/Pressure_Monitors.html">Pressure 
+  Monitors</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/620/Timers.html">Timers</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/15370405/Water_Meters.html">Water 
+  Meters</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/153711/Weighing_Scales.html">Weighing 
+  Scales</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_28_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/50912/Communication_Cables.html">Communication 
+  Cables</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/50920/Fiber_Optic_Equipment.html">Fiber 
+  Optic Equipment</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/50910/GPS.html">GPS</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/50906/Interphones.html">Interphones</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/5090302/Mobile_Phone_Accessories.html">Mobile 
+  Phone Accessories</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/5090303/Mobile_Phone_Parts.html">Mobile 
+  Phone Parts</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/5090301/Mobile_Phones.html">Mobile 
+  Phones</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/50909/Network_Communications.html">Network 
+  Communications</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/50913/Phone_Cards.html">Phone 
+  Cards</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/50902/Telephones_Parts.html">Telephones 
+  Parts</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_29_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/40601/Bedding_Set.html">Bedding 
+  Set</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/40801/Cotton_Yarn.html">Cotton 
+  Yarn</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/40502/Curtain.html">Curtain</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/426/Denim_Fabric.html">Denim 
+  Fabric</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/404/Embroidered_Fabric.html">Embroidered 
+  Fabric</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/43105/Flame_Retardant_Fabric.html">Flame 
+  Retardant Fabric</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/413/Knitted_Fabric.html">Knitted 
+  Fabric</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/411/Silk_Fabric.html">Silk 
+  Fabric</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/4150601/Synthetic_Leather.html">Synthetic 
+  Leather</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/43203/Upholstery_Fabric.html">Upholstery 
+  Fabric</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_30_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/36090301/Bangles_Bracelets.html">Bangles 
+  &amp; Bracelets </A>
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/152801/Desk_Table_Clocks.html">Desk 
+  &amp; Table Clocks </A>
+  <LI><A href="http://www.alibaba.com/catalogs/36090305/Earrings.html">Earrings 
+  </A>
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/152406/Jewellery_Cases_Boxes.html">Jewellery 
+  Cases/Boxes</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/360950/Jewelry_Findings_Components.html">Jewelry 
+  Findings &amp; Components</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/36090308/Necklaces.html">Necklaces</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/151105/Quartz_Analog_Watches.html">Quartz 
+  Analog Watches</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/36090309/Rings.html">Rings</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/150910/Silver_Sterling_Silver_Jewelry.html">Silver 
+  &amp; Sterling Silver Jewelry</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/33902/Sunglasses.html">Sunglasses</A> 
+
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_31_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/2615/Ball.html">Balls</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/2605/Dolls.html">Dolls</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/2609/Educational_Toys.html">Educational 
+  Toys</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/2608/Electrical_Toys.html">Electrical 
+  Toys</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/2620/Inflatable_Toys.html">Inflatable 
+  Toys</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/2611/Plastic_Toys.html">Plastic 
+  Toys</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/2616/R_C_Toys.html">R/C Toys</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/2604/Stuffed_Plush_Toys.html">Stuffed 
+  &amp; Plush Toys</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/2606/Toy_Cars.html">Toy Cars</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/2603/Wooden_Toys.html">Wooden 
+  Toys</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_32_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/1204/Bicycles.html">Bicycles</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1222/Bicycle_Parts.html">Bicycle 
+  Parts</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1207/Boats_Ships.html">Boats</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1205/Containers.html">Containers</A> 
+  <LI><A 
+  href="http://www.alibaba.com/trade/search/3i1ptyf0chms/%2522dump_truck%2522.html">Dump 
+  Trucks</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1221/Electric_Bicycle.html">Electric 
+  Bicycles</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/1224/Trailer_Parts.html">Trailers</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/1223/Truck_Parts.html">Trucks</A> 
+
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_40_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/28191903/Advertising_Inflatables.html">Advertising 
+  Inflatables</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/28290101/Banner_Stands.html">Banner 
+  Stands</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/28191902/Display_Racks.html">Display 
+  Racks</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/240603/Hotel_Amenities.html">Hotel 
+  Amenities</A> 
+  <LI><A href="http://www.alibaba.com/manufacturers/51006/POS_Systems.html">POS 
+  Systems</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/28191901/Poster_Materials.html">Poster 
+  Materials</A> 
+  <LI><A 
+  href="http://www.alibaba.com/manufacturers/28191905/Roll_Up_Display.html">Roll 
+  up Display</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<DIV class=ctgPlusItem id=level_41_div style="DISPLAY: none">
+<DIV class=content>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/807002/ABS.html">ABS</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/800501/Automotive_Plastic_Products.html">Automotive 
+  Plastic Products</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/801202/Automotive_Rubber.html">Automotive 
+  Rubber</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/80805/Latex_Rubber.html">Latex 
+  Rubber</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/807007/LDPE.html">LDPE</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/807001/Plastic_Masterbatches.html">Plastic 
+  Masterbatches</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/800508/Plastic_Sheets.html">Plastic 
+  Sheets</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/807020/PVC.html">PVC</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/80810/Ribbed_Smoked_Sheets.html">Ribbed 
+  Smoked Sheets</A> 
+  <LI><A 
+  href="http://www.alibaba.com/catalogs/80812/Silicone_Rubber.html">Silicone 
+  Rubber</A> 
+  <LI class=space>... </LI></UL></DIV></DIV>
+<SCRIPT language=javascript type=text/javascript>
+
+
+	var aMenuCrl=[];
+for(i=0;i<=41;i++){
+		
+		aMenuCrl[i]=new AE.widget.overShow();
+		
+		}
+		var categoryCurrentTimer=[];
+
+YUE.on(window,"load",function(){
+	
+	
+	for(i=0;i<=41;i++){
+	aMenuCrl[i].init({
+		targetId:"level_"+i,
+			contentId:"level_"+i+"_div",
+			showDelayTime:150,
+			hiddenDelayTime:150,
+			excursion:[176,0]
+		});
+	var dTarget = get("level_"+i);
+	var dContent = get("level_"+i+'_div');
+YUE.on(dContent,'mouseover',addClass,[dTarget,i]);
+YUE.on(dContent,'mouseout',removeClassDelay,[dTarget,i]);
+YUE.on(dTarget,'mouseover',addClass,[dTarget,i]);
+YUE.on(dTarget,'mouseout',removeClass,[dTarget,i]);
+}
+	});
+
+	function addClass (ev,obj){
+		clearTimeout(categoryCurrentTimer[obj[1]]);
+		YUD.addClass(obj[0],'current');
+		
+		}
+function removeClassDelay (ev,obj){
+	categoryCurrentTimer[obj[1]] = setTimeout(function(){YUD.removeClass(obj[0],'current');},20);
+	}
+function removeClass (ev,obj){
+	categoryCurrentTimer[obj[1]] = setTimeout(function(){YUD.removeClass(obj[0],'current');},0);
+//yUD.removeClass(obj[0],'current');
+	}
+
+
+
+
+			var clickkShowConfig={
+			targetId:"openCategoryIcon",
+			contentId:"openCategory",
+			needMask:true,
+			excursion:[-151,-3]
+			};
+			var clickkShowInstance = new AE.widget.clickShow();
+			clickkShowInstance.init(clickkShowConfig);
+			
+			YUE.on(get('closeCategoryIcon'),'click',clickkShowInstance.hiddenDirectly,true);
+			/*
+	
+	var zConfig={
+	showConfig:{
+		width: {from:0,to: 650},
+		opacity: {from:0,to: 1 }
+		},
+	hiddenConfig:{
+		width: {from:650,to: 0},
+		opacity: {from:1,to: 0 }
+	},
+	showTime:1,
+	hiddenTime:1,
+	sFireEvent:"click"
+	}
+	
+
+var showAllCategory=new floatDiv();
+showAllCategory.init('openCategoryIcon','openCategory',[-50,0],zConfig);
+
+*/
+</SCRIPT>
+
+<DIV style="CLEAR: both"></DIV>
+<DIV class="win winHomeB">
+<H3>合作者</H3>
+<DIV class=box 
+style="FONT-SIZE: 10px; BACKGROUND: #fff; PADDING-BOTTOM: 18px; LINE-HEIGHT: 12px; PADDING-TOP: 18px; FONT-FAMILY: verdana; TEXT-ALIGN: center"><A 
+href="#"><IMG src="images/home_partners_080311.gif" border=0><BR>Boken</A><BR></DIV></DIV></DIV><!-- colL -->
+<DIV class=colR>
+<DIV class=colRmargin>
+<DIV class=homeAd>
+<DIV style="MARGIN-BOTTOM: 8px">
+AD
+</DIV>
+<DIV class=column style="WIDTH: 60px"><STRONG><SPAN style="COLOR: #ff7300">热门新闻</SPAN></STRONG></DIV>
+<DIV class=column style="WIDTH: 550px">
+<STYLE>UL.hotNews {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 12px
+}
+UL.hotNews LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+</STYLE>
+
+<DIV style="FLOAT: left; MARGIN: 3px 0px; FONT: 10px verdana; HEIGHT: 12px">
+<UL class=hotNews id=hotNews style="LIST-STYLE-IMAGE: none">
+  <LI><STRONG><A class=more 
+  href="http://resources.alibaba.com/article/279160/Straight_From_The_Source.htm">Straight 
+  From The Source: How to Find the Right 
+Suppliers</A></STRONG></LI></UL></DIV></DIV>
+<DIV style="CLEAR: both"></DIV></DIV>
+<SCRIPT type=text/javascript>
+var hotnewsAE = AE.widget.SimpleScroll.decorate('hotNews', {lineHeight: 12, startDelay: 1});
+</SCRIPT>
+
+<DIV class=colRL>
+<DIV class=colRLmargin>
+<DIV class="tabsH format3" id=productCycle>
+<DIV class=tabsRight>
+<DIV class=titleLink><A class=titleLinkText href="#">易入</A></DIV>
+<DIV class=titleLink><A class=titleLinkText href="#">易出</A></DIV>
+<DIV class=titleLink><A class=titleLinkText href="#">所有易物</A></DIV></DIV>
+<H3>最新动态</H3>
+<DIV class="box s" 
+style="BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 6px">
+<DIV style="CLEAR: both"></DIV>
+<DIV class=leadsCycle>
+<DIV class="column one2">
+<H2><A href="http://importer.alibaba.com/new_importers">最新求购</A></H2>
+<UL class=leadsCycleContainer id=leadsCycleList 
+style="BORDER-RIGHT: #bcb8ad 1px dotted">
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=China 
+  src="images/cn.gif" border=0><A title="Buy Craft Hand Punches" 
+  href="http://www.alibaba.com/buyofferdetail/100659450/Buy_Craft_Hand_Punches.html" 
+  rel=nofollow>Buy Craft Hand Pu...</A> 
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Indonesia 
+  src="images/id.gif" border=0><A 
+  title="Contract Manufacturer For Fashion Dress" 
+  href="http://www.alibaba.com/buyofferdetail/100668375/Contract_Manufacturer_For_Fashion_Dress.html" 
+  rel=nofollow>Contract Manufact...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt="Saudi Arabia" 
+  src="images/sa.gif" border=0><A title="Retail Sales Store Supplies" 
+  href="http://www.alibaba.com/buyofferdetail/100664623/Retail_Sales_Store_Supplies.html" 
+  rel=nofollow>Retail Sales Stor...</A> 
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Kenya 
+  src="images/ke.gif" border=0><A title="Paper In Bulk" 
+  href="http://www.alibaba.com/buyofferdetail/100630012/Paper_In_Bulk.html" 
+  rel=nofollow>Paper In Bulk </A>
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt="Hong Kong" 
+  src="images/hk.gif" border=0><A title="Buy ADSL ,Modem ,Router " 
+  href="http://www.alibaba.com/buyofferdetail/100674926/Buy_ADSL_Modem_Router_.html" 
+  rel=nofollow>Buy ADSL ,Modem ,...</A> 
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Pakistan 
+  src="images/pk.gif" border=0><A 
+  title="Buy Towels 5, 000 Pcs To 10, 000 Pcs. . . , " 
+  href="http://www.alibaba.com/buyofferdetail/100674515/Buy_Towels_5_000_Pcs_To_10_000_Pcs__.html" 
+  rel=nofollow>Buy Towels 5, 000...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Philippines 
+  src="images/ph.gif" border=0><A title="Coconut Oil Screw Press" 
+  href="http://www.alibaba.com/buyofferdetail/100668301/Coconut_Oil_Screw_Press.html" 
+  rel=nofollow>Coconut Oil Screw...</A> 
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=China 
+  src="images/cn.gif" border=0><A 
+  title='urgently want 19"/20" portable DVD player' 
+  href="http://shidegifts.en.alibaba.com/buyofferdetail/205366961/urgently_want_19_20_portable_DVD_player.html" 
+  rel=nofollow>urgently want 19&amp;...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt="United States" 
+  src="images/us.gif" border=0><A 
+  title="Need To Buy HMS 1 &amp; 2 (80: 20) Isri 200-206" 
+  href="http://www.alibaba.com/buyofferdetail/100680926/Need_To_Buy_HMS_1_2_80_20_Isri_200_206.html" 
+  rel=nofollow>Need To Buy HMS 1...</A> 
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt="United States" 
+  src="images/us.gif" border=0><A title="Dutchess Satin Fabric" 
+  href="http://www.alibaba.com/buyofferdetail/100680932/Dutchess_Satin_Fabric.html" 
+  rel=nofollow>Dutchess Satin Fa...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Thailand 
+  src="images/th.gif" border=0><A title="Amino Ethyl Piperazine" 
+  href="http://www.alibaba.com/buyofferdetail/100680939/Amino_Ethyl_Piperazine.html" 
+  rel=nofollow>Amino Ethyl Piper...</A> 
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=China 
+  src="images/cn.gif" border=0><A title="Medical-Use Titanium Tube" 
+  href="http://www.alibaba.com/buyofferdetail/100680940/Medical_Use_Titanium_Tube.html" 
+  rel=nofollow>Medical-Use Titan...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt="United States" 
+  src="images/us.gif" border=0><A 
+  title="Buy Latex, Nitrile And PVC Gloves" 
+  href="http://www.alibaba.com/buyofferdetail/100680944/Buy_Latex_Nitrile_And_PVC_Gloves.html" 
+  rel=nofollow>Buy Latex, Nitril...</A> 
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Canada 
+  src="images/ca.gif" border=0><A 
+  title="Iron Ore Needed For Steel Manufacturing Plant In China" 
+  href="http://www.alibaba.com/buyofferdetail/100680947/Iron_Ore_Needed_For_Steel_Manufacturing_Plant_In_China.html" 
+  rel=nofollow>Iron Ore Needed F...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Qatar 
+  src="images/qa.gif" border=0><A title="Manhole Covers" 
+  href="http://www.alibaba.com/buyofferdetail/100680963/Manhole_Covers.html" 
+  rel=nofollow>Manhole Covers </A>
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Ethiopia 
+  src="images/et.gif" border=0><A title="Mobile Cash Registers" 
+  href="http://www.alibaba.com/buyofferdetail/100680968/Mobile_Cash_Registers.html" 
+  rel=nofollow>Mobile Cash Regis...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=China 
+  src="images/cn.gif" border=0><A title="Buy Waste Plastic" 
+  href="http://www.alibaba.com/buyofferdetail/100680979/Buy_Waste_Plastic.html" 
+  rel=nofollow>Buy Waste Plastic </A>
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=China 
+  src="images/cn.gif" border=0><A 
+  title="Buying T/ C Spandex Denim Fabric" 
+  href="http://www.alibaba.com/buyofferdetail/100680990/Buying_T_C_Spandex_Denim_Fabric.html" 
+  rel=nofollow>Buying T/ C Spand...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=India 
+  src="images/in.gif" border=0><A title="Iron ORE Buyer" 
+  href="http://www.alibaba.com/buyofferdetail/100680993/Iron_ORE_Buyer.html" 
+  rel=nofollow>Iron ORE Buyer </A>
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Turkey 
+  src="images/tr.gif" border=0><A title="Buy Plastic Raw Materials" 
+  href="http://www.alibaba.com/buyofferdetail/100680998/Buy_Plastic_Raw_Materials.html" 
+  rel=nofollow>Buy Plastic Raw M...</A> </LI></UL></DIV>
+<DIV class="column one2">
+<H2><A href="http://www.alibaba.com/today_new/manufacturers/0.html">最新易出</A></H2>
+<UL class=leadsCycleContainer id=leadsCycleList2 style="WIDTH: 231px">
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=China 
+  src="images/cn.gif" border=0><A 
+  title="Sell self adhesive vinyl film,directly from manufacturer" 
+  href="http://60000.en.alibaba.com/offerdetail/204989793/Sell_self_adhesive_vinyl_film_directly_from_manufacturer.html" 
+  rel=nofollow>Sell self adhesiv...</A> 
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Finland 
+  src="images/fi.gif" border=0><A 
+  title="Sell Brand New 100% Authentic Nokia E61i Unlocked Mobile Phones" 
+  href="http://www.alibaba.com/offerdetail/100646989/Sell_Brand_New_100_Authentic_Nokia_E61i_Unlocked_Mobile_Phones.html" 
+  rel=nofollow>Sell Brand New 10...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=China 
+  src="images/cn.gif" border=0><A title="Sell Metal Parts" 
+  href="http://cnftr.en.alibaba.com/offerdetail/205203429/Sell_Metal_Parts.html" 
+  rel=nofollow>Sell Metal Parts </A>
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Taiwan 
+  src="images/tw.gif" border=0><A title="Sell plastic flower pot" 
+  href="http://ju-feng.en.alibaba.com/offerdetail/204943483/Sell_plastic_flower_pot.html" 
+  rel=nofollow>Sell plastic flow...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Taiwan 
+  src="images/tw.gif" border=0><A title="Sell waist support" 
+  href="http://reddragon.en.alibaba.com/offerdetail/205107489/Sell_waist_support.html" 
+  rel=nofollow>Sell waist suppor...</A> 
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Pakistan 
+  src="images/pk.gif" border=0><A title="Ladies Hoodies" 
+  href="http://rafiq345.trustpass.alibaba.com/offerdetail/100659972/Ladies_Hoodies.html" 
+  rel=nofollow>Ladies Hoodies </A>
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt="Syrian Arab Republic" 
+  src="images/sy.gif" border=0><A title="Chicken Feet Paws" 
+  href="http://www.alibaba.com/offerdetail/100662493/Chicken_Feet_Paws.html" 
+  rel=nofollow>Chicken Feet Paws </A>
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt="United States" 
+  src="images/us.gif" border=0><A title="Sell Olevia LCD-TV Refurbished" 
+  href="http://www.alibaba.com/offerdetail/100679432/Sell_Olevia_LCD_TV_Refurbished.html" 
+  rel=nofollow>Sell Olevia LCD-T...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Australia 
+  src="images/au.gif" border=0><A title="Sell Baby Wear" 
+  href="http://easy-imex.en.alibaba.com/offerdetail/205280710/Sell_Baby_Wear.html" 
+  rel=nofollow>Sell Baby Wear </A>
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=China 
+  src="images/cn.gif" border=0><A 
+  title="Sell Hepatitis A (Live) vaccine, Freeze-dried" 
+  href="http://vaccine.en.alibaba.com/offerdetail/205413147/Sell_Hepatitis_A_Live_vaccine_Freeze_dried.html" 
+  rel=nofollow>Sell Hepatitis A ...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Australia 
+  src="images/au.gif" border=0><A 
+  title="We Can Supply Newest Styles Basketball Shoes" 
+  href="http://cnvoit.trustpass.alibaba.com/offerdetail/100673890/We_Can_Supply_Newest_Styles_Basketball_Shoes.html" 
+  rel=nofollow>We Can Supply New...</A> 
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Taiwan 
+  src="images/tw.gif" border=0><A title="Sell Aluminum Sheets" 
+  href="http://yieh.en.alibaba.com/offerdetail/205396101/Sell_Aluminum_Sheets.html" 
+  rel=nofollow>Sell Aluminum She...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt="United States" 
+  src="images/us.gif" border=0><A 
+  title="Sell Brand New 100% Original Made In Finland Nokia 8800 Sapphire Arte Phones" 
+  href="http://www.alibaba.com/offerdetail/100660525/Sell_Brand_New_100_Original_Made_In_Finland_Nokia_8800_Sapphire_Arte_Phones.html" 
+  rel=nofollow>Sell Brand New 10...</A> 
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Taiwan 
+  src="images/tw.gif" border=0><A title="Sell Auto 15 CAR DOOR LOCK" 
+  href="http://pantaiwan.en.alibaba.com/offerdetail/205324959/Sell_Auto_15_CAR_DOOR_LOCK.html" 
+  rel=nofollow>Sell Auto 15 CAR ...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt="South Korea" 
+  src="images/kr(1).gif" border=0><A title=" Outdoor 3 Color LED Sign" 
+  href="http://ifucoltd.trustpass.alibaba.com/offerdetail/100633061/_Outdoor_3_Color_LED_Sign.html" 
+  rel=nofollow> Outdoor 3 Color ...</A> 
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt="United Kingdom" 
+  src="images/uk.gif" border=0><A 
+  title="Ladies Shoes, Footwear Fashion, Pumps, Bridal, Heels, Patent, Women's Women Shoes And Sandals" 
+  href="http://purerushltd.trustpass.alibaba.com/offerdetail/100656315/Ladies_Shoes_Footwear_Fashion_Pumps_Bridal_Heels_Patent_Women_s_Women_Shoes_And_Sandals.html" 
+  rel=nofollow>Ladies Shoes, Foo...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt="United States" 
+  src="images/us.gif" border=0><A title="Garlic Granulate" 
+  href="http://www.alibaba.com/offerdetail/100633967/Garlic_Granulate.html" 
+  rel=nofollow>Garlic Granulate </A>
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Pakistan 
+  src="images/pk.gif" border=0><A title="Petroleum Products" 
+  href="http://www.alibaba.com/offerdetail/100673249/Petroleum_Products.html" 
+  rel=nofollow>Petroleum Product...</A> 
+  <LI class=leadsCycleBg>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=China 
+  src="images/cn.gif" border=0><A 
+  title="Sell Refrigerating and Heating Tank" 
+  href="http://lhuxin.en.alibaba.com/offerdetail/204919841/Sell_Refrigerating_and_Heating_Tank.html" 
+  rel=nofollow>Sell Refrigeratin...</A> 
+  <LI>
+  <DIV class=leadsCycleDate>28-Mar</DIV><IMG alt=Finland 
+  src="images/fi.gif" border=0><A 
+  title="Sell Brand New Nokia 8800 Arte With Complete Accessories And 12 Months Warranty" 
+  href="http://www.alibaba.com/offerdetail/100640555/Sell_Brand_New_Nokia_8800_Arte_With_Complete_Accessories_And_12_Months_Warranty.html" 
+  rel=nofollow>Sell Brand New No...</A> </LI></UL></DIV>
+<DIV style="CLEAR: both"></DIV></DIV>
+<STYLE>.leadsCycle {
+	MARGIN: 0px -10px; WIDTH: 462px
+}
+.leadsCycle H2 {
+	MARGIN: 5px 10px; FONT: bold 12px tahoma; COLOR: #33322d
+}
+.leadsCycle H2 A.more {
+	FLOAT: right; FONT: lighter 0.9em tahoma
+}
+UL.leadsCycleContainer {
+	PADDING-RIGHT: 0px; BORDER-TOP: #ffd99e 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 8px; OVERFLOW: hidden; WIDTH: 230px; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none! important; BORDER-LEFT-STYLE: none! important; HEIGHT: 92px! important; BACKGROUND-COLOR: #fff; BORDER-BOTTOM-STYLE: none! important
+}
+UL.leadsCycleContainer LI {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+UL.leadsCycleContainer LI.leadsCycleBg {
+	BACKGROUND-COLOR: #f9f1e6
+}
+.leadsCycleDate {
+	FONT-SIZE: 9px; FLOAT: right; COLOR: #655f5f
+}
+.leadsCycleContainer IMG {
+	MARGIN: 2px 7px; VERTICAL-ALIGN: middle
+}
+UL.leadsCycleContainer {
+	FONT-SIZE: 13px
+}
+</STYLE>
+
+<SCRIPT type=text/javascript>
+var handle = AE.widget.SimpleScroll.decorate('leadsCycleList', {lineHeight: 20, startDelay: 1});
+var handle2 = AE.widget.SimpleScroll.decorate('leadsCycleList2', {lineHeight: 20, startDelay: 1});
+</SCRIPT>
+</DIV>
+<DIV style="CLEAR: both"></DIV>
+<DIV class="box s">
+<DIV id=productpromote>
+<DIV class=showPromote>
+<DIV class=bigPromote><A 
+href="http://www.alibaba.com/activities/news/wedding_dress.html"><IMG height=104 
+alt="2008 Wedding Dresses" src="images/153x104_080325_wedding_dress.jpg" 
+width=153 align=left></A> 
+<H2><A href="http://www.alibaba.com/activities/news/wedding_dress.html">Wedding 
+Dress Trends for 2008</A></H2><SPAN>Get the best in 2008 wedding dress news and 
+trends from all over the world. Source 2008 Wedding Dresses right here.</SPAN> 
+<UL>
+  <LI><A href="http://www.alibaba.com/showroom/Bridesmaid_Gowns.html">Bridesmaid 
+  Gowns</A> 
+  <LI><A href="http://www.alibaba.com/showroom/Prom_Dress.html">Prom Dress</A> 
+  </LI></UL>
+<UL>
+  <LI><A href="http://www.alibaba.com/showroom/Dress_Shoes.html">Dress Shoes</A> 
+  </LI></UL></DIV>
+<DIV class=bigPromote style="DISPLAY: none"><A 
+href="http://www.alibaba.com/activities/news/acrylic_nail_art.html"><IMG 
+height=104 alt="Acrylic Nail Art" 
+src="images/153x104_080325_acrylic_nail_art.jpg" width=153 align=left 
+border=0></A> 
+<H2><A 
+href="http://www.alibaba.com/activities/news/acrylic_nail_art.html">Acrylic Nail 
+Art Styles &amp; News</A></H2><SPAN>Find the latest Acrylic Nail Art news and 
+guides for Acrylic Nail Design from around the world right here.</SPAN> 
+<UL>
+  <LI><A href="http://www.alibaba.com/showroom/acrylic_nail_art.html">Acrylic 
+  Nail Art</A> 
+  <LI><A href="http://www.alibaba.com/showroom/nail_care.html">Nail Care</A> 
+  </LI></UL>
+<UL>
+  <LI><A href="http://www.alibaba.com/showroom/beauty.html">Beauty</A> 
+  <LI><A href="http://www.alibaba.com/showroom/french_art.html">French Art</A> 
+  </LI></UL></DIV>
+<DIV class=bigPromote style="DISPLAY: none"><A 
+href="http://www.alibaba.com/activities/news/speakers.html"><IMG height=104 
+alt="Speakers Special Feature" src="images/153x104_080325_speakers.jpg" 
+width=153 align=left></A> 
+<H2><A href="http://www.alibaba.com/activities/news/speakers.html">Speaker 
+Design and Technology</A></H2><SPAN>The latest trends and technology for 
+Speakers. Source speakers for cars, the home or professional audio right 
+here.</SPAN> 
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/63710/MP3_Players.html">MP3 
+  Players</A> 
+  <LI><A href="http://www.alibaba.com/catalogs/518/Speakers.html">Speakers</A> 
+  </LI></UL>
+<UL>
+  <LI><A href="http://www.alibaba.com/catalogs/604/DVD_VCD_Player.html">DVD, VCD 
+  Player</A> </LI></UL></DIV>
+<DIV style="CLEAR: both"></DIV></DIV>
+<DIV class=thumbsPromote>
+<UL>
+  <LI class=miniPromote><A href="javascript:void(0)"><IMG height=26 
+  alt="2008 Wedding Dress" src="images/28x24_080325_wedding_dress.jpg" 
+  width=30 align=left valign="middle">2008 Wedding Dress</A> </LI>
+  <LI class=miniPromote><A href="javascript:void(0)"><IMG height=26 
+  alt="Acrylic Nail Art Special Feature" 
+  src="images/28x24_080325_acrylic_nail_art.jpg" width=30 
+  align=left>Acrylic Nail Art Special Feature</A> </LI>
+  <LI class=miniPromote><A href="javascript:void(0)"><IMG height=26 
+  alt="Speakers Special Feature" src="images/28x24_080325_speakers.jpg" 
+  width=30 align=left>Speakers Special Feature</A> </LI></UL>
+<DIV style="CLEAR: both"></DIV></DIV></DIV>
+<DIV class=viewAllBlock><A class=more 
+href="http://www.alibaba.com/activities/features/product_promotion_1.html">More</A></DIV></DIV></DIV>
+<SCRIPT type=text/javascript>
+try{
+var yConfig={
+	sTabClass:"miniPromote",
+	sItemClass:"bigPromote",
+	oParentNode:get('thumbsPromote'),
+	sSwitchEvent:"click",
+	iDelayTime:1000,
+	iCycleTimes:0,
+	sCurrentClass:"current",
+	sOrder:"asc"
+}
+var product_promotion = new divCycle();
+product_promotion.init(yConfig);
+}catch(e){
+
+}
+</SCRIPT>
+
+<DIV class="win winHomeA">
+<H3>易入大事记</H3>
+<DIV class=box 
+style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: #fff; PADDING-BOTTOM: 10px; PADDING-TOP: 10px">
+<DIV class="column one2" style="MARGIN-TOP: 8px"><A class=sampleborder 
+style="FLOAT: left; MARGIN-RIGHT: 10px" 
+href="http://resources.alibaba.com/article/280575/Alibaba_com_Holds_First_UK_Member_Event_in_London_Thousands_of_UK_SMEs_are_joining_Alibaba_com_each_week_to_reach_new_customers_and_suppliers_across_the_globe.htm"><IMG 
+alt="Alibaba.com Holds First UK Member Event in London" 
+src="images/71x55_080326_uk_member_event.gif" border=0></A> <A 
+style="LINE-HEIGHT: 120%! important" 
+href="http://resources.alibaba.com/article/280575/Alibaba_com_Holds_First_UK_Member_Event_in_London_Thousands_of_UK_SMEs_are_joining_Alibaba_com_each_week_to_reach_new_customers_and_suppliers_across_the_globe.htm">Alibaba.com 
+Holds First UK Member Event in London</A> </DIV>
+<DIV class="column one2" style="MARGIN-TOP: 8px"><A class=sampleborder 
+style="FLOAT: left; MARGIN-RIGHT: 10px" 
+href="http://www.alibaba.com/activities/features/warmup_march.html"><IMG 
+alt="Alibaba.com Big Buyer Sourcing Events March" 
+src="images/71x55_080310_warmup_march.jpg" border=0></A> <A 
+style="LINE-HEIGHT: 120%! important" 
+href="http://www.alibaba.com/activities/features/warmup_march.html">Alibaba.com 
+Big Buyer Sourcing Events March</A> </DIV>
+<DIV style="CLEAR: both"></DIV></DIV></DIV>
+<DIV class="win winHomeA">
+<SCRIPT language=javascript type=text/javascript>
+<!--
+
+ function tsCheck(the){
+    var chooseMonth=the.yearmonth.value;
+    var arr=chooseMonth.split("|");
+    if(arr.length==2){
+      the.year.value=arr[0];
+      the.month.value=arr[1];
+      the.yearmonth.value="";
+    }
+    
+    if(the.keyword.value=="Keyword (Optional)"){
+    	the.keyword.value="";
+    }
+    
+    if(the.year.value=='' && the.month.value=='' && the.yearmonth.value=='' 
+    	&& the.keyword.value=='' && the.industry.value=='' && the.location.value==''){
+     	alert('Please select at least one condition.');
+      return false;
+    }
+	  
+	  return true;
+ }
+ function init(){
+	var now = new Date();
+	var year = now.getFullYear();
+	var nextYear = year + 1;
+	var month = now.getMonth() + 1;
+	var item = new Array(); 
+	var months=new Array(12);
+	var count = 0;
+	months[0]="Jan";
+	months[1]="Feb";
+	months[2]="Mar";
+	months[3]="Apr";
+	months[4]="May";
+	months[5]="Jun";
+	months[6]="Jul";
+	months[7]="Aug";
+	months[8]="Sep";
+	months[9]="Oct";
+	months[10]="Nov";
+	months[11]="Dec";
+
+	if(month > 1){
+			item[0] = "<option value=''>All Months</option>";
+			item[1] = "<option value='"+year+"|"+ month +"'>"+months[month-1]+" >>"+year+"</option>";
+			for (var i=1; i<=12-month; i++){ 
+				tempMonth = month + i;
+				item[i+1] = "<option value='"+year+"|"+tempMonth +"'>"+months[tempMonth-1]+"</option>";
+	  		count ++;
+	 		}
+	 		
+			var capacity = 11 - count;
+	
+			for (var i = 0; i< capacity; i++) {
+				tempMonth = i+1;
+				if(i == 0){
+					item[count+2] = "<option value='"+nextYear+"|1'>"+months[i]+" >>"+nextYear+"</option>";
+				}
+				else{
+					item[count+2] = "<option value='"+nextYear+"|"+ tempMonth +"'>"+months[i]+"</option>";		
+				}
+				count++;
+			}
+	}else{
+		item[0] = "<option value=''>All Months</option>";
+		item[1] = "<option value='"+year+"|1'>"+months[month-1]+" >>"+year+"</option>";
+		for (var i=1; i<12; i++){ 
+			tempMonth = month + i;
+			item[i+1] = "<option value='"+year+"|"+tempMonth+"'>"+months[tempMonth-1]+"</option>";
+ 		}
+	}
+	 var monthSelect =  document.getElementById('selectMonth');
+	 monthSelect.innerHTML = "<select name='yearmonth' id='yearmonth' style='width:155px;margin-bottom:5px;' class='s'>" + item.join() + "</select>"; 
+ }
+ YUE.on(window,"load",init)
+ //window.onload = init;
+-->	
+</SCRIPT>
+
+<H3>立即搜索易物企业</H3>
+<DIV class=box style="BACKGROUND: #fff"><SPAN class=s>More than 18,000 trade 
+shows across 41 industries worldwide!</SPAN><BR>
+<DIV style="FLOAT: left; WIDTH: 280px"><STRONG>Featured Trade Shows</STRONG><BR>
+<DIV class=tradeshowCycle id=tradeshowCycle>
+<DIV class=tradeshowCycleItem><A 
+href="http://tradeshow.alibaba.com/trade_shows/100082003/103rd_Canton_Fair_China_Import_and_Export_Fair_.html" 
+target=_blank>103rd Canton Fair</A><BR>
+<DIV class="column one" style="LINE-HEIGHT: 22px"><A 
+class="sampleborder tradeshowone" 
+href="http://tradeshow.alibaba.com/trade_shows/100082003/103rd_Canton_Fair_China_Import_and_Export_Fair_.html"><IMG 
+src="images/c01d936780c785734f4b072d573c3b42_121630.jpg" border=0></A> 
+<A 
+href="http://tradeshow.alibaba.com/trade_shows/100082003/103rd_Canton_Fair_China_Import_and_Export_Fair_.html">Textiles 
+&amp; Garments </A><BR><SPAN class=s>Apr 15, 2008 - Apr 30, 
+2008<BR>[China]</SPAN> </DIV></DIV>
+<DIV class=tradeshowCycleItem style="DISPLAY: none"><A 
+href="http://tradeshow.alibaba.com/trade_shows/100091001/Thaifex_World_of_Food_Asia.html" 
+target=_blank>Thaifex</A><BR>
+<DIV class="column one" style="LINE-HEIGHT: 22px"><A 
+class="sampleborder tradeshowone" 
+href="http://tradeshow.alibaba.com/trade_shows/100091001/Thaifex_World_of_Food_Asia.html"><IMG 
+src="images/c3d37f5a24187d3a4cfc430787e09320_042426.jpg" border=0></A> 
+<A 
+href="http://tradeshow.alibaba.com/trade_shows/100091001/Thaifex_World_of_Food_Asia.html">Food 
+&amp; Beverage</A><BR><SPAN class=s>May 21, 2008 - May 25, 
+2008<BR>[Thailand]</SPAN> </DIV></DIV>
+<DIV class=tradeshowCycleItem style="DISPLAY: none"><A 
+href="http://tradeshow.alibaba.com/trade_shows/100090000/GuangzhouMart_Fair_%2528Spring%2529_2008_.html" 
+target=_blank>2008 Mart Fair</A><BR>
+<DIV class="column one" style="LINE-HEIGHT: 22px"><A 
+class="sampleborder tradeshowone" 
+href="http://tradeshow.alibaba.com/trade_shows/100090000/GuangzhouMart_Fair_%2528Spring%2529_2008_.html"><IMG 
+src="images/e21ead4038208fba00982ab45fe549c5_123114.jpg" border=0></A> 
+<A 
+href="http://tradeshow.alibaba.com/trade_shows/100090000/GuangzhouMart_Fair_%2528Spring%2529_2008_.html">Apparel 
+&amp; Fashion Accessories</A><BR><SPAN class=s>Apr 14, 2008 - Apr 30, 2008 
+<BR>Macao(China)</SPAN> </DIV></DIV>
+<DIV class=tradeshowCycleItem style="DISPLAY: none"><A 
+href="http://tradeshow.alibaba.com/trade_shows/100093000/Mega_Macao.html" 
+target=_blank>Mega Macao</A><BR>
+<DIV class="column one" style="LINE-HEIGHT: 22px"><A 
+class="sampleborder tradeshowone" 
+href="http://tradeshow.alibaba.com/trade_shows/100093000/Mega_Macao.html"><IMG 
+src="images/a20792255196c2e966098d382f74f06e_124857.jpg" border=0></A> 
+<A 
+href="http://tradeshow.alibaba.com/trade_shows/100093000/Mega_Macao.html">Apparel 
+&amp; Fashion Accessories</A><BR><SPAN class=s>Apr 21, 2008 - Apr 23, 
+2008<BR>Macao(China)</SPAN> </DIV></DIV>
+<DIV class=tradeshowCycleItem style="DISPLAY: none"><A 
+href="http://tradeshow.alibaba.com/trade_shows/100087000/India_International_Machinery_and_Equipment_Exhibition.html" 
+target=_blank>Int. Machinery and Equipment Exhibition</A><BR>
+<DIV class="column one" style="LINE-HEIGHT: 22px"><A 
+class="sampleborder tradeshowone" 
+href="http://tradeshow.alibaba.com/trade_shows/100087000/India_International_Machinery_and_Equipment_Exhibition.html"><IMG 
+src="images/e63a309ed8ad511ceb995aadfd6accf4_063838.jpg" border=0></A> 
+<A 
+href="http://tradeshow.alibaba.com/trade_shows/100087000/India_International_Machinery_and_Equipment_Exhibition.html">Agriculture 
+, Chemicals</A><BR><SPAN class=s>May 15, 2008 - May 17, 2008<BR>[India]</SPAN> 
+</DIV></DIV>
+<DIV class=tradeshowCycleItem style="DISPLAY: none"><A 
+href="http://tradeshow.alibaba.com/trade_shows/100036005/Manufacturing_Hanoi_2008_Plasprintpack_Industry_Exhibition.html" 
+target=_blank>Manufacturing Hanoi 2008</A><BR>
+<DIV class="column one" style="LINE-HEIGHT: 22px"><A 
+class="sampleborder tradeshowone" 
+href="http://tradeshow.alibaba.com/trade_shows/100036005/Manufacturing_Hanoi_2008_Plasprintpack_Industry_Exhibition.html"><IMG 
+src="images/908b9d6c1dddb1788591484f81a9755f_020550.jpg" border=0></A> 
+<A 
+href="http://tradeshow.alibaba.com/trade_shows/100036005/Manufacturing_Hanoi_2008_Plasprintpack_Industry_Exhibition.html">Manufacturing 
+&amp; Processing</A><BR><SPAN class=s>Jun 05, 2008 - Jun 08, 
+2008<BR>[Vietnam]</SPAN> </DIV></DIV>
+<DIV style="CLEAR: both"></DIV>
+<DIV>
+<UL class=tabs 
+style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN-LEFT: 0px; PADDING-TOP: 0px">
+  <LI class="tradeshowCycleTab current">1 
+  <LI class=tradeshowCycleTab>2 
+  <LI class=tradeshowCycleTab>3 
+  <LI class=tradeshowCycleTab>4 
+  <LI class=tradeshowCycleTab>5 
+  <LI class=tradeshowCycleTab>6 </LI></UL></DIV></DIV></DIV>
+<SCRIPT language=javascript type=text/javascript>
+(function(){
+
+
+var yConfig={
+sTabClass:"tradeshowCycleTab",
+sItemClass:"tradeshowCycleItem",
+oParentNode:get('tradeshowCycle'),
+sSwitchEvent:"mouseover",
+iDelayTime:600,
+iCycleTimes:1,
+sCurrentClass:"current",
+sOrder:"asc"
+	}
+var cycle = new divCycle();
+cycle.init(yConfig);
+
+})();
+
+</SCRIPT>
+
+<DIV style="FLOAT: left; WIDTH: 160px"><STRONG>Find a Show</STRONG> 
+<FORM name=tsSearchForm onSubmit="return tsCheck(this)" 
+action=http://tradeshow.alibaba.com/search method=get target=_parent><INPUT 
+type=hidden name=year> <INPUT type=hidden name=month> <SELECT class=s 
+id=industry style="MARGIN-BOTTOM: 5px; WIDTH: 155px" name=industry> <OPTION 
+  value="" selected>All Industries</OPTION> <OPTION value=1>Agriculture</OPTION> 
+  <OPTION value=3>Apparel &amp; Fashion</OPTION> <OPTION 
+  value=34>Automobile</OPTION> <OPTION value=28>Business Services</OPTION> 
+  <OPTION value=8>Chemicals</OPTION> <OPTION value=7>Computer Hardware &amp; 
+  Software</OPTION> <OPTION value=13>Construction &amp; Real Estate</OPTION> 
+  <OPTION value=5>Electrical Equipment &amp; Supplies</OPTION> <OPTION 
+  value=502>Electronic Components &amp; Supplies</OPTION> <OPTION 
+  value=10>Energy</OPTION> <OPTION value=11>Environment</OPTION> <OPTION 
+  value=32>Excess Inventory</OPTION> <OPTION value=2>Food &amp; 
+  Beverage</OPTION> <OPTION value=1503>Furniture &amp; Furnishings</OPTION> 
+  <OPTION value=17>Gifts &amp; Crafts</OPTION> <OPTION value=16>Health &amp; 
+  Beauty</OPTION> <OPTION value=6>Home Appliances</OPTION> <OPTION value=15>Home 
+  Supplies</OPTION> <OPTION value=14>Industrial Supplies</OPTION> <OPTION 
+  value=39>Lights &amp; Lighting</OPTION> <OPTION value=1524>Luggage, Bags &amp; 
+  Cases</OPTION> <OPTION value=9>Minerals, Metals &amp; Materials</OPTION> 
+  <OPTION value=21>Office Supplies</OPTION> <OPTION value=23>Packaging &amp; 
+  Paper</OPTION> <OPTION value=35>Printing &amp; Publishing</OPTION> <OPTION 
+  value=30>Security &amp; Protection</OPTION> <OPTION value=18>Sports &amp; 
+  Entertainment</OPTION> <OPTION value=509>Telecommunications</OPTION> <OPTION 
+  value=4>Textiles &amp; Leather Products</OPTION> <OPTION value=36>Timepieces, 
+  Jewelry, Eyewear</OPTION> <OPTION value=26>Toys</OPTION> <OPTION 
+  value=12>Transportation</OPTION></SELECT> <SELECT class=s id=location 
+style="MARGIN-BOTTOM: 5px; WIDTH: 155px" name=location> <OPTION value="" 
+  selected>All Locations</OPTION> <OPTION value=AF>Afghanistan</OPTION> <OPTION 
+  value=AL>Albania</OPTION> <OPTION value=DZ>Algeria</OPTION> <OPTION 
+  value=AS>American Samoa</OPTION> <OPTION value=AD>Andorra</OPTION> <OPTION 
+  value=AO>Angola</OPTION> <OPTION value=AI>Anguilla</OPTION> <OPTION 
+  value=AQ>Antarctica</OPTION> <OPTION value=AG>Antigua and Barbuda</OPTION> 
+  <OPTION value=AR>Argentina</OPTION> <OPTION value=AM>Armenia</OPTION> <OPTION 
+  value=AW>Aruba</OPTION> <OPTION value=AU>Australia</OPTION> <OPTION 
+  value=AT>Austria</OPTION> <OPTION value=AZ>Azerbaijan</OPTION> <OPTION 
+  value=BS>Bahamas</OPTION> <OPTION value=BH>Bahrain</OPTION> <OPTION 
+  value=BD>Bangladesh</OPTION> <OPTION value=BB>Barbados</OPTION> <OPTION 
+  value=BY>Belarus</OPTION> <OPTION value=BE>Belgium</OPTION> <OPTION 
+  value=BZ>Belize</OPTION> <OPTION value=BJ>Benin</OPTION> <OPTION 
+  value=BM>Bermuda</OPTION> <OPTION value=BT>Bhutan</OPTION> <OPTION 
+  value=BO>Bolivia</OPTION> <OPTION value=BA>Bosnia and Herzegovina</OPTION> 
+  <OPTION value=BW>Botswana</OPTION> <OPTION value=BV>Bouvet Island</OPTION> 
+  <OPTION value=BR>Brazil</OPTION> <OPTION value=IO>British Indian Ocean 
+  Territory</OPTION> <OPTION value=BN>Brunei Darussalam</OPTION> <OPTION 
+  value=BG>Bulgaria</OPTION> <OPTION value=BF>Burkina Faso</OPTION> <OPTION 
+  value=BI>Burundi</OPTION> <OPTION value=KH>Cambodia</OPTION> <OPTION 
+  value=CM>Cameroon</OPTION> <OPTION value=CA>Canada</OPTION> <OPTION 
+  value=CV>Cape Verde</OPTION> <OPTION value=KY>Cayman Islands</OPTION> <OPTION 
+  value=CF>Central African Republic</OPTION> <OPTION value=TD>Chad</OPTION> 
+  <OPTION value=CD>Channel Island</OPTION> <OPTION value=CL>Chile</OPTION> 
+  <OPTION value=CN>China (Mainland)</OPTION> <OPTION value=CX>Christmas 
+  Island</OPTION> <OPTION value=CC>Cocos (Keeling) Islands</OPTION> <OPTION 
+  value=CO>Colombia</OPTION> <OPTION value=KM>Comoros</OPTION> <OPTION 
+  value=CG>Congo</OPTION> <OPTION value=ZR>Congo, The Democratic Republic Of 
+  The</OPTION> <OPTION value=CK>Cook Islands</OPTION> <OPTION value=CR>Costa 
+  Rica</OPTION> <OPTION value=CI>Cote D'Ivoire</OPTION> <OPTION value=HR>Croatia 
+  (local name: Hrvatska)</OPTION> <OPTION value=CU>Cuba</OPTION> <OPTION 
+  value=CY>Cyprus</OPTION> <OPTION value=CZ>Czech Republic</OPTION> <OPTION 
+  value=DK>Denmark</OPTION> <OPTION value=DJ>Djibouti</OPTION> <OPTION 
+  value=DM>Dominica</OPTION> <OPTION value=DO>Dominican Republic</OPTION> 
+  <OPTION value=TP>East Timor</OPTION> <OPTION value=EC>Ecuador</OPTION> <OPTION 
+  value=EG>Egypt</OPTION> <OPTION value=SV>El Salvador</OPTION> <OPTION 
+  value=GQ>Equatorial Guinea</OPTION> <OPTION value=ER>Eritrea</OPTION> <OPTION 
+  value=EE>Estonia</OPTION> <OPTION value=ET>Ethiopia</OPTION> <OPTION 
+  value=FK>Falkland Islands (Malvinas)</OPTION> <OPTION value=FO>Faroe 
+  Islands</OPTION> <OPTION value=FJ>Fiji</OPTION> <OPTION 
+  value=FI>Finland</OPTION> <OPTION value=FR>France</OPTION> <OPTION 
+  value=FX>France Metropolitan</OPTION> <OPTION value=GF>French Guiana</OPTION> 
+  <OPTION value=PF>French Polynesia</OPTION> <OPTION value=TF>French Southern 
+  Territories</OPTION> <OPTION value=GA>Gabon</OPTION> <OPTION 
+  value=GM>Gambia</OPTION> <OPTION value=GE>Georgia</OPTION> <OPTION 
+  value=DE>Germany</OPTION> <OPTION value=GH>Ghana</OPTION> <OPTION 
+  value=GI>Gibraltar</OPTION> <OPTION value=GR>Greece</OPTION> <OPTION 
+  value=GL>Greenland</OPTION> <OPTION value=GD>Grenada</OPTION> <OPTION 
+  value=GP>Guadeloupe</OPTION> <OPTION value=GU>Guam</OPTION> <OPTION 
+  value=GT>Guatemala</OPTION> <OPTION value=GN>Guinea</OPTION> <OPTION 
+  value=GW>Guinea-Bissau</OPTION> <OPTION value=GY>Guyana</OPTION> <OPTION 
+  value=HT>Haiti</OPTION> <OPTION value=HM>Heard and Mc Donald Islands</OPTION> 
+  <OPTION value=HN>Honduras</OPTION> <OPTION value=HK>Hong Kong</OPTION> <OPTION 
+  value=HU>Hungary</OPTION> <OPTION value=IS>Iceland</OPTION> <OPTION 
+  value=IN>India</OPTION> <OPTION value=ID>Indonesia</OPTION> <OPTION 
+  value=IR>Iran (Islamic Republic of)</OPTION> <OPTION value=IQ>Iraq</OPTION> 
+  <OPTION value=IE>Ireland</OPTION> <OPTION value=IL>Israel</OPTION> <OPTION 
+  value=IT>Italy</OPTION> <OPTION value=JM>Jamaica</OPTION> <OPTION 
+  value=JP>Japan</OPTION> <OPTION value=JO>Jordan</OPTION> <OPTION 
+  value=KZ>Kazakhstan</OPTION> <OPTION value=KE>Kenya</OPTION> <OPTION 
+  value=KI>Kiribati</OPTION> <OPTION value=KW>Kuwait</OPTION> <OPTION 
+  value=KG>Kyrgyzstan</OPTION> <OPTION value=LA>Lao People's Democratic 
+  Republic</OPTION> <OPTION value=LV>Latvia</OPTION> <OPTION 
+  value=LB>Lebanon</OPTION> <OPTION value=LS>Lesotho</OPTION> <OPTION 
+  value=LR>Liberia</OPTION> <OPTION value=LY>Libyan Arab Jamahiriya</OPTION> 
+  <OPTION value=LI>Liechtenstein</OPTION> <OPTION value=LT>Lithuania</OPTION> 
+  <OPTION value=LU>Luxembourg</OPTION> <OPTION value=MO>Macau</OPTION> <OPTION 
+  value=MK>Macedonia</OPTION> <OPTION value=MG>Madagascar</OPTION> <OPTION 
+  value=MW>Malawi</OPTION> <OPTION value=MY>Malaysia</OPTION> <OPTION 
+  value=MV>Maldives</OPTION> <OPTION value=ML>Mali</OPTION> <OPTION 
+  value=MT>Malta</OPTION> <OPTION value=MH>Marshall Islands</OPTION> <OPTION 
+  value=MQ>Martinique</OPTION> <OPTION value=MR>Mauritania</OPTION> <OPTION 
+  value=MU>Mauritius</OPTION> <OPTION value=YT>Mayotte</OPTION> <OPTION 
+  value=MX>Mexico</OPTION> <OPTION value=FM>Micronesia</OPTION> <OPTION 
+  value=MD>Moldova</OPTION> <OPTION value=MC>Monaco</OPTION> <OPTION 
+  value=MN>Mongolia</OPTION> <OPTION value=MS>Montserrat</OPTION> <OPTION 
+  value=MA>Morocco</OPTION> <OPTION value=MZ>Mozambique</OPTION> <OPTION 
+  value=MM>Myanmar</OPTION> <OPTION value=NA>Namibia</OPTION> <OPTION 
+  value=NR>Nauru</OPTION> <OPTION value=NP>Nepal</OPTION> <OPTION 
+  value=NL>Netherlands</OPTION> <OPTION value=AN>Netherlands Antilles</OPTION> 
+  <OPTION value=NC>New Caledonia</OPTION> <OPTION value=NZ>New Zealand</OPTION> 
+  <OPTION value=NI>Nicaragua</OPTION> <OPTION value=NE>Niger</OPTION> <OPTION 
+  value=NG>Nigeria</OPTION> <OPTION value=NU>Niue</OPTION> <OPTION 
+  value=NF>Norfolk Island</OPTION> <OPTION value=KP>North Korea</OPTION> <OPTION 
+  value=MP>Northern Mariana Islands</OPTION> <OPTION value=NO>Norway</OPTION> 
+  <OPTION value=OM>Oman</OPTION> <OPTION value=Other>Other Country</OPTION> 
+  <OPTION value=PK>Pakistan</OPTION> <OPTION value=PW>Palau</OPTION> <OPTION 
+  value=PS>Palestine</OPTION> <OPTION value=PA>Panama</OPTION> <OPTION 
+  value=PG>Papua New Guinea</OPTION> <OPTION value=PY>Paraguay</OPTION> <OPTION 
+  value=PE>Peru</OPTION> <OPTION value=PH>Philippines</OPTION> <OPTION 
+  value=PN>Pitcairn</OPTION> <OPTION value=PL>Poland</OPTION> <OPTION 
+  value=PT>Portugal</OPTION> <OPTION value=PR>Puerto Rico</OPTION> <OPTION 
+  value=QA>Qatar</OPTION> <OPTION value=RE>Reunion</OPTION> <OPTION 
+  value=RO>Romania</OPTION> <OPTION value=RU>Russian Federation</OPTION> <OPTION 
+  value=RW>Rwanda</OPTION> <OPTION value=KN>Saint Kitts and Nevis</OPTION> 
+  <OPTION value=LC>Saint Lucia</OPTION> <OPTION value=VC>Saint Vincent and the 
+  Grenadines</OPTION> <OPTION value=WS>Samoa</OPTION> <OPTION value=SM>San 
+  Marino</OPTION> <OPTION value=ST>Sao Tome and Principe</OPTION> <OPTION 
+  value=SA>Saudi Arabia</OPTION> <OPTION value=SN>Senegal</OPTION> <OPTION 
+  value=SC>Seychelles</OPTION> <OPTION value=SL>Sierra Leone</OPTION> <OPTION 
+  value=SG>Singapore</OPTION> <OPTION value=SK>Slovakia (Slovak 
+  Republic)</OPTION> <OPTION value=SI>Slovenia</OPTION> <OPTION value=SB>Solomon 
+  Islands</OPTION> <OPTION value=SO>Somalia</OPTION> <OPTION value=ZA>South 
+  Africa</OPTION> <OPTION value=KR>South Korea</OPTION> <OPTION 
+  value=ES>Spain</OPTION> <OPTION value=LK>Sri Lanka</OPTION> <OPTION 
+  value=SH>St. Helena</OPTION> <OPTION value=PM>St. Pierre and Miquelon</OPTION> 
+  <OPTION value=SD>Sudan</OPTION> <OPTION value=SR>Suriname</OPTION> <OPTION 
+  value=SJ>Svalbard and Jan Mayen Islands</OPTION> <OPTION 
+  value=SZ>Swaziland</OPTION> <OPTION value=SE>Sweden</OPTION> <OPTION 
+  value=CH>Switzerland</OPTION> <OPTION value=SY>Syrian Arab Republic</OPTION> 
+  <OPTION value=TW>Taiwan</OPTION> <OPTION value=TJ>Tajikistan</OPTION> <OPTION 
+  value=TZ>Tanzania</OPTION> <OPTION value=TH>Thailand</OPTION> <OPTION 
+  value=TG>Togo</OPTION> <OPTION value=TK>Tokelau</OPTION> <OPTION 
+  value=TO>Tonga</OPTION> <OPTION value=TT>Trinidad and Tobago</OPTION> <OPTION 
+  value=TN>Tunisia</OPTION> <OPTION value=TR>Turkey</OPTION> <OPTION 
+  value=TM>Turkmenistan</OPTION> <OPTION value=TC>Turks and Caicos 
+  Islands</OPTION> <OPTION value=TV>Tuvalu</OPTION> <OPTION 
+  value=UG>Uganda</OPTION> <OPTION value=UA>Ukraine</OPTION> <OPTION 
+  value=AE>United Arab Emirates</OPTION> <OPTION value=UK>United 
+  Kingdom</OPTION> <OPTION value=US>United States</OPTION> <OPTION 
+  value=UM>United States Minor Outlying Islands</OPTION> <OPTION 
+  value=UY>Uruguay</OPTION> <OPTION value=UZ>Uzbekistan</OPTION> <OPTION 
+  value=VU>Vanuatu</OPTION> <OPTION value=VA>Vatican City State (Holy 
+  See)</OPTION> <OPTION value=VE>Venezuela</OPTION> <OPTION 
+  value=VN>Vietnam</OPTION> <OPTION value=VG>Virgin Islands (British)</OPTION> 
+  <OPTION value=VI>Virgin Islands (U.S.)</OPTION> <OPTION value=WF>Wallis And 
+  Futuna Islands</OPTION> <OPTION value=EH>Western Sahara</OPTION> <OPTION 
+  value=YE>Yemen</OPTION> <OPTION value=YU>Yugoslavia</OPTION> <OPTION 
+  value=ZM>Zambia</OPTION> <OPTION value=ZW>Zimbabwe</OPTION></SELECT> 
+<DIV id=selectMonth style="HEIGHT: 26px"></DIV><INPUT class=s 
+style="MARGIN-BOTTOM: 5px; WIDTH: 151px" onFocus="this.value=''" 
+value=" Keyword (Optional)  " name=keyword> <INPUT class=s type=submit value=Search> <A class=s 
+href="http://tradeshow.alibaba.com/"><U>Browse</U></A>
+<SCRIPT language=JavaScript>
+		document.tsSearchForm.keyword.value = XMLDecode(document.tsSearchForm.keyword.value);
+		</SCRIPT>
+ </FORM></DIV>
+<DIV style="CLEAR: both"></DIV></DIV></DIV>
+<DIV class=homeAd>
+<DIV><A 
+href="http://us.my.alibaba.com/nmpromotion/member_refferal.htm?source=p2pali" 
+target=_blank><IMG height=135 alt="Get 4 essential trade guides 4 free!" 
+src="images/465x135_080314_invite_ind2.jpg" width=465 
+border=0></A></DIV></DIV>
+<DIV class="win winHomeB">
+<DIV class=winRight><A class=more 
+href="http://resources.alibaba.com/topic/topic_post_new.htm">发表主题</A> <A 
+class=more href="http://resources.alibaba.com/topic/askTradeQuestion.htm">答疑</A></DIV>
+<H3>社区 &amp; 新闻</H3>
+<DIV class=box>
+<DIV>
+<DIV><A href="http://resources.alibaba.com/"><IMG 
+style="MARGIN-TOP: 10px; FLOAT: left" 
+src="images/374590648dde1f9c231445c02f61ea58_034033.jpg" border=0></A> 
+<UL style="MARGIN-LEFT: 75px">
+  <LI><FONT color=#222222><A 
+  href="http://resources.alibaba.com/topic/279236/Steelmakers_Agree_to_65_Iron_Ore_Price_Rise_Crazy_or_Cool_.htm">Steelmakers 
+  Agree to 65% Iron Ore Price Rise: Crazy or Cool?</A></FONT> 
+  <LI><FONT color=#003399><A 
+  href="http://resources.alibaba.com/topic/279991/I_am_Confused_about_Trading_with_Foreigners.htm">I 
+  am Confused about Trading with Foreigners</A></FONT> 
+  <LI><FONT color=#003399><A 
+  href="http://resources.alibaba.com/topic/280758/What_Could_We_Do_Any_Ideas_.htm">What 
+  Could We Do, any Ideas?</A></FONT> 
+  <LI><FONT color=#222222><A 
+  href="http://resources.alibaba.com/topic/280985/Expect_Canton_Fair_in_Guangzhou.htm">Expect 
+  Canton Fair in Guangzhou</A></FONT> 
+  <LI><FONT color=#222222><A 
+  href="http://resources.alibaba.com/topic/280856/FOB_Price_is_Less_Than_Market_Price.htm">FOB 
+  Price is Less Than Market Price</A></FONT></U></FONT></FONT> 
+</LI></UL></DIV></DIV>
+<HR style="MARGIN-TOP: 10px; COLOR: #bacbe0">
+<A 
+href="http://resources.alibaba.com/topic/280614/How_do_you_know_if_you_are_on_the_real_Alibaba_com_.htm"><STRONG>How 
+do You Know if You are on the Real Alibaba.com? </STRONG></A><BR>
+<UL class=s>
+  <LI><A 
+  href="http://resources.alibaba.com/topic/280894/Suitcase_Bike_Can_Take_a_Hike.htm">Suitcase 
+  Bike Can Take a Hike</A> 
+  <LI><A 
+  href="http://resources.alibaba.com/topic/278805/Indian_Visa_Facilitation_Center_opens_in_Shanghai_.htm">Indian 
+  Visa Facilitation Center opens in Shanghai</A> 
+  <LI><A 
+  href="http://resources.alibaba.com/topic/276671/Carbon_Credit_Policy_and_How_you_can_Make_Money_from_it.htm">Carbon 
+  Credit Policy and How you can Make Money from it</A> 
+  <LI><A 
+  href="http://resources.alibaba.com/topic/279974/What_is_the_difference_between_a_buying_agent_middleman_commission_agent_international_trader_sourcing_agent_etc_.htm">What 
+  is the Difference between a Buying Agent and Middleman?</A> 
+  <LI><A 
+  href="http://resources.alibaba.com/topic/278411/How_Good_are_Phone_Copies_.htm">How 
+  Good are Phone Copies?</A> 
+  <LI><A 
+  href="http://resources.alibaba.com/topic/278938/Beg_Your_Good_Idea_pls.htm">Beg 
+  Your Good Idea pls</A> 
+  <LI><A 
+  href="http://resources.alibaba.com/topic/275710/how_do_i_pay_for_goods_in_china_.htm">How 
+  do i pay for goods in china?</A> 
+  <LI><A 
+  href="http://resources.alibaba.com/topic/276543/Just_Starting_out.htm">Just 
+  Starting out</A></LI></UL><IMG src="images/icon_arrow.gif" 
+align=absMiddle> More Forums:<A 
+href="http://resources.alibaba.com/forum/trade_related.htm">Trade 
+related</A></DIV></DIV></DIV><!-- colRLmargin -->
+<DIV class=homeAd>
+<DIV id=ads>
+<DIV class="win winHomeB">
+<H3>主推产品</H3>
+<DIV class=box style="BACKGROUND: white">
+<TABLE cellSpacing=3 cellPadding=3 width="100%" align=center border=0>
+  <TBODY>
+  <TR align=middle>
+    <TD class=s vAlign=top width="12.5%"><A 
+      href="http://edwinhu.trustpass.alibaba.com/product/54175/Duffel_Mesh_Bags.html"><IMG 
+      class=sampleborder height=75 alt="Duffel Mesh Bags" 
+      src="images/080325_duffel_mesh_bags.gif" width=75 align=center 
+      vspace=4 border=0></A><BR><A 
+      href="http://edwinhu.trustpass.alibaba.com/product/54175/Duffel_Mesh_Bags.html">Duffel 
+      Mesh Bags</A> </TD>
+    <TD class=s vAlign=top width="12.5%"><A 
+      href="http://cntianma.en.alibaba.com/product/0/51896610/Remote_Control.html"><IMG 
+      class=sampleborder height=75 alt="Remote Controls" 
+      src="images/remote_controls.gif" width=75 align=center vspace=4 
+      border=0></A><BR><A 
+      href="http://cntianma.en.alibaba.com/product/0/51896610/Remote_Control.html">Remote 
+      Controls</A> </TD>
+    <TD class=s vAlign=top width="12.5%"><A 
+      href="http://encoder.en.alibaba.com/product/50135928/50625937/Absolute_Encoders/Absolute_Encoder.html"><IMG 
+      class=sampleborder height=75 alt="Absolute Encoder" 
+      src="images/absolute_encoder.gif" width=75 align=center vspace=4 
+      border=0></A><BR><A 
+      href="http://encoder.en.alibaba.com/product/50135928/50625937/Absolute_Encoders/Absolute_Encoder.html">Absolute 
+      Encoder</A> </TD>
+    <TD class=s vAlign=top width="12.5%"><A 
+      href="http://drm365.en.alibaba.com/product/50262407/51352652/Ultrasonic_Sensors/Ultrasonic_Sensor.html"><IMG 
+      class=sampleborder height=75 alt="Ultrasonic Sensor" 
+      src="images/ultrasonic_sensor.gif" width=75 align=center vspace=4 
+      border=0></A><BR><A 
+      href="http://drm365.en.alibaba.com/product/50262407/51352652/Ultrasonic_Sensors/Ultrasonic_Sensor.html">Ultrasonic 
+      Sensor</A> </TD>
+    <TD class=s vAlign=top width="12.5%"><A 
+      href="http://saishe.en.alibaba.com/product/200000460/51198770/recitifier_module/Rectifier_Module.html"><IMG 
+      class=sampleborder height=75 alt="Rectifier Module" 
+      src="images/rectifier_module.gif" width=75 align=center vspace=4 
+      border=0></A><BR><A 
+      href="http://saishe.en.alibaba.com/product/200000460/51198770/recitifier_module/Rectifier_Module.html">Rectifier 
+      Module</A> </TD>
+    <TD class=s vAlign=top width="12.5%"><A 
+      href="http://firstmountaingroup.en.alibaba.com/product/50415662/51176443/LED_piture/LED_Picture.html"><IMG 
+      class=sampleborder height=75 alt="LED Picture" 
+      src="images/led_picture.gif" width=75 align=center vspace=4 
+      border=0></A><BR><A 
+      href="http://firstmountaingroup.en.alibaba.com/product/50415662/51176443/LED_piture/LED_Picture.html">LED 
+      Picture</A> </TD>
+    <TD class=s vAlign=top width="12.5%"><A 
+      href="http://tj-polyimide.en.alibaba.com/product/50189176/51064406/Polyimide_Film/Polyimide_Film.html"><IMG 
+      class=sampleborder height=75 alt="Polyimide Film" 
+      src="images/polyimide_film.gif" width=75 align=center vspace=4 
+      border=0></A><BR><A 
+      href="http://tj-polyimide.en.alibaba.com/product/50189176/51064406/Polyimide_Film/Polyimide_Film.html">Polyimide 
+      Film</A> </TD>
+    <TD class=s vAlign=top width="12.5%"><A 
+      href="http://echohk.en.alibaba.com/product/50141873/50650534/Buzzers/Piezo_Buzzer.html"><IMG 
+      class=sampleborder height=75 alt="Piezo Buzzer" 
+      src="images/piezo_buzzer.gif" width=75 align=center vspace=4 
+      border=0></A><BR><A 
+      href="http://echohk.en.alibaba.com/product/50141873/50650534/Buzzers/Piezo_Buzzer.html">Piezo 
+      Buzzer</A> </TD></TR></TBODY></TABLE></DIV></DIV></DIV></DIV></DIV><!-- colRL -->
+<DIV class=colRR>
+<DIV class=userGuide id=userGuide>
+<DIV class=welecome>
+<DIV id=homeRightLoggedInfo></DIV>
+</DIV>
+<DIV style="MARGIN-TOP: 8px; MARGIN-LEFT: 6px">Flash<br><br><br><br><br><br><br><br><br><br><br><br><br></DIV>
+</DIV>
+<SCRIPT type=text/javascript>
+AE.widget.groupViewer.init({dropHeight:80,
+	panelId:'userGuide',
+	tabClass:"userRecommendTab",
+	contentClass:"groupViewerContent",
+	plusClass:"mouseHover"
+	});
+</SCRIPT>
+
+<DIV class=bigBuyer><STRONG>与大企业易物</STRONG> 
+<DIV class=productGroupOthersRind>
+<DIV class=productGroupOthersCotainer id=itemViewerContainer>
+<DIV class=itemViewerItem>
+<DIV><A href="http://www.alibaba.com/bigbuyer/big_buyer_channel.html"><IMG 
+style="PADDING-TOP: 5px" alt="Alibaba.com Big Buyer Channel " 
+src="images/260x20_080327_big_buyers.gif" align=left border=0></A> 
+</DIV></DIV></DIV></DIV>
+<DIV align=right><A class=more 
+href="http://www.alibaba.com/bigbuyer/big_buyer_channel.html">查看更多买家</A></DIV></DIV>
+<DIV class="win winHomeB">
+<H3>成功案例</H3>
+<DIV class=box><A 
+href="#"><IMG 
+class=sampleborder style="MARGIN-TOP: 6px; FLOAT: left" height=75 alt="" 
+hspace=8 src="images/ms_wilma.gif" width=75 border=0 Members? 
+TrustPass?></A> 
+<P><A 
+href="#">TrustPass 
+Removes Barriers When Looking For Quality...</A></P>
+<DIV class=s>Ms. Wilma Tolentino <BR>[Philippines]<BR><BR>
+<P>I learned about Alibaba.com almost 2 years ago while searching the net for 
+potential business contacts and joined Alibaba.com as a TrustPass member in 
+2006.... 
+<DIV align=right><A class=more 
+href="#">More</A></DIV>
+<P></P>
+<P 
+style="PADDING-RIGHT: 0px; BORDER-TOP: #ddd 1px dotted; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px"><A 
+href="#"><IMG 
+style="MARGIN-RIGHT: 5px" src="images/alifest_logo_s.gif" align=left 
+border=0></A> Become an Alibaba.com eBusiness Champion and you could win... 
+<SPAN style="FLOAT: right"><A class=more 
+href="#">Apply 
+now!</A></SPAN> </P></DIV>
+<DIV class=hackbox></DIV></DIV></DIV>
+<DIV class="win winHomeB">
+<H3>安全的交易中介</H3>
+<DIV class=box 
+style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: white; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
+<DIV class=s 
+style="PADDING-RIGHT: 10px; PADDING-LEFT: 120px; BACKGROUND: url(http://img.alibaba.com/images/eng/style/css_images/safecenter.gif) #173763 no-repeat left bottom; PADDING-BOTTOM: 10px; COLOR: white; PADDING-TOP: 10px; HEIGHT: 60px"><BR><FONT 
+color=#ffdd01><STRONG>Safe Trading Center Launched</STRONG></FONT>&nbsp;&nbsp;<A 
+href="http://resources.alibaba.com/trade_safe/home.htm"><FONT 
+color=white><U>Click here</U></FONT></A> </DIV>
+<DIV class=s 
+style="PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; LINE-HEIGHT: 18px; PADDING-TOP: 8px">
+<UL>
+  <LI><STRONG><A 
+  href="http://resources.alibaba.com/trade_essential/101/safe_trading_basics.htm">Safe 
+  Trading Basics:</A></STRONG><BR><A 
+  href="http://resources.alibaba.com/article/278629/Alibaba_Security_Bulletin_for_February_.htm">Alibaba 
+  Security Bulletin for February!</A> 
+  <LI><STRONG><A 
+  href="http://resources.alibaba.com/trade_essential/104289/fraud_case_study.htm">Fraud 
+  Case Studies:</A></STRONG> <BR><A 
+  href="http://resources.alibaba.com/article/193546/Fraud_Case_Studies_13_Be_cautious_of_business_impostor_.htm">Be 
+  cautious of business impostor</A> 
+  <LI><STRONG><A 
+  href="http://resources.alibaba.com/trade_essential/104290/account_protection.htm">Account 
+  Protection:</A></STRONG><BR><A 
+  href="http://resources.alibaba.com/article/190876/Tips_for_avoiding_Identity_theft.htm">Tips 
+  for avoiding Identity theft</A> 
+  <LI><STRONG><A 
+  href="http://resources.alibaba.com/trade_essential/104291/stop_spam.htm">Stop 
+  Spam/Scam Emails:</A></STRONG><BR><A 
+  href="http://resources.alibaba.com/topic/7855/Ways_to_Identify_Scammers.htm">Ways 
+  to Identify Scammers</A> </LI></UL></DIV></DIV></DIV>
+<DIV class="win winHomeB">
+<H3 style="FONT-SIZE: 13px">易物帮助</H3>
+<DIV class=box style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px">
+</DIV></DIV><A 
+href="http://www.alibaba.com/countrysearch/IN/India.html"><IMG 
+src="images/280x50_071011_indiaChannel.gif" border=0></A>
+
+ </DIV><!-- colRR -->
+<DIV 
+style="CLEAR: both"></DIV></DIV><!-- colRmargin --></DIV><!-- colR --></DIV><!-- page960 frameA -->
+<DIV id=footer>底部版权</DIV><!--hz_aisn_web6 -->
+</BODY></HTML>
