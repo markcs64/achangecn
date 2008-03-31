@@ -1,0 +1,569 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>Index</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content="" name=keywords>
+<META content="" name=description>
+<LINK media=screen href="http://style.alibaba.com/css/3v/empty.css" type=text/css rel=stylesheet>
+<link rel="stylesheet" href="common.css" type="text/css"/>
+<link rel="stylesheet" href="component.css" type="text/css"/>
+<link rel="stylesheet" href="listitem.css" type="text/css"/>
+<link rel="stylesheet" href="relateJS.css" type="text/css"/>
+
+<SCRIPT language=javascript src="../Skin/skin5/JS/ae.js" charset=iso-8859-1></SCRIPT>
+<SCRIPT src="../Skin/skin5/JS/aisn.js" type=text/javascript charset=iso-8859-1></SCRIPT>
+<SCRIPT src="../Skin/skin5/JS/listing.js" type=text/javascript charset=iso-8859-1></SCRIPT>
+<SCRIPT language=javascript>
+var pageLoaded=false;
+function init(){
+  pageLoaded=true;
+  setTimeout("hideAdBanner()",2000);
+    if (typeof histroyInit=="function"){
+     histroyInit();
+  }
+}
+</SCRIPT>
+
+<META content="MSHTML 6.00.6000.16608" name=GENERATOR></HEAD>
+<BODY onload=init()>
+<SCRIPT language=JavaScript type=text/javascript>
+<!--
+    var r=Math.random();
+    document.write("<img alt=\"\" width=\"1\" height=\"1\" style=\"display:none\" ");
+    document.write("src=\"http://dmtracking.alibaba.com/b.jpg?cD0xJnU9ey93d3cuYWxpYmFiYS5jb20vY2F0YWxvZ3MvMC9wcm9kdWN0Lmh0bWx9Jm09e0dFVH0mcz17MjAwfSZyPXtodHRwOi8vd3d3LmFsaWJhYmEuY29tL30mYT17LX0mYj17LX0mYz17LX0=&rand="+r+"\">");
+-->
+</SCRIPT>
+<NOSCRIPT><IMG style="DISPLAY: none" height=1 alt="" 
+src="images/bCAHGQI13.jpg" width=1> </NOSCRIPT>
+<SCRIPT language=javascript type=text/javascript>	 
+function extractUrl(url)
+{
+	url = url+"";
+    var index1 = url.indexOf("&trurl=");
+    var index2 = url.indexOf("&",index1+3);
+      if(index1!=-1 && index2 !=-1)
+           url = url.substring(index1+7, index2);
+    if(index1!=-1 && index2 ==-1)
+           url = url.substring(index1+7);
+    url = unescape(url);
+	return url;
+}
+ /**
+  * sign函数
+  * url参数需要encode
+  */	     
+ function signin(){
+ if(top.location != self.location)
+ {
+   var url = "https://login.alibaba.com" + "?Done=" + escape(extractUrl(self.location));
+   top.location = url;
+  }
+  else
+  {
+  	var url = "https://login.alibaba.com" + "?Done=" + escape(document.location);
+    document.location = url;
+  }
+   //alert(escape(document.location));
+ }    
+</SCRIPT>
+
+<SCRIPT>
+function showBuy()
+{
+    var buy = document.getElementById("buyNav");
+    var sell = document.getElementById("sellNav");
+    var resource = document.getElementById("resourceNav");
+	var buycurr = document.getElementById("buyNavCurr");
+    var sellcurr = document.getElementById("sellNavCurr");
+    var resourcecurr = document.getElementById("resourceNavCurr");
+    buy.style.display = "none";
+	buycurr.style.display = "";
+	sell.style.display = "";
+	sellcurr.style.display = "none";
+	resource.style.display = "";
+	resourcecurr.style.display = "none";
+}
+function showSell()
+{
+    var buy = document.getElementById("buyNav");
+    var sell = document.getElementById("sellNav");
+    var resource = document.getElementById("resourceNav");
+	var buycurr = document.getElementById("buyNavCurr");
+    var sellcurr = document.getElementById("sellNavCurr");
+    var resourcecurr = document.getElementById("resourceNavCurr");
+    buy.style.display = "";
+	buycurr.style.display = "none";
+	sell.style.display = "none";
+	sellcurr.style.display = "";
+	resource.style.display = "";
+	resourcecurr.style.display = "none";
+}
+function showResource()
+{
+	 var buy = document.getElementById("buyNav");
+    var sell = document.getElementById("sellNav");
+    var resource = document.getElementById("resourceNav");
+	var buycurr = document.getElementById("buyNavCurr");
+    var sellcurr = document.getElementById("sellNavCurr");
+    var resourcecurr = document.getElementById("resourceNavCurr");
+    buy.style.display = "";
+	buycurr.style.display = "none";
+	sell.style.display = "";
+	sellcurr.style.display = "none";
+	resource.style.display = "none";
+	resourcecurr.style.display = "";
+}
+var texts= new Array("Search Selling Leads Now","Search Products Now","Search Suppliers Now","Search Buying Leads Now","Search Trade Shows Now");
+function changeSearchText(sType)
+{
+	var inputText = document.getElementById("SearchTextIdx")
+	if(inputText == null)
+		return;
+	switch(sType){
+				case("sell"):{
+					inputText.value = texts[0];
+					break;
+					}
+				case("buy"):{
+					inputText.value = texts[3];
+					break;
+					}
+				case("product"):{
+					inputText.value = texts[1];
+					break;
+					}
+				case("company"):{
+					inputText.value = texts[2];
+					break;
+					}
+				case("ts"):{
+					inputText.value = texts[4];
+					break;
+					}
+				}
+}
+function checkValue()
+{
+	var inputText = document.getElementById("SearchTextIdx");
+	for(var i=0;i<texts.length;i++)
+	if(inputText.value == texts[i])
+		inputText.value = "";
+}
+</SCRIPT>
+<SCRIPT>
+function showInfo()
+{
+	logInfo("12631_yatl7");
+}
+</SCRIPT>
+
+<DIV id=fixedbody>
+<SCRIPT language=javascript>
+				  try{
+						document.domain="alibaba.com"; 
+						//for lno
+					}catch(E){}
+</SCRIPT>
+
+<SCRIPT language=javascript>
+	var keywordsLogger=new CookieBuilder("keywords",8,noExpires);
+	
+	function logKeyWordsToCookie(keywords){
+	   if (keywords==null||keywords.length<1) return ;
+	   keywordsLogger.addItemToCookie(keywords);
+	}	
+	
+     	 var withinActionUrl = '';
+	 
+	 	 var withinResult = false;
+	 
+	 	 function beforeSubmit(SearchForm){
+	 
+	 var oFormIndexArea = document.getElementById("IndexAreaOptionIdx");	
+		var sv = oFormIndexArea.options[oFormIndexArea.selectedIndex].value;
+	 		  	if(trim(SearchForm.SearchText.value) == '' && sv != 'ts_en'){
+	    	alert('Please input a search term.');
+	    	return false;
+	  	}
+		/*
+		for(var i=0;i<texts.length;i++)
+		{
+			if(trim(SearchForm.SearchText.value) == texts[i]){
+	    		alert('Please input a search term.');
+	    		return false;
+	  		}
+		}
+			*/
+			if(sv=='ts_en' && get('srchLocationIdx').value.isEmpty() && get('srchYearMonthIdx').value.isEmpty() && SearchForm.SearchText.value.trim().isEmpty()){
+				alert('Please select at least one condition.');
+				return false;
+			}
+
+      		 	if(SearchForm.IndexArea.tagName.toUpperCase() == 'SELECT'){
+			
+	    		    	var selectedText = SearchForm.IndexArea.options[SearchForm.IndexArea.selectedIndex].text;
+			var selectedValue = SearchForm.IndexArea.options[SearchForm.IndexArea.selectedIndex].value;
+			var actionUrl = "";
+
+						SearchForm.Type.value = "";			
+			
+        		    	if(selectedText == 'Buying Leads'){
+	      		SearchForm.Type.value = "BUY";
+				actionUrl = "http://importer.alibaba.com/buyeroffers";
+	    	} 
+			else if(selectedText == 'Selling Leads'){ 
+    	      	SearchForm.Type.value = "SALE,AGENT,MISC";
+				actionUrl = "http://www.alibaba.com/trade/search";
+    	    } 
+			else if(selectedValue == 'ts_en'){
+				actionUrl = "http://tradeshow.alibaba.com/search";
+				tradeShowSearch();
+			}
+			else {
+				actionUrl = "http://www.alibaba.com/trade/search";
+    	    }
+			SearchForm.action = actionUrl
+	  	}
+		
+	  		  	if(withinResult && withinActionUrl != ''){ SearchForm.action = withinActionUrl; }
+		if(check(SearchForm.SearchText.value))
+		{
+			alert('Sorry, the information you filled in is not in English. Please input the information in English instead.');
+			return false;
+		}
+		//SearchForm.submit();
+	  	return true;
+	 }
+	 
+	 function   check(str)   
+      {   
+          for(i=0;i<str.length;i++){   
+          if(str.charCodeAt(i)>256)
+		  return true;   
+		}
+		return false;
+
+      }
+	 
+				function cateChange(selectObject){
+		  if (selectObject==null) return ;
+		   if (selectObject.selectedIndex<0) return ;
+			var selectOption=selectObject.options[selectObject.selectedIndex];
+			if (selectOption.value==""){
+			   for(var i=0;i<selectObject.options.length;i++){
+			       if (selectObject.options[i].value=='0'){
+				      selectObject.selectedIndex=i;
+					  break;
+				   }
+			   }
+			}
+		}
+		
+				function tradeShowSearch(){
+		
+				var form = document.forms["SearchForm"];
+				var oYearMonthSelect = form.elements["srchYearMonthIdx"];
+				var oLocationSelect = form.elements["srchLocationIdx"];
+				var oSearchText = form.elements["SearchTextIdx"];
+				
+				var ym = oYearMonthSelect.options[oYearMonthSelect.selectedIndex].value;
+				var arr = ym.split("|");
+				var year="", month="";
+
+				if(arr.length == 2){
+					year = arr[0];
+					month = arr[1];
+				}
+				form.elements["keywordIdx"].value = oSearchText.value;
+				form.elements["locationIdx"].value = oLocationSelect.options[oLocationSelect.selectedIndex].value;				
+				form.elements["yearIdx"].value = year;
+				form.elements["monthIdx"].value = month;
+		}
+		
+				function loadSearchItemsIdx(){
+		var typeSel = get('IndexAreaOptionIdx');
+			for(i=0;i<typeSel.length;i++){
+			typeSel[i].selected=false;
+		}
+		typeSel[0].selected=true;
+				searchTypeChange();
+		}
+		
+		setTimeout(loadSearchItemsIdx,1000);
+		//YUE.on(window,'load',loadSearchItemsIdx);
+		
+				function searchTypeChange(){
+
+			var oSelect1 = document.getElementById("srchYearMonthIdx");
+			var oSelect2 = document.getElementById("srchLocationIdx");
+			var oSearchText = document.getElementById("SearchTextIdx");
+			var oCountrySel = get('refineSearchCountry_id');
+			var oFormIndexArea = document.getElementById("IndexAreaOptionIdx");
+    			
+    		if(!oFormIndexArea){ return; }
+    			
+    		var sv = oFormIndexArea.options[oFormIndexArea.selectedIndex].value;
+			
+			var isHome = "";
+			
+
+				if(sv == 'ts_en'){
+    				oSelect1.style.display = '';
+    				oSelect2.style.display = '';
+    				oCountrySel.style.display = 'none';
+    				oSearchText.size = 16;
+    			}else{
+    				oSelect1.style.display = 'none';
+    				oSelect2.style.display = 'none';
+    				oCountrySel.style.display = '';
+    				oSearchText.size = 25;
+    			}
+
+			
+		}
+		
+		function SelectCountry(obj){
+	
+	   //如果选中的是More,就跳转到AdvanceSearch页面
+	  if(obj.value == "0"){
+	    document.location = "http://www.alibaba.com/trade/advancesearch";
+	    return;
+	  }
+	  
+	  }
+			
+		function printYearMonthListIdx(){
+			var monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+			var oSelect = document.getElementById("srchYearMonthIdx");
+			var now = new Date();
+			var year = now.getFullYear();
+			var month = now.getMonth();
+			var idx = 1;
+			for(i = month; i<12; i++, idx++){
+				oOption = oSelect.options[idx];
+				if(i == month){
+					oOption.innerHTML = monthNames[i] + " >> " + year;
+					oOption.value = year + "|" + (i + 1) ;
+				}else{
+					oOption.innerHTML = monthNames[i];
+					oOption.value = year + "|" + (i + 1) ;	
+				}
+			}
+			year += 1;
+			for(i = 0; i<month; i++, idx++){
+				oOption = oSelect.options[idx];
+				if(i == 0){
+					oOption.innerHTML = monthNames[i] + " >> " + year;
+					oOption.value = year + "|" + (i + 1) ;
+				}else{
+					oOption.innerHTML = monthNames[i];
+					oOption.value = year + "|" + (i + 1) ;
+				}
+			}
+
+			return oSelect;
+		}
+		function changeSearchType(sType,obj){
+			var typeSel = get('IndexAreaOptionIdx');
+			for(i=0;i<4;i++){
+			typeSel[i].selected=false;
+		}
+		var oLi=obj.parentNode.parentNode.getElementsByTagName('li');
+		YUD.removeClass(oLi,"current")
+		//changeSearchText(sType);
+		var dHomeSearchTips = get('homeSearchTips');
+		obj.parentNode.className="current";
+			switch(sType){
+				case("sell"):{
+					typeSel[0].selected=true;
+					//showBuy();
+					if(dHomeSearchTips != null)
+						dHomeSearchTips.innerHTML="<strong>#</strong>";
+					break;
+					}
+				case("buy"):{
+					typeSel[1].selected=true;
+					//showSell();
+					dHomeSearchTips.innerHTML="<strong>#</strong>";
+					break;
+					}
+				case("product"):{
+					typeSel[2].selected=true;
+					//showBuy();
+					dHomeSearchTips.innerHTML="<strong>#</strong>";
+					break;
+					}
+				case("company"):{
+					typeSel[3].selected=true;
+					//showBuy();
+					dHomeSearchTips.innerHTML="<strong>#</strong>";
+					break;
+					}
+				case("ts"):{
+					typeSel[4].selected=true;
+					//showResource();
+					dHomeSearchTips.innerHTML="<strong>#</strong>";
+					break;
+					}
+				}
+				searchTypeChange();
+			}
+	  </SCRIPT>
+<!-- aliSearch -->
+
+
+<DIV id=dcontent>
+<DIV class=winstyle2>
+<H2>全部物品类别</H2>
+<DIV class=todaysnew>
+<H4>最新动态</H4>
+<DIV class=section>
+<DIV class=live>
+<SCRIPT language=javascript type=text/javascript>
+var timer;           //定时器变量
+var amount = 2;      //速度变量，默认值为2
+var stoped = false;
+function initMarquee(marId){
+	if(document.getElementById(marId)){
+		if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 3)){		
+		   document.getElementById(marId).scrollAmount=document.getElementById(marId).clientWidth;
+		 }
+		 else{
+		   document.getElementById(marId).scrollAmount=amount;
+		 }		 
+	}
+}
+/**
+ * 开始函数，同时清除定时器
+ * marId marquee对象的id
+ */		
+function startMarquee(marId){
+    var marObj = document.getElementById(marId);
+    marObj.scrollAmount = amount;
+    marObj.start(); 
+    clearTimeout(timer);  
+    stoped = true;
+    marObj.onscroll=function(){scrolling(this);};
+}
+/**
+ * 滚动函数
+ * 把初始速度设定到最大，使得marquee框里开始就充满部分数据，
+ * 然后将初始状态保持特定时间后再开始滚动
+ * marObj marquee对象
+ * waitTime 初始状态保持时间
+ */		
+function scrollMarquee(marObj, waitTime){	
+	if(!stoped && marObj.scrollLeft <= marObj.clientWidth){
+	   marObj.stop();	     
+	   timer = setTimeout("startMarquee('"+marObj.id+"')", waitTime);
+	}
+}
+function scrolling(marObj){	 
+	marObj.stop();
+	marObj.scrollAmount = amount;
+	marObj.start();
+ 
+}
+</SCRIPT>
+
+<MARQUEE id=sellleads onmouseover=this.stop() onscroll="scrollMarquee(this, 1500)" onmouseout=scrolling(this) width="100%">
+
+</MARQUEE>
+
+
+
+<SCRIPT language=javascript type=text/javascript> 
+initMarquee("sellleads");     
+</SCRIPT>
+</DIV></DIV><A class=more href="">More</A> </DIV>
+<DIV class=categorylist>
+<DIV class="two column">
+
+
+</DIV>
+<DIV class=hackbox></DIV></DIV><BR>Our categories are built to suit you. 
+
+</DIV>
+
+
+
+
+<BR>
+<BR>
+<DIV class=winstyle2>
+<H2>推荐物品</H2>
+<TABLE class=s cellPadding=0 width="100%">
+  <TBODY>
+  <TR vAlign=top align=middle>
+    <TD width="20%"><A 
+      href="http://firefly.en.alibaba.com/product/0/203008049/CDL_7D_ENERGY_SAVING_LAMPS.html"><IMG 
+      class=sampleborder height=75 alt="Energy Saving Lamp" 
+      src="images/157062.gif" width=75 align=center vspace=4 border=0></A> 
+      <BR><A 
+      href="http://firefly.en.alibaba.com/product/0/203008049/CDL_7D_ENERGY_SAVING_LAMPS.html">Energy 
+      Saving Lamp</A> </TD>
+    <TD width="20%"><A 
+      href="http://gotfood.trustpass.alibaba.com/product/10622676/Ice_Cream_Coatings.html"><IMG 
+      class=sampleborder height=75 alt="Ice Cream Coatings" 
+      src="images/080325_ice_cream_coatings.gif" width=75 align=center 
+      vspace=4 border=0></A> <BR><A 
+      href="http://gotfood.trustpass.alibaba.com/product/10622676/Ice_Cream_Coatings.html">Ice 
+      Cream Coatings</A> </TD>
+    <TD width="20%"><A 
+      href="http://mymatrix.trustpass.alibaba.com/product/10608959/Heat_Resistant_Flavours.html"><IMG 
+      class=sampleborder height=75 alt="Heat Resistant Flavours" 
+      src="images/080325_heat_resistant_flavours.gif" width=75 
+      align=center vspace=4 border=0></A> <BR><A 
+      href="http://mymatrix.trustpass.alibaba.com/product/10608959/Heat_Resistant_Flavours.html">Heat 
+      Resistant Flavours</A> </TD>
+    <TD width="20%"><A 
+      href="http://chihyoungindl.trustpass.alibaba.com/product/12206395/Balloon_wheel.html"><IMG 
+      class=sampleborder height=75 alt="Balloon Wheel" 
+      src="images/080325_balloon_wheel.gif" width=75 align=center vspace=4 
+      border=0></A> <BR><A 
+      href="http://chihyoungindl.trustpass.alibaba.com/product/12206395/Balloon_wheel.html">Balloon 
+      Wheel</A> </TD>
+    <TD width="20%"><A 
+      href="http://irenefu.trustpass.alibaba.com/product/100120175/Jabra_Earwave_Bud_For_Most_Samsung_Phones.html"><IMG 
+      class=sampleborder height=75 alt="Jabra Earwave Bud" 
+      src="images/080325_jabra_earwave_bud_for_most_samsung_phones.gif" 
+      width=75 align=center vspace=4 border=0></A> <BR><A 
+      href="http://irenefu.trustpass.alibaba.com/product/100120175/Jabra_Earwave_Bud_For_Most_Samsung_Phones.html">Jabra 
+      Earwave Bud</A> </TD></TR>
+  <TR vAlign=top align=middle>
+    <TD width="20%"><A 
+      href="http://continent.en.alibaba.com/product/50140368/50627454/Enzyme/KDNzyme_Dry.html"><IMG 
+      class=sampleborder height=75 alt="KDNzyme Dry" 
+      src="images/kdnzyme_dry.gif" width=75 align=center vspace=4 
+      border=0></A> <BR><A 
+      href="http://continent.en.alibaba.com/product/50140368/50627454/Enzyme/KDNzyme_Dry.html">KDNzyme 
+      Dry</A> </TD>
+    <TD width="20%"><A 
+      href="http://hisina.en.alibaba.com/product/50164065/50577255/Ceramic_Foam_Filter/Ceramic_Honeycomb.html"><IMG 
+      class=sampleborder height=75 alt="Ceramic Honeycomb" 
+      src="images/ceramic_honeycomb.gif" width=75 align=center vspace=4 
+      border=0></A> <BR><A 
+      href="http://hisina.en.alibaba.com/product/50164065/50577255/Ceramic_Foam_Filter/Ceramic_Honeycomb.html">Ceramic 
+      Honeycomb</A> </TD>
+    <TD width="20%"><A 
+      href="http://xflmhg.en.alibaba.com/product/50063453/50287563/Pearl_Luster_Pigments/Pearl_Pigment.html"><IMG 
+      class=sampleborder height=75 alt="Pearl Pigment" 
+      src="images/pearl_pigment.gif" width=75 align=center vspace=4 
+      border=0></A> <BR><A 
+      href="http://xflmhg.en.alibaba.com/product/50063453/50287563/Pearl_Luster_Pigments/Pearl_Pigment.html">Pearl 
+      Pigment</A> </TD>
+    <TD width="20%"><A 
+      href="http://huatao.en.alibaba.com/product/50031341/50143524/Body_Stains/Red_Stain.html"><IMG 
+      class=sampleborder height=75 alt="Red Stain" 
+      src="images/red_stain.gif" width=75 align=center vspace=4 
+      border=0></A> <BR><A 
+      href="http://huatao.en.alibaba.com/product/50031341/50143524/Body_Stains/Red_Stain.html">Red 
+      Stain</A> </TD>
+    <TD width="20%"><A 
+      href="http://qzyuexing.en.alibaba.com/product/50022208/51546433/Washing_Powder/Washing_Powder.html"><IMG 
+      class=sampleborder height=75 alt="Washing Powder" 
+      src="images/washing_powder.gif" width=75 align=center vspace=4 
+      border=0></A> <BR><A 
+      href="http://qzyuexing.en.alibaba.com/product/50022208/51546433/Washing_Powder/Washing_Powder.html">Washing 
+  Powder</A> </TD></TR></TBODY></TABLE></DIV></DIV>
+</DIV>
+</BODY></HTML>
