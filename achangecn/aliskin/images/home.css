@@ -182,7 +182,10 @@ INPUT.buttonSkinB {
 	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; FONT-SIZE: 1em; PADDING-BOTTOM: 0px; MARGIN: 0px -12px; COLOR: #888; PADDING-TOP: 0px; BORDER-BOTTOM: #ccc 1px dotted
 }
 .win .box {
-	PADDING-RIGHT: 11px; PADDING-LEFT: 11px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+	PADDING-RIGHT: 11px; 
+	PADDING-LEFT: 11px; 
+	PADDING-BOTTOM: 4px; 
+	PADDING-TOP: 4px
 }
 .win .box .promot {
 	PADDING-RIGHT: 12px; BORDER-TOP: #dae4f0 1px solid; PADDING-LEFT: 12px; PADDING-BOTTOM: 4px; MARGIN: -4px -11px; PADDING-TOP: 4px; BACKGROUND-COLOR: #f3f6fd
@@ -203,7 +206,11 @@ INPUT.buttonSkinB {
 	COLOR: #7b2e00
 }
 .winHomeA.win .box {
-	BORDER-RIGHT: #ffb64b 1px solid; BORDER-TOP: #ffb64b 1px; BORDER-LEFT: #ffb64b 1px solid; BORDER-BOTTOM: #ffb64b 1px solid; BACKGROUND-COLOR: #fffbef
+	BORDER-RIGHT: #ffb64b 1px solid; 
+	BORDER-TOP: #ffb64b 1px; 
+	BORDER-LEFT: #ffb64b 1px solid; 
+	BORDER-BOTTOM: #ffb64b 1px solid; 
+	BACKGROUND-COLOR: #fffbef
 }
 .winHomeB.win {
 	BACKGROUND: url(http://img.alibaba.com/images/eng/style/css_images/window/winSkinALeft.gif) #c0d6e5 no-repeat; WIDTH: 100%
@@ -298,24 +305,66 @@ INPUT.buttonSkinB {
 .format3.tabsH .viewAllBlock A {
 	FONT-SIZE: 10px; FONT-FAMILY: tahoma; outline: none
 }
+
+
+
+
 .mainCategory {
-	PADDING-RIGHT: 0px! important; PADDING-LEFT: 0px! important; PADDING-BOTTOM: 4px! important; WIDTH: 178px; PADDING-TOP: 4px! important; POSITION: relative
+	PADDING-RIGHT: 0px! important; 
+	PADDING-LEFT: 0px! important; 
+	PADDING-BOTTOM: 0px! important; 
+	WIDTH: 178px; 
+	PADDING-TOP: 4px! important; 
+	POSITION: relative
 }
+
 .mainCategory UL {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 1em/120% tahoma; WIDTH: 178px; PADDING-TOP: 0px
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: 0px; 
+	FONT: 1em/120% tahoma; 
+	WIDTH: 178px; 
+	PADDING-TOP: 0px
 }
+
 .mainCategory LI {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LIST-STYLE-IMAGE: none; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 2px 1px; WIDTH: 177px; PADDING-TOP: 0px
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; 
+	LIST-STYLE-IMAGE: none; 
+	PADDING-BOTTOM: 0px; 
+	MARGIN: 0px 0px 2px 1px; 
+	WIDTH: 177px; 
+	PADDING-TOP: 0px
 }
+
+
+
+
 .mainCategory LI STRONG {
 	FONT-SIZE: 1.2em
 }
 .mainCategory LI A {
-	BORDER-RIGHT: #fffbef 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fffbef 2px solid; DISPLAY: block; PADDING-LEFT: 10px; PADDING-BOTTOM: 2px; BORDER-LEFT: #fffbef 1px solid; WIDTH: 165px; PADDING-TOP: 2px; BORDER-BOTTOM: #fffbef 1px solid
+BORDER-RIGHT: #fffbef 1px solid; 
+PADDING-RIGHT: 0px; 
+BORDER-TOP: #fffbef 2px solid; 
+DISPLAY: block; 
+PADDING-LEFT: 10px; 
+PADDING-BOTTOM: 2px; 
+BORDER-LEFT: #fffbef 1px solid; 
+WIDTH: 165px; 
+PADDING-TOP: 2px; 
+BORDER-BOTTOM: #fffbef 1px solid
 }
+
 .mainCategory LI A:hover {
-	BORDER-RIGHT: #ffb74b 1px solid; BORDER-TOP: #fc8c2a 2px solid; BORDER-LEFT: #ffb74b 1px solid; BORDER-BOTTOM: #ffb74b 1px solid; BACKGROUND-COLOR: #fff1d1
+BORDER-RIGHT: #ffb74b 1px solid; 
+BORDER-TOP: #fc8c2a 2px solid; 
+BORDER-LEFT: #ffb74b 1px solid; 
+BORDER-BOTTOM: #ffb74b 1px solid; 
+BACKGROUND-COLOR: #fff1d1
 }
+
 .mainCategory LI.current A {
 	BORDER-RIGHT: #ffb74b 1px solid; BORDER-TOP: #fc8c2a 2px solid; BORDER-LEFT: #ffb74b 1px solid; BORDER-BOTTOM: #ffb74b 1px solid; BACKGROUND-COLOR: #fff1d1
 }

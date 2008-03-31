@@ -1,6 +1,6 @@
 ﻿<!-- 
-var focus_width=360;  
- var focus_height=190; 
+var focus_width=445;  
+ var focus_height=180; 
 var text_height=0; 
 var swf_height = focus_height+text_height; 
 var pics = '../YX_UpFile/Big/200711121651765.jpg|../YX_UpFile/Big/200711121651937.jpg|../YX_UpFile/Big/200711121651921.jpg|../YX_UpFile/Big/200711121651734.jpg';
