@@ -194,10 +194,10 @@ INPUT.buttonSkinB {
 	FLOAT: right; MARGIN: 8px 8px 0px 0px; FONT: 0.8em verdana
 }
 .winHomeA.win {
-	BACKGROUND: url(http://img.alibaba.com/images/eng/style/css_images/window/winHomeA_left.gif) #ffd58d no-repeat
+	BACKGROUND: url(../IMAGES/winHomeA_left.gif) #ffd58d no-repeat
 }
 .winHomeA.win H3 {
-	BACKGROUND: url(http://img.alibaba.com/images/eng/style/css_images/window/winHomeA_right.gif) #ffd58d no-repeat right top; COLOR: #7b2e00; BORDER-BOTTOM: #ff8f27 1px solid
+	BACKGROUND: url(../IMAGES/winSkinARight.gif) #ffd58d no-repeat right top; COLOR: #7b2e00; BORDER-BOTTOM: #ff8f27 1px solid
 }
 .winHomeA.win H3 .remark {
 	COLOR: #7b2e00
@@ -206,10 +206,10 @@ INPUT.buttonSkinB {
 	BORDER-RIGHT: #ffb64b 1px solid; BORDER-TOP: #ffb64b 1px; BORDER-LEFT: #ffb64b 1px solid; BORDER-BOTTOM: #ffb64b 1px solid; BACKGROUND-COLOR: #fffbef
 }
 .winHomeB.win {
-	BACKGROUND: url(http://img.alibaba.com/images/eng/style/css_images/window/winSkinALeft.gif) #c0d6e5 no-repeat; WIDTH: 100%
+	BACKGROUND: url(../IMAGES/winSkinALeft.gif) #c0d6e5 no-repeat; WIDTH: 100%
 }
 .winHomeB.win H3 {
-	FONT-WEIGHT: bold; BACKGROUND: url(http://img.alibaba.com/images/eng/style/css_images/window/winSkinARight.gif) #c0d6e5 no-repeat right top; COLOR: #081b39
+	FONT-WEIGHT: bold; BACKGROUND: url(../IMAGES/winSkinARight.gif) #c0d6e5 no-repeat right top; COLOR: #081b39
 }
 .winHomeB.win .box {
 	BORDER-RIGHT: #9bbdd3 1px solid; BORDER-TOP: #9bbdd3 1px solid; BORDER-LEFT: #9bbdd3 1px solid; BORDER-BOTTOM: #9bbdd3 1px solid; BACKGROUND-COLOR: #fff
@@ -308,10 +308,10 @@ INPUT.buttonSkinB {
 	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LIST-STYLE-IMAGE: none; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 2px 1px; WIDTH: 177px; PADDING-TOP: 0px
 }
 .mainCategory LI STRONG {
-	FONT-SIZE: 1.2em
+	FONT-SIZE: 1.0em
 }
 .mainCategory LI A {
-	BORDER-RIGHT: #fffbef 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fffbef 2px solid; DISPLAY: block; PADDING-LEFT: 10px; PADDING-BOTTOM: 2px; BORDER-LEFT: #fffbef 1px solid; WIDTH: 165px; PADDING-TOP: 2px; BORDER-BOTTOM: #fffbef 1px solid
+	BORDER-RIGHT: #fffbef 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fffbef 2px solid; DISPLAY: block; PADDING-LEFT: 1px; PADDING-BOTTOM: 2px; BORDER-LEFT: #fffbef 1px solid; WIDTH: 165px; PADDING-TOP: 2px; BORDER-BOTTOM: #fffbef 1px solid
 }
 .mainCategory LI A:hover {
 	BORDER-RIGHT: #ffb74b 1px solid; BORDER-TOP: #fc8c2a 2px solid; BORDER-LEFT: #ffb74b 1px solid; BORDER-BOTTOM: #ffb74b 1px solid; BACKGROUND-COLOR: #fff1d1
@@ -322,6 +322,24 @@ INPUT.buttonSkinB {
 .mainCategory LI A:visited {
 	COLOR: #039
 }
+
+
+.mainCategory LI .bigclassname a{ 
+    font-weight:bold;
+	color:#0044DD;
+	font-size:13px;
+}
+.mainCategory LI .bigclassname a:hover{
+	color:#FF5500;
+	font-size:13px;
+	text-decoration:underline;
+}    
+
+
+
+
+
+
 .ctgPlusItem {
 	LEFT: 0px; WIDTH: 180px; POSITION: absolute; TOP: 0px; HEIGHT: 330px
 }
@@ -637,8 +655,8 @@ DIV.image75-left UL {
 .frameA#page960 {
 	POSITION: relative
 }
-.frameA#page960 .colL {
-	Z-INDEX: 8; LEFT: 0px; WIDTH: 180px; POSITION: absolute; TOP: 130px
+.colL {
+	Z-INDEX: 8; LEFT: 0px; WIDTH: 180px;
 }
 .frameA#page960 .colR {
 	MARGIN-LEFT: -193px; WIDTH: 100%
