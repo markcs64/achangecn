@@ -542,7 +542,7 @@ INPUT.buttonSkinB {
 	DISPLAY: inline
 }
 #mainNav LI {
-	DISPLAY: block; BACKGROUND: url(http://img.alibaba.com/images/eng/style/css_images/navigation/mainNavHome.gif) #ffffdd no-repeat right 50%; FLOAT: left; MARGIN-RIGHT: 4px
+	DISPLAY: block; BACKGROUND: url(../IMAGE/top_menu_r.png) #ffffdd no-repeat right 50%; FLOAT: left; MARGIN-RIGHT: 4px
 }
 #mainNav A:link {
 	DISPLAY: block; FONT: bold 11px/20px arial; WIDTH: 83px; COLOR: #4e2207; HEIGHT: 21px; TEXT-ALIGN: center; TEXT-DECORATION: none
@@ -599,11 +599,11 @@ DIV.image75-left UL {
 	BACKGROUND: url(http://img.alibaba.com/images/eng/style/css_images/navigation/headCap.gif) #fff repeat-x; HEIGHT: 80px; 
 }
 
-#Head #HeadNavBar{
+#HeadNavBar{
 	float: right; margin-top:10px;
 }
 
-#Head #HeadNavBar li {
+#HeadNavBar li {
 	float:left;
 	height:21px;
 	display:inline;
@@ -611,7 +611,7 @@ DIV.image75-left UL {
 	background: url(../IMAGE/top_menu_r.png) no-repeat right top;
 }
 
-#Head #HeadNavBar li a{
+#HeadNavBar li a{
 	display:block;
 	padding: 0 6px 0 7px;
 	float:left;
@@ -627,7 +627,7 @@ DIV.image75-left UL {
 #login_stat{font: 1em/180% arial; margin-top:0px;}
 
 #Logo {
-	FLOAT: left; FONT: bold 10px verdana; MARGIN-RIGHT: 15px; height:70px;
+	FLOAT: left; FONT: bold 10px verdana; MARGIN-RIGHT: 15px; 
 }
 .header960 {
 	MARGIN: auto; WIDTH: 960px
