@@ -553,5 +553,7 @@ BACKGROUND-COLOR: #fff; height:200px;
 	PADDING-LEFT: 72px;
 }
 
-
+body.W950 #Content{
+	width:960px;
+}
 

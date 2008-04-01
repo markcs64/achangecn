@@ -63,17 +63,18 @@ div.L180 #SideBar{
 	width:180px;
 }
 /* Sidebar 180, Right */
-div.R180 #Main{
+div.R180 #Main{ background:#0000CC;
 	float:left;
 	width:100%;
-	margin:0 -190px 0 0;
+
 }
 div.R180 #Container{
-	margin:0 190px 0 0;
+	float:left;
+	width:700px;
 }
 div.R180 #SideBar{
 	float:right;
-	width:180px;
+	width:240px;
 }
 /* Sidebar 250, Left */
 div.L250 #Main{
