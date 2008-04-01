@@ -181,44 +181,60 @@ initMarquee("sellleads");
 
 </DIV>
 <DIV id=rightbox>
+<DIV class="tabsH format3" id=productCycle>
+<H3>最新动态</H3>
 
-<DIV class=MarketStyle id=MallWindow>
-<H2><SPAN></SPAN></H2>
-<P class=Summary><A title='' href="shop.aspx" target=_blank>100%认证商家 开心逛放心买</A></P>
-<UL class=MallGuide>
-{#SpecialShop*2,2,15,2,1#}
-</UL>
-</DIV>
-<DIV class=MarketStyle id=SecondhandWindow>
-<H2><SPAN></SPAN></H2>
-<P class=Summary><A title='' href="Productlist.aspx?distype=6" target=_blank>易想跳蚤市场  便宜笑到底</A></P>
-{#Hope_Pro*3,3,15,0,5,50,50,1#} 
-</UL>
-</DIV>
-
-
-<DIV id=GlobalWindow style="margin-top:10px;">
-<H2>推荐</H2>
+<DIV class=leadsCycle>
+<DIV class="column">
+<H2><A href="">最新易出</A></H2>
 <UL>
-{#Hope_Pro*2,3,15,0,1,50,50,1#}
+  <LI> </LI>
 </UL>
-<P ><A href="Hotsell.aspx" 
-target=_blank></A></P>
-<P class=More><A href="Productlist.aspx?1=1&distype=2" 
-target=_blank>更多&gt;&gt;</A></P>
-</DIV>
-<DIV id=TradeSafe>
-<H2>交易安全</H2>
-<UL class=PostList>
-  {#Hope_Article*1,9,12,18,0,0,62#}
+
+<H2><A href="">最新易入</A></H2>
+<UL>
+  <LI> </LI>
 </UL>
-<P class=More><A href="News/ArticleList.aspx?Flag=1&ClassId=18" 
-target=_blank>更多&gt;&gt;</A></P>
-</DIV>
-
-
+  </DIV>
 
 </DIV>
+
+<DIV class="box s">
+
+<H2><A href="">最新推荐</A></H2>
+</DIV>
+</DIV>
+
+<DIV class=bigBuyer><STRONG>易物流程</STRONG> 
+
+</DIV>
+
+<DIV class="tabsH format3" id=productCycle>
+<H3>易物学院</H3>
+
+<DIV class=leadsCycle>
+
+
+</DIV>
+
+<DIV class="tabsH_bottom"></DIV>
+</DIV>
+
+<DIV class="win winHomeB">
+<H3>易物帮助</H3>
+<DIV class=box> 
+</DIV>
+</DIV>
+
+<DIV class="win winHomeB">
+<H3>安全的易物中介</H3>
+<DIV class=box 
+style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: white; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
+<DIV class=s style="PADDING-RIGHT: 10px; PADDING-LEFT: 120px; BACKGROUND: url({$Hope_Skin$}IMAGES/safecenter.gif) #173763 no-repeat left bottom; PADDING-BOTTOM: 10px; COLOR: white; PADDING-TOP: 10px; HEIGHT: 60px"></DIV>
+<DIV class=s style="PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; LINE-HEIGHT: 18px; PADDING-TOP: 8px">  </DIV>
+  </DIV>
+</DIV>
+
 </DIV>
 {$Hope_Bottom$}
 </BODY>
