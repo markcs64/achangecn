@@ -240,7 +240,7 @@ TEXT-DECORATION: none
 	CLEAR: both; BACKGROUND: url(../IMAGES/Search_tabsBg.gif) #f5f8fb repeat-x 50% top; _height: 1%
 }
 .aliSearch UL {
-	LIST-STYLE-IMAGE: none; MARGIN: 0px 0px 0px 200px; LIST-STYLE-TYPE: none; HEIGHT: 30px
+	LIST-STYLE-IMAGE: none; MARGIN: 0px 0px 0px 150px; LIST-STYLE-TYPE: none; HEIGHT: 30px
 }
 .aliSearch LI {
 	BACKGROUND: url(../IMAGES/Search_tabsLeft.gif) #d6e5ee no-repeat left top; FLOAT: left; MARGIN-RIGHT: 2px
