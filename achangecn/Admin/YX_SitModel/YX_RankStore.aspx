@@ -34,8 +34,8 @@
   <table  cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
          <tr>
           <td height="25"class="category t2" width=100>
-              店铺等级分类</td>
-          <td class="category" align=left><a href="?falg=mager">[店铺等级管理]</a> <a href="?falg=add">[添加店铺等级]</a> <a href="?falg=check">[店铺等级审核]</a>
+              易家等级分类</td>
+          <td class="category" align=left><a href="?falg=mager">[易家等级管理]</a> <a href="?falg=add">[添加易家等级]</a> <a href="?falg=check">[易家等级审核]</a>
            </td>
         </tr>
  </table>
@@ -43,14 +43,14 @@
 	   <table  cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
   <tr>
     <td align="center" bgcolor="#F6F6F6" style="text-align: left; width: 85px;">
-        店铺等级名称：</td>
+        易家等级名称：</td>
     <td height="22" bgcolor="#F6F6F6"  align="left">
         <asp:TextBox ID="YX_Dl" runat="server" Width=200></asp:TextBox><span style="color:Red"">*</span>
      <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="必填项" ControlToValidate="YX_Dl"></asp:RequiredFieldValidator></td>
   </tr>
   <tr>
     <td align="center" bgcolor="#E7E7E7" style="text-align: right; width: 85px;">
-        店铺等级金额：</td>
+        易家等级金额：</td>
     <td height="22" align="left" bgcolor="#E7E7E7" >
         <asp:TextBox ID="YX_Je" runat="server"   Width="180px"></asp:TextBox>
         /月<span style="color:Red"">*</span>
@@ -58,15 +58,15 @@
             ErrorMessage="必填项" Display="Dynamic"></asp:RequiredFieldValidator></td>
   </tr>
   <tr>
-    <td align="center" bgcolor="#F6F6F6" style="text-align: right; width: 85px;">&nbsp;店铺优先级：</td>
+    <td align="center" bgcolor="#F6F6F6" style="text-align: right; width: 85px;">&nbsp;易家优先级：</td>
     <td height="22" align="left" bgcolor="#F6F6F6" style="width: 400px">
         <asp:TextBox ID="Text_sx" runat="server" Width="180px"></asp:TextBox><span style="color: #ff0000">*</span>
         <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="Text_sx"
-            Display="Dynamic" ErrorMessage="必填项"></asp:RequiredFieldValidator>店铺优先级为整数（1，2，3....）</td>
+            Display="Dynamic" ErrorMessage="必填项"></asp:RequiredFieldValidator>易家优先级为整数（1，2，3....）</td>
   </tr>
     <tr>
     <td align="center" bgcolor="#E7E7E7" style="text-align: left; width: 85px;">
-        发布商品数量：</td>
+        发布物品数量：</td>
     <td height="22" align="left" bgcolor="#E7E7E7" >
         <asp:TextBox ID="Text_num" runat="server"   Width="180px"></asp:TextBox>
         个<span style="color:Red"">*</span>
@@ -85,15 +85,15 @@
   <table  cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
          <tr>
           <td height="25"class="category t2" width=100>
-              店铺等级分类</td>
-          <td class="category" align=left><a href="?falg=mager">[店铺等级管理]</a> <a href="?falg=add">[添加店铺等级]</a> <a href="?falg=check">[店铺等级审核]</a>
+              易家等级分类</td>
+          <td class="category" align=left><a href="?falg=mager">[易家等级管理]</a> <a href="?falg=add">[添加易家等级]</a> <a href="?falg=check">[易家等级审核]</a>
            </td>
         </tr>
  </table>
             <table  cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
                 <tr>
                     <td align="center" bgcolor="#F6F6F6" style="text-align: right; width: 87px;">
-                        店铺等级名称：</td>
+                        易家等级名称：</td>
                     <td height="25" bgcolor="#F6F6F6"  align="left">
                         <asp:TextBox ID="Text_dls" runat="server" Width="196px"></asp:TextBox><span style="color:Red"">*</span>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator3"  runat="server" ControlToValidate="Text_dls"
@@ -101,22 +101,22 @@
                 </tr>
                 <tr style="color: #000000">
                     <td align="center" bgcolor="#E7E7E7" style="text-align: right; width: 87px;">
-                        <span style="background-color: #e7e7e7">店铺等级金额：</span></td>
+                        <span style="background-color: #e7e7e7">易家等级金额：</span></td>
                     <td height="25" bgcolor="#E7E7E7"  align="left">
                         <asp:TextBox ID="Text_Jes" runat="server"  Width="194px"></asp:TextBox>/月<span style="color:Red"">*</span>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="Text_Jes"
                             Display="Dynamic" ErrorMessage="必填项"></asp:RequiredFieldValidator></td>
                 </tr>
                 <tr>
-                    <td align="center" bgcolor="#F6F6F6" style="height: 27px; width: 87px; text-align: right;">&nbsp;店铺优先级：</td>
+                    <td align="center" bgcolor="#F6F6F6" style="height: 27px; width: 87px; text-align: right;">&nbsp;易家优先级：</td>
                     <td bgcolor="#F6F6F6" style="width: 400px; height: 27px;" align="left">
                         <asp:TextBox ID="Text_sxs" runat="server" Width="180px"></asp:TextBox><span style="color: #ff0000">*</span>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="Text_sxs"
-                            Display="Dynamic" ErrorMessage="必填项"></asp:RequiredFieldValidator>店铺优先级为整数（1，2，3....）</td>
+                            Display="Dynamic" ErrorMessage="必填项"></asp:RequiredFieldValidator>易家优先级为整数（1，2，3....）</td>
                 </tr>
                     <tr>
     <td align="center" bgcolor="#E7E7E7" style="text-align: left; width: 85px;">
-        发布商品数量：</td>
+        发布物品数量：</td>
     <td height="22" align="left" bgcolor="#E7E7E7" >
         <asp:TextBox ID="Text_nums" runat="server"   Width="180px"></asp:TextBox>
         个<span style="color:Red"">*</span>
@@ -137,8 +137,8 @@
 	  <table  cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
          <tr>
           <td height="25"class="category t2" width=100>
-              店铺等级分类</td>
-          <td class="category" align=left><a href="?falg=mager">[店铺等级管理]</a> <a href="?falg=add">[添加店铺等级]</a> <a href="?falg=check">[店铺等级审核]</a>
+              易家等级分类</td>
+          <td class="category" align=left><a href="?falg=mager">[易家等级管理]</a> <a href="?falg=add">[添加易家等级]</a> <a href="?falg=check">[易家等级审核]</a>
            </td>
         </tr>
  </table>
@@ -162,7 +162,7 @@
                 </ItemTemplate>
                       <HeaderStyle CssClass="B" />
              </asp:TemplateColumn>
-			      <asp:TemplateColumn HeaderText="店铺等级名称">
+			      <asp:TemplateColumn HeaderText="易家等级名称">
                 <ItemTemplate >
 				<%#Eval("yx_name")%>			
                 </ItemTemplate>
@@ -222,8 +222,8 @@
 	  <table  cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
          <tr>
           <td height="25"class="category t2" width=100>
-              店铺等级分类</td>
-          <td class="category" align=left><a href="?falg=mager">[店铺等级管理]</a> <a href="?falg=add">[添加店铺等级]</a> <a href="?falg=check">[店铺等级审核]</a>
+              易家等级分类</td>
+          <td class="category" align=left><a href="?falg=mager">[易家等级管理]</a> <a href="?falg=add">[添加易家等级]</a> <a href="?falg=check">[易家等级审核]</a>
            </td>
         </tr>
           <tr>
@@ -260,13 +260,13 @@
                 </ItemTemplate>
                       <HeaderStyle CssClass="B" />
              </asp:TemplateColumn>
-             <asp:TemplateColumn HeaderText="店铺名称">
+             <asp:TemplateColumn HeaderText="易家名称">
                 <ItemTemplate >	
 			<%# DataBinder.Eval(Container.DataItem,"YX_ShopName") %>
 				                </ItemTemplate>
                   <HeaderStyle CssClass="B" />
              </asp:TemplateColumn>
-			 <asp:TemplateColumn HeaderText="店铺等级">
+			 <asp:TemplateColumn HeaderText="易家等级">
                 <ItemTemplate >
 			<%#Set_DJ(Convert.ToInt32( DataBinder.Eval(Container.DataItem, "yx_shopdj")))%>
                 </ItemTemplate>
@@ -284,7 +284,7 @@
                 </ItemTemplate>
                   <HeaderStyle CssClass="B" />
              </asp:TemplateColumn>
-              <asp:TemplateColumn HeaderText="店铺期限">
+              <asp:TemplateColumn HeaderText="易家期限">
                 <ItemTemplate >
 			<%# DataBinder.Eval(Container.DataItem, "yx_endtime")%>
                 </ItemTemplate>

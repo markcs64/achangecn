@@ -34,7 +34,7 @@
 	
  <table width="100%" border="0" cellpadding="0" cellspacing="0"  id="menu">
   <tr>
-    <td width="30%"  id=top1><asp:LinkButton ID="LinkButton3" runat="server" CssClass="toptitle" OnClick="LinkButton1_Click">商品留言</asp:LinkButton></td>
+    <td width="30%"  id=top1><asp:LinkButton ID="LinkButton3" runat="server" CssClass="toptitle" OnClick="LinkButton1_Click">物品留言</asp:LinkButton></td>
     <td width="30%" id=top3><asp:LinkButton ID="LinkButton5" runat="server" CssClass="toptitle" OnClick="LinkButton5_Click">求购留言</asp:LinkButton></td>
     <td width="30%"  id=top2><asp:LinkButton ID="LinkButton4" runat="server" CssClass="toptitle" OnClick="LinkButton2_Click" >店铺留言</asp:LinkButton></td>
     <td width="10%">&nbsp;</td>
@@ -50,7 +50,7 @@
         <ItemTemplate><%#  DataBinder.Eval(Container.DataItem,"YX_ID") %></ItemTemplate>
             <HeaderStyle Width="10px"  BackColor="#F4F4F4"/>
         </asp:TemplateColumn >
-        <asp:TemplateColumn HeaderText="商品名称">
+        <asp:TemplateColumn HeaderText="物品名称">
         <ItemTemplate><a target="_blank" href="../ShowProduct.aspx?YX_MID=<%# DataBinder.Eval(Container.DataItem, "YX_proid") %>"><%# DataBinder.Eval(Container.DataItem, "yx_productname")%></a></ItemTemplate>
             <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
                 Font-Underline="False" HorizontalAlign="Center" VerticalAlign="Middle" Width="260px" />
@@ -92,7 +92,7 @@
             </tr>
         </table>
   
-           <div class="note" style="width:98%">注：这里显示的是您给卖家的留言提示。卖家回复后，您可以点击“卖家已回复”，在商品页面看到卖家给您的回复。 如果您不想看到某条提示，可以选中它，点击“不再提示”。</div>	
+           <div class="note" style="width:98%">注：这里显示的是您给卖家的留言提示。卖家回复后，您可以点击“卖家已回复”，在物品页面看到卖家给您的回复。 如果您不想看到某条提示，可以选中它，点击“不再提示”。</div>	
     </div>
        
         </asp:Panel>
@@ -154,7 +154,7 @@
             </tr>
         </table>
   
-           <div class="note" style="width:98%">注：这里显示的是您给卖家的留言提示。卖家回复后，您可以点击“卖家已回复”，在商品页面看到卖家给您的回复。 如果您不想看到某条提示直接删除。</div>	
+           <div class="note" style="width:98%">注：这里显示的是您给卖家的留言提示。卖家回复后，您可以点击“卖家已回复”，在物品页面看到卖家给您的回复。 如果您不想看到某条提示直接删除。</div>	
     </div>
        
         </asp:Panel>
@@ -167,7 +167,7 @@
         <ItemTemplate><%#  DataBinder.Eval(Container.DataItem,"YX_ID") %></ItemTemplate>
             <HeaderStyle Width="10px"  BackColor="#F4F4F4"/>
         </asp:TemplateColumn >
-        <asp:TemplateColumn HeaderText="商品名称">
+        <asp:TemplateColumn HeaderText="物品名称">
         <ItemTemplate><a target="_blank" href="../ShowBuyProduct.aspx?YX_MID=<%# DataBinder.Eval(Container.DataItem, "YX_proid") %>"><%# DataBinder.Eval(Container.DataItem, "yx_productname")%></a></ItemTemplate>
             <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
                 Font-Underline="False" HorizontalAlign="Center" VerticalAlign="Middle" Width="260px" />
@@ -207,7 +207,7 @@
             </tr>
         </table>
   
-           <div class="note" style="width:98%">注：这里显示的是您给卖家的留言提示。卖家回复后，您可以点击“卖家已回复”，在商品页面看到卖家给您的回复。 如果您不想看到某条提示，可以选中它，点击“不再提示”。</div>	
+           <div class="note" style="width:98%">注：这里显示的是您给卖家的留言提示。卖家回复后，您可以点击“卖家已回复”，在物品页面看到卖家给您的回复。 如果您不想看到某条提示，可以选中它，点击“不再提示”。</div>	
     </div>
        
         </asp:Panel>

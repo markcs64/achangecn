@@ -26,10 +26,10 @@
     <form id="form1" runat="server">
       <table  align="center" cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
          <tr>
-          <td height="25" class="category t2" width=100>商品分类管理</td>
+          <td height="25" class="category t2" width=100>物品分类管理</td>
          <td class="category">
-             <asp:HyperLink ID="HyperLink1" NavigateUrl="AddProduct.aspx?YX_FS=Admin" runat="server">[已审商品管理]</asp:HyperLink>
-             <asp:HyperLink ID="HyperLink2" NavigateUrl="AddProduct.aspx?YX_FS=Admin&YX_fla=1" runat="server">[未审商品管理]</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink1" NavigateUrl="AddProduct.aspx?YX_FS=Admin" runat="server">[已审物品管理]</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink2" NavigateUrl="AddProduct.aspx?YX_FS=Admin&YX_fla=1" runat="server">[未审物品管理]</asp:HyperLink>
                         
            </td>
         </tr>
@@ -39,16 +39,16 @@
 
 		 <table  align="center" cellpadding="1" cellspacing="1" border="0" width=100%  class="toptable grid">
             <tr>
-              <td align="center"  class="topbg B" colspan=2>商品修改</td>
+              <td align="center"  class="topbg B" colspan=2>物品修改</td>
             </tr>
           
             <tr>
               <td align="center" bgcolor="#F6F6F6" style="width: 151px">标识：</td>
               <td height="25" align="left" bgcolor="#F6F6F6" >
                  
-                  <input id="CH14" type="checkbox" runat="server" style="border:0" name="CH14"/>热卖商品
-                  <input id="CH16" type="checkbox" runat="server" style="border:0" name="CH16"/>特价商品
-                  <input id="CH15" type="checkbox" runat="server" style="border:0" name="CH15"/>推荐商品
+                  <input id="CH14" type="checkbox" runat="server" style="border:0" name="CH14"/>热卖物品
+                  <input id="CH16" type="checkbox" runat="server" style="border:0" name="CH16"/>特价物品
+                  <input id="CH15" type="checkbox" runat="server" style="border:0" name="CH15"/>推荐物品
                   <input id="CH17" type="checkbox" runat="server" style="border:0" name="CH15"/>首页显示
                   </td>
               <td bgcolor="#F6F6F6">&nbsp;

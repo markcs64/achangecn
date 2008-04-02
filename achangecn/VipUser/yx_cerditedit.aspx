@@ -55,9 +55,9 @@ function window.onload()
                     有 <b class="font_orange"><a href="yx_cerdpj.aspx"><%=countpinjia() %></a></b> 条新的评价需要您作出&nbsp;&nbsp;&nbsp;<a href="yx_cerdpj.aspx">马上评价</a>
                 </div></div>
                 <div style="width: 213px; height: 24px">
-                    已卖出的商品(0)</div>
+                    已卖出的物品(0)</div>
                 <div style="width: 214px; height: 24px">
-                    已买到的商品(0)</div>   
+                    已买到的物品(0)</div>   
                 <div style="width: 213px; height: 24px">
                     您共收到 0次评价</div>
                 <div style="width: 213px; height: 24px">

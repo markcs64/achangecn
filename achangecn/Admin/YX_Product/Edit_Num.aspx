@@ -29,10 +29,10 @@
     
      <table  align="center" cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
          <tr>
-          <td height="25" class="category t2" width=100>商品分类管理</td>
+          <td height="25" class="category t2" width=100>物品分类管理</td>
          <td class="category">
-             <asp:HyperLink ID="HyperLink1" NavigateUrl="AddProduct.aspx?YX_FS=Admin" runat="server">[已审商品管理]</asp:HyperLink>
-             <asp:HyperLink ID="HyperLink2" NavigateUrl="AddProduct.aspx?YX_FS=Admin&YX_fla=1" runat="server">[未审商品管理]</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink1" NavigateUrl="AddProduct.aspx?YX_FS=Admin" runat="server">[已审物品管理]</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink2" NavigateUrl="AddProduct.aspx?YX_FS=Admin&YX_fla=1" runat="server">[未审物品管理]</asp:HyperLink>
                         
            </td>
         </tr>
@@ -42,7 +42,7 @@
       <asp:Panel ID="Panel3" runat="server" Width="100%">
           
 
-		  <table width="100%" border="0" align="center" cellpadding="1" cellspacing="1" id="TABLE2" onclick="return TABLE1_onclick()">
+		  <table width="100%" border="0" align="center" cellpadding="1" cellspacing="1" id="TABLE2" onClick="return TABLE1_onclick()">
             <tr>
               <td  class="topbg B" background style="width: 114px">设置名称</td>
               <td height="25" class="topbg B" style="width: 189px">基本参数设置</td>

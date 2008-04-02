@@ -6,7 +6,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
-    <title>易想网络</title>
+    <title>易物网络</title>
     
     <script language=javascript>
     function setTxt() 
@@ -64,7 +64,7 @@ window.clipboardData.setData('text',t.createTextRange().text);
     <td bgcolor="#FFFFFF">&nbsp;</td>
     <td bgcolor="#FFFFFF">
     <asp:Button ID="Button1" runat="server" Text="生  成" OnClick="Button1_Click" onmousemove=showBtnOver(this) onmouseout=showBtnOut(this)  CssClass="submitMiniGreen"/>&nbsp;
-    <input type=button value="复  制" onclick="setTxt();" onmousemove=showBtnOver(this) onmouseout=showBtnOut(this)  Class="submitMiniGreen"/>
+    <input type=button value="复  制" onClick="setTxt();" onmousemove=showBtnOver(this) onmouseout=showBtnOut(this)  Class="submitMiniGreen"/>
         <input id="Button2" value="预  览" type="button" value="button" onclick="open2()" onmousemove=showBtnOver(this) onmouseout=showBtnOut(this)  Class="submitMiniGreen"/></td>
   </tr>
   <tr>

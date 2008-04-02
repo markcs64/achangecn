@@ -23,7 +23,7 @@
     <div>
     <table  align="center" cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
          <tr>
-          <td height="25" class="category t2" width=100>商铺风格管理</td>
+          <td height="25" class="category t2" width=100>易家风格管理</td>
          <td class="category">
              <asp:HyperLink ID="HyperLink1" NavigateUrl="?YX_FS=Add" runat="server">[增加风格]</asp:HyperLink>
            </td>

@@ -35,7 +35,7 @@
 	
 <table width="99%" border="0" cellpadding="0" cellspacing="0"  id="menu">
   <tr>
-    <td width="30%"  id=top1><asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton1_Click">商品留言</asp:LinkButton></td>
+    <td width="30%"  id=top1><asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton1_Click">物品留言</asp:LinkButton></td>
     <td width="30%"  id=top3><asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click">求购留言</asp:LinkButton></td>
     <td width="30%"  id=top2><asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton2_Click">店铺留言</asp:LinkButton></td>
     <td width="10%">&nbsp;</td>
@@ -51,7 +51,7 @@
         <ItemTemplate><%#  DataBinder.Eval(Container.DataItem,"YX_ID") %></ItemTemplate>
             <HeaderStyle Width="10px"  BackColor="#F4F4F4"/>
         </asp:TemplateColumn >
-        <asp:TemplateColumn HeaderText="商品名称">
+        <asp:TemplateColumn HeaderText="物品名称">
         <ItemTemplate><a target="_blank" href="../ShowProduct.aspx?YX_MID=<%# DataBinder.Eval(Container.DataItem, "YX_proid") %>"><%# DataBinder.Eval(Container.DataItem, "yx_productname")%></a></ItemTemplate>
             <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
                 Font-Underline="False" HorizontalAlign="Center" VerticalAlign="Middle" Width="260px" />
@@ -93,7 +93,7 @@
             </tr>
         </table>
   
-           <div class="note" style="width:100%">注：这里显示的是买家给您的商品留言提示。回复后，在商品页面中买家才可以看到您的回复。</div>	
+           <div class="note" style="width:100%">注：这里显示的是买家给您的物品留言提示。回复后，在物品页面中买家才可以看到您的回复。</div>	
     </div>
        
         </asp:Panel>
@@ -206,7 +206,7 @@
             </tr>
         </table>
   
-           <div class="note" style="width:100%">注：这里显示的是买家给您的商品求购信息的留言提示。回复后，买家才可以看到您的回复。</div>	
+           <div class="note" style="width:100%">注：这里显示的是买家给您的物品求购信息的留言提示。回复后，买家才可以看到您的回复。</div>	
     </div>
        
         </asp:Panel>

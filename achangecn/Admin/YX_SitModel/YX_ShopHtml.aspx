@@ -7,7 +7,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
-    <title>商品详细页生成</title>
+    <title>物品详细页生成</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="../style/style.css" type="text/css" />
  <script language="javascript" type="text/javascript" src="../style/JScript.js"></script>
@@ -31,7 +31,7 @@
     <div>
     <table  align="center" cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
          <tr>
-          <td height="25" class="category t2">商品内容页生成管理           </td>
+          <td height="25" class="category t2">物品内容页生成管理           </td>
          </tr>
  </table>
        <table width="100%" height="25" border="0" cellpadding="0" cellspacing="0" bgcolor="#C4D8ED" style="margin-top:10px;">

@@ -6,7 +6,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>易想网络</title>
+    <title>易物网络</title>
         <script language=javascript>
     function setTxt() 
 { 
@@ -34,7 +34,7 @@ body {
     <div>
         &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
     </div>
-        <table id="TABLE1" onclick="return TABLE1_onclick()">
+        <table id="TABLE1" onClick="return TABLE1_onclick()">
             <tr>
                 <td  align="center" background="../images/YX_Bg.jpg" class="style3" colspan="8" style="height: 26px">
                     标签属性修改</td>
@@ -60,7 +60,7 @@ body {
             <tr>
                 <td colspan="8" rowspan="2" style="text-align: center">
         <asp:Button ID="Button1" runat="server" Text="修改" OnClick="Button1_Click" />
-        <input value="返回" type="button" onclick="window.close()" />
+        <input value="返回" type="button" onClick="window.close()" />
                  </td>
             </tr>
             <tr>

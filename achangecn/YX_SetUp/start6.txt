@@ -47,8 +47,8 @@ INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_Pa
 INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 47 , '听故事' , 45 , '0,45' , 1 , 39 , 0 , 46 , 48 , 2 , 62 );
 INSERT [YX_Article_CMSClass] ( [YX_ID] , [YX_ClassName] , [YX_ParentID] , [YX_ParentPath] , [YX_DePath] , [YX_RootID] , [YX_Child] , [YX_PrevID] , [YX_NextID] , [YX_OrderID] , [YX_ChannelClass] ) VALUES ( 48 , '易想日报' , 45 , '0,45' , 1 , 39 , 0 , 47 , 0 , 3 , 62 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 1 , 65 , 0 , '每页显示的条数' , '' , 0 );
-INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 2 , 65 , 0 , '商品标题显示的字数' , '' , 0 );
-INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 3 , 65 , 0 , '商品状态' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 2 , 65 , 0 , '物品标题显示的字数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 3 , 65 , 0 , '物品状态' , '' , 1 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 4 , 65 , 3 , '新品' , '0' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 5 , 65 , 3 , '推荐' , '1' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 6 , 65 , 3 , '特价' , '2' , 0 );
@@ -60,13 +60,13 @@ INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_val
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 12 , 66 , 0 , '显示的列数' , '' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 13 , 66 , 0 , '显示的行数' , '' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 14 , 66 , 0 , '显示的类别' , '' , 0 );
-INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 15 , 66 , 0 , '商品的状态' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 15 , 66 , 0 , '物品的状态' , '' , 1 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 16 , 66 , 15 , '新品' , '0' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 17 , 66 , 15 , '推荐' , '1' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 18 , 66 , 15 , '特价' , '2' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 19 , 66 , 15 , '热卖' , '3' , 0 );
-INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 20 , 66 , 0 , '商品图片宽度' , '' , 0 );
-INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 21 , 66 , 0 , '商品图片高度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 20 , 66 , 0 , '物品图片宽度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 21 , 66 , 0 , '物品图片高度' , '' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 22 , 66 , 0 , '内容显示的字数' , '' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 23 , 67 , 0 , '现在分类的样式' , '' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 24 , 67 , 0 , '传入的传数名称' , '' , 0 );
@@ -89,7 +89,7 @@ INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_val
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 41 , 69 , 36 , '否' , '0' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 42 , 70 , 0 , '显示的列数' , '' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 43 , 70 , 0 , '显示的行数' , '' , 0 );
-INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 44 , 70 , 0 , '显示商品名称最大字数' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 44 , 70 , 0 , '显示物品名称最大字数' , '' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 45 , 70 , 0 , '图片宽度' , '' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 46 , 70 , 0 , '图片高度' , '' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 47 , 71 , 0 , '显示的列数' , '' , 0 );
@@ -99,21 +99,21 @@ INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_val
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 51 , 72 , 0 , '显示的列数' , '' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 52 , 72 , 0 , '显示的行数' , '' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 53 , 72 , 0 , '标题显示的字数' , '' , 0 );
-INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 54 , 72 , 0 , '商品类别' , '' , 0 );
-INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 55 , 72 , 0 , '显示商品的状态' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 54 , 72 , 0 , '物品类别' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 55 , 72 , 0 , '显示物品的状态' , '' , 1 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 56 , 72 , 55 , '最新' , '0' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 57 , 72 , 55 , '推荐' , '1' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 58 , 72 , 55 , '特价' , '2' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 59 , 72 , 55 , '热卖' , '3' , 0 );
-INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 60 , 72 , 0 , '显示商品图片的宽度' , '' , 0 );
-INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 61 , 72 , 0 , '显示商品图片的高度' , '' , 0 );
-INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 62 , 72 , 0 , '是否显示商品名称' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 60 , 72 , 0 , '显示物品图片的宽度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 61 , 72 , 0 , '显示物品图片的高度' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 62 , 72 , 0 , '是否显示物品名称' , '' , 1 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 63 , 72 , 62 , '显示' , '1' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 64 , 72 , 62 , '不显示' , '0' , 0 );
-INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 65 , 72 , 0 , '是否显示商品市场价' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 65 , 72 , 0 , '是否显示物品市场价' , '' , 1 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 66 , 72 , 65 , '显示' , '1' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 67 , 72 , 65 , '不显示' , '0' , 0 );
-INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 68 , 72 , 0 , '是否显示商品商城价' , '' , 1 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 68 , 72 , 0 , '是否显示物品商城价' , '' , 1 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 69 , 72 , 68 , '显示' , '1' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 70 , 72 , 68 , '不显示' , '0' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 71 , 72 , 0 , '是否显示折扣' , '' , 1 );
@@ -131,7 +131,7 @@ INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_val
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 83 , 72 , 0 , '首页显示状态' , '' , 1 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 84 , 72 , 83 , '是' , 'true' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 85 , 72 , 83 , '否' , 'false' , 0 );
-INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 86 , 73 , 0 , '商品对比标签备注(可不填)' , '' , 0 );
+INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 86 , 73 , 0 , '物品对比标签备注(可不填)' , '' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 87 , 76 , 0 , '列数' , '' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 88 , 76 , 0 , '行数' , '' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 89 , 76 , 0 , '前缀' , '' , 0 );
@@ -278,21 +278,21 @@ INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_val
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 231 , 127 , 230 , '文字' , '0' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 232 , 127 , 230 , '图片' , '1' , 0 );
 INSERT [yx_labeviwe] ( [yx_id] , [yx_bigid] , [yx_paretid] , [yx_name] , [yx_value] , [yx_tpye] ) VALUES ( 233 , 127 , 230 , '全部' , '2' , 0 );
-INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 65 , '商品列表，带分页' , 1 , 'Hope_PagePro_List' );
-INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 66 , '商品图文显示' , 1 , 'Hope_ProductList' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 65 , '物品列表，带分页' , 1 , 'Hope_PagePro_List' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 66 , '物品图文显示' , 1 , 'Hope_ProductList' );
 INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 67 , '传入类别ID查询出同级分类' , 1 , 'Hopr_protongj' );
-INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 68 , '商品分类列表标签' , 1 , 'Hope_ProClassList' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 68 , '物品分类列表标签' , 1 , 'Hope_ProClassList' );
 INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 69 , '根据参数查询出该分类的下一级所有分类' , 1 , 'Hope_ProClassList_ClassID' );
-INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 70 , '浏览过商品的列表标签' , 1 , 'Hope_ShowPro' );
-INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 71 , '相关产品列表(只有在商品详细展示页有效)' , 1 , 'Hope_Correlation' );
-INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 72 , '商品展示显示商品列表' , 1 , 'Hope_ProIndex' );
-INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 73 , '商品对比标签' , 1 , 'Hope_ProductComp' );
-INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 74 , '商品销售排行' , 2 , 'Hope_ProPH' );
-INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 75 , '显示商品第N级的类名称' , 2 , 'Hope_ShowClassSmall' );
-INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 76 , '商品第N级的类名称(有参数)' , 1 , 'Hope_ClassSmall' );
-INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 77 , '商品类别页面路径标签' , 2 , 'Hope_ClassURL' );
-INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 78 , '-商品详细页面路径标签' , 2 , 'Hope_ProductinformationURL' );
-INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 79 , '商品页面标题路径标签' , 2 , 'Hope_TitleURL' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 70 , '浏览过物品的列表标签' , 1 , 'Hope_ShowPro' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 71 , '相关产品列表(只有在物品详细展示页有效)' , 1 , 'Hope_Correlation' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 72 , '物品展示显示物品列表' , 1 , 'Hope_ProIndex' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 73 , '物品对比标签' , 1 , 'Hope_ProductComp' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 74 , '物品销售排行' , 2 , 'Hope_ProPH' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 75 , '显示物品第N级的类名称' , 2 , 'Hope_ShowClassSmall' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 76 , '物品第N级的类名称(有参数)' , 1 , 'Hope_ClassSmall' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 77 , '物品类别页面路径标签' , 2 , 'Hope_ClassURL' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 78 , '-物品详细页面路径标签' , 2 , 'Hope_ProductinformationURL' );
+INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 79 , '物品页面标题路径标签' , 2 , 'Hope_TitleURL' );
 INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 80 , '品牌标签' , 1 , 'Hope_PinPai' );
 INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 81 , '查询订单表信息' , 2 , 'Hope_OrderSearch' );
 INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 82 , '我的购物车' , 2 , 'Hope_Show_MyChat' );
@@ -386,7 +386,7 @@ INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 
 <UL>
   <LI><iframe src="{$Hope_SitUrl$}Login_Stat.aspx"  frameborder="0" width="150" height="25" scrolling="no" ></iframe>
  <!-- <script language="javascript" src="{$Hope_SitUrl$}Login_Stat.aspx" charset="utf-8" ></script>--></LI>
-  <LI><A href="{$Hope_SitUrl$}Hotsell.aspx" target=_parent>热卖商品</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}Hotsell.aspx" target=_parent>热卖物品</A> </LI>
   <LI><A href="{$Hope_SitUrl$}Shop.aspx" target=_parent>品牌商城</A> </LI>
   <LI><A href="{$Hope_SitUrl$}News/" target=_parent>购物资讯</A> </LI>
   <LI><A href="{$Hope_SitUrl$}HighlevelSearch.aspx" target=_parent>高级搜索</A> </LI></UL></DIV>
@@ -525,7 +525,7 @@ INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 
   <LI>您好，欢迎来易想！</LI>
   <LI><A href="{$Hope_SitUrl$}vipuser/VipReg.aspx"  target=_parent>[免费注册]</A> </LI>
   <LI><A href="{$Hope_SitUrl$}Yx_VipLogin.aspx" target=_parent>[登录]</A> </LI>
-  <LI><A href="{$Hope_SitUrl$}Hotsell.aspx" target=_parent>热卖商品</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}Hotsell.aspx" target=_parent>热卖物品</A> </LI>
   <LI><A href="{$Hope_SitUrl$}Shop.aspx" target=_parent>品牌商城</A> </LI>
   <LI><A href="{$Hope_SitUrl$}News/" target=_parent>购物资讯</A> </LI>
   <LI><A href="{$Hope_SitUrl$}HighlevelSearch.aspx" target=_parent>高级搜索</A> </LI></UL></DIV>
@@ -609,7 +609,7 @@ INSERT [yx_labewrite] ( [yx_id] , [yx_name] , [yx_type] , [yx_value] ) VALUES ( 
 		<li class="menu_line"></li><li id="m2"><a href="{$Hope_SitUrl$}ProClass_list.aspx" target="_top">易想集市</a></li>
 		<li  class="menu_line"></li><li id="m3"><a href="{$Hope_SitUrl$}shop.aspx" target="_top">品牌商城</a></li>
 		<li class="menu_line"></li><li id="m4"><a href="{$Hope_SitUrl$}Productlist.aspx?distype=6" target="_top">二手闲置</a></li>
-		<li  class="menu_line"></li><li id="m5"><a href="Hotsell.aspx" target="_top">热卖商品</a></li>
+		<li  class="menu_line"></li><li id="m5"><a href="Hotsell.aspx" target="_top">热卖物品</a></li>
 		<li class="menu_line"></li><li><A 
     href="{$Hope_SitUrl$}Productlist.aspx?classid=14" 
     target=_top>手机数码</A></li>

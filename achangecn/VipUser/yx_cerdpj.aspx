@@ -53,7 +53,7 @@
              <HeaderStyle CssClass="F" />
              </asp:TemplateColumn>
                    
-             <asp:TemplateColumn HeaderText="商品名称">
+             <asp:TemplateColumn HeaderText="物品名称">
                 <ItemTemplate >
 			    <a href="../../ShowProduct.aspx?YX_MID=<%#Eval("yx_proid")%>" target=_blank><%#Eval("yx_proname")%></a>
 			   
@@ -106,7 +106,7 @@
              <HeaderStyle CssClass="F" />
              </asp:TemplateColumn>
              
-             <asp:TemplateColumn HeaderText="商品名称">
+             <asp:TemplateColumn HeaderText="物品名称">
                 <ItemTemplate >
 			    <a href="../../ShowProduct.aspx?YX_MID=<%#Eval("yx_proid")%>" target=_blank><%#Eval("yx_proname")%></a>
 			   
@@ -155,7 +155,7 @@
     <td><strong>被评价人: <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></strong></td>
   </tr>
     <tr>
-    <td><strong>相关商品: <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label></strong></td>
+    <td><strong>相关物品: <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label></strong></td>
   </tr>
   <tr>
     <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -241,7 +241,7 @@
         </table><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td><strong>相符程度:<br />
-              商品和你购买前和购买后得知的相符度?</strong></td>
+              物品和你购买前和购买后得知的相符度?</strong></td>
           </tr>
           <tr>
             <td><input type="radio" name="yx_xfcd" value="相符" /> 
@@ -269,7 +269,7 @@
         </table><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td><strong>到达状态:<br />
-              商品到达后是完好?</strong></td>
+              物品到达后是完好?</strong></td>
           </tr>
           <tr>
             <td><input type="radio" name="yx_ddzt" value="完好" /> 
@@ -340,7 +340,7 @@
     <td><strong>被评价人: <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label></strong></td>
   </tr>
     <tr>
-    <td><strong>相关商品: <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+    <td><strong>相关物品: <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
     </strong></td>
   </tr>
   <tr>

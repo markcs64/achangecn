@@ -979,12 +979,11 @@ Usage examples:
 ============================================ */
 div.StandardSidePanel{
 	width:180px;
-	height:1000px;
 	margin-bottom:10px;
 	background:transparent url(../IMAGE/standard_side_panel_top.gif) left top no-repeat;
 }
 div.StandardSidePanel div.Title{
-	width:172px;
+	width:210px;
 	height:20px;
 	margin:4px;
 	line-height:20px;
@@ -992,7 +991,7 @@ div.StandardSidePanel div.Title{
 	color:#FFF;
 	text-indent:4px;
 	background-color:#EC9307;
-	background:#FF9000 url(../IMAGE/standard_side_title172.gif) 0px 0px no-repeat;
+	background:#FF9000 url(../IMAGE/standard_side_title210.gif) 0px 0px no-repeat;
 }
 body.CurNormal div.StandardSidePanel div.Title{background-color:#FF9000;background-position:0px 0px;}
 body.CurDigital div.StandardSidePanel div.Title{background-color:#99A2B1;background-position:0px -20px;}

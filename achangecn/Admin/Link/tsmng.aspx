@@ -143,7 +143,7 @@
                 <select name="sclass1" id="sclass1" runat="server">
                 <option value="1">ID</option>
                 <option value="2">投诉人</option>
-                <option value="3">商品名称</option>
+                <option value="3">物品名称</option>
                 <option value="4">投诉原因</option>
                 <option value="5">已处理</option>
                 <option value="6">未处理</option>
@@ -184,7 +184,7 @@
                 </ItemTemplate>
                       <HeaderStyle CssClass="B" />
              </asp:TemplateColumn>
-			      <asp:TemplateColumn HeaderText="商品名称">
+			      <asp:TemplateColumn HeaderText="物品名称">
                 <ItemTemplate >
 				<%# Eval("yx_productname")%>
                 </ItemTemplate>

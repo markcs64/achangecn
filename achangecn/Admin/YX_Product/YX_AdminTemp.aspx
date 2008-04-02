@@ -23,7 +23,7 @@
     <div>
    <table  align="center" cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
          <tr>
-          <td height="25" class="category t2" width=120>商品内容页风格管理</td>
+          <td height="25" class="category t2" width=120>物品内容页风格管理</td>
          <td class="category">
              <asp:HyperLink ID="HyperLink1" NavigateUrl="?YX_FS=Add" runat="server">[增加风格]</asp:HyperLink>
              <asp:HyperLink ID="HyperLink2" NavigateUrl="YX_AdminTemp.aspx?Flag=admin" runat="server">[风格管理]</asp:HyperLink>

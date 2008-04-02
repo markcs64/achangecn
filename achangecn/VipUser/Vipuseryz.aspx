@@ -51,7 +51,7 @@
     <td align="center"><img onclick="dis2()" border="0" src="../images/member_button_freeperson.gif" style="cursor:hand" width="150" height="39" /></td>
   </tr>
   <tr>
-    <td align="left"><strong>免费身份认证介绍</strong>：成为本网站高级卖家，您就可以拥有自己的网上店铺了，售卖的商品数量也将不受限制。认证过程中需要您本人身份证件的扫描文件或照片文件。(本网站在收到您的身份证认证资料后，交由国家有关部门进行核对认证，验证所需时间为三个工作日)</td>
+    <td align="left"><strong>免费身份认证介绍</strong>：成为本网站高级卖家，您就可以拥有自己的网上店铺了，售卖的物品数量也将不受限制。认证过程中需要您本人身份证件的扫描文件或照片文件。(本网站在收到您的身份证认证资料后，交由国家有关部门进行核对认证，验证所需时间为三个工作日)</td>
   </tr>
   <tr>
     <td align="center">&nbsp;</td>
@@ -138,7 +138,7 @@
     <td colspan="2" align="left">*有效身份证件：  上传居民身份证的完整照片或扫描件 </td>
   </tr>  <tr>
     <td width="16%" align="left">&nbsp;</td>
-    <td width="84%" align="left"><asp:FileUpload ID="photo" name="photo" runat="server" require="true" datatype="Filter" msg="请选择要上传的商品图片，现暂时只支持jpg\gif图片文件" accept="jpg, gif" /></td>
+    <td width="84%" align="left"><asp:FileUpload ID="photo" name="photo" runat="server" require="true" datatype="Filter" msg="请选择要上传的物品图片，现暂时只支持jpg\gif图片文件" accept="jpg, gif" /></td>
   </tr>  <tr>
     <td colspan="2" align="left"><div id="file_Msg">图片大小请控制在120K以内,上传真实有效的身份证图片(包括身份证数码照片，清晰的扫描件等等)</div></td>
   </tr><tr>

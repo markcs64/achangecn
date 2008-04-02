@@ -114,7 +114,7 @@
                   text-align: center">
                   <asp:Label ID="Label3" runat="server" Text="标题"></asp:Label></td>
                 <td align="center" bgcolor="#E7E7E7" style="width: 1083px;color:#000000; height: 23px; text-align: center;">
-                    &nbsp;<asp:TextBox ID="TextBox1" runat="server">新上市的商品</asp:TextBox></td>
+                    &nbsp;<asp:TextBox ID="TextBox1" runat="server">新上市的物品</asp:TextBox></td>
               <td align="center" bgcolor="#e7e7e7" style="width: 430px; color: #000000; height: 23px;
                   text-align: center">
                   标题</td>

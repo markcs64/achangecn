@@ -10,7 +10,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-  <title>出售中的商品-会员管理中心-<%=SetUrl() %></title>
+  <title>易出中的物品-会员管理中心-<%=SetUrl() %></title>
 <script language="javascript">
 
 //function fish(id)
@@ -44,29 +44,29 @@
 <table class=main border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
       <td class="td_01" colspan="3" style="text-align: center">
-          商品推荐编辑
+          物品推荐编辑
       </td>
   </tr>
     <tr>
         <td class="td_02" style="width: 140px">
-            * 商品名称：</td>
+            * 物品名称：</td>
         <td class="td_03" colspan="2" style="width: 551px">
             <asp:Label ID="Label1" runat="server" Width="547px"></asp:Label></td>
     </tr>
     <tr>
         <td class="td_02" style="width: 140px">
-            * 商品原始类别：</td>
+            * 物品原始类别：</td>
         <td class="td_03" colspan="2" style="width: 551px">
             <asp:Label ID="Label2" runat="server" Width="548px"></asp:Label></td>
     </tr>
   <tr>
-    <td class="td_02" style="width: 140px"><span class="fontOrange font14">*</span> 商品分级类目：</td>
+    <td class="td_02" style="width: 140px"><span class="fontOrange font14">*</span> 物品分级类目：</td>
     <td class="td_03" colspan="2" style="width: 551px" >
      <%=disclass()%></td>
   </tr>
     <tr>
         <td class="td_02" style="width: 140px; height: 19px">
-            * 商品推荐期限：<asp:HiddenField ID="HiddenField1" runat="server" />
+            * 物品推荐期限：<asp:HiddenField ID="HiddenField1" runat="server" />
         </td>
         <td class="td_03" colspan="2" style="width: 551px; height: 19px">
         	  <select name="dwValidDuration" class="select_span">
@@ -82,20 +82,20 @@
     </tr>
     <tr>
         <td class="td_02" style="width: 140px; height: 19px">
-            * 商品名称短语：</td>
+            * 物品名称短语：</td>
         <td class="td_03" colspan="2" style="width: 551px; height: 19px">
             <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></td>
     </tr>
     <tr>
         <td class="td_02" style="width: 140px; height: 19px">
-            * 商品“原价”：
+            * 物品“原价”：
         </td>
         <td class="td_03" colspan="2" style="width: 551px; height: 19px">
             <asp:TextBox ID="TextBox1" runat="server" ReadOnly="True" Width="128px"></asp:TextBox>元</td>
     </tr>
     <tr>
         <td class="td_02" style="width: 140px; height: 19px">
-            * 商品优惠特价：
+            * 物品优惠特价：
         </td>
         <td class="td_03" colspan="2" style="width: 551px; height: 19px">
             <asp:TextBox ID="TextBox3" runat="server" ></asp:TextBox>元</td>
@@ -123,14 +123,14 @@
 <asp:panel runat="server" height="50px" ID="panel3" Visible="false" width="100%" HorizontalAlign="Center"> 
 <table width="60%" border="0" >
   <tr>
-    <td align="center"><img src="../images/success.gif" width="41" align=center height="39" />&nbsp;&nbsp;<div class=divfont14>恭喜您，商品推荐成功！</div></td>
+    <td align="center"><img src="../images/success.gif" width="41" align=center height="39" />&nbsp;&nbsp;<div class=divfont14>恭喜您，物品推荐成功！</div></td>
   </tr>
   <tr>
     <td align="center" style="line-height:20px">
     <b>你可以进行的操作</b><br>    
-        <asp:HyperLink ID="HyperLink2" runat="server">查看商品详情>></asp:HyperLink><br>
+        <asp:HyperLink ID="HyperLink2" runat="server">查看物品详情>></asp:HyperLink><br>
      
-         <a href=selling_commodity.aspx> 出售中的商品列表 >></a></td>
+         <a href=selling_commodity.aspx> 易出中的物品列表 >></a></td>
   </tr>
   <tr>
     <td><table width="100%" height="62" border="0" align="center">

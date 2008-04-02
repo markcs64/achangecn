@@ -6,7 +6,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
-    <title>易想网络</title>
+    <title>易物网络</title>
 <link rel="stylesheet" href="../style/style.css" type="text/css" />
 <script language="javascript" type="text/javascript" src="../style/JScript.js"></script>
 </head>
@@ -36,7 +36,7 @@
     <asp:Panel ID="Panel1" runat="server" Width="100%">
 
 
-		  <table width="100%" border="0" align="center" cellpadding="1" cellspacing="1" id="TABLE1" onclick="return TABLE1_onclick()" >
+		  <table width="100%" border="0" align="center" cellpadding="1" cellspacing="1" id="TABLE1" onClick="return TABLE1_onclick()" >
             <tr>
                 <td align="center" bgcolor="#ffffff" class="topbg B" height=25 colspan="2">
                     基本参数设置</td>

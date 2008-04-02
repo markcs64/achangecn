@@ -78,7 +78,7 @@ else return true;
              <td align="center" bgcolor="#EBEBEB" style="width: 52px">
                  <asp:CheckBox ID="CheckBox1" runat="server" /></td>
              <td align="center" bgcolor="#EBEBEB" style="width: 173px">
-                 商品管理</td>
+                 物品管理</td>
              <td align="center" bgcolor="#EBEBEB" style="width: 52px">
                  <asp:CheckBox ID="CheckBox2" runat="server" /></td>
              <td height="25" align="center" bgcolor="#EBEBEB" style="width: 173px;">
@@ -89,7 +89,7 @@ else return true;
             
             
              <td align="center" bgcolor="#EBEBEB" style="width: 184px">
-                     商铺管理</td>
+                     易家管理</td>
              <td align="center" bgcolor="#EBEBEB" style="width: 52px"><asp:CheckBox ID="CheckBox4" runat="server" /></td>
                <td align="center" bgcolor="#EBEBEB" style="width: 173px">
                  报表管理</td>

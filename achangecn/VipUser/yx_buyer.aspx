@@ -9,7 +9,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
-   <title>求购商品-会员管理中心-<%=SetUrl() %></title>
+   <title>求购物品-会员管理中心-<%=SetUrl() %></title>
     <style type="text/css">
     #sellLink3 {
 	background-color: #FEFAD8;
@@ -40,19 +40,19 @@ document.formsp.submit();
 <TD vAlign=top>
  <table width="49%" border="0" cellpadding="0" cellspacing="0" id="menu">
   <tr>
-    <td id=top1><a ID="LinkButton3" class="toptitle"   href="yx_buyer.aspx?type=1">求购中的商品信息</a></td>
+    <td id=top1><a ID="LinkButton3" class="toptitle"   href="yx_buyer.aspx?type=1">求购中的物品信息</a></td>
     <td id=top2><a ID="LinkButton4" class="toptitle"  href="yx_buyer.aspx?type=2">已结束的求购信息</a></td> 
 <%--    <td width="3"></td>
-    <td width="140" id=top3><a ID="LinkButton5" class="toptitle"  href="depot_commodity.aspx?iDepotType=3">全部卖完的商品</a></td>
+    <td width="140" id=top3><a ID="LinkButton5" class="toptitle"  href="depot_commodity.aspx?iDepotType=3">全部卖完的物品</a></td>
     <td width="3"></td>
-    <td  id=top4 class="menuWill"><a  ID="LinkButton6" class="toptitle" href="violation_commodity.aspx">待您处理的问题商品</a></td>
+    <td  id=top4 class="menuWill"><a  ID="LinkButton6" class="toptitle" href="violation_commodity.aspx">待您处理的问题物品</a></td>
 --%>  </tr>
 </table> 
       <DIV class="tdSide tdMain lineRight desc" style="text-align:right">
         <INPUT id=sTitle type=text name=sTitle>
         <input type=hidden name="itype" value='<%=Request["type"]%>'>
         <input type="button"  value=" 查 询 " onclick="iorderid()">
-        <a href="yx_buygoods.aspx">发布商品求购信息，让卖家主动找上门</a>
+        <a href="yx_buygoods.aspx">发布物品求购信息，让卖家主动找上门</a>
       </DIV>
       <br>
       <asp:DataGrid ID="dg1"  BorderStyle="dashed"  runat="server" CellPadding="0" CellSpacing="0"  Width="100%"  AutoGenerateColumns="false" OnEditCommand="dg1_EditCommand" OnCancelCommand="dg1_CancelCommand" OnUpdateCommand="dg1_UpdateCommand" OnSelectedIndexChanged="dg1_SelectedIndexChanged" >
@@ -72,7 +72,7 @@ document.formsp.submit();
                 </ItemTemplate>
              <HeaderStyle CssClass="F" />
              </asp:TemplateColumn>
-                       <asp:TemplateColumn HeaderText="商品名称">
+                       <asp:TemplateColumn HeaderText="物品名称">
                            <ItemTemplate>
                                <a href="../../ShowbuyProduct.aspx?YX_MID=<%#Eval("YX_ID")%>">
                                    <%#Eval("YX_ProductName")%>
@@ -145,7 +145,7 @@ document.formsp.submit();
 <%-- <asp:Button ID="Button2" runat="server" Text="上架" OnClick="Button2_Click" />
 --%></DIV> 
 <DIV   class="note">
-提示：商品求购规则： （请务必仔细浏览以下规则，因为对您很重要！）1.商品的求购请务必选择正确类目，这样会有助您的成交！2.对发错类目的宝贝，店小二会进行转移或者删除。</DIV>
+提示：物品求购规则： （请务必仔细浏览以下规则，因为对您很重要！）1.物品的求购请务必选择正确类目，这样会有助您的成交！2.对发错类目的宝贝，店小二会进行转移或者删除。</DIV>
       </TD>
   </tr>
 </table>

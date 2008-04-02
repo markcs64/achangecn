@@ -5,7 +5,7 @@ var text_height=0;
 var swf_height = focus_height+text_height; 
 var pics = '../YX_UpFile/Big/2007726145938.jpg|../YX_UpFile/Big/2007726145938.jpg|../YX_UpFile/Big/20077261451.jpg|../YX_UpFile/Big/2007726145735.jpg';
 var links = ''; 
-var texts = '热卖商品首页'; 
+var texts = '热卖物品首页'; 
 document.write('<object ID="focus_flas" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">'); 
 document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="/include/playswf.swf"><param name="quality" value="high"><param name="bgcolor" value="#FFFFFF">'); 
 document.write('<param name="menu" value="false"><param name=wmode value="opaque">'); 

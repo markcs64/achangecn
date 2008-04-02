@@ -10,7 +10,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
-<title>竞拍结束的商品-会员管理中心-<%=SetUrl() %></title>
+<title>竞拍结束的物品-会员管理中心-<%=SetUrl() %></title>
     <style type="text/css">
     #buyLink18 {
 	background-color: #FEFAD8;
@@ -33,7 +33,7 @@
 	 <TD width=5>&nbsp;</TD>
 <TD vAlign=top>
       <DIV class=divMenu>
-      <DIV class=DivMain>未中标的商品</DIV></DIV>
+      <DIV class=DivMain>未中标的物品</DIV></DIV>
       <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="tdMain">
           <tr>
          
@@ -56,7 +56,7 @@
 				 <input id="YX_CH" name="YX_CH" type="checkbox" style="border:0 " value=<%#Eval("YX_ID") %> />
                 </ItemTemplate>
              </asp:TemplateColumn>
-                       <asp:TemplateColumn HeaderText="商品名称">
+                       <asp:TemplateColumn HeaderText="物品名称">
                            <ItemTemplate>
                                <a href="../../ShowProduct.aspx?YX_MID=<%#Eval("YX_proid")%>">
                                    <%#Eval("YX_ProductName")%>

@@ -34,10 +34,10 @@
     <div> 
     <table  align="center" cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
          <tr>
-          <td height="25" class="category t2" width=100>商品分类管理</td>
+          <td height="25" class="category t2" width=100>物品分类管理</td>
          <td class="category">
-             <asp:HyperLink ID="HyperLink1" NavigateUrl="add.aspx" runat="server">[商品分类管理]</asp:HyperLink>
-             <asp:HyperLink ID="HyperLink2" NavigateUrl="add.aspx?action=add" runat="server">[商品分类增加]</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink1" NavigateUrl="add.aspx" runat="server">[物品分类管理]</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink2" NavigateUrl="add.aspx?action=add" runat="server">[物品分类增加]</asp:HyperLink>
            </td>
         </tr>
  </table>
@@ -155,7 +155,7 @@
 				<td style="padding-right:10px">
 			       <%#Channel(Convert.ToInt32(DataBinder.Eval(Container.DataItem, "YX_ID")))%>
 				<a href="YX_prosx.aspx?YX_MID=<%# DataBinder.Eval(Container.DataItem,"YX_ID")%>"> 参数设置</a> 
-				  <a href="AddProduct.aspx?YX_FS=Admin&flag=0&classroot=<%# DataBinder.Eval(Container.DataItem,"YX_ID")%>">管理商品</a> 
+				  <a href="AddProduct.aspx?YX_FS=Admin&flag=0&classroot=<%# DataBinder.Eval(Container.DataItem,"YX_ID")%>">管理物品</a> 
 				<a href="?action=move&YX_id=<%# DataBinder.Eval(Container.DataItem, "YX_ID")%>"><%--<img src="../../Skin/skin5/IMAGES/UpD.jpg" style="border:0" alt="移动分类" />--%>移动分类</a> 
 								<a href="YX_EditClaas.aspx?YX_MID=<%# DataBinder.Eval(Container.DataItem,"YX_ID")%>"><img src="../../Skin/skin5/IMAGES/icon_edit.gif" style="border:0" alt="编辑" /></a>
 				 <a href="?action=del&YX_id=<%# DataBinder.Eval(Container.DataItem, "YX_ID")%>"><img src="../../Skin/skin5/IMAGES/no.gif" style="border:0" alt="删除" /></a> 

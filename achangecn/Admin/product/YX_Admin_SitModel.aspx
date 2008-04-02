@@ -128,9 +128,9 @@ body {
               <td align="center" bgcolor="#F6F6F6">页类型：</td>
               <td height="25" align="left" bgcolor="#F6F6F6" style="width:700px">
                              <asp:DropDownList ID="DropDownList2" runat="server">
-                                  <asp:ListItem Value="YX_ProIndex">商品首页页面</asp:ListItem>
-                                  <asp:ListItem Value="YX_ProList">商品列表页面模板</asp:ListItem>
-                                  <asp:ListItem Value="YX_ProContext">商品内容页面模板</asp:ListItem>
+                                  <asp:ListItem Value="YX_ProIndex">物品首页页面</asp:ListItem>
+                                  <asp:ListItem Value="YX_ProList">物品列表页面模板</asp:ListItem>
+                                  <asp:ListItem Value="YX_ProContext">物品内容页面模板</asp:ListItem>
                              </asp:DropDownList>
                  </td>
               <td bgcolor="#F6F6F6">&nbsp;</td>
@@ -194,9 +194,9 @@ body {
               <td align="center" bgcolor="#F6F6F6">页类型：</td>
               <td height="25" align="left" bgcolor="#F6F6F6" style="width:697px">
                   <asp:DropDownList ID="DropDownList3" runat="server">
-                                  <asp:ListItem Value="YX_ProIndex">商品首页页面</asp:ListItem>
-                                  <asp:ListItem Value="YX_ProList">商品列表页面模板</asp:ListItem>
-                                  <asp:ListItem Value="YX_ProContext">商品内容页面模板</asp:ListItem>
+                                  <asp:ListItem Value="YX_ProIndex">物品首页页面</asp:ListItem>
+                                  <asp:ListItem Value="YX_ProList">物品列表页面模板</asp:ListItem>
+                                  <asp:ListItem Value="YX_ProContext">物品内容页面模板</asp:ListItem>
                              </asp:DropDownList>
                  </td>
               <td bgcolor="#F6F6F6">&nbsp;</td>

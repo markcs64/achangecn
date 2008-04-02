@@ -5,7 +5,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>商品发布-选择发布方式-<%= SetUrl() %></title>
+    <title>物品发布-选择发布方式-<%= SetUrl() %></title>
 </head>
 <body> 
 <uc:Top_vip ID="top_vip1" runat=server />
@@ -16,11 +16,11 @@
 <DIV id=menu>
 <UL id=menu_head>
   <LI class=li_now><IMG hspace=10 src="../images/upload_btn_here_01.gif" 
-  align=absMiddle>选择出售方式 </LI>
+  align=absMiddle>选择易出方式 </LI>
   <LI><IMG hspace=10 src="../images/upload_btn_will_02.gif" 
-  align=absMiddle>选择商品分类 </LI>
+  align=absMiddle>选择物品分类 </LI>
   <LI><IMG hspace=10 src="../images/upload_btn_will_03.gif" 
-  align=absMiddle>填写商品详情 </LI></UL></DIV>
+  align=absMiddle>填写物品详情 </LI></UL></DIV>
 <DIV></DIV>
 <DIV class="ft14_orange b" id=note></DIV>
 <DIV id=drift>

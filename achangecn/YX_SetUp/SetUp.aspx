@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>易想多用户商城V2008_2.0安装</title>
+    <title>红桥易物V2008_2.0安装</title>
     <link rel="stylesheet" type="text/css" href="images/css.css"/>
 <style type="text/css">
 <!--
@@ -32,11 +32,11 @@ body {
           <tr>
             <td width="32%" height="57"><img src="images/logo.gif" width="206" height="55" border="0" usemap="#Map3"></td>
             <td width="68%" valign="middle">
-                <strong>易想多用户商城V2008_2.0</strong></td>
+                <strong>红桥易物V2008_2.0</strong></td>
           </tr>
           <tr>
             <td height="23" colspan="2" valign="bottom" style="text-indent:10px; color:#FFFFFF">
-                第一步：欢迎安装易想多用户商城仿淘宝版(.net Framework 2.0)</td>
+                第一步：欢迎安装红桥易物仿淘宝版(.net Framework 2.0)</td>
           </tr>
         </table></td>
 	</tr>
@@ -66,8 +66,8 @@ body {
               <td width="19%" style="height: 26px"><div align="right"></div></td>
               <td style="height: 26px" colspan="2">
                   <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="images/next.gif" OnClick="ImageButton1_Click" /></td>
-              <td width="30%" style="height: 26px">
-                  &nbsp;</td>
+              <td width="30%" style="height: 26px">&nbsp;
+                  </td>
             </tr>
           </table></td>
 	</tr>
@@ -99,7 +99,7 @@ body {
 		<td height="85" colspan="2" background="images/22_04.gif" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
           <tr>
             <td width="32%" height="57"><img src="images/logo.gif" width="206" height="55" border="0" usemap="#Map3"></td>
-            <td width="68%" valign="middle"><strong>易想多用户商城V2008_2.0</strong></td>
+            <td width="68%" valign="middle"><strong>红桥易物V2008_2.0</strong></td>
           </tr>
           <tr>
             <td height="23" colspan="2" valign="bottom" style="text-indent:10px; color:#FFFFFF">
@@ -174,8 +174,8 @@ body {
                   <asp:ImageButton ID="ImageButton13" runat="server" ImageUrl="images/skip.gif" OnClick="ImageButton13_Click" /></td>
               <td width="25%" style="height: 26px">
                   <asp:ImageButton ID="ImageButton14" runat="server" ImageUrl="images/next.gif" OnClick="ImageButton14_Click" /></td>
-              <td width="30%" style="height: 26px">
-                  &nbsp;</td>
+              <td width="30%" style="height: 26px">&nbsp;
+                  </td>
             </tr>
           </table></td>
 	</tr>
@@ -207,11 +207,11 @@ body {
 		<td colspan="2" background="images/22_04.gif" valign="top" style="height: 85px"><table width="100%" border="0" cellpadding="0" cellspacing="0">
           <tr>
             <td width="32%" style="height: 57px"><img src="images/logo.gif" width="206" height="55" border="0" usemap="#Map3"></td>
-            <td width="68%" valign="middle" style="height: 57px"><strong>易想多用户商城V2008_2.0</strong></td>
+            <td width="68%" valign="middle" style="height: 57px"><strong>红桥易物V2008_2.0</strong></td>
           </tr>
           <tr>
             <td height="23" colspan="2" valign="bottom" style="text-indent:10px; color:#FFFFFF">
-                第三步：阅读和同意易想多用户商城仿淘宝版 (.net Framework 2.0)</td>
+                第三步：阅读和同红桥易物 (.net Framework 2.0)</td>
           </tr>
         </table></td>
 	</tr>
@@ -232,7 +232,7 @@ body {
             <td colspan="3" style="height: 254px"><DIV align="left" style="text-align: left">&nbsp;&nbsp;
                 <asp:TextBox ID="TextBox1" runat="server"
                     Height="210px" TextMode="MultiLine" Width="90%" Text="
-易想系列软件产品最终用户许可协议
+易物系列软件产品最终用户许可协议
 CHANGEHOPE SOFTWARE LICENSE
 
 重要须知——请认真阅读：
@@ -246,18 +246,18 @@ CHANGEHOPE SOFTWARE LICENSE
 协议许可的权利 
 1.	您可以在完全遵守本最终用户授权协议的基础上，将本软件应用于非商业用途，而不必支付软件版权授权费用。 
 2.	您可以在协议规定的约束和限制范围内修改 易想商城 源代码或界面风格以适应您的网站要求。 
-3.	您拥有使用本软件构建的商城中全部会员资料、商品及相关信息的所有权，并独立承担与内容的相关法律义务。 
+3.	您拥有使用本软件构建的商城中全部会员资料、物品及相关信息的所有权，并独立承担与内容的相关法律义务。 
 4.	获得商业授权之后，您可以将本软件应用于商业用途，同时依据所购买的授权类型中确定的技术支持期限、技术支持方式和技术支持内容，自购买时刻起，在技术支持期限内拥有通过指定的方式获得指定范围内的技术支持服务。商业授权用户享有反映和提出意见的权力，相关意见将被作为首要考虑，但没有一定被采纳的承诺或保证。 
 协议规定的约束和限制 
 1.	未获商业授权之前，不得将本软件用于商业用途（包括但不限于企业网站、经营性网站、以营利为目或实现盈利的网站），更不得作为自己的产品为其他客户谋求商业利益。购买商业授权请登陆http://www.changehope.com 参考相关说明，也可以致电8628-66006880了解详情。 
-2.	不得对本软件或与之关联的商业授权进行出租、出售、抵押或发放子许可证。 
+2.	不得对本软件或与之关联的商业授权进行出租、易出、抵押或发放子许可证。 
 3.	无论如何，即无论用途如何、是否经过修改或美化、修改程度如何，只要使用 易想商城 的整体或任何部分，未经书面许可，商城页面页脚处的 易想商城 名称和成都易想网络技术有限公司下属网站（http://www.changehope.com） 的链接都必须保留，而不能清除或修改。 
 4.	禁止在 易想商城 的整体或任何部分基础上以发展任何派生版本、修改版本或第三方版本用于重新分发。 
 5.	如果您未能遵守本协议的条款，您的授权将被终止，所被许可的权利将被收回，并承担相应法律责任。 
 6.	有限担保和免责声明 
 7.	本软件及所附带的文件是作为不提供任何明确的或隐含的赔偿或担保的形式提供的。 
 8.	用户出于自愿而使用本软件，您必须了解使用本软件的风险，在尚未购买产品技术服务之前，我们不承诺提供任何形式的技术支持、使用担保，也不承担任何因使用本软件而产生问题的相关责任。 
-9.	成都易想网络技术有限公司不对使用本软件构建的商城中的文章或商品信息承担责任。 
+9.	成都易想网络技术有限公司不对使用本软件构建的商城中的文章或物品信息承担责任。 
 有关 易想商城 最终用户授权协议、商业授权与技术服务的详细内容，均由 易想商城 官方网站独家提供。成都易想网络技术有限公司拥有在不事先通知的情况下，修改授权协议和服务价目表的权力，修改后的协议或价目表对自改变之日起的新授权用户生效。 
 电子文本形式的授权协议如同双方书面签署的协议一样，具有完全的和等同的法律效力。您一旦开始安装 易想商城，即被视为完全理解并接受本协议的各项条款，在享有上述条款授予的权力的同时，受到相关的约束和限制。协议许可范围以外的行为，将直接违反本授权协议并构成侵权，我们有权随时终止授权，责令停止损害，并保留追究相关责任的权力。 
 3     用户使用须知
@@ -475,8 +475,8 @@ CHANGEHOPE SOFTWARE LICENSE
               <td width="26%" style="height: 26px"><asp:ImageButton ID="ImageButton11" runat="server" ImageUrl="~/YX_SetUp/images/back.gif" OnClick="ImageButton11_Click" /></td>
               <td width="25%" style="height: 26px">
                   <asp:ImageButton ID="ImageButton15" runat="server" ImageUrl="images/next.gif" OnClick="ImageButton15_Click" /></td>
-              <td width="30%" style="height: 26px">
-                  &nbsp;</td>
+              <td width="30%" style="height: 26px">&nbsp;
+                  </td>
             </tr>
           </table></td>
 	</tr>
@@ -564,8 +564,8 @@ CHANGEHOPE SOFTWARE LICENSE
               <td style="width: 26%"><asp:ImageButton ID="ImageButton7" runat="server" ImageUrl="~/YX_SetUp/images/back.gif" OnClick="ImageButton7_Click" CausesValidation="False" /></td>
               <td width="25%">
                   <asp:ImageButton ID="ImageButton8" runat="server" ImageUrl="images/next.gif" OnClick="ImageButton8_Click" /></td>
-              <td width="30%">
-                  &nbsp;</td>
+              <td width="30%">&nbsp;
+                  </td>
             </tr>
           </table></td>
 	</tr>
@@ -678,8 +678,8 @@ CHANGEHOPE SOFTWARE LICENSE
               <td width="26%" style="height: 26px"><asp:ImageButton ID="ImageButton9" runat="server" ImageUrl="~/YX_SetUp/images/back.gif" OnClick="ImageButton9_Click" CausesValidation="False" /></td>
               <td width="25%" style="height: 26px">
                   <asp:ImageButton ID="ImageButton10" runat="server" ImageUrl="images/next.gif" OnClick="ImageButton10_Click" /></td>
-              <td width="30%" style="height: 26px">
-                  &nbsp;</td>
+              <td width="30%" style="height: 26px">&nbsp;
+                  </td>
             </tr>
           </table></td>
 	</tr>
@@ -753,8 +753,8 @@ CHANGEHOPE SOFTWARE LICENSE
               <td width="19%" style="height: 26px"><div align="right"></div></td>
               <td style="height: 26px" colspan="2">
                   <asp:ImageButton ID="ImageButton12" runat="server" ImageUrl="~/YX_SetUp/images/finish.gif" OnClick="ImageButton12_Click" /></td>
-              <td width="30%" style="height: 26px">
-                  &nbsp;</td>
+              <td width="30%" style="height: 26px">&nbsp;
+                  </td>
             </tr>
           </table></td>
 	</tr>

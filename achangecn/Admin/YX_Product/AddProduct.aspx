@@ -96,10 +96,10 @@ var newOption1 = document.createElement("OPTION");
       
    <table  align="center" cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
          <tr>
-          <td height="25" class="category t2" width=100>商品分类管理</td>
+          <td height="25" class="category t2" width=100>物品分类管理</td>
          <td class="category">
-             <asp:HyperLink ID="HyperLink1" NavigateUrl="AddProduct.aspx?YX_FS=Admin" runat="server">[已审商品管理]</asp:HyperLink>
-             <asp:HyperLink ID="HyperLink2" NavigateUrl="AddProduct.aspx?YX_FS=Admin&YX_fla=1" runat="server">[未审商品管理]</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink1" NavigateUrl="AddProduct.aspx?YX_FS=Admin" runat="server">[已审物品管理]</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink2" NavigateUrl="AddProduct.aspx?YX_FS=Admin&YX_fla=1" runat="server">[未审物品管理]</asp:HyperLink>
                         
            </td>
         </tr>
@@ -108,12 +108,12 @@ var newOption1 = document.createElement("OPTION");
    
 		  <table width="100%" height="25" border="0" cellpadding="0" cellspacing="0">
             <tr>
-              <td align="center" background="../images/YX_Bg.jpg" class="style3" style="width: 100%">商品添加</td>
+              <td align="center" background="../images/YX_Bg.jpg" class="style3" style="width: 100%">物品添加</td>
             </tr>
           </table>
 		  <table width="100%" height="5" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td bgcolor="#FFFFFF" width="100px">选择商品类型页：</td><td bgcolor="#FFFFFF" align="left"><%=Bindzd()%></td>
+    <td bgcolor="#FFFFFF" width="100px">选择物品类型页：</td><td bgcolor="#FFFFFF" align="left"><%=Bindzd()%></td>
   </tr>
 </table>
 
@@ -130,7 +130,7 @@ var newOption1 = document.createElement("OPTION");
             </tr>
              <tr>
                   <td align="right" bgcolor="#f6f6f6" style="width: 132px">
-                      商品品牌：</td>
+                      物品品牌：</td>
                   <td align="left" bgcolor="#f6f6f6" height="25">
                       <asp:DropDownList ID="DropDownList2" runat="server" Width="99px"  >
                       <asp:ListItem Selected="true" Text="无分类" Value="0"></asp:ListItem>
@@ -140,14 +140,14 @@ var newOption1 = document.createElement("OPTION");
                   </td>
               </tr>
             <tr>
-              <td align="right" bgcolor="#F6F6F6" style="width: 132px; height: 26px;">商品编码：</td>
+              <td align="right" bgcolor="#F6F6F6" style="width: 132px; height: 26px;">物品编码：</td>
               <td align="left" bgcolor="#F6F6F6" style="width: 189px; height: 26px">
                 <asp:TextBox ID="CH1" runat="server" Width="208px"></asp:TextBox>
               </td>
               <td bgcolor="#F6F6F6" style="height: 26px">&nbsp;</td>
             </tr>
             <tr>
-              <td align="right" bgcolor="#F6F6F6" style="width: 132px; height: 25px;">商品名称：</td>
+              <td align="right" bgcolor="#F6F6F6" style="width: 132px; height: 25px;">物品名称：</td>
               <td align="left" bgcolor="#F6F6F6" style="height: 25px">
               <asp:TextBox ID="CH2" runat="server" Width="209px"></asp:TextBox>
                   <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="CH2"
@@ -157,7 +157,7 @@ var newOption1 = document.createElement("OPTION");
             <tr>
               <td align="right" bgcolor="#F6F6F6" style="width: 132px; height: 25px;">关键字：</td>
               <td align="left" bgcolor="#F6F6F6" style="width: 189px; height: 34px"><asp:TextBox ID="CH3" runat="server" Width="240px"></asp:TextBox></td>
-              <td bgcolor="#F6F6F6" style="height: 25px">&nbsp;以便显示相关商品</td>
+              <td bgcolor="#F6F6F6" style="height: 25px">&nbsp;以便显示相关物品</td>
             </tr>
          
             <tr>
@@ -165,13 +165,13 @@ var newOption1 = document.createElement("OPTION");
                   标 识：</td>
               <td height="25" align="left" bgcolor="#F6F6F6" >
                  
-                  <input id="CH14" type="checkbox" runat="server" style="border:0" name="CH5 "/>热卖商品
-                  <input id="CH16" type="checkbox" runat="server" style="border:0" name="CH5" />特价商品
-                  <input id="CH15" type="checkbox" runat="server" style="border:0" name="CH5" />推荐商品<input id="CH17" type="checkbox" runat="server" style="border:0" name="CH5" />首页推荐</td>
+                  <input id="CH14" type="checkbox" runat="server" style="border:0" name="CH5 "/>热卖物品
+                  <input id="CH16" type="checkbox" runat="server" style="border:0" name="CH5" />特价物品
+                  <input id="CH15" type="checkbox" runat="server" style="border:0" name="CH5" />推荐物品<input id="CH17" type="checkbox" runat="server" style="border:0" name="CH5" />首页推荐</td>
               <td bgcolor="#F6F6F6">&nbsp;
             </td>
             </tr> <tr>
-              <td align="right" bgcolor="#F6F6F6" style="width: 132px">商品赠送积分：</td>
+              <td align="right" bgcolor="#F6F6F6" style="width: 132px">物品赠送积分：</td>
               <td height="25" align="left" bgcolor="#F6F6F6" >
                  <asp:TextBox ID="JF" runat="server" Width="80px"></asp:TextBox>
                   分 <asp:RegularExpressionValidator ID="RegularExpressionValidator_jf" runat="server" ControlToValidate="JF"
@@ -212,7 +212,7 @@ var newOption1 = document.createElement("OPTION");
             </tr>
            
             <tr>
-              <td align="right" bgcolor="#F6F6F6" style="height: 113px; width: 132px;">商品简介：</td>
+              <td align="right" bgcolor="#F6F6F6" style="height: 113px; width: 132px;">物品简介：</td>
               <td align="left" bgcolor="#F6F6F6" style="height: 113px; width: 189px;"><asp:TextBox ID="CH6" runat="server" Height="105px" TextMode="MultiLine"
                       Width="272px"></asp:TextBox></td>
               <td bgcolor="#F6F6F6" style="height: 113px">&nbsp;</td>
@@ -226,7 +226,7 @@ var newOption1 = document.createElement("OPTION");
             </tr>
               
             <tr>
-              <td align="right" bgcolor="#F6F6F6" style="width: 132px">商品重量：</td>
+              <td align="right" bgcolor="#F6F6F6" style="width: 132px">物品重量：</td>
               <td height="25" align="left" bgcolor="#F6F6F6" style="width: 189px"><asp:TextBox ID="CH8" Text=0 runat="server" Width="45px"></asp:TextBox>Kg</td>
               <td bgcolor="#F6F6F6"><asp:RegularExpressionValidator ID="RegularExpressionValidator8" runat="server" ControlToValidate="CH8"
                         ErrorMessage="该项必须是数字" ValidationExpression="[-]?\d+[.]?\d*$"></asp:RegularExpressionValidator>&nbsp;</td>
@@ -238,7 +238,7 @@ var newOption1 = document.createElement("OPTION");
               </tr>
               <tr>
                 <td align="right" bgcolor="#f6f6f6" style="width: 132px">使用虚拟币：</td>
-                <td height="25" align="left" bgcolor="#f6f6f6" style="width: 189px"><input type="radio" id="Tr" name="Tr" runat="server" value="1" style="border:0px"　　　　　　　　 />是
+                <td height="25" align="left" bgcolor="#f6f6f6" style="width: 189px"><input type="radio" id="Tr" name="Tr" runat="server" value="1" style="border:0px"　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 />是
                     <input type="radio" id="Fr" name="Tr" runat="server" value="0" style="border:0px" checked />否（此功能暂时没有开通）</td>
                 <td bgcolor="#f6f6f6"></td>
               </tr>
@@ -249,7 +249,7 @@ var newOption1 = document.createElement("OPTION");
                         ErrorMessage="该项必须是数字" ValidationExpression="[-]?\d+[.]?\d*$"></asp:RegularExpressionValidator></td>
               </tr>
               <tr>
-                <td align="right" bgcolor="#f6f6f6" style="height: 27px; width: 132px;">商品星级：</td>
+                <td align="right" bgcolor="#f6f6f6" style="height: 27px; width: 132px;">物品星级：</td>
                 <td align="left" bgcolor="#f6f6f6" style="height: 27px; width: 189px;"><select id="CH11" name="CH11" runat="server"> 
                 <option value="5" >
                          ★ ★ ★ ★ ★
@@ -299,7 +299,7 @@ var newOption1 = document.createElement("OPTION");
               </tr>
               <tr>
                 <td align="left" bgcolor="#f6f6f6" style="width: 400px; background-color: #ffffff;" colspan="3">
-                    扩展商品属性：（请在左边填写要显示的字段名称，右边显示字段的值）</td>
+                    扩展物品属性：（请在左边填写要显示的字段名称，右边显示字段的值）</td>
                <td height="25" align="left" bgcolor="#f6f6f6" colspan="3" > 
                      </td>
                 <td bgcolor="#f6f6f6" colspan="1"></td>
@@ -404,7 +404,7 @@ var newOption1 = document.createElement("OPTION");
                  <%=ss2() %>
                <input type=button value=品牌查询 onclick='selectPinPai()' onmousemove=showBtnOver(this) onmouseout=showBtnOut(this) Class="submitMiniGreen">
                 关键字:<input type=text name=keyword id=keyword/>
-                查询类别：<select name=searchtype><option value=1 selected>全部</option><option value=2>ID号</option><option value=3>商品名称</option><option value=4>用户帐号</option><option value=5>已审商品</option><option value=6>未审商品</option><option value=7>热卖</option><option value=8>推荐</option><option value=9>特价</option><option value=10>首显</option></select>
+                查询类别：<select name=searchtype><option value=1 selected>全部</option><option value=2>ID号</option><option value=3>物品名称</option><option value=4>用户帐号</option><option value=5>已审物品</option><option value=6>未审物品</option><option value=7>热卖</option><option value=8>推荐</option><option value=9>特价</option><option value=10>首显</option></select>
                 <%=ss1() %>
                 <input type=button value=查询 onclick='selectPro()' onmousemove=showBtnOver(this) onmouseout=showBtnOut(this) Class="submitMiniGreen" >               </td>  
             </tr>
@@ -444,7 +444,7 @@ var newOption1 = document.createElement("OPTION");
                 </ItemTemplate>
                       <HeaderStyle CssClass="B" />
              </asp:TemplateColumn>
-             <asp:TemplateColumn HeaderText="商品名称">
+             <asp:TemplateColumn HeaderText="物品名称">
                 <ItemTemplate >
 				
 			<a href="../../ShowProduct.aspx?YX_MID=<%#Eval("YX_ID")%>"><%#Eval("YX_ProductName")%></a>
@@ -479,7 +479,7 @@ var newOption1 = document.createElement("OPTION");
              </asp:TemplateColumn>
              <asp:TemplateColumn HeaderText="操　　作">
                 <ItemTemplate >
-				<a href="Edit_Num.aspx?YX_FS=Admin_KC&YX_MID=<%#DataBinder.Eval(Container.DataItem, "YX_ID")%>" title="管理商品库存"> 库存管理</a>
+				<a href="Edit_Num.aspx?YX_FS=Admin_KC&YX_MID=<%#DataBinder.Eval(Container.DataItem, "YX_ID")%>" title="管理物品库存"> 库存管理</a>
 				<a href="YX_Edit_Pro.aspx?YX_MID=<%#DataBinder.Eval(Container.DataItem, "YX_ID")%>&YX_ID=<%#Eval("YX_Class") %>"><img src="../../Skin/skin5/IMAGES/icon_edit.gif" style="border:0" alt="编辑" /></a>
 				<a target="_blank" href="../../ShowProduct.aspx?YX_MID=<%#DataBinder.Eval(Container.DataItem, "YX_ID")%>"><img src="../../Skin/skin5/IMAGES/icon_view.gif" style="border:0" alt="预览" /></a>
 				

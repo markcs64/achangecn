@@ -25,9 +25,9 @@
          <tr>
           <td height="25" class="category t2" width=100>销售统计</td>
          <td class="category">
-             <asp:HyperLink ID="HyperLink1" NavigateUrl="YX_ProSale.aspx?Flag=1" runat="server">[商品销售量排名]</asp:HyperLink>
-             <asp:HyperLink ID="HyperLink2" NavigateUrl="YX_ProOrder.aspx?Flag=2" runat="server">[商品订单量排名]</asp:HyperLink>
-			 <asp:HyperLink ID="HyperLink3" NavigateUrl="YX_Proview.aspx" runat="server">[商品访问数排名]</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink1" NavigateUrl="YX_ProSale.aspx?Flag=1" runat="server">[物品销售量排名]</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink2" NavigateUrl="YX_ProOrder.aspx?Flag=2" runat="server">[物品订单量排名]</asp:HyperLink>
+			 <asp:HyperLink ID="HyperLink3" NavigateUrl="YX_Proview.aspx" runat="server">[物品访问数排名]</asp:HyperLink>
            </td>
         </tr>
  </table>  
@@ -49,7 +49,7 @@
                 </ItemTemplate>
                       <HeaderStyle CssClass="B" />
              </asp:TemplateColumn>
-			      <asp:TemplateColumn HeaderText="商品名称">
+			      <asp:TemplateColumn HeaderText="物品名称">
                 <ItemTemplate >
 		
 			<a href="../../ShowProduct.aspx?YX_MID=<%# Eval("YX_ID") %>" target="_blank"><%# Eval("YX_ProductName")%></a>

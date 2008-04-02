@@ -23,7 +23,7 @@
     <div>
     <table  align="center" cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
          <tr>
-          <td height="25" class="category t2" width=100>商品分类管理</td>
+          <td height="25" class="category t2" width=100>物品分类管理</td>
          <td class="category">
              <asp:HyperLink ID="HyperLink1" NavigateUrl="YX_Tempalte.aspx?Flag=Admin" runat="server">[全部方案管理]</asp:HyperLink>
              <asp:HyperLink ID="HyperLink2" NavigateUrl="YX_Tempalte.aspx?Flag=Add" runat="server">[方案添加]</asp:HyperLink>

@@ -39,7 +39,7 @@
 <UL>
   <LI><iframe src="{$Hope_SitUrl$}Login_Stat.aspx"  frameborder="0" width="150" height="25" scrolling="no" ></iframe>
  <!-- <script language="javascript" src="{$Hope_SitUrl$}Login_Stat.aspx" charset="utf-8" ></script>--></LI>
-  <LI><A href="Hotsell.aspx" target=_parent>热卖商品</A> </LI>
+  <LI><A href="Hotsell.aspx" target=_parent>热卖物品</A> </LI>
   <LI><A href="Shop.aspx" target=_parent>品牌商城</A> </LI>
   <LI><A href="News/" target=_parent>购物资讯</A> </LI>
   <LI><A href="HighlevelSearch.aspx" target=_parent>高级搜索</A> </LI></UL></DIV>
@@ -63,7 +63,7 @@
   target=_top><SPAN>二手闲置</SPAN></A> </LI>
   <LI id=MenuSale><A 
   href="Hotsell.aspx" 
-  target=_top><SPAN>热卖商品</SPAN></A> </LI>
+  target=_top><SPAN>热卖物品</SPAN></A> </LI>
   <LI id=MenuInfo>
   <UL>
     <LI id=MenuDigital><A 
@@ -100,7 +100,7 @@
 <DIV id=SearchForm>
 <form name=topsearch action="Productlist.aspx" onSubmit="return checkkeyword()"  method="method" style="margin:0px">
 <SELECT id=keywordtype onchange=changeClass(this.value) name=keywordtype> 
-  <OPTION value=product selected>搜索商品</OPTION> 
+  <OPTION value=product selected>搜索物品</OPTION> 
   <OPTION value=shop>搜索店铺</OPTION> 
   <OPTION value=nick>搜索掌柜</OPTION> 
   <OPTION value=info>搜索资讯</OPTION> 
@@ -287,7 +287,7 @@ width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bordercol
 <DIV id=QuickLinks>
 <UL>
   <LI><iframe src="{$Hope_SitUrl$}Login_Stat.aspx"  frameborder="0" width="300" height="30" scrolling="no" ></iframe></LI>
-  <LI><A href="{$Hope_SitUrl$}Hotsell.aspx" target=_parent>热卖商品</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}Hotsell.aspx" target=_parent>热卖物品</A> </LI>
   <LI><A href="{$Hope_SitUrl$}Shop.aspx" target=_parent>品牌商城</A> </LI>
   <LI><A href="{$Hope_SitUrl$}/News/" target=_parent>购物资讯</A> </LI>
   <LI><A href="{$Hope_SitUrl$}HighlevelSearch.aspx" target=_parent>高级搜索</A> </LI></UL></DIV>
@@ -372,7 +372,7 @@ body {
 		<li class="menu_line"></li>
         <li id="m4"><a href="{$Hope_SitUrl$}Productlist.aspx?distype=6" target="_top">二手闲置</a></li>
 		<li  class="menu_line"></li>
-        <li id="m5"><a href="Hotsell.aspx" target="_top">热卖商品</a></li>
+        <li id="m5"><a href="Hotsell.aspx" target="_top">热卖物品</a></li>
 		<li class="menu_line"></li>
         <li><A href="{$Hope_SitUrl$}Productlist.aspx?classid=14" target=_top>手机数码</A></li>
         <li class="menu_line"></li>
@@ -395,7 +395,7 @@ body {
 <DIV id=SearchForm>
 <form name=topsearch action="Productlist.aspx" onSubmit="return checkkeyword()"  method="method" style="margin:0px">
 <SELECT id=keywordtype onchange=changeClass(this.value) name=keywordtype> 
-  <OPTION value=product selected>搜索商品</OPTION> 
+  <OPTION value=product selected>搜索物品</OPTION> 
   <OPTION value=shop>搜索店铺</OPTION> 
   <OPTION value=nick>搜索掌柜</OPTION> 
   <OPTION value=info>搜索资讯</OPTION> 
