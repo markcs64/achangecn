@@ -95,7 +95,7 @@ document.getElementById("showare").innerText="用户名存在";
                 </ItemTemplate>
                       <HeaderStyle CssClass="B" />
              </asp:TemplateColumn>
-              <asp:TemplateColumn HeaderText="商品类别">
+              <asp:TemplateColumn HeaderText="物品类别">
                 <ItemTemplate >
 				 <%# Eval("yx_classname")%>
                 </ItemTemplate>

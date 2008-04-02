@@ -29,8 +29,8 @@
                  <tr>
           <td height="25" style="text-align:center;">
               担保搜索：订单号<asp:TextBox ID="Text_orderid" runat="server"></asp:TextBox>
-              &nbsp; 购买方<asp:TextBox ID="Text_buy" runat="server"></asp:TextBox>
-              &nbsp; 出售方<asp:TextBox ID="Text_sell" runat="server"></asp:TextBox>
+              &nbsp; 易入方<asp:TextBox ID="Text_buy" runat="server"></asp:TextBox>
+              &nbsp; 易出方<asp:TextBox ID="Text_sell" runat="server"></asp:TextBox>
               <asp:Button ID="But_sech" runat="server" Text="搜      索" OnClick="But_sech_Click" /></td>
         </tr>
  </table>
@@ -55,27 +55,27 @@
                 </ItemTemplate>
                       <HeaderStyle CssClass="B" />
              </asp:TemplateColumn>
-			      <asp:TemplateColumn HeaderText="购买方">
+			      <asp:TemplateColumn HeaderText="易入方">
                 <ItemTemplate >
 		     <%#Eval("yx_reluser")%>		
                 </ItemTemplate>
                       <HeaderStyle CssClass="B" />
              </asp:TemplateColumn>
-            <asp:TemplateColumn HeaderText="出售方">
+            <asp:TemplateColumn HeaderText="易出方">
                 <ItemTemplate >
 		     <%#Eval("yx_user")%>		
                 </ItemTemplate>
                       <HeaderStyle CssClass="B" />
              </asp:TemplateColumn>
-             <asp:TemplateColumn HeaderText="订购时间">
+             <asp:TemplateColumn HeaderText="易物时间">
                 <ItemTemplate >	
 			<%#Eval("yx_orderdate")%>
 			    </ItemTemplate>
                   <HeaderStyle CssClass="B" />
              </asp:TemplateColumn>
-            <asp:TemplateColumn HeaderText="商品名称">
+            <asp:TemplateColumn HeaderText="物品名称">
                 <ItemTemplate >	 
-              <a href="../../ShowProduct.aspx?YX_MID=<%#Eval("yx_proid")%>" title="查看商品详细" target="_blank"><%#Eval("yx_proname")%></a>  
+              <a href="../../ShowProduct.aspx?YX_MID=<%#Eval("yx_proid")%>" title="查看物品详细" target="_blank"><%#Eval("yx_proname")%></a>  
                 </ItemTemplate>
                       <HeaderStyle CssClass="B" />
              </asp:TemplateColumn>

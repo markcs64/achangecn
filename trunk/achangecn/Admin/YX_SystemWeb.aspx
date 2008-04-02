@@ -130,7 +130,7 @@ function yc(i){
                  <td align="left" bgcolor="#f6f6f6" height="25" style="width: 444px">
                      <asp:CheckBox ID="CheckBox1" runat="server" Text="不审核" /></td>
                  <td align="center" bgcolor="#f6f6f6">
-                     添加商品的时候是否需要审核</td>
+                     添加物品的时候是否需要审核</td>
              </tr>
              <tr>
                  <td align="center" bgcolor="#f6f6f6">
@@ -188,12 +188,12 @@ function yc(i){
              </tr>
              <tr>
                  <td align="center" bgcolor="#f6f6f6">
-                     商品内容页生成：</td>
+                     物品内容页生成：</td>
                  <td align="left" bgcolor="#f6f6f6" height="25" style="width: 444px">
                      <asp:RadioButtonList ID="openstart" runat="server" EnableTheming="True" RepeatDirection="Horizontal"
                          Width="270px">
-                         <asp:ListItem Selected="True" Value="1">开启商品静态页面</asp:ListItem>
-                         <asp:ListItem Value="0">关闭商品静态页面</asp:ListItem>
+                         <asp:ListItem Selected="True" Value="1">开启物品静态页面</asp:ListItem>
+                         <asp:ListItem Value="0">关闭物品静态页面</asp:ListItem>
                      </asp:RadioButtonList></td>
                  <td align="center" bgcolor="#f6f6f6">
                  </td>
@@ -335,7 +335,7 @@ function yc(i){
         </tr>
     <tr>
         <td align="center" bgcolor="#f6f6f6">
-            商品发布量：</td>
+            物品发布量：</td>
         <td align="left" bgcolor="#f6f6f6" height="25">
             <asp:TextBox ID="Text_num" runat="server" Width="73px">10</asp:TextBox></td>
         <td align="center" bgcolor="#f6f6f6">
@@ -393,7 +393,7 @@ function yc(i){
       <asp:Panel ID="Panel3" runat="server"  Width="100%">
        <table width="98%" border="0" cellpadding="0" cellspacing="0">
          <tr>
-          <td height="25" colspan="3" align="center" background="images/YX_Bg.jpg" bgcolor="#7fad7f"><span class="style3">网站商品参数设置</span></td>
+          <td height="25" colspan="3" align="center" background="images/YX_Bg.jpg" bgcolor="#7fad7f"><span class="style3">网站物品参数设置</span></td>
         </tr>
 </table>
       <table width="98%" border="0" cellpadding="0" cellspacing="0">
@@ -401,7 +401,7 @@ function yc(i){
           <td height="25" colspan="3" align="right" bgcolor="#f6f6f6" >
          <a href="?"> [网站基本设置]</a>
          <a href="?YX_FS=User"> [网站会员参数设置]</a>
-           <a href="?YX_FS=Product">[网站商品参数设置]</a>
+           <a href="?YX_FS=Product">[网站物品参数设置]</a>
           </td>
         </tr>
 </table>
@@ -448,21 +448,21 @@ function yc(i){
         </tr>
           <tr>
           <td align="center" bgcolor="#f6f6f6" style="width: 131px; height: 27px">
-              新增商品：</td>
+              新增物品：</td>
           <td align="left" bgcolor="#f6f6f6" style="width: 400px; height: 27px">
               <asp:RadioButton ID="RadioButton17" runat="server" Text="是" GroupName="p3" />
               <asp:RadioButton ID="RadioButton18" runat="server" Text="否" GroupName="p3" /></td>
           <td align="center" bgcolor="#f6f6f6" style="height: 27px" >
-              <span class="gray"><span class="gray">新增商品是否需要审核才显示</span></span></td>
+              <span class="gray"><span class="gray">新增物品是否需要审核才显示</span></span></td>
         </tr>
           <tr>
           <td align="center" bgcolor="#f6f6f6" style="height: 27px; width: 131px;">
-              <span class="gray" style="background-color: #f6f6f6">报警商品显示：</span></td>
+              <span class="gray" style="background-color: #f6f6f6">报警物品显示：</span></td>
           <td align="left" bgcolor="#f6f6f6" style="height: 27px; width: 400px;">
               <asp:RadioButton ID="RadioButton19" runat="server" Text="是" GroupName="p4"/>
               <asp:RadioButton ID="RadioButton20" runat="server" Text="否" GroupName="p4" /></td>
           <td align="center" bgcolor="#f6f6f6" style="height: 27px" >
-              库存商品报警后是否显示</td>
+              库存物品报警后是否显示</td>
         </tr>
     <tr>
         <td align="center" bgcolor="#f6f6f6" style="width: 131px; height: 27px">
@@ -507,7 +507,7 @@ function yc(i){
               <asp:TextBox ID="TextBox5" runat="server" Width="47px"></asp:TextBox>天<asp:RegularExpressionValidator
                   ID="RegularExpressionValidator3" runat="server" ControlToValidate="TextBox5" ErrorMessage="该项必须是数字" ValidationExpression="[-]?\d+[.]?\d*$"></asp:RegularExpressionValidator>(此功能暂未开放)</td>
           <td align="center" bgcolor="#f6f6f6" >
-              设置新增商品多少天显示“新”</td>
+              设置新增物品多少天显示“新”</td>
         </tr>
     <tr>
         <td align="center" bgcolor="#f6f6f6" style="width: 131px">

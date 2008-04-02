@@ -6,7 +6,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
-    <title>易想网络</title>
+    <title>易物网络</title>
     <script language=javascript>
     function setTxt() 
 { 

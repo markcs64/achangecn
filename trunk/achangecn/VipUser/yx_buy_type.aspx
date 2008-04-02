@@ -8,7 +8,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
-    <title>商品求购管理</title>
+    <title>物品求购管理</title>
     <script>
     function inner()
     {
@@ -210,14 +210,14 @@ var isdis=0;
 <DIV id="menu">
 <UL id="menu_head">
   <LI class=li_now><IMG hspace="10" src="../images/upload_btn_will_01.gif" 
-  align="absMiddle">选择出售方式 </LI>
+  align="absMiddle">选择易出方式 </LI>
   <LI class="li_now"><IMG hspace=10 src="../images/upload_btn_here_02.gif" 
-  align="absMiddle">选择商品分类 </LI>
+  align="absMiddle">选择物品分类 </LI>
   <LI><IMG hspace="10" src="../images/upload_btn_will_03.gif" 
-  align="absMiddle">填写商品详情 </LI></UL>
+  align="absMiddle">填写物品详情 </LI></UL>
 </DIV></DIV>
 <DIV class="mai">
-<DIV id="DIV2">发布您的商品请先阅读。</DIV></DIV>
+<DIV id="DIV2">发布您的物品请先阅读。</DIV></DIV>
 <DIV class="maaains">
 <UL style="text-align:center;PADDING-LEFT: 20px; MARGIN-BOTTOM: 5px">
   <LI>选择分类<BR /> <%=ss() %>
@@ -253,11 +253,11 @@ var isdis=0;
             <DIV id="DIV1">
             <UL id=UL1>
               <LI><IMG hspace="10" src="../images/upload_btn_will_01.gif" 
-              align="absMiddle">选择出售方式 </LI>
+              align="absMiddle">选择易出方式 </LI>
               <LI class="li_now"><IMG hspace="10" src="../images/upload_btn_will_02.gif" 
-              align="absMiddle">选择商品分类 </LI>
+              align="absMiddle">选择物品分类 </LI>
               <LI><IMG hspace="10" src="../images/upload_btn_here_03.gif" 
-              align="absMiddle">填写商品详情 </LI></UL>
+              align="absMiddle">填写物品详情 </LI></UL>
             </DIV>
         </DIV>
 
@@ -265,7 +265,7 @@ var isdis=0;
   <tr>
     <td width="20%">
         <asp:Image ID="Image1" runat="server"  /></td>
-    <td><DIV id=warn>发布您的商品请先阅读禁止交易和限制交易的物品规则，重复发布商品处理规则。</DIV></td>
+    <td><DIV id=warn>发布您的物品请先阅读禁止交易和限制交易的物品规则，重复发布物品处理规则。</DIV></td>
   </tr>
 </table>
 </asp:Panel>
@@ -273,11 +273,11 @@ var isdis=0;
 <script language="javascript" src="../include/yz.js"></script>
 <table class=main border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="140" class="td_01">商品信息编辑</td>
+    <td width="140" class="td_01">物品信息编辑</td>
     <td colspan="2" class="td_01">　</td>
   </tr>
   <tr>
-    <td class="td_02"><span class="fontOrange font14">*</span> 商品类目：</td>
+    <td class="td_02"><span class="fontOrange font14">*</span> 物品类目：</td>
     <td class="td_03" colspan="2" >
         <asp:Label ID="classroot" runat="server"></asp:Label>
         <asp:HiddenField ID="yx_classid" runat="server" />
@@ -288,7 +288,7 @@ var isdis=0;
   </tr>
   <asp:Panel ID="sx" Visible="false" runat="server">
   <tr id = "tr_classattr">
-     <td valign="top" class="td_02" style="padding-top:20px"><span class="fontOrange font14">*</span> 商品属性：
+     <td valign="top" class="td_02" style="padding-top:20px"><span class="fontOrange font14">*</span> 物品属性：
 	 </td>
      <td colspan="2" class="td_03 goodDesc" style="line-height:25px">
          <%=product_sx() %>
@@ -297,7 +297,7 @@ var isdis=0;
    </asp:Panel>
   <asp:Panel ID="pp" Visible="false" runat="server">
     <tr id = "tr1">
-     <td valign="top" class="td_02" style="padding-top:20px"><span class="fontOrange font14">*</span> 商品品牌：
+     <td valign="top" class="td_02" style="padding-top:20px"><span class="fontOrange font14">*</span> 物品品牌：
 	 </td>
      <td colspan="2" class="td_03 goodDesc" style="line-height:25px">
          <%=product_pp()%>
@@ -305,22 +305,22 @@ var isdis=0;
   </tr> 
   </asp:Panel>
   <tr>
-    <td class="td_02" ><span class="fontOrange font14">*</span> 商品名称：</td>
-    <td class="td_03" style="height: 65px"><input name="sTitle" id="sTitle" dataType="Require" min="3" max="10"  msg="请填写商品名称" type="text" maxlength="60" size="60"><br>
-    商品标题请限定在30个汉字内（60个字符）。怎样给商品拟个好标题？ </td>
+    <td class="td_02" ><span class="fontOrange font14">*</span> 物品名称：</td>
+    <td class="td_03" style="height: 65px"><input name="sTitle" id="sTitle" dataType="Require" min="3" max="10"  msg="请填写物品名称" type="text" maxlength="60" size="60"><br>
+    物品标题请限定在30个汉字内（60个字符）。怎样给物品拟个好标题？ </td>
    	<td rowspan="2" align="center" class="td_03"><div id="previewImage"></div></td>
   </tr>  
   <tr>
     <td class="td_02">图片上传：</td>
     <td class="td_03" style="height: 65px">
-      <asp:FileUpload ID="photo" name="photo"  runat="server" require="true" datatype="Filter" msg="请选择要上传的商品图片，现暂时只支持jpg\gif图片文件" accept="jpg, gif" onchange="document.getElementById('previewImage').innerHTML = '预览<br> <img src=\''+this.value+'\' width=100 align=absmiddle>';" Width="350px" />
-      <br>有图片的商品最受欢迎！图片限定120k内，jpg或gif格式，请确保图片在<br>
-浏览器中可以正常打开。如何在商品描述里插入图片，需要注意些什么？
+      <asp:FileUpload ID="photo" name="photo"  runat="server" require="true" datatype="Filter" msg="请选择要上传的物品图片，现暂时只支持jpg\gif图片文件" accept="jpg, gif" onchange="document.getElementById('previewImage').innerHTML = '预览<br> <img src=\''+this.value+'\' width=100 align=absmiddle>';" Width="350px" />
+      <br>有图片的物品最受欢迎！图片限定120k内，jpg或gif格式，请确保图片在<br>
+浏览器中可以正常打开。如何在物品描述里插入图片，需要注意些什么？
   
 	</td>
  </tr>		
     <tr>
-    <td class="td_02">商品说明：</td>
+    <td class="td_02">物品说明：</td>
     <td class="td_03" colspan=2>
 <script type="text/javascript" src="Edit/editor.js" charset="gb2312"></script>
 <textarea name="content" id="content" style="width:100%;height:250px;"></textarea>
@@ -342,13 +342,13 @@ var isdis=0;
 </table>
 <table class=main border="0" align="center" cellpadding="0" cellspacing="0">
    <tr>
-      <td width="140" class="td_01">商品基本信息</td>
+      <td width="140" class="td_01">物品基本信息</td>
       <td colspan="3" class="td_01">　</td>
    </tr>
    <tr>
-      <td class="td_02"><span class="fontOrange font14">*</span> 商品数量：</td>
+      <td class="td_02"><span class="fontOrange font14">*</span> 物品数量：</td>
       <td width="225" class="td_03">
-         <asp:TextBox ID="dwNum" Text=1 runat="server" require = "true"  datatype="Number" msg="商品数量必须是数字" ></asp:TextBox>件</td>
+         <asp:TextBox ID="dwNum" Text=1 runat="server" require = "true"  datatype="Number" msg="物品数量必须是数字" ></asp:TextBox>件</td>
         <td  class="td_02">有效期：</td>
         <td class="td_03">
 	        <select name="dwValidDuration" class="select_span">
@@ -372,7 +372,7 @@ function window.onload()
 </script>
    <tr>
         <td class="td_02"><span class="fontOrange font14">*</span> 所 在 地：</td>
-        <td class="td_03"><select  id="prov" name="prov" datatype="Range"  msg="请选择商品所在地" min="1" max="30000000"  require="true" onChange="cityName(document.form1.prov.options[document.form1.prov.selectedIndex].value)">
+        <td class="td_03"><select  id="prov" name="prov" datatype="Range"  msg="请选择物品所在地" min="1" max="30000000"  require="true" onChange="cityName(document.form1.prov.options[document.form1.prov.selectedIndex].value)">
 <option value="0">请选择</option>
 </select>
 <select name="city" id="city">
@@ -442,7 +442,7 @@ function window.onload()
           <tr>
         <td class="td_02">购买权限设置：</td>
         <td class="td_03">购买件数限制：
-			<input id="dwOpNum" name="dwOpNum" type="text"   value="0" size="8" require = "true" datatype="Number" msg="商品数量必须是数字" > 件<span id="buyerLimitErr" style="color:red"></span>&nbsp;&nbsp;&nbsp;&nbsp;同一买家购买该商品的数量上限（0件表示不限制）
+			<input id="dwOpNum" name="dwOpNum" type="text"   value="0" size="8" require = "true" datatype="Number" msg="物品数量必须是数字" > 件<span id="buyerLimitErr" style="color:red"></span>&nbsp;&nbsp;&nbsp;&nbsp;同一买家购买该物品的数量上限（0件表示不限制）
 		</td>
       </tr>
       </asp:Panel>
@@ -471,14 +471,14 @@ function window.onload()
 <asp:panel runat="server"  ID="panel3" Visible="false" width="100%" HorizontalAlign="Center"> 
 <table width="60%" border="0" >
   <tr>
-    <td align="center"><img src="../images/success.gif" width="41" align="center" height="39" />&nbsp;&nbsp;<div class=divfont14>恭喜您，商品发布成功！</div></td>
+    <td align="center"><img src="../images/success.gif" width="41" align="center" height="39" />&nbsp;&nbsp;<div class=divfont14>恭喜您，物品发布成功！</div></td>
   </tr>
   <tr>
     <td align="center" style="line-height:20px">
     <b>你可以进行的操作</b><br>    
-        <asp:HyperLink ID="HyperLink2" runat="server">查看商品详情>></asp:HyperLink><br>
-        <a href="YX_sell.aspx">继续发布新商品>></a><br>
-         <a href="selling_commodity.aspx"> 出售中的商品列表 >></a></td>
+        <asp:HyperLink ID="HyperLink2" runat="server">查看物品详情>></asp:HyperLink><br>
+        <a href="YX_sell.aspx">继续发布新物品>></a><br>
+         <a href="selling_commodity.aspx"> 易出中的物品列表 >></a></td>
   </tr>
   <tr>
     <td><table width="100%" height="62px" border="0" align="center">

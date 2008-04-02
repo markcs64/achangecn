@@ -27,7 +27,7 @@
     <div>
      <table  align="center" cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
          <tr>
-          <td height="25" class="category t2" width=180>商品类别属性参数管理</td>
+          <td height="25" class="category t2" width=180>物品类别属性参数管理</td>
          <td class="category">
              <a href="?YX_FS=Add&YX_MID=<%=Request["YX_MID"] %>"> 添加参数</a>
               <a href="?YX_FS=JXAdd&YX_MID=<%=Request["YX_MID"] %>"> 继承参数</a>

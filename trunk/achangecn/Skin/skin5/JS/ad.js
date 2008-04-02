@@ -14,23 +14,23 @@
   var imgLink=new Array();
 
 //第1幅图
-  imgUrl[1]="http://www.achange.cn/Skin/skin5/IMAGES/AD_a.jpg"; 
-  imgLink[1]="http:///";
+  imgUrl[1]="IMAGES/AD_a.jpg"; 
+  imgLink[1]="*";
 //第2幅图
-  imgUrl[2]="http://www.achange.cn/Skin/skin5/IMAGES/AD_b.jpg"; 
-  imgLink[2]="http:///";
+  imgUrl[2]="IMAGES/AD_b.jpg"; 
+  imgLink[2]="*";
 //第3幅图
-  imgUrl[3]="http://www.achange.cn/Skin/skin5/IMAGES/AD_c.jpg"; 
-  imgLink[3]="http:///";
+  imgUrl[3]="IMAGES/AD_c.jpg"; 
+  imgLink[3]="*";
 //第4幅图
-  imgUrl[4]="http://www.achange.cn/Skin/skin5/IMAGES/AD_d.jpg"; 
-  imgLink[4]="http:///";
+  imgUrl[4]="IMAGES/AD_d.jpg"; 
+  imgLink[4]="*";
 //第5幅图
-  imgUrl[5]="http://www.achange.cn/Skin/skin5/IMAGES/AD_e.jpg"; 
-  imgLink[5]="http:///";
+  imgUrl[5]="IMAGES/AD_e.jpg"; 
+  imgLink[5]="*";
 
   var num_pic =5 //图片数不超过五个
-  var focusPicNumSrc="http://localhost/Skin/skin5/IMAGES/"
+  var focusPicNumSrc="IMAGES/"
   var time1 = 0; 
   var time2 = 8;
   var timeout1 = time1*1000;

@@ -23,7 +23,7 @@
     <div>
    <table  align="center" cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
          <tr>
-          <td height="25" class="category t2">商铺用户自定义分类管理</td>
+          <td height="25" class="category t2">易家用户自定义分类管理</td>
          </tr>
  </table>  
         <asp:Panel ID="Panel1" runat="server">
@@ -31,7 +31,7 @@
 
 </table>
         <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
-       <%-- <tr><td bgcolor=#ffffff align=right><a href="?order=0">按ID排序</a>&nbsp;<a href="?order=1">按商铺排序</a></td></tr>--%>
+       <%-- <tr><td bgcolor=#ffffff align=right><a href="?order=0">按ID排序</a>&nbsp;<a href="?order=1">按易家排序</a></td></tr>--%>
   <tr>
     <td width="100%">
 	<asp:DataGrid ID="dg1" AutoGenerateColumns="False" CellPadding="1" CellSpacing="1" PageSize="20"  runat="server"  Width="100%" AllowPaging="True" border=0 OnItemDataBound="dg1_ItemDataBound" > <HeaderStyle  CssClass="topbg" Height="25px"  HorizontalAlign="Center" />

@@ -52,7 +52,7 @@
       href="#">查看退款/退货状态中的订单&gt;&gt;</A></SPAN></DIV>
       <DIV style="PADDING-BOTTOM: 10px; LINE-HEIGHT: 150%">
       <DIV class=sellHead style="POSITION: relative"><b>作为买家</b> </DIV>
-      您已购买商品 <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label> 笔，<A 
+      您已购买物品 <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label> 笔，<A 
       href="bought_commodity.aspx">查看全部&gt;&gt;</A> 
       <SPAN id=showWaitMyPay style="DISPLAY: none"><SPAN 
       class=b><BR>&nbsp;&nbsp;&nbsp;需要您付款的交易有 <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
@@ -86,7 +86,7 @@
        条，<a href=leavingmsg_seller.aspx>查看留言</A></SPAN> 
       <BR>
       <DIV 
-      style="PADDING-RIGHT: 10px; MARGIN-TOP: 10px; PADDING-LEFT: 10px; BACKGROUND: #eaf7fe; PADDING-BOTTOM: 10px; LINE-HEIGHT: 150%; PADDING-TOP: 10px"><span>您共有出售中的商品
+      style="PADDING-RIGHT: 10px; MARGIN-TOP: 10px; PADDING-LEFT: 10px; BACKGROUND: #eaf7fe; PADDING-BOTTOM: 10px; LINE-HEIGHT: 150%; PADDING-TOP: 10px"><span>您共有易出中的物品
     <asp:Label ID="Label12" runat="server" Text="Label"></asp:Label>
        件</SPAN></DIV></DIV></DIV>
     </td>

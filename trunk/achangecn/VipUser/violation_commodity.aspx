@@ -10,7 +10,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
- <title>出售中的商品-会员管理中心-<%=SetUrl() %></title>
+ <title>易出中的物品-会员管理中心-<%=SetUrl() %></title>
     <style type="text/css">
     #sellLink2 {
 	background-color: #FEFAD8;
@@ -40,13 +40,13 @@ document.formsp.submit();
 <TD vAlign=top>
 	   <table width="100%" border="0" cellpadding="0" cellspacing="0" id="menu">
   <tr>
-    <td width="140" class="menuWill"><a  class="toptitle" href="depot_commodity.aspx?iDepotType=1">没卖出的商品</a></td>
+    <td width="140" class="menuWill"><a  class="toptitle" href="depot_commodity.aspx?iDepotType=1">没卖出的物品</a></td>
     <td width="3"></td>
-    <td width="140"  class="menuWill"><a class="toptitle" href="depot_commodity.aspx?iDepotType=2">等待上架的商品</a></td>
+    <td width="140"  class="menuWill"><a class="toptitle" href="depot_commodity.aspx?iDepotType=2">等待上架的物品</a></td>
     <td width="3"></td>
-    <td width="140" class="menuWill"><a class="toptitle" href="depot_commodity.aspx?iDepotType=3">全部卖完的商品</a></td>
+    <td width="140" class="menuWill"><a class="toptitle" href="depot_commodity.aspx?iDepotType=3">全部卖完的物品</a></td>
     <td width="3"></td>
-    <td  id=top4 class="menuHere"><a class="toptitlehover" href="violation_commodity.aspx">待您处理的问题商品</a></td>
+    <td  id=top4 class="menuHere"><a class="toptitlehover" href="violation_commodity.aspx">待您处理的问题物品</a></td>
   </tr>
 </table> 
       <DIV class="tdSide tdMain lineRight desc" style="text-align:right">
@@ -72,7 +72,7 @@ document.formsp.submit();
                 </ItemTemplate>
              <HeaderStyle CssClass="F" />
              </asp:TemplateColumn>
-                       <asp:TemplateColumn HeaderText="商品名称">
+                       <asp:TemplateColumn HeaderText="物品名称">
                            <ItemTemplate>
                                <a href="../../ShowProduct.aspx?YX_MID=<%#Eval("YX_ID")%>">
                                    <%#Eval("YX_ProductName")%>
@@ -107,7 +107,7 @@ document.formsp.submit();
               </asp:TemplateColumn> 
                 <asp:TemplateColumn HeaderText="操作">
                 <ItemTemplate >
-                   <asp:Button ID="Button1" runat="server" Text="编辑商品" />
+                   <asp:Button ID="Button1" runat="server" Text="编辑物品" />
                 </ItemTemplate>
                 <HeaderStyle CssClass="F" />
              </asp:TemplateColumn>
@@ -138,7 +138,7 @@ document.formsp.submit();
  <asp:Button ID="Button2" runat="server" Text="上架" OnClick="Button2_Click" />
 </DIV>
 
-      <DIV   class=note>提示：等待上架的商品：发布商品时保存在仓库里、已卖出商品做复制到仓库里和卖家手动下架的商品都将被存放在这里。</DIV></TD>
+      <DIV   class=note>提示：等待上架的物品：发布物品时保存在仓库里、已卖出物品做复制到仓库里和卖家手动下架的物品都将被存放在这里。</DIV></TD>
   </tr>
 </table>
  

@@ -120,7 +120,7 @@
             </tr>
             <tr>
               <td align="center" bgcolor="#F6F6F6">
-                  商品分类：</td>
+                  物品分类：</td>
               <td height="25" align="left" bgcolor="#F6F6F6">
                 <ChangHope:pinpaiClass ID="pinpaiClass1" runat="server" />  &nbsp;</td>
               <td bgcolor="#F6F6F6">&nbsp;</td>

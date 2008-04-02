@@ -325,7 +325,7 @@ if(document.frmreg.vipqq.value.replace(/\s+/g,"").length>=5 && document.frmreg.v
 {$Hope_Bottom$} 
 </BODY></HTML>
 ' , 0 );
- INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 783 , 18 , 'Shop' , 'Yx_ShopIndex' , '商铺首页' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 783 , 18 , 'Shop' , 'Yx_ShopIndex' , '易家首页' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <HEAD>
 <TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
@@ -400,7 +400,7 @@ if(document.frmreg.vipqq.value.replace(/\s+/g,"").length>=5 && document.frmreg.v
 </UL>
 </DIV>
 <DIV id=SaleShopZone>
-<H2>全场品牌商品推荐</H2>
+<H2>全场品牌物品推荐</H2>
 <UL id=SaleShopZoneScroll>
   <LI><script src="Include/Ad/taobao_PPSC_left_1.JS" type="text/jscript"></script></LI>
   <LI><script src="Include/Ad/taobao_PPSC_left_2.JS" type="text/jscript"></script></LI>
@@ -417,21 +417,21 @@ if(document.frmreg.vipqq.value.replace(/\s+/g,"").length>=5 && document.frmreg.v
 <DIV id=FancyandSale>
 <UL class=FancyandSaleMenu>
   <LI class=Selected><A onClick="return false" 
-  href="x">推荐商品</A> 
+  href="x">推荐物品</A> 
   </LI>
   <LI><A onClick="return false" 
-  href="x">热卖商品</A> 
+  href="x">热卖物品</A> 
   </LI>
 </UL>
 <DIV id=SaleZone>
-<H3>推荐商品</H3>
+<H3>推荐物品</H3>
 <UL>
 {#Hope_Pro*6,2,15,0,1,85,85,2#} 
 </UL>
 <P class=Pic style="margin-top:10px;"><script src="Include/Ad/taobao_rmad.JS"  type="text/jscript"></script></P>
 </DIV>
 <DIV id=FancyZone style="DISPLAY: none">
-<H3>热卖商品</H3>
+<H3>热卖物品</H3>
 <UL>
 {#Hope_Pro*6,2,15,0,2,85,85,2#} 
 </UL>
@@ -542,7 +542,7 @@ target=_blank>更多&gt;&gt;</A></P></DIV>
 {$Hope_Bottom$} 
 </BODY></HTML>
 ' , 0 );
- INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 784 , 18 , 'shopChildPage' , 'Yx_ShopIndex' , '搜索商铺' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 784 , 18 , 'shopChildPage' , 'Yx_ShopIndex' , '搜索易家' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <HEAD>
 <TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
@@ -616,7 +616,7 @@ target=_blank>更多&gt;&gt;</A></P></DIV>
 </body>
 </html>
 ' , 0 );
- INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 785 , 18 , 'Productlist_1' , 'Productlist_1' , '商品列表' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 785 , 18 , 'Productlist_1' , 'Productlist_1' , '物品列表' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <HEAD>
 <TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
@@ -744,8 +744,8 @@ name=EndPrice>
 <DIV id=mainMenu>
 <UL>
   <LI id=all>
-  <A title=所有宝贝 id=yz20  href="+ weburl + "&distype=1><SPAN>所有商品</SPAN></A></LI>
-  <LI id=yz class=""><A id=yz21 title=由未认证新手卖家发布的商品 href="+ weburl + "&distype=2><SPAN>橱窗推荐</SPAN></A></LI>
+  <A title=所有宝贝 id=yz20  href="+ weburl + "&distype=1><SPAN>所有物品</SPAN></A></LI>
+  <LI id=yz class=""><A id=yz21 title=由未认证新手卖家发布的物品 href="+ weburl + "&distype=2><SPAN>橱窗推荐</SPAN></A></LI>
   <LI id=yz2 class=""><A id=yz22  title=人气宝贝 href="+ weburl + "&distype=3><SPAN>人气宝贝</SPAN></A></LI>
   <LI id=yz3 class=""><A id=yz23 title=易想集市 href="+ weburl + "&distype=4><SPAN>易想集市</SPAN></A></LI>
   <LI id=yz4 class=""><A id=yz24 title=品牌商城 href="+ weburl + "&distype=5><SPAN>品牌商城</SPAN></A></LI>
@@ -761,7 +761,7 @@ name=EndPrice>
 		  <input type=hidden name=startnum value=0>
 			  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="menupl">
   <tr>
-    <td width="66%" height="24" class="menupl">  商品排序方式： 
+    <td width="66%" height="24" class="menupl">  物品排序方式： 
       <select onChange=doOrderStyle(this.value); 
 name=OrderStyle>
         <option value=0 selected>请选择合适的排序方式</option>
@@ -773,7 +773,7 @@ name=OrderStyle>
         </optgroup>
         <optgroup label=人气值>
         <option 
-    value=8>　人气高的商品排前</option>
+    value=8>　人气高的物品排前</option>
         </optgroup>
         <optgroup label=信用>
         <option 
@@ -781,8 +781,8 @@ name=OrderStyle>
         </optgroup>
         <optgroup label=时间>
         <option 
-    value=4>　即将售完的商品排前</option>
-        <option value=5>　刚刚到货的商品排前</option>
+    value=4>　即将售完的物品排前</option>
+        <option value=5>　刚刚到货的物品排前</option>
         </optgroup>
       </select> 
       &nbsp;&nbsp;图片排列方式：
@@ -807,15 +807,15 @@ name=OrderStyle>
     </table>  </td>
     <td width="19%" valign="top"><DIV id=side>
 <DIV class=sideItem>
-<DIV class=sideItemHead>热卖商品</DIV>
+<DIV class=sideItemHead>热卖物品</DIV>
 <DIV class=sideItemMain>{#Hope_Pro*2,10,15,0,2,65,65,6#}</DIV>
 </DIV>
 <DIV class=sideItem>
-<DIV class=sideItemHead>推荐商品</DIV>
+<DIV class=sideItemHead>推荐物品</DIV>
 <DIV class=sideItemMain>{#Hope_UserPro*1,10,15,0,65,65,2#}</DIV>
 </DIV>
 <DIV class=sideItem>
-<DIV class=sideItemHead>您浏览过的商品</DIV>
+<DIV class=sideItemHead>您浏览过的物品</DIV>
 <DIV class=sideItemMain>{#Hope_ShowPro*2,4,12#}</DIV>
 </DIV></DIV>
       </td>
@@ -825,7 +825,7 @@ name=OrderStyle>
 {$Hope_Bottom$} 
 </BODY></HTML>
 ' , 0 );
- INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 787 , 18 , 'ShowProduct' , 'ShowProduct' , '商品详细显示页面' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 787 , 18 , 'ShowProduct' , 'ShowProduct' , '物品详细显示页面' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <HEAD><TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=gb2312">
@@ -1018,12 +1018,12 @@ function showBuyType2(auctionType,Flag)
 </script>
 <BODY class="W950">
 {$Hope_Top$} 
-<!-- 商品信息-->
+<!-- 物品信息-->
 <FORM id=itemForm name=itemForm action="{$Hope_SitUrl$}Basket.aspx">
 <input type=hidden value={$Hope_Show_ProID$} name=yx_id>
 <DIV class=main2 id=FullPath>
 <DIV id=FullPathShow><A href="" target=_blank>所有分类</A> 
-&gt;&gt; {$Hope_Show_ClassName$} &gt;&gt;商品详情<A 
+&gt;&gt; {$Hope_Show_ClassName$} &gt;&gt;物品详情<A 
 href="http://search.paipai.com/cgi-bin/ss.cgi?ClassId=93" target=_blank></A> </DIV>
 </DIV>
 <DIV class="main lineCenter">
@@ -1032,8 +1032,8 @@ href="http://search.paipai.com/cgi-bin/ss.cgi?ClassId=93" target=_blank></A> </D
 <DIV class=main2 id=QQSeller style="DISPLAY: none; MARGIN: 10px">
 
 <DIV 
-style="FLOAT: left; WIDTH: 64%; LINE-HEIGHT: 150%">本商品是在跳蚤市场中发布的商品，请您与卖家充分沟通、诚信交易。 
-<BR>提醒：购买跳蚤市场商品须谨慎，请使用<A href="https://www.tenpay.com/zft/qa/qa_1.shtml" 
+style="FLOAT: left; WIDTH: 64%; LINE-HEIGHT: 150%">本物品是在跳蚤市场中发布的物品，请您与卖家充分沟通、诚信交易。 
+<BR>提醒：购买跳蚤市场物品须谨慎，请使用<A href="https://www.tenpay.com/zft/qa/qa_1.shtml" 
 target=_blank>腾讯财付通</A>支付中介或同城当面交易保障您的经济利益。 </DIV></DIV>
 <DIV class=clear></DIV>
 <DIV class=main2>
@@ -1060,11 +1060,11 @@ href="{$Hope_SitUrl$}{$Hope_Show_ProSPic$}" target=_blank><B>点击查看大图</B></A
       src="{$Hope_SitUrl$}{$Hope_Skin$}image/save.gif" width=13 
       align=absMiddle vspace=5><A 
       href="{$Hope_SitUrl$}ShowProduct.aspx?Flag=Colls&YX_MID={$Hope_Show_ProID$}&Proname={$Hope_Show_ProName$}" 
-      target=_blank>收藏商品</A><IMG height=12 hspace=5 
+      target=_blank>收藏物品</A><IMG height=12 hspace=5 
       src="{$Hope_SitUrl$}{$Hope_Skin$}images/icon_jubao.gif" width=13 
       align=absMiddle vspace=5><A 
       href="{$Hope_SitUrl$}vipuser/law_list.aspx?falg=jbt&YX_MID={$Hope_Show_ProID$}&Proname={$Hope_Show_ProName$}" 
-      target=_blank>举报商品</A></DIV></TD></TR></TBODY></TABLE><br>
+      target=_blank>举报物品</A></DIV></TD></TR></TBODY></TABLE><br>
 </SPAN>
 </DIV>
 	  </DIV>
@@ -1103,7 +1103,7 @@ class=font_gray>新旧程度：</SPAN> {$YX_bx$} </SPAN></DIV><!-- 财付通介绍-->
 </DIV>
 <DIV class=clear></DIV>
 <DIV class=bj>
-商品类别标记：
+物品类别标记：
 <input type="hidden"  value="{$Hope_classid$}" id="classid" name="classid"><input type="hidden"  value="{$Hope_Show_ProID$}" id="proid" name="proid"><input type="text" id="pal" name="pal" size="10"><input type="button" id="sub" name="sub" value=标记 onClick="inner();">{$Hope_pals$}<a href="{$Hope_SitUrl$}{$Hope_pal$}">{$Hope_palname$}</a><script language="javascript" src="{$Hope_SitUrl$}YX_Handle.aspx?YX_ID={$Hope_Show_ProID$}&userid={$Hope_Voteid$}&Falg={$Hope_palname$}" charset=''utf-8''></script></DIV>
 <DIV class=clear></DIV>
 <DIV class=main2>
@@ -1126,7 +1126,7 @@ class=font_gray>新旧程度：</SPAN> {$YX_bx$} </SPAN></DIV><!-- 财付通介绍-->
   </UL>
 <DIV class=clear></DIV>
 <DIV class="lineRight font_gray" 
-style="PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px">属性信息，仅供用户参考；商品详细情况，请和卖家联系！</DIV></DIV>
+style="PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px">属性信息，仅供用户参考；物品详细情况，请和卖家联系！</DIV></DIV>
 <TABLE id=DescShow cellSpacing=0 cellPadding=0 width=950 align=center 
   border=0><TBODY>
   <TR>
@@ -1136,7 +1136,7 @@ style="PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP
 <DIV class=main2>
 <DIV id=commend>
 <DIV class=title>
-<DIV class=TitleInfo><font color="#000000">卖家推荐商品</font></DIV>
+<DIV class=TitleInfo><font color="#000000">卖家推荐物品</font></DIV>
 <DIV class=TitleLink><A style="FONT-WEIGHT: normal; TEXT-DECORATION: underline" 
 href="showshop.aspx?uin={$Hope_ShopUser$}" target=_blank>逛逛店铺</A></DIV>
 <DIV class=TitleTop><A 
@@ -1178,7 +1178,7 @@ href="#top">
 <DIV id=commend_list>
 <DIV id=price>
 <UL>
-  <LI>商品价格: <B class=fontOrange id=html_tem_price2
+  <LI>物品价格: <B class=fontOrange id=html_tem_price2
   name="html_tem_price2">{$Hope_Show_ProPic$}</B></LI>
   <LI>剩余时间：<SPAN id=time2>{$yx_sysj$}</SPAN> </LI>
   <LI id=html_tem_buyButton></LI></UL>
@@ -1212,14 +1212,14 @@ align=right><SPAN id=html_tem_msgPage></SPAN></DIV><BR>
 <DIV id=html_tem_leaveMsg_post></DIV></DIV></DIV>
 <DIV class=main2>
 <DIV 
-class=declare>免责声明：{$Hope_Title$}为用户展示的商品供求信息由买卖双方自行提供，其真实性、准确性和合法性由信息发布人负责。{$Hope_Title$}不提供任何保证，并不承担任何法律责任。<BR>{$Hope_Title$}友情提醒：为保障您的利益，请加强与拍友的沟通，网上成交，请使用交易。 
+class=declare>免责声明：{$Hope_Title$}为用户展示的物品供求信息由买卖双方自行提供，其真实性、准确性和合法性由信息发布人负责。{$Hope_Title$}不提供任何保证，并不承担任何法律责任。<BR>{$Hope_Title$}友情提醒：为保障您的利益，请加强与拍友的沟通，网上成交，请使用交易。 
 
 </DIV>
 <!--支付银行活动信息-->
 {$Hope_Bottom$} 
 </BODY></HTML>
 ' , 0 );
- INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 789 , 18 , 'Basket_cj' , 'Basket_cj' , '商品出价页面' , '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 789 , 18 , 'Basket_cj' , 'Basket_cj' , '物品出价页面' , '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
@@ -1286,7 +1286,7 @@ function ChangetoProxy(Obj){
 </head>
 <BODY class=W950>
 <!--beginTop-->{$Hope_Top$} <!--#endTop-->
-<!-- 商品信息-->
+<!-- 物品信息-->
 <div class="main"><img src="{$Hope_SitUrl$}images/process_01.gif" width="760" height="36" vspace="10"  /></div>
 
 <form name="fixup" id="fixup" method="post" action="Basket_cjNext.aspx">
@@ -1301,7 +1301,7 @@ function ChangetoProxy(Obj){
      {$yx_basket_buy$}</a></td>
   </tr>
     <tr> 
-    <td align="right" >商品名称：</td>
+    <td align="right" >物品名称：</td>
     <td colspan="2" align="left">{$yx_basket_proname$}</td>
   </tr>
     <tr> 
@@ -1357,7 +1357,7 @@ function ChangetoProxy(Obj){
 </body>
 </html>
 ' , 0 );
- INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 790 , 18 , 'Basket' , 'Basket' , '商品订购' , '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 790 , 18 , 'Basket' , 'Basket' , '物品订购' , '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
@@ -1409,7 +1409,7 @@ text-align:left;}
 {$Hope_Top$}
 <body>
 <BODY class=W950>
-<!-- 商品信息-->
+<!-- 物品信息-->
 <div class="main"><img src="{$Hope_SitUrl$}images/process_01.gif" width="760" vspace="10"  /></div>
 
 <form name="fixup" id="fixup" method="post" action="BasketNext.aspx"  onsubmit="return Validator.Validate(document.getElementById(''fixup''),2)">
@@ -1424,11 +1424,11 @@ text-align:left;}
      {$yx_basket_buy$}</a></td>
   </tr>
     <tr> 
-    <td align="right" >商品名称：</td>
+    <td align="right" >物品名称：</td>
     <td colspan="2" align="left">{$yx_basket_proname$}</td>
   </tr>
     <tr> 
-    <td align="right" >商品价格：<br /></td>
+    <td align="right" >物品价格：<br /></td>
     <td align="left" >{$yx_basket_price$}元</td>
     <td  id="tenpayprice">&nbsp;</td>
     </tr>
@@ -1460,7 +1460,7 @@ text-align:left;}
                <div style="color:#808080"></div></td>
           	</tr>  <tr> 
             	<td width="18%" align="right" valign="top" >*填写购买说明：</td>
-              <td align="left" class="desc">通过填写说明，您可以告诉卖家您对商品的购买要求（比如颜色、尺码等）。<br />
+              <td align="left" class="desc">通过填写说明，您可以告诉卖家您对物品的购买要求（比如颜色、尺码等）。<br />
 <textarea name="BuyerNoteInfo" cols="80" id="BuyerNoteInfo" require="true" datatype="LimitB" min="3" max="100"  msg="购买说明必须在[3～100]个字符之内,一个中文是两个字符!"></textarea>
                   <br />
                  （提醒：输入内容不超过100字）</td>
@@ -1558,7 +1558,7 @@ align=center border=0>
 </BODY>
 </HTML>
 ' , 62 );
- INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 795 , 18 , 'Hotsell' , 'YX_Hotsell' , '热卖商品首页' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 795 , 18 , 'Hotsell' , 'YX_Hotsell' , '热卖物品首页' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <HEAD>
 <TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
@@ -1624,21 +1624,21 @@ align=center border=0>
 <DIV id=FancyandSale>
 <UL class=FancyandSaleMenu>
   <LI class=Selected><A onClick="return false" 
-  href="x">推荐商品</A> 
+  href="x">推荐物品</A> 
   </LI>
   <LI><A onClick="return false" 
-  href="x">热卖商品</A> 
+  href="x">热卖物品</A> 
   </LI>
 </UL>
 <DIV id=SaleZone>
-<H3>推荐商品</H3>
+<H3>推荐物品</H3>
 <UL>
 {#Hope_Pro*6,2,15,0,1,85,85,2#} 
 </UL>
 <P class=Pic style="margin-top:10px;"><script src="Include/Ad/taobao_rmad.JS" type="text/jscript"></script></P>
 </DIV>
 <DIV id=FancyZone style="DISPLAY: none">
-<H3>热卖商品</H3>
+<H3>热卖物品</H3>
 <UL>
 {#Hope_Pro*6,2,15,0,2,85,85,2#} 
 </UL>
@@ -1781,7 +1781,7 @@ align=center border=0>
 {$Hope_Bottom$} 
 </BODY></HTML>
 ' , 65 );
- INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 800 , 18 , 'Pay_state_info' , 'Pay_state_info' , '商品付款页面' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 800 , 18 , 'Pay_state_info' , 'Pay_state_info' , '物品付款页面' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <HEAD>
 <TITLE>{$Hope_Title$}</TITLE>
@@ -1827,7 +1827,7 @@ body {
 }
 </style>
 <!--beginTop-->{$Hope_Top$} <!--#endTop-->
-<!-- 商品信息-->
+<!-- 物品信息-->
 <DIV class=clear></DIV>
 <DIV class=main style="text-align:center"><span class="main" style="text-align:center"><img src="{$Hope_SitUrl$}images/process_02.gif"  width="100%"/></span></DIV>
 <DIV class=main style="POSITION: relative">
@@ -1944,7 +1944,7 @@ body {
 </HEAD>
 {$Hope_UserTop$}  <br>
 
-<!-- 商品信息-->
+<!-- 物品信息-->
 <div style="text-align:center">
 
 <DIV 
@@ -2023,7 +2023,7 @@ src="{$Hope_SitUrl$}{$Hope_Skin$}image/login_v_line.jpg" width=49></DIV>
 style="PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; WIDTH: 240; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 148px">
 <UL>
   <LI><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}image/login_btn_02.gif" 
-  align=absMiddle>&nbsp;&nbsp;&nbsp;便宜有好货！超过5000万件商品任您选。
+  align=absMiddle>&nbsp;&nbsp;&nbsp;便宜有好货！超过5000万件物品任您选。
   <LI><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}image/login_btn_03.gif" align=absMiddle 
   vspace=5>&nbsp;&nbsp;&nbsp;买卖更安心！支付宝交易超安全。 
   <LI><IMG src="{$Hope_SitUrl$}{$Hope_Skin$}image/login_btn_04.gif" 
@@ -2155,8 +2155,8 @@ style="PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; WIDTH: 240; 
           <p> 1、检查网址是否正确。
             如果您是通过在浏览器地址栏中键入网址来访问<A href="{$Hope_SitUrl$}">{$Hope_Title$}</A>的，请确认您输入的网址是正确的。</p>
           <p> 2、直接访问。
-            如果您是通过浏览器的收藏夹来访问<A href="{$Hope_SitUrl$}">{$Hope_Title$}</A>的，请尝试从<A href="{$Hope_SitUrl$}">首页</A>或<A href="{$Hope_SitUrl$}ProClass_list.aspx">商品展示</A>来寻找您所<BR>
-            关注的商品，并更新您的收藏夹。 </p>
+            如果您是通过浏览器的收藏夹来访问<A href="{$Hope_SitUrl$}">{$Hope_Title$}</A>的，请尝试从<A href="{$Hope_SitUrl$}">首页</A>或<A href="{$Hope_SitUrl$}ProClass_list.aspx">物品展示</A>来寻找您所<BR>
+            关注的物品，并更新您的收藏夹。 </p>
           <DIV>3、去其他地方逛逛。</DIV>
           <DIV><A href="{$Hope_SitUrl$}">{$Hope_Title$}</A>为您提供了大量的精彩服务，请在下面选择一个感兴趣的链接，继续您的访问。</DIV>
           <DIV>·<A href="{$Hope_SitUrl$}vipuser/default_vip.aspx">首 页</A> ·<A href="{$Hope_SitUrl$}">会员中心</A> ·<A href="{$Hope_SitUrl$}HighlevelSearch.aspx">高级搜索</A> ·<A href="{$Hope_SitUrl$}bbs">社 区</A></DIV></TD>
@@ -2342,7 +2342,7 @@ target=_blank>更多&gt;&gt;</A></P>
 </DIV>
 <DIV class=MarketStyle id=MarketWindow>
 <H2><SPAN></SPAN></H2>
-<P class=Summary><A title='''' href="ProClass_list.aspx" target=_blank>7000多万商品&nbsp;70多万卖家&nbsp;尽情易想</A></P>
+<P class=Summary><A title='''' href="ProClass_list.aspx" target=_blank>7000多万物品&nbsp;70多万卖家&nbsp;尽情易想</A></P>
 <UL class=MallGuide>
 <UL style="padding-left:8px;"><script src="Include/Ad/taobao_index_JS.JS" type="text/jscript"></script></UL>
       <dl>				
@@ -2388,20 +2388,20 @@ target=_blank>更多&gt;&gt;</A></P>
 <DIV id=Category>
 <UL id=CategoryTitle>
   <LI class=Selected><A href="{$Hope_SitUrl$}ProClass_list.aspx" 
-  target=_blank>商品分类</A> </LI>
+  target=_blank>物品分类</A> </LI>
 
   <LI><A href="{$Hope_SitUrl$}ProClass_list.aspx" 
   target=_blank>集市</A> </LI>
   <LI><A href="{$Hope_SitUrl$}shop.aspx" 
   target=_blank>品牌商城</A> </LI>
   <LI><A href="{$Hope_SitUrl$}Productlist.aspx?distype=6" target=_blank>二手闲置</A> </LI>
-  <LI><A href="{$Hope_SitUrl$}Hotsell.aspx" target=_blank>热卖商品</A> 
+  <LI><A href="{$Hope_SitUrl$}Hotsell.aspx" target=_blank>热卖物品</A> 
 </LI></UL>
 <P class=Invisible><A title=跳至页面顶端 
 href="#">&gt;&gt;跳至<STRONG>页面顶端</STRONG></A></P>
 <DIV id=RequiredPurchase><A 
 href="vipuser/YX_sell.aspx" 
-target=_parent>发布商品</A></DIV>
+target=_parent>发布物品</A></DIV>
 <div id="CategoryList">
 {#Hope_ProClassList*2,13,2,0,<IMG src="{$Hope_SitUrl$}{$Hope_Skin$}image/side_bg_04.gif">,bigclassname,classname,2,30#}
 </DIV>
@@ -2561,7 +2561,7 @@ function doSearchSubmit()
 	}
 	if("" == form1.keyword.value)
 	{
-		alert("请输入商品关键字进行搜索！");
+		alert("请输入物品关键字进行搜索！");
 		form1.keyword.focus();
 		return false;
 	}
@@ -2617,9 +2617,9 @@ function dissearchpro(){
 <div id=searchpro>
 <FORM name=form1 onSubmit="return doSearchSubmit()" method=get>
 <UL id=find_menu>
-  <LI>商品关键字： 
+  <LI>物品关键字： 
     <input id=keyword align=absMiddle size=24 name=keyword>
-  请输入商品关键字或选择类别</LI>
+  请输入物品关键字或选择类别</LI>
   <LI>类别：{$Hope_ClassName$} </LI></UL>
 <DIV id=find_more>
 <UL id=find_more_menu>
@@ -2633,7 +2633,7 @@ function dissearchpro(){
     至
     <input maxlength=10 size=10 name=EndPrice>
   </LI>
-  <LI>商品所在地：{#provinceselect2*#} </LI>
+  <LI>物品所在地：{#provinceselect2*#} </LI>
   <LI>新旧程度：
     <input onClick="" type=radio value=0 name=Degree3>
 全新
@@ -2772,7 +2772,7 @@ return false;
         <LI>认证信息： <IMG alt=已通过身份证认证 src="{$Hope_SitUrl$}{$Hope_Skin$}image/idcard.gif" 
         align=absMiddle>  {$Hope_ShopGua$}
         <LI>店铺等级：{$Hope_Shopdj$}
-        <LI>商品数量： {$Hope_ShopProNum$} 件
+        <LI>物品数量： {$Hope_ShopProNum$} 件
           <INPUT id=ItemCount type=hidden value=2> 
         <LI>开店时间：{$Hope_ShopDate$} 
         <LI>所 在 地： 
@@ -2797,16 +2797,16 @@ return false;
 target=_blank><IMG height=35 src="{$Hope_SitUrl$}{$Hope_Skin$}image/shop_open.gif" width=133 
 vspace=10></A></DIV>
 <DIV><A href="" 
-target=_blank>新手必读</A></DIV></DIV></DIV><!--商品列表--><A name=item></A>
+target=_blank>新手必读</A></DIV></DIV></DIV><!--物品列表--><A name=item></A>
 <DIV id=shopSide>
 
 <UL class=shopMenu id=shopMenuSide>
  <LI  id=Menu1>
 <A 
-  href="showshop.aspx?uin={$Hope_ShopUser$}"><SPAN>全部商品</SPAN></A>
+  href="showshop.aspx?uin={$Hope_ShopUser$}"><SPAN>全部物品</SPAN></A>
   </LI>
   <LI id=Menu2><A 
-  href="showshop.aspx?order=1&uin={$Hope_ShopUser$}"><SPAN>新进商品</SPAN></A> </LI>
+  href="showshop.aspx?order=1&uin={$Hope_ShopUser$}"><SPAN>新进物品</SPAN></A> </LI>
   <LI id=Menu3><A 
   href="showshop.aspx?tj=OK&uin={$Hope_ShopUser$}"><SPAN>即将结束</SPAN></A> 
   <DIV class=clear></DIV>
@@ -2816,8 +2816,8 @@ target=_blank>新手必读</A></DIV></DIV></DIV><!--商品列表--><A name=item></A>
                   <label>
                   <select name="start" onChange="goorder(this.options[this.options.selectedIndex].value);">
 				    <option value="0">查询产品</option>
-                    <option value="1">-刚刚到货的商品排前-</option>
-					 <option value="2">-即将售完的商品排前-</option>
+                    <option value="1">-刚刚到货的物品排前-</option>
+					 <option value="2">-即将售完的物品排前-</option>
 					 <option value="3">-按价格由高到底-</option>
 					 <option value="4">-按价格由低到高-</option>			
                   </select>
@@ -2854,7 +2854,7 @@ target=_blank>新手必读</A></DIV></DIV></DIV><!--商品列表--><A name=item></A>
 </BODY></HTML>
 
 ' , 0 );
- INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 791 , 18 , 'product_comp' , 'Product_Comp' , '商品对比页面' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 791 , 18 , 'product_comp' , 'Product_Comp' , '物品对比页面' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <HEAD>
 <TITLE>{$Hope_Title$}</TITLE>
@@ -3395,7 +3395,7 @@ align=center border=0>
   <LI>您好，欢迎来易想！</LI>
   <LI><A href="{$Hope_SitUrl$}vipuser/VipReg.aspx"  target=_parent>[免费注册]</A> </LI>
   <LI><A href="{$Hope_SitUrl$}Yx_VipLogin.aspx" target=_parent>[登录]</A> </LI>
-  <LI><A href="{$Hope_SitUrl$}Hotsell.aspx" target=_parent>热卖商品</A> </LI>
+  <LI><A href="{$Hope_SitUrl$}Hotsell.aspx" target=_parent>热卖物品</A> </LI>
   <LI><A href="{$Hope_SitUrl$}Shop.aspx" target=_parent>品牌商城</A> </LI>
   <LI><A href="{$Hope_SitUrl$}News/" target=_parent>购物资讯</A> </LI>
   <LI><A href="{$Hope_SitUrl$}HighlevelSearch.aspx" target=_parent>高级搜索</A> </LI></UL></DIV>
@@ -3688,9 +3688,9 @@ align=center border=0>
 {$Hope_Bottom$} 
 </BODY></HTML>
 ' , 0 );
- INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 804 , 18 , 'YX_ProVotere' , 'YX_ProVotere' , '商品留言回复页面' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 804 , 18 , 'YX_ProVotere' , 'YX_ProVotere' , '物品留言回复页面' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml">
-<HEAD><TITLE>商品留言回复-{$Hope_Title$}</TITLE>
+<HEAD><TITLE>物品留言回复-{$Hope_Title$}</TITLE>
 <META http-equiv=keywords content={$Hope_KeysWord$} />
 <meta name="description" content="{$Hope_SiteExc$}" />
 <link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
@@ -3700,7 +3700,7 @@ align=center border=0>
 </HEAD>
 {$Hope_UserTop$} <br>
 
-<!-- 商品信息-->
+<!-- 物品信息-->
 <div style="text-align:center">
 
 <DIV 
@@ -3973,7 +3973,7 @@ function window.onload()
 </body>
 </html>
 ' , 0 );
- INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 888 , 18 , 'show_buyproduct' , 'show_buyproduct' , '商品求购' , '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 888 , 18 , 'show_buyproduct' , 'show_buyproduct' , '物品求购' , '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
@@ -4108,7 +4108,7 @@ function showList(showName)
 <input type=hidden value={$Hope_Show_ProID$} name=yx_id>
 <DIV class=main2 id=FullPath>
 <DIV id=FullPathShow><A href="" target=_blank>所有分类</A> 
-&gt;&gt; {$Hope_Show_ClassName$} &gt;&gt;商品详情<A 
+&gt;&gt; {$Hope_Show_ClassName$} &gt;&gt;物品详情<A 
 href="http://search.paipai.com/cgi-bin/ss.cgi?ClassId=93" target=_blank></A> </DIV>
 </DIV>
 <DIV class="main lineCenter">
@@ -4116,8 +4116,8 @@ href="http://search.paipai.com/cgi-bin/ss.cgi?ClassId=93" target=_blank></A> </D
 <DIV class=main2 id=QQSeller style="DISPLAY: none; MARGIN: 10px">
 
 <DIV 
-style="FLOAT: left; WIDTH: 64%; LINE-HEIGHT: 150%">本商品是在跳蚤市场中发布的商品，请您与卖家充分沟通、诚信交易。 
-<BR>提醒：购买跳蚤市场商品须谨慎，请使用<A href="https://www.tenpay.com/zft/qa/qa_1.shtml" 
+style="FLOAT: left; WIDTH: 64%; LINE-HEIGHT: 150%">本物品是在跳蚤市场中发布的物品，请您与卖家充分沟通、诚信交易。 
+<BR>提醒：购买跳蚤市场物品须谨慎，请使用<A href="https://www.tenpay.com/zft/qa/qa_1.shtml" 
 target=_blank>腾讯财付通</A>支付中介或同城当面交易保障您的经济利益。 </DIV></DIV>
 <DIV class=clear></DIV>
 <DIV class=main2>
@@ -4144,14 +4144,14 @@ href="{$Hope_SitUrl$}{$Hope_Show_ProSPic$}" target=_blank><B>点击查看大图</B></A
       src="{$Hope_SitUrl$}{$Hope_Skin$}image/save.gif" width=13 
       align=absMiddle vspace=5><A 
       href="{$Hope_SitUrl$}ShowBuyProduct.aspx?Flag=Colls&YX_MID={$Hope_Show_ProID$}&Proname={$Hope_Show_ProName$}" 
-      target=_blank>收藏商品</A></DIV></TD></TR></TBODY></TABLE><br>
+      target=_blank>收藏物品</A></DIV></TD></TR></TBODY></TABLE><br>
 </SPAN>
 </DIV>
 	  </DIV>
 
 <DIV id=CommShow>
 <DIV id=CommMess>
-<DIV><SPAN class=font_gray id=prizeTxt>商品价格：</SPAN><SPAN id=html_tem_price> 
+<DIV><SPAN class=font_gray id=prizeTxt>物品价格：</SPAN><SPAN id=html_tem_price> 
 {$Hope_Show_ProPic$} </SPAN>&nbsp;元&nbsp;</DIV>
 <div><span class="font_gray">求购数量：</span><span>{$yx_num$}</span></div>
 <div><span class="font_gray">剩余时间：</span><span>{$yx_sysj$}</span></div>
@@ -4188,12 +4188,12 @@ class=font_gray>新旧程度：</SPAN> {$YX_bx$} </SPAN></DIV>
   </UL>
 <DIV class=clear></DIV>
 <DIV class="lineRight font_gray" 
-style="PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px">属性信息，仅供用户参考；商品详细情况，请和卖家联系！</DIV></DIV>
+style="PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px">属性信息，仅供用户参考；物品详细情况，请和卖家联系！</DIV></DIV>
 <TABLE id=DescShow cellSpacing=0 cellPadding=0 width=950 align=center 
   border=0><TBODY>
   <TR>
     <TD>
-      <DIV align=left><span style="color:Gray; font-size:larger">商品说明：</span><br />
+      <DIV align=left><span style="color:Gray; font-size:larger">物品说明：</span><br />
       <span style="color:Gray">&nbsp;&nbsp;&nbsp;&nbsp;{$Hope_Show_Procon$}</span></DIV></TD></TR></TBODY></TABLE></DIV></DIV> 
       
 <DIV class=main2>
@@ -4295,7 +4295,7 @@ href="#top">
 </body>
 </html>
 ' , 0 );
- INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 890 , 18 , 'BuyProduct_Comp' , 'buyproduct_comp' , '商品对比' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+ INSERT [YX_CMSModel] ( [YX_ID] , [YX_TemplateType] , [YX_CMSModelName] , [YX_CMSType] , [YX_CMSSM] , [YX_CMSContent] , [ChannelID] ) VALUES ( 890 , 18 , 'BuyProduct_Comp' , 'buyproduct_comp' , '物品对比' , '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <HEAD>
 <TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
@@ -4363,7 +4363,7 @@ body {
 }
 </style>
 <!--beginTop-->{$Hope_Top$} <!--#endTop-->
-<!-- 商品信息-->
+<!-- 物品信息-->
 <TABLE cellSpacing=0 cellPadding=0 width="90%" align=center border=0>
   <TBODY>
  

@@ -147,7 +147,7 @@
               日 </td>
           </tr>
           <tr>
-            <td class="tdLeft"> 商品名称： </td>
+            <td class="tdLeft"> 物品名称： </td>
             <td class="tdSide">
 			<input name="sTitle" type="text" size="18" value="" onkeydown="if(event.keyCode==13) return doSearch();" />
 		    </td>
@@ -186,7 +186,7 @@
                 </ItemTemplate>
              <HeaderStyle CssClass="F" />
              </asp:TemplateColumn>
-                       <asp:TemplateColumn HeaderText="商品名称">
+                       <asp:TemplateColumn HeaderText="物品名称">
                         <ItemTemplate >
                                <a href="../../ShowProduct.aspx?YX_MID=<%#Eval("YX_Proid")%>">
                                    <%#Eval("YX_ProName")%>
@@ -260,7 +260,7 @@
       <input type="checkbox" name="invest" value="checkbox" onClick="selectIt('document.formsp','YX_CH')"> 反选
 </DIV>
 
-      <DIV   class=note>提示：等待上架的商品：发布商品时保存在仓库里、已卖出商品做复制到仓库里和卖家手动下架的商品都将被存放在这里。
+      <DIV   class=note>提示：等待上架的物品：发布物品时保存在仓库里、已卖出物品做复制到仓库里和卖家手动下架的物品都将被存放在这里。
       </DIV></TD>
   </tr>
     <tr>

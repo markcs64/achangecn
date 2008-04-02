@@ -210,7 +210,7 @@ return false;
       </TR>
       <tr>
    
-    <td colspan="3" class="tdSide"><textarea name="content1" id="content1" runat="server" style="width:99%;height:250px; display:none" >    您好，欢迎您光临我的小店""！我的拍拍小店刚刚开张，还需要您和您的朋友多多惠顾哦。希望您能找到自己喜欢的商品，谢谢光临。
+    <td colspan="3" class="tdSide"><textarea name="content1" id="content1" runat="server" style="width:99%;height:250px; display:none" >    您好，欢迎您光临我的小店""！我的拍拍小店刚刚开张，还需要您和您的朋友多多惠顾哦。希望您能找到自己喜欢的物品，谢谢光临。
             </textarea>
             <script type="text/javascript">
 	var oEditor = new PPEditor('content1') ;
@@ -392,7 +392,7 @@ preview.innerHTML="<img src=../YX_Image/ShopTemplate/preview"+id+".gif >";
             </asp:DropDownList>&nbsp;<asp:Button ID="Button8" runat="server" Text="确  定" OnClick="Button8_Click" />
           <BR>  
           <BR>
-          <DIV id="style_detail">青青世界：清纯而又有底蕴，一个未知、精彩的宽阔世界。适合书籍等商品类别。</DIV></TD>
+          <DIV id="style_detail">青青世界：清纯而又有底蕴，一个未知、精彩的宽阔世界。适合书籍等物品类别。</DIV></TD>
         <TD align="middle" width="180"><strong>店铺风格预览</strong>
             <DIV id="style_preview"> <asp:Image ID="Image1" runat="server" /></DIV>
            </TD>
@@ -501,9 +501,9 @@ function CheckAll(form)  {
     <TR>
      <td width="200" class=menuHere><a href="YX_ShopBasis.aspx?Action=6">自定义分类</a></TD>
       <TD width="3"></TD>
-       <td width="200"class=menuWill ><a href="YX_ShopBasis.aspx?Action=7">商品归类</A></TD>
+       <td width="200"class=menuWill ><a href="YX_ShopBasis.aspx?Action=7">物品归类</A></TD>
         <TD width="3"></TD>
-       <td class=menuWill><a href="YX_ShopBasis.aspx?Action=8">查看未分类商品</A></TD>
+       <td class=menuWill><a href="YX_ShopBasis.aspx?Action=8">查看未分类物品</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -511,7 +511,7 @@ function CheckAll(form)  {
   <TBODY>
     <TR class=tabmain >
       <TD align="middle" width="100"><IMG height="56" src="Image/head_note.gif" width="79" vspace="5"></TD>
-      <TD>店主您好！在这里您可以自定义分类，方便买家挑选商品。</TD>
+      <TD>店主您好！在这里您可以自定义分类，方便买家挑选物品。</TD>
     </TR>
     
   </TBODY>
@@ -525,7 +525,7 @@ function CheckAll(form)  {
       <TD align="middle">编号</TD>
       <TD>分类名称</TD>
       <TD>分类顺序</TD>
-      <TD>商品数量</TD>
+      <TD>物品数量</TD>
       <TD> </TD>
       <TD> </TD>
     </TR>
@@ -566,9 +566,9 @@ function CheckAll(form)  {
     <TR>
      <td width="200"   class=menuWill><a href="YX_ShopBasis.aspx?Action=6">自定义分类</a></TD>
       <TD width="3"></TD>
-       <td width="200" class=menuHere><a href="YX_ShopBasis.aspx?Action=7">商品归类</A></TD>
+       <td width="200" class=menuHere><a href="YX_ShopBasis.aspx?Action=7">物品归类</A></TD>
         <TD width="3"></TD>
-       <td class=menuWill><a href="YX_ShopBasis.aspx?Action=8">查看未分类商品</A></TD>
+       <td class=menuWill><a href="YX_ShopBasis.aspx?Action=8">查看未分类物品</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -576,7 +576,7 @@ function CheckAll(form)  {
   <TBODY>
     <TR class=tabmain >
       <TD align="middle" width="100"><IMG height="56" src="Image/head_note.gif" width="79" vspace="5"></TD>
-      <TD>店主您好！在这里您可以自定义分类，方便买家挑选商品。</TD>
+      <TD>店主您好！在这里您可以自定义分类，方便买家挑选物品。</TD>
     </TR>
     
   </TBODY>
@@ -588,8 +588,8 @@ function CheckAll(form)  {
   <TBODY>
     <TR style="background-color:#F7F7F7; height:25px" >
       <TD align="middle">编号</TD>
-       <TD>商品名称</TD>
-      <TD>商品类型</TD>
+       <TD>物品名称</TD>
+      <TD>物品类型</TD>
       <TD>价格</TD>
       <TD>所属分类</TD>
       <TD>操作</TD>
@@ -611,7 +611,7 @@ function CheckAll(form)  {
         </asp:DropDownList> </TD>
       <TD class="tab3">
      <IMG height="10" hspace="3" src="Image/qmanage_pic_modify.gif" width="11"> <asp:LinkButton ID="LinkButton1" runat="server" Text="修改分类" CommandName="Edit" /> 
-     <IMG height="10" hspace="3" src="Image/qmanage_pic_modify.gif" width="9"><a href=yx_editsell_type.aspx?YX_id=<%#Eval("YX_ID") %>>修改商品 </A></TD>
+     <IMG height="10" hspace="3" src="Image/qmanage_pic_modify.gif" width="9"><a href=yx_editsell_type.aspx?YX_id=<%#Eval("YX_ID") %>>修改物品 </A></TD>
       <TD class="tab3"> </TD>
     </TR>
     
@@ -634,9 +634,9 @@ function CheckAll(form)  {
     <TR>
      <td width="200"   class=menuWill><a href="YX_ShopBasis.aspx?Action=6">自定义分类</a></TD>
       <TD width="3"></TD>
-       <td width="200" class=menuWill><a href="YX_ShopBasis.aspx?Action=7">商品归类</A></TD>
+       <td width="200" class=menuWill><a href="YX_ShopBasis.aspx?Action=7">物品归类</A></TD>
         <TD width="3"></TD>
-       <td class=menuHere><a href="YX_ShopBasis.aspx?Action=8">查看未分类商品</A></TD>
+       <td class=menuHere><a href="YX_ShopBasis.aspx?Action=8">查看未分类物品</A></TD>
     </TR>
   </TBODY>
 </TABLE>
@@ -644,7 +644,7 @@ function CheckAll(form)  {
   <TBODY>
     <TR class=tabmain >
       <TD align="middle" width="100"><IMG height="56" src="Image/head_note.gif" width="79" vspace="5"></TD>
-      <TD>店主您好！在这里您可以自定义分类，方便买家挑选商品。</TD>
+      <TD>店主您好！在这里您可以自定义分类，方便买家挑选物品。</TD>
     </TR>
     
   </TBODY>
@@ -656,8 +656,8 @@ function CheckAll(form)  {
   <TBODY>
     <TR style="background-color:#F7F7F7; height:25px" >
       <TD align="middle">编号</TD>
-       <TD>商品名称</TD>
-      <TD>商品类型</TD>
+       <TD>物品名称</TD>
+      <TD>物品类型</TD>
       <TD>价格</TD>
       <TD>所属分类</TD>
       <TD>操作</TD>
@@ -679,7 +679,7 @@ function CheckAll(form)  {
         </asp:DropDownList> </TD>
       <TD class="tab3">
      <IMG height="10" hspace="3" src="Image/qmanage_pic_modify.gif" width="11"> <asp:LinkButton ID="LinkButton1" runat="server" Text="修改分类" CommandName="Edit" /> 
-     <IMG height="10" hspace="3" src="Image/qmanage_pic_modify.gif" width="9"><a href=yx_editsell_type.aspx?YX_id=<%#Eval("YX_ID") %>>修改商品 </A></TD>
+     <IMG height="10" hspace="3" src="Image/qmanage_pic_modify.gif" width="9"><a href=yx_editsell_type.aspx?YX_id=<%#Eval("YX_ID") %>>修改物品 </A></TD>
       <TD class="tab3"> </TD>
     </TR>
     

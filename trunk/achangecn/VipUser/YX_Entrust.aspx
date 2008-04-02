@@ -130,7 +130,7 @@ border-bottom-width: 1px;
           <td align="left"colspan="2">
             <strong> 店铺等级：</strong>
             <asp:DropDownList ID="DropDdj" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDdj_SelectedIndexChanged">
-            </asp:DropDownList>费用：<asp:TextBox ID="Text_money" runat="server" Enabled="False" Width="54px"></asp:TextBox>/月&nbsp;&nbsp;商品发布量：<asp:TextBox ID="Text_num" runat="server" Enabled="False" Width="40px"></asp:TextBox>个
+            </asp:DropDownList>费用：<asp:TextBox ID="Text_money" runat="server" Enabled="False" Width="54px"></asp:TextBox>/月&nbsp;&nbsp;物品发布量：<asp:TextBox ID="Text_num" runat="server" Enabled="False" Width="40px"></asp:TextBox>个
               服务时间：<asp:DropDownList ID="DropDDate" runat="server">
                   <asp:ListItem Selected="True" Value="30">一月</asp:ListItem>
                   <asp:ListItem Value="90">三月</asp:ListItem>

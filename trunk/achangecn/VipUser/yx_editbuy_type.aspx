@@ -8,7 +8,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
-    <title>商品求购</title>
+    <title>物品求购</title>
     <script>
     function inner()
     {
@@ -210,9 +210,9 @@ var isdis=0;
 <DIV id="menu">
 <UL id="menu_head">
   <LI class=li_now><IMG hspace="10" src="../images/upload_btn_will_01.gif" 
-  align="absMiddle">选择求购商品分类</LI>
+  align="absMiddle">选择求购物品分类</LI>
   <LI class="li_now"><IMG hspace=10 src="../images/upload_btn_here_02.gif" 
-  align="absMiddle">填写求购商品详情</LI>
+  align="absMiddle">填写求购物品详情</LI>
   
   </UL>
 </DIV></DIV> 
@@ -250,9 +250,9 @@ var isdis=0;
             <DIV id="DIV1">
             <UL id=UL1>
               <LI class="li_now"><IMG hspace="10" src="../images/upload_btn_will_01.gif" 
-              align="absMiddle">选择求购商品分类</LI>
+              align="absMiddle">选择求购物品分类</LI>
               <LI><IMG hspace="10" src="../images/upload_btn_will_02.gif" 
-              align="absMiddle">填写求购商品详情</LI>
+              align="absMiddle">填写求购物品详情</LI>
             </DIV>
         </DIV> 
 </asp:Panel>
@@ -260,11 +260,11 @@ var isdis=0;
 <script language="javascript" src="../include/yz.js"></script>
 <table class=main border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="140" class="td_01">求购商品信息编辑</td>
+    <td width="140" class="td_01">求购物品信息编辑</td>
     <td colspan="2" class="td_01">　</td>
   </tr>
   <tr>
-    <td class="td_02"><span class="fontOrange font14">*</span> 商品类目：</td>
+    <td class="td_02"><span class="fontOrange font14">*</span> 物品类目：</td>
     <td class="td_03" colspan="2" >
         <asp:Label ID="classroot" runat="server"></asp:Label>
         <asp:HiddenField ID="yx_classid" runat="server" />
@@ -274,7 +274,7 @@ var isdis=0;
   </tr>
   <asp:Panel ID="sx" Visible="false" runat="server">
   <tr id = "tr_classattr">
-     <td valign="top" class="td_02" style="padding-top:20px"><span class="fontOrange font14">*</span> 商品属性：
+     <td valign="top" class="td_02" style="padding-top:20px"><span class="fontOrange font14">*</span> 物品属性：
 	 </td>
      <td colspan="2" class="td_03 goodDesc" style="line-height:25px">
          <%=product_sx() %>
@@ -283,7 +283,7 @@ var isdis=0;
    </asp:Panel>
   <asp:Panel ID="pp" Visible="false" runat="server">
     <tr id = "tr1">
-     <td valign="top" class="td_02" style="padding-top:20px"><span class="fontOrange font14">*</span> 商品品牌：
+     <td valign="top" class="td_02" style="padding-top:20px"><span class="fontOrange font14">*</span> 物品品牌：
 	 </td>
      <td colspan="2" class="td_03 goodDesc" style="line-height:25px">
          <%=product_pp()%>
@@ -291,21 +291,21 @@ var isdis=0;
   </tr> 
   </asp:Panel>
   <tr>
-    <td class="td_02" ><span class="fontOrange font14">*</span> 求购商品的名称：</td>
-    <td class="td_03" style="height: 65px"><asp:TextBox id="sTitle" runat="server" dataType="Require" min="3" max="10"  msg="请填写求购商品的名称" maxlength="60" size="60" /><br>
-    商品标题请限定在30个汉字内（60个字符）。如：求购佳能a70数码相机；求购纯白t恤衬衫。请写清楚您要求购的商品名称，卖家才能更容易看到您的求购信息。 </td>
+    <td class="td_02" ><span class="fontOrange font14">*</span> 求购物品的名称：</td>
+    <td class="td_03" style="height: 65px"><asp:TextBox id="sTitle" runat="server" dataType="Require" min="3" max="10"  msg="请填写求购物品的名称" maxlength="60" size="60" /><br>
+    物品标题请限定在30个汉字内（60个字符）。如：求购佳能a70数码相机；求购纯白t恤衬衫。请写清楚您要求购的物品名称，卖家才能更容易看到您的求购信息。 </td>
    	<td rowspan="2" align="center" class="td_03"><div id="previewImage"><asp:Image ID="Image2" Width="100" runat="server" /></div></td>
   </tr>  
   <tr>
-    <td class="td_02">求购商品的样品图片：</td>
+    <td class="td_02">求购物品的样品图片：</td>
     <td class="td_03" style="height: 65px">
       <asp:FileUpload ID="photo" name="photo"  runat="server" onchange="document.getElementById('previewImage').innerHTML = '预览<br> <img src=\''+this.value+'\' width=100 align=absmiddle>';" Width="350px" />
-      <br>有图片，卖家更容易帮您提供商品。请保证您的图片在120k以内，jpg或者gif格式，并确保您的图片可以在浏览器中正常打开！
+      <br>有图片，卖家更容易帮您提供物品。请保证您的图片在120k以内，jpg或者gif格式，并确保您的图片可以在浏览器中正常打开！
   
 	</td>
  </tr>		
     <tr>
-    <td class="td_02">商品说明：</td>
+    <td class="td_02">物品说明：</td>
     <td class="td_03" colspan=2>
 <script type="text/javascript" src="Edit/editor.js" charset="gb2312"></script>
 <textarea name="content" runat="server" id="content" style="width:100%;height:250px;"></textarea>
@@ -314,7 +314,7 @@ var isdis=0;
 	oEditor.Create() ;
 </script>
 在线编辑器仅支持IE5.5及以上版本，如果看不到在线编辑器，<a href=http://www.microsoft.com/downloads/details.aspx?FamilyID=1e1550cb-5e5d-48f5-b02b-20b602228de6&displaylang=zh-cn target=_blank>请点击升级浏览器。</a>
-<br />商品说明例子：佳能A70的新旧程度；T恤衬衫的型号，质地等等。描述得具体，卖家才能尽快提供给您合适的商品。
+<br />物品说明例子：佳能A70的新旧程度；T恤衬衫的型号，质地等等。描述得具体，卖家才能尽快提供给您合适的物品。
 	</td>
  </tr>	
 </table>
@@ -328,13 +328,13 @@ var isdis=0;
 </table>
 <table class=main border="0" align="center" cellpadding="0" cellspacing="0">
    <tr>
-      <td width="140" class="td_01">求购商品的基本信息</td>
+      <td width="140" class="td_01">求购物品的基本信息</td>
       <td colspan="3" class="td_01">　</td>
    </tr>
    <tr>
-      <td class="td_02"><span class="fontOrange font14">*</span> 商品数量：</td>
+      <td class="td_02"><span class="fontOrange font14">*</span> 物品数量：</td>
       <td width="225" class="td_03">
-         <asp:TextBox ID="dwNum" Text=1 runat="server" require = "true"  datatype="Number" msg="商品数量必须是数字" ></asp:TextBox>件</td>
+         <asp:TextBox ID="dwNum" Text=1 runat="server" require = "true"  datatype="Number" msg="物品数量必须是数字" ></asp:TextBox>件</td>
         <td  class="td_02">有效期：</td>
         <td class="td_03">
 	        <asp:DropDownList ID="dwValidDuration" runat="server">
@@ -350,9 +350,9 @@ var isdis=0;
    </tr>
        <script src="../Include/area.js" language=javascript></script>
     <% area(); %>
-   <tr><td class="td_02"><span class="fontOrange font14">*</span> 商品价格：</td>
+   <tr><td class="td_02"><span class="fontOrange font14">*</span> 物品价格：</td>
         <td class="td_03">
-		   <input name="dwPrice_bin" id="dwPrice_bin" runat="server" type="text" size="10"  require = "true" datatype="Range" min="0.01" max="1000000" msg="商品的金额必须是0.01～1000000之间的数字；" />  元
+		   <input name="dwPrice_bin" id="dwPrice_bin" runat="server" type="text" size="10"  require = "true" datatype="Range" min="0.01" max="1000000" msg="物品的金额必须是0.01～1000000之间的数字；" />  元
 		</td>
         <td class="td_02"><span class="fontOrange font14">*</span> 所 在 地：</td>
         <td class="td_03"><select  id="prov" name="prov" datatype="Range"  msg="请选择地区" min="1" max="30000000"  require="true" onChange="cityName(document.form1.prov.options[document.form1.prov.selectedIndex].value)">
@@ -384,13 +384,13 @@ var isdis=0;
 <asp:panel runat="server"  ID="panel3" Visible="false" width="100%" HorizontalAlign="Center"> 
 <table width="60%" border="0" >
   <tr>
-    <td align="center"><img src="../images/success.gif" width="41" align="center" height="39" />&nbsp;&nbsp;<div class=divfont14>恭喜您，求购商品信息发布成功！</div></td>
+    <td align="center"><img src="../images/success.gif" width="41" align="center" height="39" />&nbsp;&nbsp;<div class=divfont14>恭喜您，求购物品信息发布成功！</div></td>
   </tr>
   <tr>
     <td align="center" style="line-height:20px">
     <b>你可以进行的操作</b><br>    
-        <asp:HyperLink ID="HyperLink2" runat="server">查看求购商品详情>></asp:HyperLink><br>
-        <a href="yx_buygoods.aspx">继续发布求购商品信息>></a><br>
+        <asp:HyperLink ID="HyperLink2" runat="server">查看求购物品详情>></asp:HyperLink><br>
+        <a href="yx_buygoods.aspx">继续发布求购物品信息>></a><br>
   </tr>
   <tr>
     <td><table width="100%" height="62px" border="0" align="center">

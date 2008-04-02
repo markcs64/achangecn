@@ -106,7 +106,7 @@ function showNB(s1,s2){
           <td align="left" bgcolor="#f6f6f6" style="width: 553px; height: 27px;"><span  style="color:red">
               <asp:DropDownList ID="DropDownList1" runat="server">
               <asp:ListItem Text="文章频道" Value="1"></asp:ListItem>
-              <asp:ListItem Text="商品频道" Value="2"></asp:ListItem>
+              <asp:ListItem Text="物品频道" Value="2"></asp:ListItem>
               </asp:DropDownList></span></td>
           <td align="center" bgcolor="#f6f6f6" style="width: 200px; height: 27px;">
               所属模块</td>

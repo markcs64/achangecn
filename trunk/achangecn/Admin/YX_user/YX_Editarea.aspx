@@ -41,7 +41,7 @@
             </tr>
                       <tr>
                           <td align="center" bgcolor="#f6f6f6">
-                              商品分类：</td>
+                              物品分类：</td>
                           <td align="left" bgcolor="#f6f6f6" height="25">
                           <ChangHope:areaclass ID="areaclass1" runat="server" />
                           </td>

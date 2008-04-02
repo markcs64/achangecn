@@ -10,7 +10,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
-       <title>出售中的商品-会员管理中心-<%=SetUrl() %></title>
+       <title>易出中的物品-会员管理中心-<%=SetUrl() %></title>
     <style type="text/css">
     #sellLink2 {
 	background-color: #FEFAD8;
@@ -58,12 +58,12 @@ window.open("yx_edittype.aspx?YX_id="+id);
 	 <TD width=5>&nbsp;</TD>
 <TD vAlign=top>
       <DIV class=divMenu>
-      <DIV class=DivMain>出售中的商品</DIV></DIV>
+      <DIV class=DivMain>易出中的物品</DIV></DIV>
         
       <DIV class="tdSide tdMain desc" style="BACKGROUND: #f7f7f7"><B><SPAN 
-      class=fontOrange>商城提醒您：</SPAN></B>请核对您发布的商品是否符合最新商品发布规则。 </DIV>
+      class=fontOrange>商城提醒您：</SPAN></B>请核对您发布的物品是否符合最新物品发布规则。 </DIV>
       <DIV class="tdMain lineRight desc">
-      <INPUT style="MARGIN-RIGHT: 110px" onclick="Repeat()" type=button value=查询重名的商品> 
+      <INPUT style="MARGIN-RIGHT: 110px" onclick="Repeat()" type=button value=查询重名的物品> 
       <INPUT id=sTitle type=text name=sTitle> <SELECT 
       name=iorder id=iorderr> <OPTION value=0 selected>请选择排序方式</OPTION> <OPTION 
         value=1>上架时间从近到远</OPTION> <OPTION value=2>上架时间从远到近</OPTION> <OPTION 
@@ -87,7 +87,7 @@ window.open("yx_edittype.aspx?YX_id="+id);
 						
                 </ItemTemplate>
              </asp:TemplateColumn>
-             <asp:TemplateColumn HeaderText="商品名称">
+             <asp:TemplateColumn HeaderText="物品名称">
                 <ItemTemplate >
 			    <a href="../../ShowProduct.aspx?YX_MID=<%#Eval("YX_ID")%>"><%#Eval("YX_ProductName")%></a>
 			    <%#gmfs(Convert.ToInt32(Eval("YX_progmfs")))%>
@@ -124,10 +124,10 @@ window.open("yx_edittype.aspx?YX_id="+id);
                 </ItemTemplate>
                 <HeaderStyle CssClass="F" />
              </asp:TemplateColumn>
-                       <asp:TemplateColumn HeaderText="商品推荐位">
+                       <asp:TemplateColumn HeaderText="物品推荐位">
                            <ItemTemplate>
                                <input type="button" id="xq" onclick="DoUpdateCommodityEntry('1',<%#Eval("YX_ID") %>);"  value="编辑详情"><br>
-                               <input id="Button4"  onclick="edittype(<%#Eval("YX_ID") %>);" type="button" value="商品类别推荐" />
+                               <input id="Button4"  onclick="edittype(<%#Eval("YX_ID") %>);" type="button" value="物品类别推荐" />
                                &nbsp;
                            </ItemTemplate>
                        </asp:TemplateColumn>
@@ -161,10 +161,10 @@ window.open("yx_edittype.aspx?YX_id="+id);
            
           <asp:Button ID="Button1" runat="server" Text="店铺推荐" OnClick="Button1_Click" />
           <asp:Button ID="Button5" runat="server" Text="取消店铺推荐" OnClick="Button5_Click"  />
- <asp:Button ID="Button2" runat="server" Text="停止出售,放入仓库" OnClick="Button2_Click" />
+ <asp:Button ID="Button2" runat="server" Text="停止易出,放入仓库" OnClick="Button2_Click" />
 </DIV>
 
-      <DIV   class=note>提示：您进行更新操作后，通常要10－30分钟左右，这件商品的更新信息才会在店铺、分类、搜索等地方体现出来，请您耐心等候。</DIV></TD>
+      <DIV   class=note>提示：您进行更新操作后，通常要10－30分钟左右，这件物品的更新信息才会在店铺、分类、搜索等地方体现出来，请您耐心等候。</DIV></TD>
   </tr>
 </table>
 

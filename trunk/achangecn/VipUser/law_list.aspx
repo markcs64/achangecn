@@ -200,7 +200,7 @@ td.init_menu{
                 <p><a href="?falg=jb">查看详细信息&gt;&gt;</a></p>
                 <div class="WorkBox">
                   <p style="font-size:14px; font-weight:bold; color:#f60;">发起举报</p>
-                  <p>1.举报违规商品，请到该商品详细页面，点击页面右上角的“举报该商品”进行举报。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">如何举报</a>？<br />
+                  <p>1.举报违规物品，请到该物品详细页面，点击页面右上角的“举报该物品”进行举报。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">如何举报</a>？<br />
                     <br />
                     2.举报会员其他问题，请在此点击
                     <a href='?falg=shit' target="_blank" >举报会员</a>
@@ -262,7 +262,7 @@ td.init_menu{
                 </ItemTemplate>
                       <HeaderStyle CssClass="B" />
              </asp:TemplateColumn>
-			      <asp:TemplateColumn HeaderText="商品名称">
+			      <asp:TemplateColumn HeaderText="物品名称">
                 <ItemTemplate >
 				<%#Eval("yx_productname")%>			
                 </ItemTemplate>
@@ -351,7 +351,7 @@ td.init_menu{
                           </ItemTemplate>
                           <HeaderStyle CssClass="B" />
                       </asp:TemplateColumn>
-                      <asp:TemplateColumn HeaderText="商品名称">
+                      <asp:TemplateColumn HeaderText="物品名称">
                           <ItemTemplate >
                               <%#Eval("yx_productname")%>
                           </ItemTemplate>
@@ -421,7 +421,7 @@ td.init_menu{
          <div id="WarningBox" class="Accuse">
               <ul>
                 <li>1.举报是与被举报人无实际交易产生，但发现其在官方网上有违规情况时告知官方的途径，官方的举报制度规定为匿名举报。</li>
-                <li>2.如您想举报违规商品，请到该商品详细页面，点击页面右上角的“举报该商品”进行举报。若想发起针对会员的举报请点击：<a href='?falg=shit' target="_blank" >举报会员</a></li>
+                <li>2.如您想举报违规物品，请到该物品详细页面，点击页面右上角的“举报该物品”进行举报。若想发起针对会员的举报请点击：<a href='?falg=shit' target="_blank" >举报会员</a></li>
               </ul>
             </div>
          <div>
@@ -631,9 +631,9 @@ td.init_menu{
 	<ul>
 		<li>1.请提供充分的证据以确保举报成功，请珍惜您的会员权利，帮助官方店小二更好地管理网站；
 		</li>
-		<li>2.您每天只能举报一次；一周之内，对同一会员只能举报一次。（出售禁售品的举报例外）
+		<li>2.您每天只能举报一次；一周之内，对同一会员只能举报一次。（易出禁售品的举报例外）
 		</li>
-		<li>3.举报仅针对商品或会员本身，如需处理交易中产生的纠纷，请选择投诉；
+		<li>3.举报仅针对物品或会员本身，如需处理交易中产生的纠纷，请选择投诉；
 		</li>	
 
 		<li>
@@ -646,8 +646,8 @@ td.init_menu{
 	<div id="SortSelectList">
 		<ul>
 							<li>
-					<span>支付方式不符商品
-					</span>卖家在商品信息中拒绝使用支付宝或者违反支付宝流程，官方网判定其商品为支付方式不符商品。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">查看详细</a>
+					<span>支付方式不符物品
+					</span>卖家在物品信息中拒绝使用支付宝或者违反支付宝流程，官方网判定其物品为支付方式不符物品。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">查看详细</a>
 					<samp>
 													<a href='?falg=context&type=1&YX_MID=<%=proid() %>&Proname=<%=proname() %>'>
 								<img src='../IMAGES/023.gif' title="发起举报" />
@@ -655,8 +655,8 @@ td.init_menu{
 												</samp>
 				</li>
 							<li>
-					<span>标题、图片、描述等不一致商品
-					</span>发布的商品标题、图片、描述等信息缺乏或者多种信息相互不一致的情况。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">查看详细 </a>
+					<span>标题、图片、描述等不一致物品
+					</span>发布的物品标题、图片、描述等信息缺乏或者多种信息相互不一致的情况。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">查看详细 </a>
 					<samp>
 													<a href='?falg=context&type=2&YX_MID=<%=proid() %>&Proname=<%=proname() %>'>
 								<img src='../IMAGES/023.gif' title="发起举报" />
@@ -664,8 +664,8 @@ td.init_menu{
 												</samp>
 				</li>
 							<li>
-					<span>出售禁售品
-					</span>销售官方网禁止和限制交易规则下所规定的所有商品。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">查看详细 </a>
+					<span>易出禁售品
+					</span>销售官方网禁止和限制交易规则下所规定的所有物品。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">查看详细 </a>
 					<samp>
 													<a href='?falg=context&type=3&YX_MID=<%=proid() %>&Proname=<%=proname() %>'>
 								<img src='../IMAGES/023.gif' title="发起举报" />
@@ -674,7 +674,7 @@ td.init_menu{
 				</li>
 							<li>
 					<span>放错类目/属性
-					</span>商品属性和发布时选择所属类目不一致，或将商品错误放置在官方网推荐各类目下，官方网判定为严重放错类目商品。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">查看详细 </a>
+					</span>物品属性和发布时选择所属类目不一致，或将物品错误放置在官方网推荐各类目下，官方网判定为严重放错类目物品。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">查看详细 </a>
 					<samp>
 													<a href='?falg=context&type=4&YX_MID=<%=proid() %>&Proname=<%=proname() %>'>
 								<img src='../IMAGES/023.gif' title="发起举报" />
@@ -683,7 +683,7 @@ td.init_menu{
 				</li>
 							<li>
 					<span>重复铺货
-					</span>商品完全相同以及重要属性完全相同的，只允许用一种出售方式（即：一口价或拍卖）发布一次。违反以上规则，即判定为重复发布。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">查看详细 </a>
+					</span>物品完全相同以及重要属性完全相同的，只允许用一种易出方式（即：一口价或拍卖）发布一次。违反以上规则，即判定为重复发布。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">查看详细 </a>
 					<samp>
 													<a href='?falg=context&type=5&YX_MID=<%=proid() %>&Proname=<%=proname() %>'>
 								<img src='../IMAGES/023.gif' title="发起举报" />
@@ -691,8 +691,8 @@ td.init_menu{
 												</samp>
 				</li>
 							<li>
-					<span>广告商品
-					</span>发布没有意愿出售的商品或者纯信息的商品，或者以批发、代理、招商等形式发布的商品。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">查看详细 </a>
+					<span>广告物品
+					</span>发布没有意愿易出的物品或者纯信息的物品，或者以批发、代理、招商等形式发布的物品。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">查看详细 </a>
 					<samp>
 													<a href='?falg=context&type=6&YX_MID=<%=proid() %>&Proname=<%=proname() %>'>
 								<img src='../IMAGES/023.gif' title="发起举报" />
@@ -701,7 +701,7 @@ td.init_menu{
 				</li>
 							<li>
 					<span>滥用关键字
-					</span>卖家在所出售的商品中故意添加与本商品无关或官方网正在热推的关键字，扰乱官方网正常运营秩序的行为，官方网判定其相关商品为乱用关键字商品。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">查看详细 </a>
+					</span>卖家在所易出的物品中故意添加与本物品无关或官方网正在热推的关键字，扰乱官方网正常运营秩序的行为，官方网判定其相关物品为乱用关键字物品。<a href="../help/ArticleList.aspx?Flag=1&ClassId=30" target="_blank">查看详细 </a>
 					<samp>
 													<a href='?falg=context&type=7&YX_MID=<%=proid() %>&Proname=<%=proname() %>'>
 								<img src='../IMAGES/023.gif' title="发起举报" />
@@ -732,10 +732,10 @@ td.init_menu{
 		<ul>
 			<li>1.请提供充分的证据以确保举报成功，请珍惜您的会员权利，帮助官方店小二更好地管理网站；
 			</li>
-							<li>2.您只能对同一商品投诉一次；
+							<li>2.您只能对同一物品投诉一次；
 			</li>
 						
-			<li>3.举报仅针对商品或会员本身，如需处理交易中产生的纠纷，请选择投诉；
+			<li>3.举报仅针对物品或会员本身，如需处理交易中产生的纠纷，请选择投诉；
 			</li>		
 			<li>4.
 				<span class="H">*</span> 号为必填项。
@@ -794,13 +794,13 @@ td.init_menu{
 	<ul>
 		<li>1.请提供充分的证据以确保举报成功，请珍惜您的会员权利，帮助官方店小二更好地管理网站；
 		</li>
-		<li>2.您只能举报一次；对同一会员只能举报一次。（出售禁售品的举报例外）
+		<li>2.您只能举报一次；对同一会员只能举报一次。（易出禁售品的举报例外）
 		</li>
-		<li>3.举报仅针对商品或会员本身，如需处理交易中产生的纠纷，请选择投诉；
+		<li>3.举报仅针对物品或会员本身，如需处理交易中产生的纠纷，请选择投诉；
 		</li>	
 
 		<li>
-											4.如果以下没有相符合的举报类型，请查看<a href="?falg=ts" target="_blank">举报商品</a>。
+											4.如果以下没有相符合的举报类型，请查看<a href="?falg=ts" target="_blank">举报物品</a>。
 					</li>
 	</ul>
 </div>
@@ -828,7 +828,7 @@ td.init_menu{
 				</li>
 							<li>
 					<span>图片发布侵权
-					</span>未经允许使用图片所有者的商品图片的行为。即为“图片发布侵权”。<a href=../help/ArticleList.aspx?Flag=1&ClassId=30 target="_blank">查看详细 </a>
+					</span>未经允许使用图片所有者的物品图片的行为。即为“图片发布侵权”。<a href=../help/ArticleList.aspx?Flag=1&ClassId=30 target="_blank">查看详细 </a>
 					<samp>
 														<a href='?falg=context&type=10'>
 									<img src='../IMAGES/023.gif' title="发起举报" />

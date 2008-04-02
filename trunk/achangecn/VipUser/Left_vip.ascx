@@ -33,12 +33,12 @@ t2.className="LiOpen";
 	<DIV id=buyerItem style="DISPLAY: none">
       <DIV class=DivMain>我是买家</DIV>
       <UL class=UlMain>
-        <li><a id="buyer" style="COLOR: #ff4e00" href="yx_buygoods.aspx">发布求购商品 新</a></li>
-        <li><a id="buyermng" style="COLOR: #ff4e00" href="yx_buyer.aspx">商品求购管理 新</a></li>
-        <li><a id="buyerarea" style="COLOR: #ff4e00" href="../browse_offer.aspx">商品求购专区 新</a></li>
-        <LI><A id=buyLink16 href="bought_commodity.aspx">已购买的商品</A> </LI>
-        <LI><A id=buyLink17 href="buying_commodity.aspx">竞拍中的商品</A> </LI>
-        <LI><A id=buyLink18 href="buyover_commodity.aspx">竞拍结束的商品</A></LI>
+        <li><a id="buyer" style="COLOR: #ff4e00" href="yx_buygoods.aspx">发布求购物品 新</a></li>
+        <li><a id="buyermng" style="COLOR: #ff4e00" href="yx_buyer.aspx">物品求购管理 新</a></li>
+        <li><a id="buyerarea" style="COLOR: #ff4e00" href="../browse_offer.aspx">物品求购专区 新</a></li>
+        <LI><A id=buyLink16 href="bought_commodity.aspx">已购买的物品</A> </LI>
+        <LI><A id=buyLink17 href="buying_commodity.aspx">竞拍中的物品</A> </LI>
+        <LI><A id=buyLink18 href="buyover_commodity.aspx">竞拍结束的物品</A></LI>
         <LI id=buyLink19><A href="leavingms.aspx">卖家回复/留言</A></LI>
         <LI class=LiFoot><A id=buyLink20 href="my_collect_list.aspx">我的收藏</A> </LI>
        </UL>
@@ -52,12 +52,12 @@ t2.className="LiOpen";
         </LI>
       </UL>
       <UL class=UlMain id=uploadItem>
-        <LI class=LiEnd><A style="COLOR: #ff4e00" href="YX_sell.aspx" target=_blank>发布新商品</A>
+        <LI class=LiEnd><A style="COLOR: #ff4e00" href="YX_sell.aspx" target=_blank>发布新物品</A>
         </LI>
       </UL>
       <UL class=UlMain>
-        <LI><A id=sellLink2  href="selling_commodity.aspx">出售中的商品</A> </LI>
-        <LI><A id=sellLink3  href="depot_commodity.aspx?iDepotType=1">仓库里的商品</A> 
+        <LI><A id=sellLink2  href="selling_commodity.aspx">易出中的物品</A> </LI>
+        <LI><A id=sellLink3  href="depot_commodity.aspx?iDepotType=1">仓库里的物品</A> 
         </LI>
       </UL>
       <UL>
@@ -93,7 +93,7 @@ t2.className="LiOpen";
         <LI class=LiOpen id=mess onclick=showItems("mess")><A href="leavingmsg_seller.aspx">买家留言/回复</A></LI>
       </UL>
       <UL class=UlList id=messItem style="DISPLAY: none">       
-        <LI id=sellLink15><A  href="javascript:__doPostBack('LinkButton3','')">商品留言管理</A> 
+        <LI id=sellLink15><A  href="javascript:__doPostBack('LinkButton3','')">物品留言管理</A> 
          <LI id=sellLink14 class=LiEnd ><A  href="javascript:__doPostBack('LinkButton4','')">店铺留言管理</A> </LI>
         </LI>
       </UL>

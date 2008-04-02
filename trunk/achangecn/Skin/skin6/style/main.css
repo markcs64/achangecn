@@ -712,7 +712,7 @@ h2#discount a:hover,
 h2#discount a:active{
 	color:#ffffff;
 }
-/*商品详细样式*/
+/*物品详细样式*/
 #body_content{width:1003px;height:auto;text-align:center;margin: 0px auto!important; }
 #CommPicsShow{background:#85D4F8;}
 #CommPics{ border-bottom-color:#85D4F8; border-right-color:#85D4F8; border-left-color:#85D4F8; border-top-color:#85D4F8; border: #85D4F8 1px solid}

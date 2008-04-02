@@ -10,7 +10,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
-<title>已购买的商品-会员管理中心-<%=SetUrl() %></title>
+<title>已易入的物品-会员管理中心-<%=SetUrl() %></title>
     <style type="text/css">
     #buyLink16 {
 	background-color: #FEFAD8;
@@ -33,7 +33,7 @@
 	 <TD width=5>&nbsp;</TD>
 <TD vAlign=top align=left>
       <DIV class=divMenu>
-      <DIV class=DivMain>已购买的商品</DIV></DIV>
+      <DIV class=DivMain>已易入的物品</DIV></DIV>
       <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="tdMain">
           <tr>
             <td class="tdLeft" >成交时间：</td>
@@ -146,7 +146,7 @@
               日 </td>
           </tr>
           <tr>
-            <td class="tdLeft"> 商品名称： </td>
+            <td class="tdLeft"> 物品名称： </td>
             <td class="tdSide">
 			<input name="sTitle" type="text" size="18" value="" onkeydown="if(event.keyCode==13) return doSearch();" />
 		    </td>
@@ -154,10 +154,10 @@
             <td class="tdSide">
             <select name="start">
                 <option value="0" selected="selected">全部</option>
-                <option value="1">等待买家付款的订单</option>
-                <option value="2">等待卖家发货的订单</option>
-                <option value="3">等待买家确认收货的订单</option>
-				<option value="4">买家有退款或退货的订单</option>
+                <option value="1">等待易入换客付款的订单</option>
+                <option value="2">等待易换客出发货的订单</option>
+                <option value="3">等待易入换客确认收货的订单</option>
+				<option value="4">易入换客有退款或退货的订单</option>
 				<option value="5">交易完成的订单</option>
 				<option value="6">交易关闭的订单</option>
               </select>
@@ -185,7 +185,7 @@
                 </ItemTemplate>
              <HeaderStyle CssClass="F" />
              </asp:TemplateColumn>
-                       <asp:TemplateColumn HeaderText="商品名称">
+                       <asp:TemplateColumn HeaderText="物品名称">
                            <ItemTemplate>
                                <a href="../../ShowProduct.aspx?YX_MID=<%#Eval("YX_proID")%>">
                                    <%#Eval("YX_ProName")%>
@@ -194,7 +194,7 @@
                            </ItemTemplate>
                            <HeaderStyle CssClass="F" />
                        </asp:TemplateColumn>
-              <asp:TemplateColumn HeaderText="卖家">
+              <asp:TemplateColumn HeaderText="易出换客">
                 <ItemTemplate >
                  <%#ChangeHope.ChangHope_ExcUser.User_column("YX_userinfo",Convert.ToInt32(Eval("YX_userid")),"yx_user","yx_userid")%>
                 </ItemTemplate>
@@ -242,7 +242,7 @@
       <input type="checkbox" name="invest" value="checkbox" onClick="selectIt('document.formsp','YX_CH')"> 反选
 </DIV>
 
-      <DIV   class=note>提示：请及时注意商品的状态。
+      <DIV   class=note>提示：请及时注意物品的状态。
       </DIV></TD>
   </tr>
     <tr>

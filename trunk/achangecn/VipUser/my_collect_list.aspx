@@ -42,7 +42,7 @@ document.formsp.submit();
 <TD vAlign=top>
 	   <table width="100%" border="0" cellpadding="0" cellspacing="0" id="menu">
   <tr>
-    <td width="140"  id=top1><a ID="LinkButton3" class="toptitlehover" href="my_collect_list.aspx?iDepotType=1">我收藏的商品</a></td>
+    <td width="140"  id=top1><a ID="LinkButton3" class="toptitlehover" href="my_collect_list.aspx?iDepotType=1">我收藏的物品</a></td>
     <td width="3"></td>
     <td width="140"  id=top2><a ID="LinkButton4" class="toptitle" href="my_collect_list.aspx?iDepotType=2">我收藏的店铺</a></td>
     <td >&nbsp;</td>
@@ -71,7 +71,7 @@ document.formsp.submit();
                 </ItemTemplate>
              <HeaderStyle CssClass="F" />
              </asp:TemplateColumn>
-                       <asp:TemplateColumn HeaderText="商品名称">
+                       <asp:TemplateColumn HeaderText="物品名称">
                            <ItemTemplate>
                                <a href="../../ShowProduct.aspx?YX_MID=<%#Eval("YX_CollID")%>">
                                    <%#Eval("YX_CollName")%>
@@ -134,7 +134,7 @@ document.formsp.submit();
                 </ItemTemplate>
              <HeaderStyle CssClass="F" />
              </asp:TemplateColumn>
-                       <asp:TemplateColumn HeaderText="商铺名称">
+                       <asp:TemplateColumn HeaderText="易家名称">
                            <ItemTemplate>
                                <a href="../showshop.aspx?uin=<%#GetUserId(Convert.ToInt32(Eval("YX_CollID")))%>">
                                    <%#Eval("YX_CollName")%>

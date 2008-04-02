@@ -44,11 +44,11 @@
 	<td style=" vertical-align:top;">
 	 <div >
         <div class="DivMain" style=" width: 100%">
-            商品类别标记管理</div>
+            物品类别标记管理</div>
             <div class="divFoot">
                 <asp:Panel ID="Panel1" runat="server" Width="600px">
                    <table width=100%><tr><td style="height: 23px">标记序号：<asp:Label ID="Label1" runat="server" ForeColor=red></asp:Label></td>
-                   <td style="height: 23px">商品类别：<asp:Label ID="Label2" runat="server" ForeColor=Blue></asp:Label></td>
+                   <td style="height: 23px">物品类别：<asp:Label ID="Label2" runat="server" ForeColor=Blue></asp:Label></td>
                    <td style="height: 23px">标记名称：<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox></td>
                    <td style="height: 23px"><asp:Button ID="Button1" runat="server" Text="修改" OnClick="Button1_Click" /></td>
                    </tr></table> 
@@ -74,7 +74,7 @@
              </ItemTemplate>
                  <HeaderStyle CssClass="F" />
              </asp:TemplateColumn>
-			  <asp:TemplateColumn HeaderText="商品类别" HeaderStyle-HorizontalAlign="Center">
+			  <asp:TemplateColumn HeaderText="物品类别" HeaderStyle-HorizontalAlign="Center">
                 <ItemTemplate >
 				<table align="center"><tr>
 				<td>

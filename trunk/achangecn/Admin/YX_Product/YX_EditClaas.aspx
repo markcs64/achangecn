@@ -26,10 +26,10 @@
  
           <table  align="center" cellpadding="4" cellspacing="1" border="0" width=100%  class="toptable grid">
          <tr>
-          <td height="25" class="category t2" width=100>商品分类管理</td>
+          <td height="25" class="category t2" width=100>物品分类管理</td>
          <td class="category">
-             <asp:HyperLink ID="HyperLink1" NavigateUrl="add.aspx" runat="server">[商品分类管理]</asp:HyperLink>
-             <asp:HyperLink ID="HyperLink2" NavigateUrl="add.aspx?action=add" runat="server">[商品分类增加]</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink1" NavigateUrl="add.aspx" runat="server">[物品分类管理]</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink2" NavigateUrl="add.aspx?action=add" runat="server">[物品分类增加]</asp:HyperLink>
            </td>
         </tr>
  </table>

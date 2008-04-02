@@ -36,7 +36,7 @@
 <UL>
   <LI><iframe src="http://localhost/HongQiao/Login_Stat.aspx"  frameborder="0" width="150" height="25" scrolling="no" ></iframe>
  <!-- <script language="javascript" src="http://localhost/HongQiao/Login_Stat.aspx" charset="utf-8" ></script>--></LI>
-  <LI><A href="Hotsell.aspx" target=_parent>热卖商品</A> </LI>
+  <LI><A href="Hotsell.aspx" target=_parent>热卖物品</A> </LI>
   <LI><A href="Shop.aspx" target=_parent>品牌商城</A> </LI>
   <LI><A href="News/" target=_parent>购物资讯</A> </LI>
   <LI><A href="HighlevelSearch.aspx" target=_parent>高级搜索</A> </LI></UL></DIV>
@@ -48,10 +48,10 @@
   target=_top><SPAN>首页</SPAN></A> </LI>
   <LI id=MenuMarket><A 
   href="http://localhost/HongQiao/ProClass_list.aspx" 
-  target=_top><SPAN>易想集市</SPAN></A> </LI>
+  target=_top><SPAN>易物集市</SPAN></A> </LI>
   <LI id=kk2><A 
   href="http://localhost/HongQiao/browse_offer.aspx" 
-  target=_top><SPAN>易想求购</SPAN></A> </LI>
+  target=_top><SPAN>换客求购</SPAN></A> </LI>
   <LI id=MenuMall><A 
   href="http://localhost/HongQiao/shop.aspx" 
   target=_top><SPAN>品牌商城</SPAN></A> </LI>
@@ -60,7 +60,7 @@
   target=_top><SPAN>二手闲置</SPAN></A> </LI>
   <LI id=MenuSale><A 
   href="Hotsell.aspx" 
-  target=_top><SPAN>热卖商品</SPAN></A> </LI>
+  target=_top><SPAN>热卖物品</SPAN></A> </LI>
   <LI id=MenuInfo>
   <UL>
     <LI id=MenuDigital><A 
@@ -97,7 +97,7 @@
 <DIV id=SearchForm>
 <form name=topsearch action="Productlist.aspx" onSubmit="return checkkeyword()"  method="method" style="margin:0px">
 <SELECT id=keywordtype onchange=changeClass(this.value) name=keywordtype> 
-  <OPTION value=product selected>搜索商品</OPTION> 
+  <OPTION value=product selected>搜索物品</OPTION> 
   <OPTION value=shop>搜索店铺</OPTION> 
   <OPTION value=nick>搜索掌柜</OPTION> 
   <OPTION value=info>搜索资讯</OPTION> 
@@ -107,7 +107,7 @@
 <INPUT class=findInto id=keyword name=keyword> 
 <span id=proclass>
                       <!--       #begin           -->
-                       <select name='ClassId' ><option value=''>请选择分类</option><option value=1>女装－女士精品－童装</option><option value=2>彩妆-香水-护肤-保健</option><option value=3>珠宝首饰-手表-眼镜</option><option value=4>女士箱包-鞋帽-配件</option><option value=5>数码相机-摄像机-图形冲印</option><option value=6>书籍-报纸-杂志</option><option value=7>电影-电视-音乐-曲艺</option><option value=8>宠物-工艺品-礼品-鲜花-明星</option><option value=9>邮币-古董-字画-收藏</option><option value=10>住宅-商铺-办公楼租售</option><option value=11>汽车/配件/改装/摩托/自行车</option><option value=12>成人用品/避孕用品/情趣内衣</option><option value=13>网络游戏虚拟商品</option><option value=14>手机-通讯设备</option><option value=15>手机-网络电话-充值中心</option><option value=16>电脑-软件-网络-办公</option><option value=17>笔记本电脑-笔记本电脑配件</option><option value=18>随身视听-音响-耳机</option><option value=19>运动-休闲-健身-极限运动</option><option value=20>户外-野营-军品-旅游-机票</option><option value=21>家居日用-家电-食品-物流</option><option value=22>男装-男鞋-男包-服饰配件</option><option value=23>Zippo-瑞士军刀-男人饰品</option><option value=24>玩具-模型-卡通产品</option><option value=25>动漫周边-游戏周边</option><option value=26>婴幼-孕妇用品</option></select>
+                       <select name='ClassId' ><option value=''>请选择分类</option><option value=1>女装－女士精品－童装</option><option value=2>彩妆-香水-护肤-保健</option><option value=3>珠宝首饰-手表-眼镜</option><option value=4>女士箱包-鞋帽-配件</option><option value=5>数码相机-摄像机-图形冲印</option><option value=6>书籍-报纸-杂志</option><option value=7>电影-电视-音乐-曲艺</option><option value=8>宠物-工艺品-礼品-鲜花-明星</option><option value=9>邮币-古董-字画-收藏</option><option value=10>住宅-商铺-办公楼租售</option><option value=11>汽车/配件/改装/摩托/自行车</option><option value=12>成人用品/避孕用品/情趣内衣</option><option value=13>网络游戏虚拟物品</option><option value=14>手机-通讯设备</option><option value=15>手机-网络电话-充值中心</option><option value=16>电脑-软件-网络-办公</option><option value=17>笔记本电脑-笔记本电脑配件</option><option value=18>随身视听-音响-耳机</option><option value=19>运动-休闲-健身-极限运动</option><option value=20>户外-野营-军品-旅游-机票</option><option value=21>家居日用-家电-食品-物流</option><option value=22>男装-男鞋-男包-服饰配件</option><option value=23>Zippo-瑞士军刀-男人饰品</option><option value=24>玩具-模型-卡通产品</option><option value=25>动漫周边-游戏周边</option><option value=26>婴幼-孕妇用品</option></select>
                       <!--        #end          -->
 </span>
 <span id=newclass style="display:none">
@@ -421,7 +421,7 @@ target=_blank>更多&gt;&gt;</A></P>
 </DIV>
 <DIV class=MarketStyle id=MarketWindow>
 <H2><SPAN></SPAN></H2>
-<P class=Summary><A title='' href="ProClass_list.aspx" target=_blank>7000多万商品&nbsp;70多万卖家&nbsp;尽情易想</A></P>
+<P class=Summary><A title='' href="ProClass_list.aspx" target=_blank>众多物品&nbsp;众多换客&nbsp;尽情换物</A></P>
 <UL class=MallGuide>
 <UL style="padding-left:8px;"><script src="Include/Ad/taobao_index_JS.JS" type="text/jscript"></script></UL>
       <dl>				
@@ -504,20 +504,20 @@ target=_blank>更多&gt;&gt;</A></P>
 <DIV id=Category>
 <UL id=CategoryTitle>
   <LI class=Selected><A href="http://localhost/HongQiao/ProClass_list.aspx" 
-  target=_blank>商品分类</A> </LI>
+  target=_blank>物品分类</A> </LI>
 
   <LI><A href="http://localhost/HongQiao/ProClass_list.aspx" 
   target=_blank>集市</A> </LI>
   <LI><A href="http://localhost/HongQiao/shop.aspx" 
   target=_blank>品牌商城</A> </LI>
   <LI><A href="http://localhost/HongQiao/Productlist.aspx?distype=6" target=_blank>二手闲置</A> </LI>
-  <LI><A href="http://localhost/HongQiao/Hotsell.aspx" target=_blank>热卖商品</A> 
+  <LI><A href="http://localhost/HongQiao/Hotsell.aspx" target=_blank>热卖物品</A> 
 </LI></UL>
 <P class=Invisible><A title=跳至页面顶端 
 href="#">&gt;&gt;跳至<STRONG>页面顶端</STRONG></A></P>
 <DIV id=RequiredPurchase><A 
 href="vipuser/YX_sell.aspx" 
-target=_parent>发布商品</A></DIV>
+target=_parent>发布物品</A></DIV>
 <div id="CategoryList">
 
                     <TABLE cellSpacing=0 borderColorDark=#ffffff cellPadding=0 width='100%'>
@@ -615,7 +615,7 @@ target=_parent>发布商品</A></DIV>
                                      
                                 <TABLE cellSpacing=0 cellPadding=2 
                                 align=center border=0 style='width: 100%'>
-                                <TBODY><TR> <TD width='10%' height=24><DIV align=center><IMG src="http://localhost/HongQiao/Skin/skin5/image/side_bg_04.gif"></DIV></TD><TD style='width: 100%;' height=27 ><DIV align=left><a href='http://localhost/HongQiao/Productlist.aspx?ClassId=13' class=bigclassname>网络游戏虚拟商品</a></DIV></TD></TR><TR><TD width='100%' height=24 colspan='2' style='line-height:18px;padding-left:10px;'> <a href='http://localhost/HongQiao/Productlist.aspx?ClassId=322' class=classname>游戏点卡专区</a><font color=#dddddd>|</font><a href='http://localhost/HongQiao/Productlist.aspx?ClassId=323' class=classname>虚拟币/游戏币/装备</a><font color=#dddddd>|</font><a href='http://localhost/HongQiao/Productlist.aspx?ClassId=324' class=classname>网络游戏代练</a><font color=#dddddd>|</font><br><a href='http://localhost/HongQiao/Productlist.aspx?ClassId=325' class=classname>游戏社区/平台</a><font color=#dddddd>|</font><a href='http://localhost/HongQiao/Productlist.aspx?ClassId=326' class=classname>手机游戏</a><font color=#dddddd>|</font><a href='http://localhost/HongQiao/Productlist.aspx?ClassId=327' class=classname>其它虚拟卡</a><font color=#dddddd>|</font></td>
+                                <TBODY><TR> <TD width='10%' height=24><DIV align=center><IMG src="http://localhost/HongQiao/Skin/skin5/image/side_bg_04.gif"></DIV></TD><TD style='width: 100%;' height=27 ><DIV align=left><a href='http://localhost/HongQiao/Productlist.aspx?ClassId=13' class=bigclassname>网络游戏虚拟物品</a></DIV></TD></TR><TR><TD width='100%' height=24 colspan='2' style='line-height:18px;padding-left:10px;'> <a href='http://localhost/HongQiao/Productlist.aspx?ClassId=322' class=classname>游戏点卡专区</a><font color=#dddddd>|</font><a href='http://localhost/HongQiao/Productlist.aspx?ClassId=323' class=classname>虚拟币/游戏币/装备</a><font color=#dddddd>|</font><a href='http://localhost/HongQiao/Productlist.aspx?ClassId=324' class=classname>网络游戏代练</a><font color=#dddddd>|</font><br><a href='http://localhost/HongQiao/Productlist.aspx?ClassId=325' class=classname>游戏社区/平台</a><font color=#dddddd>|</font><a href='http://localhost/HongQiao/Productlist.aspx?ClassId=326' class=classname>手机游戏</a><font color=#dddddd>|</font><a href='http://localhost/HongQiao/Productlist.aspx?ClassId=327' class=classname>其它虚拟卡</a><font color=#dddddd>|</font></td>
                                 </TR>
                                 </TBODY>     
                                 </TABLE> 
@@ -857,7 +857,7 @@ target=_blank>更多&gt;&gt;</A></P>
 <TABLE cellSpacing="0" cellPadding="0" width="100%" border="0"><TR><TD height=18  align=left><A title="男人世界" href=../Html/0801092807137.htm class=news>·S925纯银可爱宝宝长命锁隆重推</A></TD></TR>
  <TR><TD height=18  align=left><A title="男人世界" href=../Html/2043111306136.htm class=news>·开店前的准备是做为一个好的网商必</A></TD></TR>
  <TR><TD height=18  align=left><A title="男人世界" href=../Html/4042111306135.htm class=news>·爱的交集</A></TD></TR>
- <TR><TD height=18  align=left><A title="男人世界" href=../Html/5941111306134.htm class=news>·:~~~~★卖掉自己再卖商品★~</A></TD></TR>
+ <TR><TD height=18  align=left><A title="男人世界" href=../Html/5941111306134.htm class=news>·:~~~~★卖掉自己再卖物品★~</A></TD></TR>
  <TR><TD height=18  align=left><A title="男人世界" href=../Html/2641111306133.htm class=news>·开车去FB</A></TD></TR>
  <TR><TD height=18  align=left><A title="男人世界" href=../Html/4540111306132.htm class=news>·开车去FB</A></TD></TR>
  <TR><TD height=18  align=left><A title="男人世界" href=../Html/5439111306131.htm class=news>·最易被女人勾引到手的男人</A></TD></TR>
