@@ -1,3 +1,7 @@
+BODY {
+	FONT-SIZE: 12px; MARGIN: 0px
+}
+
 IMG {
 	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
 }
@@ -364,3 +368,118 @@ font-size:12px
 	color:#FF9900;
 	font-weight:bold;
 }
+A.yellow12:link {
+	FONT-SIZE: 12px; COLOR: #fffc0c; TEXT-DECORATION: underline
+}
+A.yellow12:visited {
+	FONT-SIZE: 12px; COLOR: #fffc0c; TEXT-DECORATION: underline
+}
+A.yellow12:hover {
+	FONT-SIZE: 12px; COLOR: #fffc0c; TEXT-DECORATION: none
+}
+A.gray12:link {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+A.gray12:visited {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+A.gray12:hover {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: underline
+}
+
+
+.topmenu{ height:26px; width:560px; margin-left:280px; margin-top:-28px; z-index:99;}
+.topmenu ul{ list-style:none;}
+.topmenu li{ float:left; width:82px; height:26px;}
+
+.intelligent {
+	DISPLAY: inline; Z-INDEX: 9; POSITION: relative; 
+}
+.intelligentList {
+	BORDER-RIGHT: #8e8e8e 1px solid; BORDER-TOP: #8e8e8e 1px solid; Z-INDEX: 777; BACKGROUND: #fff; LEFT: 0px; BORDER-LEFT: #8e8e8e 1px solid; WIDTH: 430px; PADDING-TOP: 6px; BORDER-BOTTOM: #8e8e8e 1px solid; POSITION: absolute; TOP: 22px
+}
+.intelligent INPUT#forsearch {
+	PADDING-LEFT: 3px; WIDTH: 149px
+}
+.intelligentList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.intelligentList {
+	BACKGROUND: #fff; WIDTH: 430px; PADDING-TOP: 6px; TEXT-ALIGN: left
+}
+.intelligentList DIV SPAN {
+	FLOAT: right
+}
+.intelligentList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.intelligentList DIV {
+	BORDER-RIGHT: #fff 2px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fff 2px solid; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; BORDER-LEFT: #fff 2px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #fff 2px solid
+}
+.intelligentList A {
+	PADDING-RIGHT: 6px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 1px; COLOR: #000! important; PADDING-TOP: 1px; TEXT-DECORATION: none
+}
+.intelligentList A SPAN {
+	COLOR: green
+}
+.intelligentList A:visited {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1px; COLOR: #000! important; PADDING-TOP: 1px; TEXT-DECORATION: none
+}
+.intelligentList A:visited SPAN {
+	COLOR: green
+}
+.intelligentList A.current DIV {
+	BORDER-RIGHT: #3366cc 2px solid; BORDER-TOP: #3366cc 2px solid; BACKGROUND: #3366cc; BORDER-LEFT: #3366cc 2px solid; COLOR: #fff; BORDER-BOTTOM: #3366cc 2px solid
+}
+.intelligentList A.current:visited DIV SPAN {
+	COLOR: #fff
+}
+.intelligentList A.current DIV SPAN {
+	COLOR: #fff
+}
+.intelligent .intelligentIframeMask {
+	Z-INDEX: 776; BACKGROUND: #fff; LEFT: 0px; WIDTH: 430px; POSITION: absolute; TOP: 28px; HEIGHT: 10px
+}
+.intelligentList .intelligentListTitle {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 11px; BACKGROUND: #edf1f9; MARGIN: 0px; CURSOR: pointer; COLOR: #4d4d4d; TEXT-INDENT: 5px; BORDER-BOTTOM: #d5e1ee 1px solid; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px
+}
+.intelligentList .intelligentListTitle SPAN {
+	PADDING-RIGHT: 5px; MARGIN-TOP: -19px; DISPLAY: block; BACKGROUND: url(http://img.alibaba.com/images/eng/style/css_images/intelligent_upIcon.gif) no-repeat left center; FLOAT: right; TEXT-INDENT: 12px; TEXT-DECORATION: underline
+}
+.intelligentList .showSearchSuggestion {
+	PADDING-LEFT: 14px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: url(http://img.alibaba.com/images/eng/style/css_images/intelligent_downIcon.gif) #edf1f9 no-repeat 3px center; MARGIN-LEFT: 0px; WIDTH: 345px; CURSOR: pointer; COLOR: #4d4d4d; TEXT-INDENT: 5px; BORDER-BOTTOM: #d5e1ee 1px solid; HEIGHT: 20px; TEXT-DECORATION: underline
+}
+.searchBox {
+	TEXT-ALIGN: center; margin-top:10px;
+}
+#main960 {
+	MARGIN:0 auto; WIDTH: 960px; margin-top:-12px;
+}
+#mainleft{ width:225px; float:left;}
+#content{ width:730px; margin-left:5px; margin-top:2px; }
+#container1,#container2{
+	BORDER-RIGHT: #dbdbdb 1px solid; BORDER-LEFT: #dbdbdb 1px solid; width:223px; 
+}
+.infoHead{margin-top:3px;}
+#ArticleinfoHead{ width:223px; height:24px;  text-align:center;FONT-SIZE: 14px; FONT-WEIGHT: bold; color:#FFFFFF; margin-top:0px; padding-top:5px;}
+#Article_list{width:200px; margin-left:15px;}
+.font14 {
+	FONT-SIZE: 14px
+}
+.b {
+	FONT-WEIGHT: bold
+}
+#products_ad{ width:505px; height:180px; float:left; border:#666666 1px solid; }
+/* 中间广告动画栏 */
+  .focusPic { margin-top:0px; OVERFLOW: hidden;  WIDTH: 505px;  POSITION: relative;HEIGHT: 180px; padding-left:0px;}
+  .focusPicNum {Z-INDEX: 99; right: 0px; POSITION: absolute; TOP: 160px;MARGIN: 3px}
+
+
+#contentRight{ margin-left:5px; width:218px; height:180px;}  
+#Right_onlineHead{ height:68px;}
+#Right_article{BORDER-RIGHT: #d3d2d3 1px solid; BORDER-LEFT: #d3d2d3 1px solid; width:216px; height:90px;}
+#Right_article ul{ clear:both; margin-left:25px;}
+#Right_article li{ list-style:none; }
+#Right_onlineBottom{ line-height:0px; clear:both; height:8px; margin-top:0px;}
+#contentProducts{  margin-top:3px; }
+#prolist{BORDER-RIGHT: #cfe0e6 1px solid; BORDER-LEFT: #cfe0e6 1px solid; border-bottom: #cfe0e6 1px solid;padding-top:20px; padding-bottom:10px;}
