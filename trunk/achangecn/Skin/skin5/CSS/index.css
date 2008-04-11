@@ -469,10 +469,11 @@ A.gray12:hover {
 .b {
 	FONT-WEIGHT: bold
 }
-#products_ad{ width:505px; height:180px; float:left; border:#666666 1px solid; }
+
 /* 中间广告动画栏 */
-  .focusPic { margin-top:0px; OVERFLOW: hidden;  WIDTH: 505px;  POSITION: relative;HEIGHT: 180px; padding-left:0px;}
-  .focusPicNum {Z-INDEX: 99; right: 0px; POSITION: absolute; TOP: 160px;MARGIN: 3px}
+#products_ad{ width:505px; height:180px; float:left; border:#666666 1px solid; }
+.focusPic { margin-top:0px; OVERFLOW: hidden;  WIDTH: 505px;  POSITION: relative;HEIGHT: 180px; padding-left:0px;}
+.focusPicNum {Z-INDEX: 99; right: 0px; POSITION: absolute; TOP: 160px;MARGIN: 3px}
 
 
 #contentRight{ margin-left:5px; width:218px; height:180px;}  
@@ -483,3 +484,5 @@ A.gray12:hover {
 #Right_onlineBottom{ line-height:0px; clear:both; height:8px; margin-top:0px;}
 #contentProducts{  margin-top:3px; }
 #prolist{BORDER-RIGHT: #cfe0e6 1px solid; BORDER-LEFT: #cfe0e6 1px solid; border-bottom: #cfe0e6 1px solid;padding-top:20px; padding-bottom:10px;}
+.newproducts_more a{ float:right; margin-top:10px; margin-right:20px; color:#0099FF; text-decoration:none;}
+.newproducts_more a:hover{ color:#ff6600; text-decoration:underline;}
