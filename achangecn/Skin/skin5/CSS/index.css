@@ -1,12 +1,16 @@
 BODY {
-	FONT-SIZE: 12px; MARGIN: 0px
+	FONT-SIZE: 12px;
+	margin:0;
+	text-align:center;
+	background-color:#FFF;
+
 }
 
 IMG {
 	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
 }
 INPUT {
-	FONT: 12px "宋体"; COLOR: #333
+	FONT: 12px "宋体"; background-color:#F3F8FC; border:#D2E4EE 1px solid;
 }
 .notetop{padding:0px 10px 5px 0px;margin:10px 0 0;background:url(../IMAGES/point_btn_03.gif) #FFF9D9 5px 5px no-repeat;border:1px solid #FFCC33;line-height:150%}
 
@@ -28,18 +32,47 @@ SPAN {
 	BORDER-RIGHT: #f0f 1px dashed; BORDER-TOP: #f0f 1px dashed; BORDER-LEFT: #f0f 1px dashed; BORDER-BOTTOM: #f0f 1px dashed
 }
 
-A.link_blue:link {
-	FONT: 12px "宋体"; COLOR: #1835D1; TEXT-DECORATION: none
+a:link,a:visited{
+	color:#0044DD;
+	text-decoration:none;
 }
-A.link_blue:visited {
-	FONT: 12px "宋体"; COLOR: #1835D1; TEXT-DECORATION: none
+a:hover,a:active{
+	color:#FF5500;
+	text-decoration:underline;
 }
-A.link_blue:active {
-	FONT: 12px "宋体"; COLOR: #1835D1; TEXT-DECORATION: none
+
+a.U:link,a.U:visited{
+	color:#0044DD;
+	text-decoration:underline;
 }
-A.link_blue:hover {
-	FONT: 12px "宋体"; COLOR: #1835D1; TEXT-DECORATION: none
+a.U:hover,a.U:active{
+	color:#FF5500;
+	text-decoration:underline;
+} 
+
+
+a.bigclassname:link,a.bigclassname:visited{ 
+    font-weight:bold;
+	color:#0044DD;
+	font-size:13px;
 }
+a.bigclassname:hover,a.bigclassname:active{
+	color:#FF5500;
+	font-size:13px;
+	text-decoration:underline;
+}    
+a.classname:link,a.classname:visited,a.classname:active{ 
+	color:#5D89DF;
+	padding-left:4px;
+	padding-right:4px;
+}
+a.classname:hover{
+	color:#FF5500;
+	text-decoration:underline;
+	padding:0px 5px 0 4px;;
+}
+
+
 
 .font_orange {
 	COLOR: #ff4e00
@@ -156,12 +189,7 @@ A.link_blue:hover {
 #foot A:hover {
 	COLOR: #ff3300; TEXT-DECORATION: underline
 }
-#foot {
-	MARGIN: 10px 0px 12px; LINE-HEIGHT: 150%; TEXT-ALIGN: center
-}
-#foot_link {
-	PADDING-BOTTOM: 4px; MARGIN: 7px auto; WIDTH: 760px; BORDER-BOTTOM: #d7d7d7 1px solid
-}
+
 #headV2 {
 	MARGIN-TOP: 7px
 }
@@ -503,7 +531,7 @@ A.gray12:hover {
 
 
 .main760 {
-	MARGIN: 0px auto; WIDTH: 760px; margin-left:100px;
+	MARGIN: 0px auto; WIDTH: 760px;
 }
 
 #loginLeft {
@@ -531,6 +559,60 @@ A.gray12:hover {
 #loginMain .liNull {
 	PADDING-LEFT: 72px;
 }
-#footer {
 
+#footer {
+CLEAR: both; 
+PADDING-RIGHT: 0px; 
+BORDER-TOP: #ccc 1px solid; 
+MARGIN-TOP:0px; 
+PADDING-LEFT: 0px; 
+PADDING-BOTTOM: 5px; 
+FONT-SIZE: 12px;
+PADDING-TOP: 5px; 
+TEXT-ALIGN: center
 }
+
+ul.Form_Advance{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+ul.Form_Advance li{
+	width:100%;
+	clear:both;
+	margin-bottom:5px !important;
+	margin-bottom:0px;
+}
+
+/* 我要易入 的页面 易物动态 的 定义*/
+
+#TopBrandSale{
+	float:left;
+	width:225px;
+	height:190px;
+	overflow:hidden;
+	background:url(../IMAGE/topbrandsale_bg.gif) no-repeat;
+}
+#TopBrandSale h2{
+	color:#636363;
+	font:14px;
+	margin-top:10px;
+}
+#TopBrandSale ul{
+width:210px;
+margin-left:10px;
+margin-right:10px;
+}
+#TopBrandSale ul li{
+	float:left;
+	overflow:hidden;
+}
+/*易物流程定义*/
+#liucheng{}
+#liuchengflow{BORDER-RIGHT: #dbdbdb 1px solid; BORDER-LEFT: #dbdbdb 1px solid; width:225px;}
+
+/*我要易入 页面内 易物分类 */
+#mainright{ background:#CCCCCC; width:500px; height:300px; float:left;}
+.productshow{height:120px; background:#CCCCCC;}
+.productAD{ height:100px; margin-top:3px; background:#CCCCCC;}
+.allproductsClass{margin-top:3px;}
