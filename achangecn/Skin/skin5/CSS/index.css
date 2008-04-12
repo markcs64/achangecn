@@ -456,7 +456,7 @@ A.gray12:hover {
 	MARGIN:0 auto; WIDTH: 960px; margin-top:-12px;
 }
 #mainleft{ width:225px; float:left;}
-#content{ width:730px; margin-left:5px; margin-top:2px; }
+#content{ width:505px; margin-left:5px; margin-top:2px; float:left; }
 #container1,#container2{
 	BORDER-RIGHT: #dbdbdb 1px solid; BORDER-LEFT: #dbdbdb 1px solid; width:223px; 
 }
@@ -469,6 +469,8 @@ A.gray12:hover {
 .b {
 	FONT-WEIGHT: bold
 }
+.hrproductsClass{ color:#d9d9d9; height:2px; width:95%;}
+
 
 /* 中间广告动画栏 */
 #products_ad{ width:505px; height:180px; float:left; border:#666666 1px solid; }
@@ -476,13 +478,58 @@ A.gray12:hover {
 .focusPicNum {Z-INDEX: 99; right: 0px; POSITION: absolute; TOP: 160px;MARGIN: 3px}
 
 
-#contentRight{ margin-left:5px; width:218px; height:180px;}  
+#contentRight{ margin-left:5px; width:218px; height:180px; float:left;}  
 #Right_onlineHead{ height:68px;}
 #Right_article{BORDER-RIGHT: #d3d2d3 1px solid; BORDER-LEFT: #d3d2d3 1px solid; width:216px; height:90px;}
 #Right_article ul{ clear:both; margin-left:25px;}
 #Right_article li{ list-style:none; }
 #Right_onlineBottom{ line-height:0px; clear:both; height:8px; margin-top:0px;}
-#contentProducts{  margin-top:3px; }
+#contentProduct_title{ margin-top:3px; width:507px; }
+
+
+
+#contentProducts{  width:505px; BORDER-RIGHT: #cfe0e6 1px solid; BORDER-LEFT: #cfe0e6 1px solid; border-bottom: #cfe0e6 1px solid;padding-top:20px; padding-bottom:10px; }
+
+#newProducts{  margin-top:3px; width:730px;}
+
 #prolist{BORDER-RIGHT: #cfe0e6 1px solid; BORDER-LEFT: #cfe0e6 1px solid; border-bottom: #cfe0e6 1px solid;padding-top:20px; padding-bottom:10px;}
 .newproducts_more a{ float:right; margin-top:10px; margin-right:20px; color:#0099FF; text-decoration:none;}
 .newproducts_more a:hover{ color:#ff6600; text-decoration:underline;}
+
+#Articletitle_img{}
+#contentArticle{ BORDER-RIGHT: #cfe0e6 1px solid; BORDER-LEFT: #cfe0e6 1px solid; border-bottom: #cfe0e6 1px solid; padding:10px 5px 5px 15px;}
+
+
+
+.main760 {
+	MARGIN: 0px auto; WIDTH: 760px; margin-left:100px;
+}
+
+#loginLeft {
+	FLOAT: left; MARGIN-LEFT: 10px; WIDTH: 381px; PADDING-TOP: 32px
+}
+#loginSide {
+	FLOAT: right; WIDTH: 294px; MARGIN-RIGHT: 10px; PADDING-TOP: 32px; POSITION: relative;text-align:left; 
+}
+#loginSide LI{list-style:none;}
+#loginHead {
+	PADDING-LEFT: 25px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(../image/login_head.gif) no-repeat; COLOR: #fff; LINE-HEIGHT: 27px; HEIGHT: 27px;
+}
+#loginAuto {
+	BORDER-RIGHT: #55a1ef 1px dashed; PADDING-RIGHT: 10px; BORDER-TOP: #55a1ef 1px dashed; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; MARGIN: 10px; BORDER-LEFT: #55a1ef 1px dashed; PADDING-TOP: 10px; BORDER-BOTTOM: #55a1ef 1px dashed
+}
+#loginHelp LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 80px; BACKGROUND: url(../image/login_libg.gif) no-repeat 65px 16px; PADDING-BOTTOM: 0px; PADDING-TOP: 12px
+}
+#loginMain {
+	BORDER-RIGHT: #57a0ed 1px solid; BORDER-TOP: #57a0ed 1px solid; BACKGROUND: #eef5ff; MARGIN-BOTTOM: 25px; PADDING-BOTTOM: 10px; BORDER-LEFT: #57a0ed 1px solid; BORDER-BOTTOM: #57a0ed 1px solid
+}
+#loginMain LI {
+	PADDING-LEFT: 10px; MARGIN-BOTTOM: 5px;text-align:left; list-style:none;
+}
+#loginMain .liNull {
+	PADDING-LEFT: 72px;
+}
+#footer {
+
+}
