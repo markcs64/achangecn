@@ -387,8 +387,9 @@ A.gray12:hover {
 	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: underline
 }
 
-
-.topmenu{ height:26px; width:560px; margin-left:280px; margin-top:-28px; z-index:99;}
+#topswf{background: url(../swf/topbg990-146.jpg) no-repeat top left; height:146px; }
+#topflash{ background:#0000CC;}
+.topmenu{ clear:both; height:26px; width:560px;  background:#003399;}
 .topmenu ul{ list-style:none;}
 .topmenu li{ float:left; width:82px; height:26px;}
 
