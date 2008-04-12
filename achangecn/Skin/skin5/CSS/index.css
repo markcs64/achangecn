@@ -596,7 +596,7 @@ ul.Form_Advance li{
 #TopBrandSale h2{
 	color:#636363;
 	font:14px;
-	margin-top:10px;
+	margin-top:5px;
 }
 #TopBrandSale ul{
 width:210px;
@@ -609,10 +609,10 @@ margin-right:10px;
 }
 /*易物流程定义*/
 #liucheng{}
-#liuchengflow{BORDER-RIGHT: #dbdbdb 1px solid; BORDER-LEFT: #dbdbdb 1px solid; width:225px;}
+#liuchengflow{BORDER-RIGHT: #dbdbdb 1px solid; BORDER-LEFT: #dbdbdb 1px solid; width:223px;}
 
 /*我要易入 页面内 易物分类 */
-#mainright{ background:#CCCCCC; width:500px; height:300px; float:left;}
+#mainright{ clear:both; background:#CCCCCC; width:500px; height:300px;}
 .productshow{height:120px; background:#CCCCCC;}
 .productAD{ height:100px; margin-top:3px; background:#CCCCCC;}
 .allproductsClass{margin-top:3px;}
