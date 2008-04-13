@@ -1,14 +1,16 @@
 BODY {
-	FONT-SIZE: 12px;
+	FONT-SIZE: 12px; MARGIN: 0px;
 	margin:0;
 	text-align:center;
 	background-color:#FFF;
 
-}
 
-IMG {
-	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
 }
+ul{ margin:0px; padding:0px; list-style:none;}
+li{margin:0;padding:0;}
+IMG { margin:0; padding:0;
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+ }
 INPUT {
 	FONT: 12px "ËÎÌו"; background-color:#F3F8FC; border:#D2E4EE 1px solid;
 }
@@ -415,12 +417,21 @@ A.gray12:hover {
 	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: underline
 }
 
-#topswf{background: url(../swf/topbg990-146.jpg) no-repeat top left; height:146px; }
-#topflash{ background:#0000CC;}
-.topmenu{ clear:both; height:26px; width:560px;  background:#003399;}
-.topmenu ul{ list-style:none;}
-.topmenu li{ float:left; width:82px; height:26px;}
-
+#topswf{background: url(../swf/topbg990-146.jpg) no-repeat center ; height:146px; width:100%;   }
+#topflash{  width:960px; margin:0px auto; }
+#topflash embed{ margin-left:100px; }
+#topmenu{ height:26px; width:960px; margin:0px auto;font: bold 14px/180% Tahoma,Verdana, sans-serif;  }
+#topmenu ul{ list-style:none; height:26px; width:550px;  margin-left:350px;   }
+#topmenu li{ float:left; width:82px;  height:26px; display:block; line-height:26px; text-align:center; }
+#topmenu a{ text-decoration:none;color:#FFFFFF; }
+.menu1{ background:url(../IMAGES/menu_aa.gif) no-repeat;}
+.menu2{background:url(../IMAGES/menu_aa.gif) no-repeat;}
+.menu3{background:url(../IMAGES/menu_aa.gif) no-repeat;}
+.menu4{background:url(../IMAGES/menu_aa.gif) no-repeat;}
+.menu5{background:url(../IMAGES/menu_aa.gif) no-repeat;}
+.menu6{background:url(../IMAGES/menu_aa.gif) no-repeat;}
+#searchBox { background:url(../IMAGE/search_bgline.gif) repeat-x; width:1004px; margin:0 auto; height:55px; text-align:center; }
+#searchbody{  padding-top:10px;}
 .intelligent {
 	DISPLAY: inline; Z-INDEX: 9; POSITION: relative; 
 }
@@ -478,9 +489,9 @@ A.gray12:hover {
 .intelligentList .showSearchSuggestion {
 	PADDING-LEFT: 14px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: url(http://img.alibaba.com/images/eng/style/css_images/intelligent_downIcon.gif) #edf1f9 no-repeat 3px center; MARGIN-LEFT: 0px; WIDTH: 345px; CURSOR: pointer; COLOR: #4d4d4d; TEXT-INDENT: 5px; BORDER-BOTTOM: #d5e1ee 1px solid; HEIGHT: 20px; TEXT-DECORATION: underline
 }
-.searchBox {
-	TEXT-ALIGN: center; margin-top:10px;
-}
+
+	
+
 #main960 {
 	MARGIN:0 auto; WIDTH: 960px; margin-top:-12px;
 }
