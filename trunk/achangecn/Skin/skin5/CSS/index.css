@@ -14,6 +14,7 @@ IMG { margin:0; padding:0;
 INPUT {
 	FONT: 12px "宋体"; background-color:#F3F8FC; border:#D2E4EE 1px solid;
 }
+p{ margin:0; padding:0;}
 .notetop{padding:0px 10px 5px 0px;margin:10px 0 0;background:url(../IMAGES/point_btn_03.gif) #FFF9D9 5px 5px no-repeat;border:1px solid #FFCC33;line-height:150%}
 
 SELECT {
@@ -416,11 +417,11 @@ A.gray12:visited {
 A.gray12:hover {
 	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: underline
 }
-
+/*头部头部头部头部头部头部头部头部*/
 #topswf{background: url(../swf/topbg990-146.jpg) no-repeat center ; height:146px; width:100%;   }
 #topflash{  width:960px; margin:0px auto; }
 #topflash embed{ margin-left:100px; }
-#topmenu{ height:26px; width:960px; margin:0px auto;font: bold 14px/180% Tahoma,Verdana, sans-serif;  }
+#topmenu{ height:26px; width:960px; margin:0px auto;font: bold 14px/180% Tahoma,Verdana, sans-serif;   }
 #topmenu ul{ list-style:none; height:26px; padding-left:260px;      }
 #topmenu li{ float:left; width:82px;  height:26px; display:block; line-height:26px; text-align:center; }
 #topmenu a{ text-decoration:none;color:#FFFFFF; }
@@ -430,7 +431,7 @@ A.gray12:hover {
 .menu4{background:url(../IMAGES/menu_aa.gif) no-repeat;}
 .menu5{background:url(../IMAGES/menu_aa.gif) no-repeat;}
 .menu6{background:url(../IMAGES/menu_aa.gif) no-repeat;}
-#searchBox { background:url(../IMAGE/search_bgline.gif) repeat-x; width:1004px; margin:0 auto; height:55px; text-align:center; }
+#searchBox { background:url(../IMAGE/search_bgline.gif) repeat-x; width:1004px; margin:0 auto; height:40px; text-align:center; }
 #searchbody{  padding-top:10px;}
 .intelligent {
 	DISPLAY: inline; Z-INDEX: 9; POSITION: relative; 
@@ -490,17 +491,19 @@ A.gray12:hover {
 	PADDING-LEFT: 14px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND: url(http://img.alibaba.com/images/eng/style/css_images/intelligent_downIcon.gif) #edf1f9 no-repeat 3px center; MARGIN-LEFT: 0px; WIDTH: 345px; CURSOR: pointer; COLOR: #4d4d4d; TEXT-INDENT: 5px; BORDER-BOTTOM: #d5e1ee 1px solid; HEIGHT: 20px; TEXT-DECORATION: underline
 }
 
-	
+/*头部头部头部头部头部头部头部头部*/	
 
 #main960 {
-	MARGIN:0 auto; WIDTH: 960px; margin-top:-12px;
+	MARGIN:0 auto; WIDTH: 960px; background:#6633CC;
 }
-#mainleft{ width:225px; float:left;}
-#content{ width:505px; margin-left:5px; margin-top:2px; float:left; }
+#mainleft{ width:225px; float:left; background:#33CC66;}
+#_right{background:#CCCCCC; width:735px; background:#990033; float:left;}
+#content{ width:507px; margin:0px 5px;  float:left; display:inline; }
 #container1,#container2{
 	BORDER-RIGHT: #dbdbdb 1px solid; BORDER-LEFT: #dbdbdb 1px solid; width:223px; 
 }
-.infoHead{margin-top:3px;}
+#anbox{ width:735px; background:#FFFF33;}
+
 #ArticleinfoHead{ width:223px; height:24px;  text-align:center;FONT-SIZE: 14px; FONT-WEIGHT: bold; color:#FFFFFF; margin-top:0px; padding-top:5px;}
 #Article_list{width:200px; margin-left:15px;}
 .font14 {
@@ -514,27 +517,20 @@ A.gray12:hover {
 
 /* 中间广告动画栏 */
 #products_ad{ width:505px; height:180px; float:left; border:#666666 1px solid; }
-.focusPic { margin-top:0px; OVERFLOW: hidden;  WIDTH: 505px;  POSITION: relative;HEIGHT: 180px; padding-left:0px;}
+.focusPic {  OVERFLOW: hidden;  WIDTH: 505px;  POSITION: relative;HEIGHT: 180px;}
 .focusPicNum {Z-INDEX: 99; right: 0px; POSITION: absolute; TOP: 160px;MARGIN: 3px}
 
 
-#contentRight{ margin-left:5px; width:218px; height:180px; float:left;}  
+#contentRight{ width:218px;  float:left;}  
 #Right_onlineHead{ height:68px;}
-#Right_article{BORDER-RIGHT: #d3d2d3 1px solid; BORDER-LEFT: #d3d2d3 1px solid; width:216px; height:90px;}
-#Right_article ul{ clear:both; margin-left:25px;}
-#Right_article li{ list-style:none; }
+
 #Right_onlineBottom{ line-height:0px; clear:both; height:8px; margin-top:0px;}
-#contentProduct_title{ margin-top:3px; width:507px; }
 
-
-
-#contentProducts{  width:505px; BORDER-RIGHT: #cfe0e6 1px solid; BORDER-LEFT: #cfe0e6 1px solid; border-bottom: #cfe0e6 1px solid;padding-top:20px; padding-bottom:10px; }
 
 #newProducts{  margin-top:3px; width:730px;}
 
 #prolist{BORDER-RIGHT: #cfe0e6 1px solid; BORDER-LEFT: #cfe0e6 1px solid; border-bottom: #cfe0e6 1px solid;padding-top:20px; padding-bottom:10px;}
-.newproducts_more a{ float:right; margin-top:10px; margin-right:20px; color:#0099FF; text-decoration:none;}
-.newproducts_more a:hover{ color:#ff6600; text-decoration:underline;}
+
 
 #Articletitle_img{}
 #contentArticle{ BORDER-RIGHT: #cfe0e6 1px solid; BORDER-LEFT: #cfe0e6 1px solid; border-bottom: #cfe0e6 1px solid; padding:10px 5px 5px 15px;}
@@ -571,11 +567,11 @@ A.gray12:hover {
 	PADDING-LEFT: 72px;
 }
 
-#footer {
+#footer { width:1004px;
 CLEAR: both; 
 PADDING-RIGHT: 0px; 
 BORDER-TOP: #ccc 1px solid; 
-MARGIN-TOP:0px; 
+MARGIN:0px auto; 
 PADDING-LEFT: 0px; 
 PADDING-BOTTOM: 5px; 
 FONT-SIZE: 12px;
@@ -627,3 +623,9 @@ margin-right:10px;
 .productshow{height:120px; background:#CCCCCC;}
 .productAD{ height:100px; margin-top:3px; background:#CCCCCC;}
 .allproductsClass{margin-top:3px;}
+
+
+
+
+
+
