@@ -494,7 +494,7 @@ A.gray12:hover {
 /*头部头部头部头部头部头部头部头部*/	
 
 #main960 {
-	MARGIN:0 auto; WIDTH: 960px; background:#6633CC;
+	MARGIN:0 auto; WIDTH: 960px;
 }
 #mainleft{ width:225px; float:left; background:#33CC66;}
 #_right{background:#CCCCCC; width:735px; background:#990033; float:left;}
@@ -631,3 +631,6 @@ margin-right:10px;
 #RegInfo li{width:700px; line-height:25px; margin-left:50px; text-align:left;}
 
 .newstitle{PADDING-LEFT: 14px; FONT-WEIGHT: bold; FONT-SIZE: 11px; background:url(../IMAGES/icon_06.gif) no-repeat left;}
+
+
+.classblue{	color:#0044DD;}
