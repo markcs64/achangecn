@@ -591,6 +591,27 @@ ul.Form_Advance li{
 	margin-bottom:0px;
 }
 
+#TopBrandSale{
+	float:left;
+	width:225px;
+	height:190px;
+	overflow:hidden;
+	background:url(../IMAGE/topbrandsale_bg.gif) no-repeat;
+}
+#TopBrandSale h2{
+	color:#636363;
+	font:12px;
+	margin-top:5px;
+}
+#TopBrandSale ul{
+width:210px;
+margin-left:10px;
+margin-right:10px;
+}
+#TopBrandSale ul li{
+	float:left;
+	overflow:hidden;
+}
 
 /*易物流程定义*/
 #liucheng{}
@@ -599,8 +620,14 @@ ul.Form_Advance li{
 /*我要易入 页面内 易物分类 */
 #mainright{ clear:both; background:#CCCCCC; width:500px; height:300px;}
 
+#newslist_R{width:720px; height:7px; background:url(../IMAGES/newslist_R.gif);}
+#HelpCenter{BORDER-RIGHT: #e9e9e9 1px solid; BORDER-LEFT: #e9e9e9 1px solid; width:720px;}
+#newslist_R2{width:720px; height:7px; background:url(../IMAGES/newslist_R2.gif);}
 
+.helpleft{ }
 
+#RegInfo{}
+#RegInfo ul{}
+#RegInfo li{ line-height:20px;}
 
-
-
+.newstitle{PADDING-LEFT: 14px; FONT-WEIGHT: bold; FONT-SIZE: 11px; background:url(../IMAGES/icon_06.gif) no-repeat left;}
