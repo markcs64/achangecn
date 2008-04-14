@@ -2,6 +2,10 @@
 #m_left{ width:225px; float:left;  }
 #m_right{width:735px; float:left;}
 #m_right1{width:730px; float:left; margin-left:5px; }
+#m_lefta{ width:230px; float:left; background:url(../IMAGE/helpleft230.gif) no-repeat;  }/*客服中心定义*/
+#m_righta{width:725px; float:left;margin-left:5px;  }
+#helpjpg{ background:url(../IMAGE/help.jpg) no-repeat; height:125px; margin-top:5px;}
+#helpcaption{ margin-top:50px;}/*客服中心定义*/
 /*首页首页首页首页首页*/
 #box{ width:735px;    }
 #box_left{width:507px; margin:0px 5px; float:left; display:inline; }
