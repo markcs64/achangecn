@@ -1,6 +1,7 @@
 #middle{  width:960px;  margin:0px auto;   }
 #m_left{ width:225px; float:left;  }
 #m_right{width:735px; float:left;}
+#m_right1{width:730px; float:left; margin-left:5px; }
 /*首页首页首页首页首页*/
 #box{ width:735px;    }
 #box_left{width:507px; margin:0px 5px; float:left; display:inline; }
@@ -29,3 +30,35 @@
 .infoname{ margin:0px; padding:0px;font: bold 14px/100% Tahoma,Verdana, sans-serif; color: #000000; background:url(../IMAGES/title1.gif) no-repeat; background-position:25% 10%;}
 .hrproductsClass{ color:#d9d9d9; height:2px; width:95%;}
 /*首页首页首页首页首页*/
+/*商品商品商品商品商品商品*/
+#productshow{height:150px;BORDER: #dbdbdb 1px solid;}
+#productAD{ height:100px; margin-top:3px; BORDER: #dbdbdb 1px solid;}
+#allproductsClass{border-left: #dbdbdb 1px solid; border-right: #dbdbdb 1px solid; border-bottom:#dbdbdb 1px solid;}
+#productClass{ background:url(../IMAGES/productClass.gif) no-repeat; height:37px; margin-top:5px;}
+/* 我要易入易物动态定义*/
+#TopBrandSale{
+	float:left;
+	width:225px;
+	height:190px;
+	overflow:hidden;
+	background:url(../IMAGE/topbrandsale_bg.gif) no-repeat;
+}
+#TopBrandSale h2{
+	color:#636363;
+	font:14px;
+	margin-top:5px;
+}
+#TopBrandSale ul{
+width:210px;
+margin-left:10px;
+margin-right:10px;
+}
+#TopBrandSale ul li{
+	float:left;
+	overflow:hidden;
+}
+
+
+
+
+/*商品商品商品商品商品商品*/
