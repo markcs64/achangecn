@@ -1,145 +1,147 @@
-<%@ Page Language="C#" ContentType="text/html" ResponseEncoding="gb2312" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+
+{$Hope_Top$} 
+
+<TITLE>{$Hope_Context$}{$Hope_Brand$}{$Hope_Type$}{$Hope_Title$}</TITLE>
+<META http-equiv=keywords content={$Hope_KeysWord$} />
+<meta name="description" content="{$Hope_SiteExc$}" />
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>无标题文档</title>
-<link href="Skin/skin5/CSS/v2.0.css" type="text/css" rel="stylesheet" />
-</head>
-<body>
+<link rel="shortcut icon" href="{$Hope_SitUrl$}favicon.ico" type="image/x-icon" />
+<link href="{$Hope_SitUrl$}{$Hope_Skin$}/index.css" rel="stylesheet" charset="gb2312" type="text/css">
 
-<DIV id=Head>
-<DIV class=header960>
-<DIV class=utility>
-<SCRIPT type=text/javascript>	 
-						document.write("<div style=\"float:left;font: 1em/180% arial;\"><a href=\"javascript:void(0)\" onClick=\"style.behavior='url(#default#homepage)';setHomePage('http://www.achange.cn/');\">设为首页</a>&nbsp;|&nbsp;</div>");
-						document.write("<div style=\"float:left;font: 1em/180% arial;\">&nbsp;<a  href=\"javascript:void(0)\" onclick=\"window.external.AddFavorite('http://www.achange.cn','红桥企业易物')\" >加入收藏</a></div>");
-</SCRIPT>
-<div id="login_stat">
-<iframe src="Login_Stat.aspx" class="login" frameborder="0" width="200" height="22" scrolling="no" ></iframe>
-</div>
+<link rel="stylesheet" href="{$Hope_SitUrl$}{$Hope_Skin$}CSS/v2.0.css" type="text/css">
+<link rel="stylesheet" href="../Skin/skin5/CSS/sale.css" type="text/css">
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/yui-utilities.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/tbra.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/common(1).js" type=text/javascript></SCRIPT>
+<SCRIPT src="{$Hope_SitUrl$}{$Hope_Skin$}JS/top_new.js" type=text/javascript></SCRIPT>
+
+
+<div style=" margin:0 auto; width:900px; margin-bottom:5px; margin-top:2px;"><script src="Include/Ad/taobao_hotsell_top.JS" type="text/jscript"></script></div>
+<DIV id=Content>
+<DIV id="content_left"><!--左边整体定义开始-->
+<DIV id=TopBrandSale>
+<H2>易物公告</H2>
+<UL style="padding-top:10px;">
+{#Hope_Article*1,8,17,34,0,0,62#}
+</UL>
 </DIV>
-<DIV id="Logo"><A href="http://www.achange.cn/" ><img src="Skin/skin5/IMAGE/Logo.jpg" alt="红桥企业易物网" border="0" /></A></DIV>
-<DIV id="HeadNavBar">
+<DIV id=SaleShopZone>
+<H2>全场打折推荐</H2>
+<UL style="padding-top:0px;">
+{$ProductClass$}
+</UL>
+</DIV>
+<DIV id=GroupBuyCategory>
+<H2>企业查询</H2>
 <UL>
-  <LI><A href="../ProClass_list.aspx" target=_parent>我要易入</A> </LI>
-  <LI><A href="/vipuser/YX_sell.aspx" target=_parent>我要易出</A> </LI>
-  <LI><A href="/vipuser/default_vip.aspx" target=_top>会员中心</A> </LI>
-  <LI><A href="/bbs" target=_top>易物社区</A> </LI>
-  <LI><A href="/help" target=_top>帮助中心</A>  </LI>
-  <LI><A href="http://trademanager.achange.cn/">易物管理</A></LI>
- </UL>
+<form action="shop_search.aspx" method="post" name="shop_search" onSubmit="return CheckValid()">
+<table width="241" border="0" align="left" cellpadding="0" cellspacing="0" style="text-align:left">
+  <tr>
+    <td width="91">关键字:</td>
+    <td width="150"> <input  name="keyword" type="text"size="12" maxlength="15"/></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" name="keywordtype" checked="checked" value="1" />
+      按企业名称</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td> <input type="radio" name="keywordtype" value="2"/>
+      按物主昵称</td>
+  </tr>
+  <tr>
+    <td>类&nbsp;&nbsp;&nbsp;&nbsp;别:</td>
+    <td>{$Hope_ClassName$}</td>
+  </tr>
+  
+  <tr>
+    <td>城&nbsp;&nbsp;&nbsp;&nbsp;市:</td>
+    <td> {#provinceselect2*#}</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><input type="submit" value=" 搜 索 " /></td>
+  </tr>
+</table>
+</form>
+</UL>
+<P class=More><A 
+href="shop_search.aspx" 
+target=_blank>更多&gt;&gt;</A></P></DIV>
+</DIV><!--左边整体定义结束-->
+<DIV id="content_right"><!--右边整体定义开始-->
+<DIV id=MainPromotionBanner>
+<script src="Include/Ad/taobao_hotsell_index.JS" type="text/jscript"></script>
 </DIV>
+<DIV id=HotSale>
+<H2>热门易物</H2>
+<UL id=HotSaleList style="margin-top:10px;">
+{#Hope_Article*1,8,18,36,0,0,62#}
+</UL>
+</DIV>
+<SCRIPT type=text/javascript>
+			TB.widget.SimpleScroll.decorate('SaleShopZoneScroll', {speed:10, lineHeight:64});
+		</SCRIPT>
+<DIV id=FancyandSale>
+<UL class=FancyandSaleMenu>
+  <LI class=Selected><A onClick="return false" 
+  href="x">推荐物品</A> 
+  </LI>
+  <LI><A onClick="return false" 
+  href="x">热点物品</A> 
+  </LI>
+</UL>
+<DIV id=SaleZone>
+<H3>推荐物品</H3>
+<UL>
+{#Hope_Pro*6,2,15,0,1,85,85,2#} 
+</UL>
+<P class=Pic style="margin-top:10px;"><script src="Include/Ad/taobao_rmad.JS" type="text/jscript"></script></P>
+</DIV>
+<DIV id=FancyZone style="DISPLAY: none">
+<H3>热点物品</H3>
+<UL>
+{#Hope_Pro*6,2,15,0,2,85,85,2#} 
+</UL>
 
 
-<div class="frameA" id="page960">
-<SCRIPT language=javascript>
-	function loadSearchItemsIdx()
-	{
-		var typeSel = get('IndexAreaOptionIdx');
-			for(i=0;i<typeSel.length;i++){
-			typeSel[i].selected=false;
-		}
-		typeSel[0].selected=true;
-				searchTypeChange();
-	}
-		
-	function printYearMonthListIdx()
-	{
-		var monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-		var oSelect = document.getElementById("srchYearMonthIdx");
-		var now = new Date();
-		var year = now.getFullYear();
-		var month = now.getMonth();
-		var idx = 1;
-		for(i = month; i<12; i++, idx++)
-		{
-			oOption = oSelect.options[idx];
-			if(i == month)
-			{
-				oOption.innerHTML = monthNames[i] + " >> " + year;
-				oOption.value = year + "|" + (i + 1) ;
-			}
-			else
-			{
-				oOption.innerHTML = monthNames[i];
-				oOption.value = year + "|" + (i + 1) ;	
-			}
-		}
-		year += 1;
-		for(i = 0; i<month; i++, idx++)
-		{
-			oOption = oSelect.options[idx];
-			if(i == 0)
-			{
-				oOption.innerHTML = monthNames[i] + " >> " + year;
-				oOption.value = year + "|" + (i + 1) ;
-			}
-			else
-			{
-				oOption.innerHTML = monthNames[i];
-				oOption.value = year + "|" + (i + 1) ;
-			}
-		}
-		return oSelect;
-	}
+<P class=Pic></P>
+</DIV>
+</DIV>
+<SCRIPT type=text/javascript>
+			TB.widget.SimpleTab.decorate('FancyandSale',{currentClass:'Selected',eventType:'mouse',delay:0.2});
 </SCRIPT>
-<SCRIPT language=javascript type=text/javascript>
-	var treasureShowConfig={
-	targetId:"treasureHref",
-	contentId:"treasureTips",
-	showDelayTime:200,
-	hiddenDelayTime:200,
-	excursion:[-10,'bottom']
-	};
-	var treasureShow = new AE.widget.overShow();
-	treasureShow.init(treasureShowConfig);
-</SCRIPT>
 
-  <div class="aliSearch">
-    <ul>
-      <li class="current"><a onclick="changeSearchType('sell',this);" href="javascript:void(0);">易物集市</a> </li>
-      <li><a onclick="changeSearchType('product',this);" href="javascript:void(0);">我要易入</a> </li>
-	  <li><a onclick="changeSearchType('news',this);" href="javascript:void(0);">易物资讯</a> </li>
-	  <li><a onclick="changeSearchType('xueyuan',this);" href="javascript:void(0);">易物学院</a> </li>
-      <li><a onclick="changeSearchType('company',this);" href="javascript:void(0);">易物企业</a> </li>
-      <li><a onclick="changeSearchType('buy',this);" href="javascript:void(0);">闲置物资</a> </li>
-      <li><a href="javascript:location.href='http://tradeshow.alibaba.com/';">热点物品</a> </li>	  
-    </ul>
-    <div class="searchBox">
-      <form name=topsearch action="Productlist.aspx" onSubmit="return checkkeyword()"  method="method" style="margin:0px">
-<SELECT id=keywordtype onchange=changeClass(this.value) name=keywordtype> 
-  <OPTION value=product selected>搜索物品</OPTION> 
-  <OPTION value=shop>搜索企业</OPTION> 
-  <OPTION value=nick>搜索物主</OPTION> 
-  <OPTION value=info>搜索资讯</OPTION> 
-</SELECT> 
-<input type="hidden" value="0" name=SearchKind>
-<input type="hidden" value="" name=SearchText>
-<INPUT class=findInto id=keyword name=keyword> 
-<span id=proclass>
-                      <!--       #begin           -->
-                      {$Hope_ClassName$}
-                      <!--        #end          -->
-</span>
-<span id=newclass style="display:none">
-                      <!--       #begin           -->
-                      {#Hope_ArticleBigClass*62#}
-                      <!--        #end          -->
-</span>
-<INPUT class="buttonSkinA" style="PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 1px; MARGIN: 0px -5px; FONT: bold 12px arial; PADDING-TOP: 1px" type="submit" OnClick="Verify"  value="搜 索" border=0 />
-<A href="{$Hope_SitUrl$}HighlevelSearch.aspx" target=_top>[ 高级搜索 ]</A> 
-<A href="/HELP" 
-target=_blank>[ 使用帮助 ]</A> 
-</FORM>
-</div>
-  </div>
-  <div class="homePopSearch"><strong>热门搜索:</strong></div>
-</div>
-
+<DIV id=GroupBuyContent>
+<H2>最佳人气单品</H2>
+<UL class=HotKeyWords>
+  <LI><A 
+  href="#" 
+  target=_blank>更多</A> 
+  </LI>
+</UL>
+<ul style="margin-top:20px;">
+{#Hope_Pro*5,2,6,0,7,80,80,4#}
+</UL>
 </DIV>
+<DIV id=LastGroupBuy>
+<H2>新动态</H2>
+<UL>
+ 
+</UL>
+<P "Pic MatrixSalePic">
+<script src="Include/Ad/taobao_PPSC_right_middle_small_85X80.JS" type="text/jscript"></script>
+</P>
 </DIV>
 
+</DIV><!--右边整体定义结束-->
 
-</body>
-</html>
+</DIV>
+<DIV class=HackBox></DIV>
+{$Hope_Bottom$} 
+</BODY></HTML>
