@@ -591,38 +591,13 @@ ul.Form_Advance li{
 	margin-bottom:0px;
 }
 
-/* 我要易入 的页面 易物动态 的 定义*/
 
-#TopBrandSale{
-	float:left;
-	width:225px;
-	height:190px;
-	overflow:hidden;
-	background:url(../IMAGE/topbrandsale_bg.gif) no-repeat;
-}
-#TopBrandSale h2{
-	color:#636363;
-	font:14px;
-	margin-top:5px;
-}
-#TopBrandSale ul{
-width:210px;
-margin-left:10px;
-margin-right:10px;
-}
-#TopBrandSale ul li{
-	float:left;
-	overflow:hidden;
-}
 /*易物流程定义*/
 #liucheng{}
 #liuchengflow{BORDER-RIGHT: #dbdbdb 1px solid; BORDER-LEFT: #dbdbdb 1px solid; width:223px;}
 
 /*我要易入 页面内 易物分类 */
 #mainright{ clear:both; background:#CCCCCC; width:500px; height:300px;}
-.productshow{height:120px; background:#CCCCCC;}
-.productAD{ height:100px; margin-top:3px; background:#CCCCCC;}
-.allproductsClass{margin-top:3px;}
 
 
 
