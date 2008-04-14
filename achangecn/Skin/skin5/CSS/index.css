@@ -626,8 +626,8 @@ margin-right:10px;
 
 .helpleft{ }
 
-#RegInfo{}
-#RegInfo ul{}
-#RegInfo li{ line-height:20px;}
+#RegInfo{ width:760px; background:url(../Skin/skin5/IMAGES/title_Reg2.gif) no-repeat top left;}
+#RegInfo ul{margin-top:100px; list-style:none;}
+#RegInfo li{width:700px; line-height:25px; margin-left:50px; text-align:left;}
 
 .newstitle{PADDING-LEFT: 14px; FONT-WEIGHT: bold; FONT-SIZE: 11px; background:url(../IMAGES/icon_06.gif) no-repeat left;}
