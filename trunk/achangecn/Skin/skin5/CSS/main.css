@@ -9,7 +9,7 @@
 #contentProductsbody{ width:507px;  clear:both; padding-top:5px; }
 #contentProductsbody p{ width:507px; height:35px; background:url(../IMAGES/contentProduct_title.gif) no-repeat; line-height:35px;  margin:0; padding:0; }
 #contentProducts{  width:505px; height:413px; BORDER-RIGHT: #cfe0e6 1px solid;  BORDER-LEFT: #cfe0e6 1px solid; border-bottom:#cfe0e6 1px solid;  }
-.newproducts_more a{  color:#0099FF; text-decoration:none;}
+.newproducts_more a{  color:#0099FF; text-decoration:none; float:right; margin-top:8px; margin-right:10px;}
 .newproducts_more a:hover{ color:#ff6600; text-decoration:underline;}
 #riama_bantitle{background:url(../IMAGES/service_top.gif) no-repeat; height:68px;  }
 #riama_center{ border-left: #d3d2d3 1px solid; border-right: #d3d2d3 1px solid; height:106px;}
@@ -35,7 +35,7 @@
 .hrproductsClass{ color:#d9d9d9; height:2px; width:95%;}
 /*首页首页首页首页首页*/
 /*商品商品商品商品商品商品*/
-#productshow{height:150px;BORDER: #dbdbdb 1px solid;}
+#productshow{height:150px;BORDER: #dbdbdb 1px solid; padding-top:15px;}
 #productAD{ height:100px; margin-top:3px; BORDER: #dbdbdb 1px solid;}
 #allproductsClass{border-left: #dbdbdb 1px solid; border-right: #dbdbdb 1px solid; border-bottom:#dbdbdb 1px solid;}
 #productClass{ background:url(../IMAGES/productClass.gif) no-repeat; height:37px; margin-top:5px;}
