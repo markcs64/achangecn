@@ -67,8 +67,8 @@ function reform(){
          <tr>
           <td height="25" class="category t2" width=100>会员管理</td>
          <td class="category">
-             <asp:HyperLink ID="HyperLink1" NavigateUrl="?Stat=reging" runat="server">[正在申请店铺的会员]</asp:HyperLink>
-             <asp:HyperLink ID="HyperLink2" NavigateUrl="?Stat=regOk" runat="server">[店铺的会员]</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink1" NavigateUrl="?Stat=reging" runat="server">[正在申请审核的会员]</asp:HyperLink>
+             <asp:HyperLink ID="HyperLink2" NavigateUrl="?Stat=regOk" runat="server">[通过审核的会员]</asp:HyperLink>
 			 <asp:HyperLink ID="HyperLink3" NavigateUrl="YX_AdminUser.aspx" runat="server">[全部会员]</asp:HyperLink>
            </td>
         </tr>
@@ -85,9 +85,9 @@ function reform(){
 			<option value=5>未冻结</option>
 			<option value=6>已冻结</option>
 			<option value=7>注册会员</option>
-			<option value=8>店铺会员</option>
+			<option value=8>通过审核会员</option>
 			</select>
-			<input onmousemove=showBtnOver(this) onmouseout=showBtnOut(this) onclick="return reform()"  Class="submitMiniGreen"  type=button value=搜索 />
+			<input onmousemove=showBtnOver(this) onmouseout=showBtnOut(this) onClick="return reform()"  Class="submitMiniGreen"  type=button value=搜索 />
            </td>
         </tr>
  </table>
