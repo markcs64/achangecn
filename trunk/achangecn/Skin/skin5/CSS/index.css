@@ -419,7 +419,7 @@ A.gray12:hover {
 }
 /*头部头部头部头部头部头部头部头部*/
 #topswf{background: url(../swf/topbg990-146.jpg) no-repeat center ; height:146px; width:100%;   }
-#topflash{  width:960px; margin:0px auto; }
+#topflash{  width:960px; margin:0px auto;  }
 #topflash embed{ margin-left:100px; }
 #topmenu{ height:26px; width:960px; margin:0px auto;font: bold 14px/180% Tahoma,Verdana, sans-serif;   }
 #topmenu ul{ list-style:none; height:26px; padding-left:260px;      }
@@ -431,10 +431,10 @@ A.gray12:hover {
 .menu4{background:url(../IMAGES/menu_aa.gif) no-repeat;}
 .menu5{background:url(../IMAGES/menu_aa.gif) no-repeat;}
 .menu6{background:url(../IMAGES/menu_aa.gif) no-repeat;}
-#searchBox { background:url(../IMAGE/search_bgline.gif) repeat-x; width:1004px; margin:0 auto; height:40px; text-align:center; }
-#searchbody{  padding-top:10px;}
+#searchBox { margin:0px auto;background:url(../IMAGE/search_bgline1.gif) repeat-x;  width:1004px; line-height:30px; height:45px;   }
+#searchbody{background:url(../IMAGE/search_bgline.gif) repeat-x; padding-top:8px;    }
 .intelligent {
-	DISPLAY: inline; Z-INDEX: 9; POSITION: relative; 
+	DISPLAY: inline;  POSITION: relative; 
 }
 .intelligentList {
 	BORDER-RIGHT: #8e8e8e 1px solid; BORDER-TOP: #8e8e8e 1px solid; Z-INDEX: 777; BACKGROUND: #fff; LEFT: 0px; BORDER-LEFT: #8e8e8e 1px solid; WIDTH: 430px; PADDING-TOP: 6px; BORDER-BOTTOM: #8e8e8e 1px solid; POSITION: absolute; TOP: 22px
