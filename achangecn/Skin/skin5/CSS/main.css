@@ -70,3 +70,23 @@ margin-right:10px;
 
 
 /*商品商品商品商品商品商品*/
+/*infouser.aspxinfouser.aspx*/
+#fulltitle{ height:30px;  border-bottom:2px solid #FF6600; padding-top:5px;}
+#fulltitle span{font: bold 16px/100% Tahoma,Verdana, sans-serif; color: #000000; letter-spacing:15px;}
+#fullbody{ }
+#fullbody dt{float:left; width:200px; text-align:right; }
+#fullbody dd{float:left; }
+#fullbody dd p{  color:#CC3300; height:25px; line-height:25px; border-bottom:1px dashed #666666; }
+#fullbody dd ul{ width:300px;text-align:left; }
+#fullbody dd li{ line-height:25px;line-height:25px;     }
+#fullbox{ clear:both; }
+.div_head {
+	PADDING-LEFT: 50px; BACKGROUND: url(../images/qshop_basicinfo_info_bg_01.gif); LINE-HEIGHT: 28px; HEIGHT: 28px;}
+
+
+#info {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+
+
+/*infouser.aspxinfouser.aspx*/
