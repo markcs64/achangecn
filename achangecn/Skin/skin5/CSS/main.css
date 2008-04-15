@@ -12,27 +12,29 @@
 #box_right{ width:218px; float:left;}
 #contentProductsbody{ width:507px;  clear:both; padding-top:5px; }
 #contentProductsbody p{ width:507px; height:35px; background:url(../IMAGES/contentProduct_title.gif) no-repeat; line-height:35px;  margin:0; padding:0; }
-#contentProducts{  width:505px; height:413px; BORDER-RIGHT: #cfe0e6 1px solid;  BORDER-LEFT: #cfe0e6 1px solid; border-bottom:#cfe0e6 1px solid;  }
+#contentProducts{  width:505px;  BORDER-RIGHT: #cfe0e6 1px solid;  BORDER-LEFT: #cfe0e6 1px solid; border-bottom:#cfe0e6 1px solid; padding-top:10px; padding-bottom:10px;}
+
 .newproducts_more a{  color:#0099FF; text-decoration:none; float:right; margin-top:8px; margin-right:10px;}
 .newproducts_more a:hover{ color:#ff6600; text-decoration:underline;}
+
 #riama_bantitle{background:url(../IMAGES/service_top.gif) no-repeat; height:68px;  }
 #riama_center{ border-left: #d3d2d3 1px solid; border-right: #d3d2d3 1px solid; height:106px;}
 #riama_center ul{margin-left:5px; width:180px;}
 #riama_center li{ background:url(../IMAGES/icod.gif) no-repeat left; line-height:25px; text-align:left; margin-top:5px;}
 .jingji{ margin-left:30px;}
 .qqonline{ margin-left:10px;}
-#riama_ban ul{list-style:none;  }
+#riama_ban ul{list-style:none; }
 #riama_ban li{}
 .riama_bottmo{ background:url(../IMAGES/infoFoot218.gif) no-repeat; height:8px; font-size:0px;}
 #riamb_bantitle{background:url(../IMAGES/News_title.gif) no-repeat; height:29px;  margin-top:5px;  }
-#riamb_center{ border-left: #d3d2d3 1px solid; border-right: #d3d2d3 1px solid; height:170px;padding:10px;}
+#riamb_center{ border-left: #d3d2d3 1px solid; border-right: #d3d2d3 1px solid; line-height:22px; padding:10px 10px 0px 10px;}
 #production{ width:730px;   clear:both;  margin-left:5px; padding-top:5px;  }
 #riamc_bantitle{background:url(../IMAGES/new_products.gif) no-repeat; height:37px;   }
-#riamc_center{ border-left: #d3d2d3 1px solid; border-right: #d3d2d3 1px solid;border-bottom: #d3d2d3 1px solid; height:140px;}
+#riamc_center{ border-left: #d3d2d3 1px solid; border-right: #d3d2d3 1px solid;border-bottom: #d3d2d3 1px solid; padding-bottom:10px; padding-top:10px;}
 #riamd_bantitle{background:url(../IMAGES/Article_title.gif) no-repeat; height:29px;  margin-top:5px;  }
-#riamd_center{ border-left: #d3d2d3 1px solid; border-right: #d3d2d3 1px solid; height:170px; padding:10px;}
-#infoHead{ background:url(../IMAGES/bulletin_title.gif) no-repeat; height:28px; font: bold 14px/180% Tahoma,Verdana, sans-serif; color:#FFFFFF;}
-.infocenter{ border-left: #dbdbdb 1px solid; border-right: #dbdbdb 1px solid; padding-left:10px; padding-right:10px; padding-top:10px; }
+#riamd_center{ border-left: #d3d2d3 1px solid; border-right: #d3d2d3 1px solid; line-height:22px; padding:10px 10px 0px 10px;}
+#infoHead{ background:url(../IMAGES/bulletin_title.gif) no-repeat; height:40px; font: bold 14px/180% Tahoma,Verdana, sans-serif; color:#FFFFFF;}
+.infocenter{ border-left: #dbdbdb 1px solid; border-right: #dbdbdb 1px solid; padding:10px 10px 0px 10px;line-height:22px;}
 .infobottom{ background:url(../IMAGES/infoFoot.gif) no-repeat; height:8px; font-size:0px;  }
 .infoHead1{ background:url(../IMAGES/infoHead.gif) no-repeat; height:11px; font-size:0px; margin-top:5px;}
 .infoname{ margin:0px; padding:0px;font: bold 14px/100% Tahoma,Verdana, sans-serif; color: #000000; background:url(../IMAGES/title1.gif) no-repeat; background-position:25% 10%;}

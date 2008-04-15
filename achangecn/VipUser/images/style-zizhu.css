@@ -1,0 +1,150 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #225ca9; PADDING-TOP: 0px; LETTER-SPACING: 1px
+}
+.tableleft {
+	MARGIN-TOP: 3px
+}
+.tableleft1 {
+	MARGIN-LEFT: 18px
+}
+.titleleft {
+	PADDING-LEFT: 57px; FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; PADDING-TOP: 2px; LETTER-SPACING: 2px
+}
+.tabl {
+	BORDER-RIGHT: #549ede 1px solid; BORDER-LEFT: #549ede 1px solid; BORDER-TOP-STYLE: none; BORDER-BOTTOM: #549ede 1px solid
+}
+A.tit:link {
+	FONT-SIZE: 12px; COLOR: #225ca9; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+A.tit:visited {
+	FONT-SIZE: 12px; COLOR: #225ca9; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+A.tit:hover {
+	FONT-SIZE: 12px; COLOR: #225ca9; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+A.tit1:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #225ca9; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+A.tit1:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #225ca9; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+A.tit1:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #225ca9; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+.tableright {
+	MARGIN-TOP: 3px
+}
+.tableright1 {
+	MARGIN-TOP: 4px; MARGIN-LEFT: 30px
+}
+.anniu {
+	PADDING-TOP: 3px
+}
+A.anniu:link {
+	FONT-SIZE: 12px; COLOR: #000000; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+A.anniu:visited {
+	FONT-SIZE: 12px; COLOR: #000000; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+A.anniu:hover {
+	FONT-SIZE: 12px; COLOR: #000000; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+A.tuihuo:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; LETTER-SPACING: 3px; TEXT-DECORATION: none
+}
+A.tuihuo:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; LETTER-SPACING: 3px; TEXT-DECORATION: none
+}
+A.tuihuo:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; LETTER-SPACING: 3px; TEXT-DECORATION: none
+}
+.table2 {
+	MARGIN-TOP: 10px; MARGIN-LEFT: 30px
+}
+.t1 {
+	BORDER-BOTTOM: #e2e2e2 1px solid
+}
+.t2 {
+	BORDER-RIGHT: #e2e2e2 1px solid; MARGIN-LEFT: 30px; BORDER-LEFT: #e2e2e2 1px solid; BORDER-BOTTOM: #e2e2e2 1px solid
+}
+.fontt {
+	FONT-SIZE: 12px; COLOR: #000000; PADDING-TOP: 3px; LETTER-SPACING: 3px; TEXT-DECORATION: none
+}
+.xuxian {
+	BORDER-BOTTOM: #e2e2e2 1px dashed
+}
+.inputf {
+	FONT-SIZE: 12px; COLOR: #000000; HEIGHT: 14px; TEXT-DECORATION: none
+}
+.tablerightfenye {
+	MARGIN-TOP: 20px
+}
+.t3 {
+	MARGIN-LEFT: 1px; MARGIN-RIGHT: 1px
+}
+.lanfont {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #01247c; PADDING-TOP: 4px; LETTER-SPACING: 2px; TEXT-DECORATION: none
+}
+A.biaoqian:link {
+	FONT-SIZE: 12px; COLOR: #ffffff; LETTER-SPACING: 2px; TEXT-DECORATION: none
+}
+A.biaoqian:visited {
+	FONT-SIZE: 12px; COLOR: #ffffff; LETTER-SPACING: 2px; TEXT-DECORATION: none
+}
+A.biaoqian:hover {
+	FONT-SIZE: 12px; COLOR: #ffffff; LETTER-SPACING: 2px; TEXT-DECORATION: none
+}
+A.biaoqian1:link {
+	FONT-SIZE: 12px; COLOR: #f39b01; LETTER-SPACING: 2px; TEXT-DECORATION: none
+}
+A.biaoqian1:visited {
+	FONT-SIZE: 12px; COLOR: #f39b01; LETTER-SPACING: 2px; TEXT-DECORATION: none
+}
+A.biaoqian1:hover {
+	FONT-SIZE: 12px; COLOR: #f39b01; LETTER-SPACING: 2px; TEXT-DECORATION: none
+}
+.topmagin {
+	PADDING-TOP: 2px
+}
+.heifont {
+	FONT-SIZE: 12px; COLOR: #000000
+}
+.xinzeng {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff6600; LETTER-SPACING: 2px; TEXT-DECORATION: none
+}
+.lbselect {
+	WIDTH: 200px
+}
+.juhongfont {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff6600; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+.t4 {
+	BORDER-RIGHT: #bae4fc 2px solid; BORDER-TOP: #bae4fc 2px solid; MARGIN-LEFT: 30px; BORDER-LEFT: #bae4fc 2px solid; BORDER-BOTTOM: #bae4fc 2px solid
+}
+.huifont {
+	FONT-SIZE: 12px; COLOR: #666666
+}
+A.juhuang:link {
+	FONT-SIZE: 12px; COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.juhuang:visited {
+	FONT-SIZE: 12px; COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.juhuang:hover {
+	FONT-SIZE: 12px; COLOR: #ff9900; TEXT-DECORATION: underline
+}
+.shugang {
+	FONT-SIZE: 12px; COLOR: #7edcfa; TEXT-DECORATION: none
+}
+.baifont {
+	FONT-SIZE: 12px; WORD-SPACING: 2px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.indextab1 {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px; MARGIN-LEFT: 12px
+}
+.indextit {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; WORD-SPACING: 2em; COLOR: #225ca9; TEXT-DECORATION: none
+}
+.biankuang {
+	BORDER-RIGHT: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid
+}
