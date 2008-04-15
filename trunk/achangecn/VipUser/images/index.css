@@ -1,0 +1,144 @@
+BODY {
+	FONT-SIZE: 12px; MARGIN: 0px
+}
+.gonggao {
+	BORDER-RIGHT: #e9e9e9 1px solid; PADDING-LEFT: 5px; BORDER-LEFT: #e9e9e9 1px solid; LINE-HEIGHT: 26px
+}
+.search {
+	BORDER-TOP: #a3a3a3 1px solid; PADDING-LEFT: 70px; COLOR: #ffffff
+}
+.ad {
+	BORDER-TOP: #e9e9e9 1px solid; BORDER-BOTTOM: #e9e9e9 1px solid
+}
+.top {
+	MARGIN-TOP: 5px
+}
+.dborder {
+	BORDER-RIGHT: #e9e9e9 1px solid; BORDER-LEFT: #e9e9e9 1px solid
+}
+.dborder2 {
+	BORDER-RIGHT: #dedede 1px solid; PADDING-LEFT: 5px; BORDER-LEFT: #dedede 1px solid
+}
+.dborder3 {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid
+}
+A.orgbold:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff7f01; TEXT-DECORATION: none
+}
+A.orgbold:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff7f01; TEXT-DECORATION: none
+}
+A.orgbold:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff7f01; TEXT-DECORATION: underline
+}
+.pro {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px; WIDTH: 130px; COLOR: #666666; LINE-HEIGHT: 20px; TEXT-ALIGN: left
+}
+A.yellow12:link {
+	FONT-SIZE: 12px; COLOR: #fffc0c; TEXT-DECORATION: underline
+}
+A.yellow12:visited {
+	FONT-SIZE: 12px; COLOR: #fffc0c; TEXT-DECORATION: underline
+}
+A.yellow12:hover {
+	FONT-SIZE: 12px; COLOR: #fffc0c; TEXT-DECORATION: none
+}
+A.gray12:link {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+A.gray12:visited {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+A.gray12:hover {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: underline
+}
+.prolist {
+	BORDER-TOP: #000000 3px solid
+}
+.pad-left {
+	PADDING-LEFT: 15px
+}
+.info {
+	WIDTH: 90%; BORDER-BOTTOM: #999999 1px dotted
+}
+.info_bg {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(../images/info_bg.gif); PADDING-TOP: 5px; BACKGROUND-REPEAT: no-repeat
+}
+A.white12:link {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.white12:visited {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.white12:hover {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.graybold:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #504f4f; TEXT-DECORATION: none
+}
+A.graybold:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #504f4f; TEXT-DECORATION: none
+}
+A.graybold:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #504f4f; TEXT-DECORATION: underline
+}
+A.blue12:link {
+	FONT-SIZE: 12px; COLOR: #0044dd; TEXT-DECORATION: underline
+}
+A.blue12:visited {
+	FONT-SIZE: 12px; COLOR: #0044dd; TEXT-DECORATION: underline
+}
+A.blue12:hover {
+	FONT-SIZE: 12px; COLOR: #0044dd; TEXT-DECORATION: none
+}
+.page {
+	BORDER-RIGHT: #e7e7e7 1px solid; BORDER-TOP: #e7e7e7 1px solid; BORDER-LEFT: #e7e7e7 1px solid; WIDTH: 20px; BORDER-BOTTOM: #e7e7e7 1px solid; HEIGHT: 13px
+}
+.td1 {
+	BORDER-BOTTOM: #cccccc 1px dotted
+}
+.td2 {
+	PADDING-LEFT: 10px; COLOR: #666666; LINE-HEIGHT: 27px; BORDER-BOTTOM: #cccccc 1px dotted
+}
+.td3 {
+	FONT-WEIGHT: bold; COLOR: #ff6600; BORDER-BOTTOM: #cccccc 1px dotted
+}
+.td4 {
+	BORDER-BOTTOM: #cccccc 1px dotted
+}
+.td5 {
+	BORDER-BOTTOM: #cccccc 1px dotted
+}
+A.bluebold:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0044dd; TEXT-DECORATION: none
+}
+A.bluebold:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0044dd; TEXT-DECORATION: none
+}
+A.bluebold:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0044dd; TEXT-DECORATION: underline
+}
+.textf {
+	BORDER-RIGHT: #747474 1px solid; BORDER-TOP: #747474 1px solid; BORDER-LEFT: #747474 1px solid; WIDTH: 120px; BORDER-BOTTOM: #747474 1px solid; HEIGHT: 16px
+}
+A.org12:link {
+	FONT-SIZE: 12px; COLOR: #fe3e02; TEXT-DECORATION: underline
+}
+A.org12:visited {
+	FONT-SIZE: 12px; COLOR: #fe3e02; TEXT-DECORATION: underline
+}
+A.org12:hover {
+	FONT-SIZE: 12px; COLOR: #fe3e02; TEXT-DECORATION: none
+}
+.bottomb {
+	BORDER-BOTTOM: #cccccc 1px solid
+}
+.service {
+	FONT-WEIGHT: bold; FONT-SIZE: 20px; PADDING-BOTTOM: 6px; COLOR: #ff0000; FONT-FAMILY: '????'
+}
+.hisft {
+	BORDER-RIGHT: #747474 1px solid; BORDER-TOP: #747474 1px solid; BORDER-LEFT: #747474 1px solid; WIDTH: 310px; BORDER-BOTTOM: #747474 1px solid; HEIGHT: 16px
+}
+.logintf {
+	BORDER-RIGHT: #ececec 1px solid; BORDER-TOP: #ececec 1px solid; BORDER-LEFT: #ececec 1px solid; WIDTH: 180px; BORDER-BOTTOM: #ececec 1px solid; HEIGHT: 16px
+}
